@@ -29,7 +29,7 @@ scirate:
 # --- 要約（Claude API）--------------------------------------------
 #  ※1論文が複数topicにマッチしても要約は1回だけ（コスト節約）
 summary:
-  enabled: true               # false にすると要約せずアブスト原文を掲載（API不要・無料）
+  enabled: false               # false にすると要約せずアブスト原文を掲載（API不要・無料）
   model: "claude-sonnet-4-6"  # 安く回すなら "claude-haiku-4-5-20251001"
   language: "ja"
   max_tokens: 500

@@ -38,6 +38,8 @@ https://platform.claude.com でアカウント作成 → API キーを発行。
 | `ANTHROPIC_API_KEY` | Claude の API キー（**`summary.enabled: false` の要約なしモードでは不要**） |
 | `DISCORD_WEBHOOK_URL` | Discord の Webhook URL |
 
+デフォルトでは、summary: enabled: false にしており、要約がされない設定。
+
 ### 5. 監視対象を設定
 `config.yaml` の `watch`（keywords / authors / categories）を編集。
 
