@@ -40,12 +40,22 @@ scirate:
   add_trending: false         # キーワードに合致しなくても、scite上位の話題作を拾う
   trending_top_n: 5           # add_trending時、各カテゴリから拾う上位件数
 
-# --- 要約（Claude API）--------------------------------------------
+# --- 要約 -----------------------------------------------------------
 summary:
+  # true  = Claude API で日本語要約する（要 ANTHROPIC_API_KEY、トークン課金あり）
+  # false = API を使わずアブスト原文をそのまま載せる（API課金ゼロ・キー不要）
+  enabled: true
+
+  # --- enabled: true のとき使う設定 ---
   model: "claude-sonnet-4-6"  # 安く回すなら "claude-haiku-4-5-20251001"
   language: "ja"              # 要約の言語
   max_tokens: 500             # 要約の最大トークン
-  max_papers_per_run: 10      # 1回の実行で要約・送信する最大件数（コスト/レート対策）
+
+  # --- enabled: false のとき使う設定 ---
+  abstract_max_chars: null    # アブストを何文字で切るか（null=切らない／Discord側で自動調整）
+
+  # --- 共通 ---
+  max_papers_per_run: 10      # 1回の実行で送信する最大件数（コスト/レート対策）
 
 # --- Discord --------------------------------------------------------
 discord:

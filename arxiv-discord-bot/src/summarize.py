@@ -1,13 +1,15 @@
-"""Claude API（Messages API）で論文アブストラクトを要約する。
+"""論文の Discord 本文（summary 欄）を埋める。
 
-ANTHROPIC_API_KEY 環境変数を SDK が自動で読む。
+設定 summary.enabled で2モードを切り替える:
+  enabled: true  -> Claude API（Messages API）で日本語要約する
+  enabled: false -> API を一切呼ばず、アブスト原文をそのまま載せる（API課金ゼロ・キー不要）
+
+API を使うモードでは ANTHROPIC_API_KEY 環境変数を SDK が自動で読む。
 """
 from __future__ import annotations
 
 import logging
 import time
-
-from anthropic import Anthropic, APIError
 
 from .models import Paper
 
@@ -29,13 +31,30 @@ SYSTEM_PROMPT = """あなたは研究論文の要約アシスタントです。
 専門用語は保ちつつ、その分野に詳しくない読者にも伝わるように。誇張や憶測はしない。"""
 
 
-def _summarize_one(client: Anthropic, paper: Paper, model: str,
-                   lang: str, max_tokens: int) -> str:
+def summarize_papers(papers: list[Paper], summary_cfg: dict) -> None:
+    """各論文の summary 欄を埋める（破壊的）。enabled で動作を切り替える。"""
+    if not summary_cfg.get("enabled", True):
+        _fill_with_abstract(papers, summary_cfg)
+    else:
+        _summarize_with_claude(papers, summary_cfg)
+
+
+# --- モードA: 要約なし（アブスト原文）---------------------------------
+def _fill_with_abstract(papers: list[Paper], summary_cfg: dict) -> None:
+    """API を呼ばず、アブストラクトをそのまま本文にする。"""
+    max_chars = summary_cfg.get("abstract_max_chars")  # None なら制限なし（embed側で切る）
+    log.info("要約なしモード: アブスト原文を使用（API未使用）, %d 件", len(papers))
+    for paper in papers:
+        text = paper.abstract.strip()
+        if max_chars and len(text) > int(max_chars):
+            text = text[: int(max_chars) - 1] + "…"
+        paper.summary = text
+
+
+# --- モードB: Claude API で要約 ---------------------------------------
+def _summarize_one(client, paper: Paper, model: str, lang: str, max_tokens: int) -> str:
     lang_name = _LANG_NAME.get(lang, "日本語")
-    user_content = (
-        f"タイトル: {paper.title}\n\n"
-        f"アブストラクト:\n{paper.abstract}"
-    )
+    user_content = f"タイトル: {paper.title}\n\nアブストラクト:\n{paper.abstract}"
     resp = client.messages.create(
         model=model,
         max_tokens=max_tokens,
@@ -45,14 +64,16 @@ def _summarize_one(client: Anthropic, paper: Paper, model: str,
     return "".join(b.text for b in resp.content if b.type == "text").strip()
 
 
-def summarize_papers(papers: list[Paper], summary_cfg: dict) -> None:
-    """各論文に要約を付与する（破壊的）。失敗した論文はアブスト先頭で代替。"""
+def _summarize_with_claude(papers: list[Paper], summary_cfg: dict) -> None:
+    # anthropic はこのモードでだけ必要。import もここで行う。
+    from anthropic import Anthropic, APIError
+
     model = summary_cfg.get("model", "claude-sonnet-4-6")
     lang = summary_cfg.get("language", "ja")
     max_tokens = int(summary_cfg.get("max_tokens", 500))
 
     client = Anthropic()  # ANTHROPIC_API_KEY を環境変数から読む
-    log.info("要約開始: model=%s, %d 件", model, len(papers))
+    log.info("要約ありモード: model=%s, %d 件", model, len(papers))
 
     for i, paper in enumerate(papers, 1):
         for attempt in range(2):  # 1回だけリトライ
