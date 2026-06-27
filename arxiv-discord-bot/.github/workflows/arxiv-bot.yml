@@ -3,7 +3,6 @@ name: arXiv Discord Bot
 on:
   schedule:
     # UTC基準。'0 0 * * *' = 毎日 09:00 JST。
-    # 平日朝だけにしたい場合は '0 0 * * 1-5' など。
     - cron: '0 0 * * *'
   workflow_dispatch: {}   # 手動実行も可能
 
@@ -30,8 +29,21 @@ jobs:
 
       - name: Run bot
         env:
+          # 要約あり(summary.enabled: true)の場合のみ必要
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          # 各チャンネルのWebhook（config.yaml の webhook_env と名前を一致させる）
+          DISCORD_WEBHOOK_QPE:      ${{ secrets.DISCORD_WEBHOOK_QPE }}
+          DISCORD_WEBHOOK_QSVT:     ${{ secrets.DISCORD_WEBHOOK_QSVT }}
+          DISCORD_WEBHOOK_TROTTER:  ${{ secrets.DISCORD_WEBHOOK_TROTTER }}
+          DISCORD_WEBHOOK_QSCI:     ${{ secrets.DISCORD_WEBHOOK_QSCI }}
+          DISCORD_WEBHOOK_QCHEM:    ${{ secrets.DISCORD_WEBHOOK_QCHEM }}
+          DISCORD_WEBHOOK_RSA:      ${{ secrets.DISCORD_WEBHOOK_RSA }}
+          DISCORD_WEBHOOK_PHOTONIC: ${{ secrets.DISCORD_WEBHOOK_PHOTONIC }}
+          DISCORD_WEBHOOK_QML:      ${{ secrets.DISCORD_WEBHOOK_QML }}
+          DISCORD_WEBHOOK_HARDWARE: ${{ secrets.DISCORD_WEBHOOK_HARDWARE }}
+          DISCORD_WEBHOOK_QEC:        ${{ secrets.DISCORD_WEBHOOK_QEC }}
+          DISCORD_WEBHOOK_QLDPC:      ${{ secrets.DISCORD_WEBHOOK_QLDPC }}
+          DISCORD_WEBHOOK_SCATTERING: ${{ secrets.DISCORD_WEBHOOK_SCATTERING }}
         run: python -m src.main
 
       - name: Commit updated state
