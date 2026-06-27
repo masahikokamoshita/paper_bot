@@ -1,63 +1,157 @@
 # =====================================================================
-#  arXiv -> 要約 -> Discord bot 設定ファイル
-#  ここを編集するだけで監視対象や挙動を変えられます。
+#  arXiv -> 要約 -> Discord（複数チャンネル振り分け）bot 設定
+#
+#  各 topic が 1 チャンネルに対応。keywords にマッチした論文を、その
+#  topic の webhook_env（GitHub Secrets 名）が指すチャンネルへ送ります。
+#  1論文が複数topicにマッチすれば、複数チャンネルへ送られます（重複OK）。
 # =====================================================================
 
-# --- 監視対象 -------------------------------------------------------
-watch:
-  # キーワード（フレーズはそのまま入れてOK。複数指定すると OR 検索）
-  keywords:
-    - "large language model"
-    - "diffusion model"
-    - "retrieval augmented generation"
-
-  # 著者名（フルネーム推奨。複数可。各著者ごとに検索します）
-  authors:
-    - "Yoshua Bengio"
-
-  # arXiv の分野で絞り込む（任意。空にすると全分野）
-  # 例: cs.LG(機械学習) cs.CL(自然言語) cs.CV(画像) stat.ML quant-ph など
-  categories:
-    - cs.LG
-    - cs.CL
+# --- 全topic共通のデフォルト ---------------------------------------
+defaults:
+  categories:                 # 各topicで上書きしなければこれが使われる
+    - quant-ph
+  max_papers_per_run: 15      # 1topic・1実行あたりの送信上限
 
 # --- arXiv 取得の挙動 ----------------------------------------------
 arxiv:
-  max_results_per_query: 40   # 1クエリあたりの取得上限
-  lookback_hours: 30          # 「新着」とみなす投稿の範囲（cron間隔より少し長めが安全）
-  request_interval_sec: 3.0   # arXiv への礼儀（連続アクセスの間隔）
+  max_results_per_query: 60
+  lookback_hours: 96          # 新着とみなす範囲（広めにして取りこぼし防止。重複はseen記録で防ぐ）
+  request_interval_sec: 3.0   # arXivへの礼儀（連続アクセス間隔）
 
 # --- Scirate（注目度=scite数）-------------------------------------
-#  ※Scirateに公式APIは無いため、カテゴリページを取得してscite数を付与します。
-#    取得に失敗しても bot は arXiv 単体で正常に動きます（自動でスキップ）。
 scirate:
   enabled: true
-  categories:                 # scite数を見るカテゴリ
-    - cs.LG
-    - cs.CL
-  min_scites: 0               # この数未満のsciteしか付いていない論文は除外（0で無効）
-  rank_by_scites: true        # scite数が多い順に並べて送る
-  add_trending: false         # キーワードに合致しなくても、scite上位の話題作を拾う
-  trending_top_n: 5           # add_trending時、各カテゴリから拾う上位件数
+  categories:
+    - quant-ph
+  min_scites: 0
+  rank_by_scites: true        # scite数が多い順に送る（falseなら新着順）
 
-# --- 要約 -----------------------------------------------------------
+# --- 要約（Claude API）--------------------------------------------
+#  ※1論文が複数topicにマッチしても要約は1回だけ（コスト節約）
 summary:
-  # true  = Claude API で日本語要約する（要 ANTHROPIC_API_KEY、トークン課金あり）
-  # false = API を使わずアブスト原文をそのまま載せる（API課金ゼロ・キー不要）
-  enabled: true
-
-  # --- enabled: true のとき使う設定 ---
+  enabled: true               # false にすると要約せずアブスト原文を掲載（API不要・無料）
   model: "claude-sonnet-4-6"  # 安く回すなら "claude-haiku-4-5-20251001"
-  language: "ja"              # 要約の言語
-  max_tokens: 500             # 要約の最大トークン
-
-  # --- enabled: false のとき使う設定 ---
-  abstract_max_chars: null    # アブストを何文字で切るか（null=切らない／Discord側で自動調整）
-
-  # --- 共通 ---
-  max_papers_per_run: 10      # 1回の実行で送信する最大件数（コスト/レート対策）
+  language: "ja"
+  max_tokens: 500
+  abstract_max_chars: null    # enabled:false 時、アブストを切る文字数（null=切らない）
 
 # --- Discord --------------------------------------------------------
 discord:
-  username: "arXiv Bot"       # Webhook表示名
-  embeds_per_message: 8       # 1メッセージあたりの埋め込み数（Discord上限は10）
+  username: "arXiv Bot"
+  embeds_per_message: 8
+
+# --- トピック（=チャンネル）定義 -----------------------------------
+#  webhook_env: GitHub Secrets に登録する「環境変数名」。URL本体はここに書かない。
+#  keywords:    arXiv検索語（フレーズOK / 英語推奨。OR検索される）
+#  categories:  省略すると defaults.categories を使用
+topics:
+  - name: "量子位相推定"
+    webhook_env: "DISCORD_WEBHOOK_QPE"
+    keywords:
+      - "quantum phase estimation"
+      - "iterative phase estimation"
+      - "statistical phase estimation"
+      - "Bayesian phase estimation"
+      - "robust phase estimation"
+
+  - name: "量子特異値変換"
+    webhook_env: "DISCORD_WEBHOOK_QSVT"
+    keywords:
+      - "quantum singular value transformation"
+      - "quantum signal processing"
+      - "qubitization"
+      - "block encoding"
+      - "quantum eigenvalue transformation"
+
+  - name: "トロッター分解"
+    webhook_env: "DISCORD_WEBHOOK_TROTTER"
+    keywords:
+      - "Trotterization"
+      - "Trotter-Suzuki"
+      - "Suzuki-Trotter"
+      - "product formula"
+      - "Hamiltonian simulation"
+
+  - name: "QSCI(SQD)"
+    webhook_env: "DISCORD_WEBHOOK_QSCI"
+    keywords:
+      - "quantum-selected configuration interaction"
+      - "QSCI"
+      - "sample-based quantum diagonalization"
+      - "quantum subspace diagonalization"
+
+  - name: "量子化学計算全般"
+    webhook_env: "DISCORD_WEBHOOK_QCHEM"
+    categories:               # 化学はchem-phも見る
+      - quant-ph
+      - physics.chem-ph
+    keywords:
+      - "quantum chemistry"
+      - "electronic structure"
+      - "variational quantum eigensolver"
+      - "ground state energy"
+      - "molecular simulation"
+
+  - name: "RSA暗号"
+    webhook_env: "DISCORD_WEBHOOK_RSA"
+    keywords:
+      - "Shor's algorithm"
+      - "quantum factoring"
+      - "integer factorization"
+      - "RSA"
+      - "discrete logarithm"
+
+  - name: "光量子コンピュータ"
+    webhook_env: "DISCORD_WEBHOOK_PHOTONIC"
+    keywords:
+      - "photonic quantum computing"
+      - "linear optical quantum"
+      - "boson sampling"
+      - "continuous variable quantum"
+      - "measurement-based quantum computing"
+
+  - name: "量子機械学習"
+    webhook_env: "DISCORD_WEBHOOK_QML"
+    keywords:
+      - "quantum machine learning"
+      - "quantum neural network"
+      - "quantum kernel"
+      - "variational quantum classifier"
+      - "parameterized quantum circuit"
+
+  - name: "実機"
+    webhook_env: "DISCORD_WEBHOOK_HARDWARE"
+    keywords:
+      - "superconducting qubit"
+      - "trapped-ion quantum"
+      - "neutral atom array"
+      - "quantum processor"
+      - "logical qubit experiment"
+
+  - name: "誤り訂正・magic state"
+    webhook_env: "DISCORD_WEBHOOK_QEC"
+    keywords:
+      - "quantum error correction"
+      - "magic state"
+      - "magic state cultivation"
+      - "fault-tolerant quantum computation"
+      - "surface code"
+
+  - name: "qLDPC符号"
+    webhook_env: "DISCORD_WEBHOOK_QLDPC"
+    keywords:
+      - "quantum LDPC"
+      - "qLDPC"
+      - "low-density parity-check code"
+      - "good quantum code"
+      - "high-rate quantum code"
+
+  - name: "散乱理論"
+    webhook_env: "DISCORD_WEBHOOK_SCATTERING"
+    # 物理一般の散乱理論も拾いたい場合は categories に hep-lat, nucl-th, hep-th 等を追加
+    keywords:
+      - "scattering amplitude"
+      - "S-matrix"
+      - "quantum simulation of scattering"
+      - "wave packet scattering"
+      - "scattering cross section"
