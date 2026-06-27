@@ -1,5 +1,11 @@
 """Discord Webhook へ要約付き論文を送信する（topicごとに宛先URLを指定）。
 
+Discordの制約に合わせて送る:
+  - 1メッセージに embed は最大10個
+  - 1メッセージ内の全embedの「合計文字数」は最大6000
+要約なしモードではアブスト原文が長いので、件数だけでなく合計文字数でも
+分割しないと「メッセージ拒否(400)」で本文が丸ごと届かなくなる。
+
 送信に成功した論文IDだけを返すので、呼び出し側はそれだけを「送信済み」に
 記録できる（at-least-once 配信。失敗分は次回再送 = 取りこぼし防止）。
 """
@@ -15,15 +21,32 @@ from .models import Paper
 log = logging.getLogger(__name__)
 
 ARXIV_RED = 0xB31B1B
-EMBED_DESC_LIMIT = 4000
-MAX_SEND_RETRY = 4  # 一時的な失敗のリトライ回数
+EMBED_DESC_LIMIT = 4000      # 1embedのdescription上限（Discordは4096）
+EMBED_TOTAL_BUDGET = 5500    # 1メッセージ内の全embed合計（Discordは6000。安全マージン）
+MAX_SEND_RETRY = 4           # 一時的な失敗のリトライ回数
 
 
 def _truncate(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
-def _build_embed(paper: Paper) -> dict:
+def _build_embed(paper: Paper, style: str = "full") -> dict:
+    footer = paper.matched_by
+    if paper.published:
+        footer = f"{footer} ・ {paper.published.strftime('%Y-%m-%d')}"
+    if paper.scites is not None:
+        footer = f"{footer} ・ scite {paper.scites}"
+
+    # コンパクト表示: タイトル(リンク)＋メタ情報のみ。本文(要約/アブスト)は載せない。
+    if style == "compact":
+        return {
+            "title": _truncate(paper.title, 256),
+            "url": paper.abs_url,
+            "color": ARXIV_RED,
+            "footer": {"text": footer},
+        }
+
+    # フル表示: 本文＋著者などのフィールド
     desc = _truncate(paper.summary.strip(), EMBED_DESC_LIMIT)
     fields = []
     authors = ", ".join(paper.authors[:6])
@@ -37,9 +60,6 @@ def _build_embed(paper: Paper) -> dict:
         fields.append({"name": "Scite数", "value": str(paper.scites), "inline": True})
     fields.append({"name": "リンク", "value": f"[abs]({paper.abs_url}) ・ [PDF]({paper.pdf_url})", "inline": True})
 
-    footer = paper.matched_by
-    if paper.published:
-        footer = f"{footer} ・ {paper.published.strftime('%Y-%m-%d')}"
     return {
         "title": _truncate(paper.title, 256),
         "url": paper.abs_url,
@@ -48,6 +68,15 @@ def _build_embed(paper: Paper) -> dict:
         "fields": fields,
         "footer": {"text": footer},
     }
+
+
+def _embed_char_count(embed: dict) -> int:
+    """Discordが数える「embedの文字数」を概算（title+description+fields+footer）。"""
+    n = len(embed.get("title", "")) + len(embed.get("description", ""))
+    for f in embed.get("fields", []):
+        n += len(f.get("name", "")) + len(f.get("value", ""))
+    n += len(embed.get("footer", {}).get("text", ""))
+    return n
 
 
 def _post(webhook_url: str, payload: dict) -> bool:
@@ -71,12 +100,35 @@ def _post(webhook_url: str, payload: dict) -> bool:
             log.warning("Discord 5xx(%d回目): %s", attempt + 1, resp.status_code)
             time.sleep(2 * (attempt + 1))
             continue
-        if resp.status_code >= 400:  # 4xx は設定ミス等。リトライしても無駄
+        if resp.status_code >= 400:  # 4xx は設定/内容の問題。リトライしても無駄
             log.error("Discord 送信エラー %s: %s", resp.status_code, resp.text[:300])
             return False
         return True
     log.error("Discord 送信を %d 回試みて失敗", MAX_SEND_RETRY)
     return False
+
+
+def _make_batches(papers: list[Paper], max_count: int, style: str):
+    """件数(<=max_count, 10)と合計文字数(<=EMBED_TOTAL_BUDGET)の両方で分割。
+
+    各バッチは (embeds, ids) のタプル。
+    """
+    cap = min(max_count, 10)
+    batch_embeds: list[dict] = []
+    batch_ids: list[str] = []
+    batch_chars = 0
+    for p in papers:
+        emb = _build_embed(p, style)
+        c = _embed_char_count(emb)
+        # すでに何か入っていて、件数 or 文字数を超えるなら一旦flush
+        if batch_embeds and (len(batch_embeds) >= cap or batch_chars + c > EMBED_TOTAL_BUDGET):
+            yield batch_embeds, batch_ids
+            batch_embeds, batch_ids, batch_chars = [], [], 0
+        batch_embeds.append(emb)
+        batch_ids.append(p.version_less_id)
+        batch_chars += c
+    if batch_embeds:
+        yield batch_embeds, batch_ids
 
 
 def send_papers(papers: list[Paper], webhook_url: str, discord_cfg: dict,
@@ -85,7 +137,8 @@ def send_papers(papers: list[Paper], webhook_url: str, discord_cfg: dict,
     if not papers:
         return []
     username = discord_cfg.get("username", "arXiv Bot")
-    batch_size = min(int(discord_cfg.get("embeds_per_message", 8)), 10)
+    max_count = int(discord_cfg.get("embeds_per_message", 8))
+    style = discord_cfg.get("style", "full")  # "full" or "compact"
 
     # ヘッダー（失敗しても本体送信は試みる）
     _post(webhook_url, {
@@ -95,16 +148,12 @@ def send_papers(papers: list[Paper], webhook_url: str, discord_cfg: dict,
     time.sleep(0.5)
 
     sent_ids: list[str] = []
-    for start in range(0, len(papers), batch_size):
-        batch = papers[start:start + batch_size]
-        ok = _post(webhook_url, {
-            "username": username,
-            "embeds": [_build_embed(p) for p in batch],
-        })
+    for embeds, ids in _make_batches(papers, max_count, style):
+        ok = _post(webhook_url, {"username": username, "embeds": embeds})
         if ok:
-            sent_ids.extend(p.version_less_id for p in batch)
-            log.info("  [%s] 送信成功: %d 件", topic_label, len(batch))
+            sent_ids.extend(ids)
+            log.info("  [%s] 送信成功: %d 件", topic_label, len(ids))
         else:
-            log.error("  [%s] バッチ送信失敗（次回再送）: %d 件", topic_label, len(batch))
+            log.error("  [%s] バッチ送信失敗（次回再送）: %d 件", topic_label, len(ids))
         time.sleep(0.7)
     return sent_ids
