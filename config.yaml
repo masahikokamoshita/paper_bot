@@ -26,24 +26,50 @@ scirate:
   min_scites: 0
   rank_by_scites: true        # scite数が多い順に送る（falseなら新着順）
 
-# --- 要約（Claude API）--------------------------------------------
-#  ※1論文が複数topicにマッチしても要約は1回だけ（コスト節約）
+# --- 要約（LLM）----------------------------------------------------
+#  ※1論文が複数topic/送信先にマッチしても要約は1回だけ（コスト節約）
 summary:
-  enabled: false               # false にすると要約せずアブスト原文を掲載（API不要・無料）
-  model: "claude-sonnet-4-6"  # 安く回すなら "claude-haiku-4-5-20251001"
+  enabled: true
+  provider: "openai"          # "openai"（OPENAI_API_KEY）/ "anthropic"（ANTHROPIC_API_KEY）
+  model: "gpt-4o-mini"        # OpenAI例: gpt-4o-mini / gpt-4.1-mini / gpt-5.4-mini
   language: "ja"
   max_tokens: 500
   abstract_max_chars: null    # enabled:false 時、アブストを切る文字数（null=切らない）
+
+# --- 図解（高scite論文だけ 結果解説＋代表図）----------------------
+#  PDFから代表図を1枚抜き、OpenAIのビジョンで結果を日本語解説。上流で1回だけ生成し
+#  Slack(返信2)/Discord(追送)で使い回す。要 OPENAI_API_KEY。best-effort（失敗しても本体は動く）。
+figure:
+  enabled: true
+  model: "gpt-4o-mini"        # 画像も読めるモデル
+  min_scites: 20              # この scite 数以上の論文だけ図解する
+  max_papers_per_run: 3       # 1実行で図解する上限（コスト対策）
+  explain_max_chars: 1000     # 結果解説の文字数上限
+
+# --- Slack -----------------------------------------------------------
+#  スレッド返信に日本語要約を入れるため、Incoming Webhookではなく
+#  Bot Token(xoxb-) + Web API を使う。Botを対象チャンネルに招待しておくこと。
+#  各 topic に slack_channel（チャンネルID推奨。例 C0123ABCD）を書くとそのチャンネルへ送る。
+slack:
+  enabled: true
+  bot_token_env: "SLACK_BOT_TOKEN"   # xoxb-... を GitHub Secrets に登録
+  summary_in_thread: true            # 親=タイトル+リンク / スレッド返信=日本語要約
 
 # --- Discord --------------------------------------------------------
 discord:
   username: "arXiv Bot"
   embeds_per_message: 8
+  # 表示スタイル:
+  #   compact = タイトル(リンク)＋日付/scite だけ。一覧がスッキリ。要約/アブストは出ない
+  #   full    = 本文(要約 or アブスト原文)＋著者・分野・リンクも表示
+  # ※要約あり(summary.enabled: true)の中身を見たいときは full にする
+  style: "compact"
 
 # --- トピック（=チャンネル）定義 -----------------------------------
-#  webhook_env: GitHub Secrets に登録する「環境変数名」。URL本体はここに書かない。
-#  keywords:    arXiv検索語（フレーズOK / 英語推奨。OR検索される）
-#  categories:  省略すると defaults.categories を使用
+#  discord_webhook_env: Discord用。GitHub Secretsの環境変数名（旧 webhook_env でも可）
+#  slack_channel:       Slack用。チャンネルID（例 C0123ABCD）。書いた topic だけSlackにも送る
+#  keywords:            arXiv検索語（1語ずつ個別検索し、どの語で当たったか記録）
+#  categories:          省略すると defaults.categories を使用
 topics:
   - name: "量子位相推定"
     webhook_env: "DISCORD_WEBHOOK_QPE"
@@ -56,6 +82,7 @@ topics:
 
   - name: "量子特異値変換"
     webhook_env: "DISCORD_WEBHOOK_QSVT"
+    # slack_channel: "C0123ABCD"   # ← Slackにも送るならチャンネルIDを記入
     keywords:
       - "quantum singular value transformation"
       - "quantum signal processing"
@@ -127,7 +154,6 @@ topics:
       - "neutral atom array"
       - "quantum processor"
       - "logical qubit experiment"
-
   - name: "誤り訂正・magic state"
     webhook_env: "DISCORD_WEBHOOK_QEC"
     keywords:

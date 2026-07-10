@@ -47,3 +47,29 @@ def save_seen(seen: dict[str, set[str]]) -> None:
     )
     total = sum(len(v) for v in topics.values())
     log.info("seen.json 保存: %d topic / 合計 %d 件", len(topics), total)
+
+
+MATCH_LOG_PATH = STATE_PATH.parent / "match_log.jsonl"
+MATCH_LOG_MAX_LINES = 3000  # 肥大化防止（古い行から捨てる）
+
+
+def append_match_log(entries: list[dict]) -> None:
+    """『どの論文がどのキーワードで引っかかったか』を永続ログに追記する。
+
+    1行1JSON（JSONL）。GitHub Actions が state/ ごとコミットするので履歴が残る。
+    """
+    if not entries:
+        return
+    lines: list[str] = []
+    if MATCH_LOG_PATH.exists():
+        try:
+            lines = MATCH_LOG_PATH.read_text(encoding="utf-8").splitlines()
+        except OSError:
+            lines = []
+    for e in entries:
+        lines.append(json.dumps(e, ensure_ascii=False))
+    if len(lines) > MATCH_LOG_MAX_LINES:
+        lines = lines[-MATCH_LOG_MAX_LINES:]
+    MATCH_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    MATCH_LOG_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    log.info("match_log.jsonl に %d 件追記（累計 %d 行）", len(entries), len(lines))

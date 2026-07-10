@@ -9,6 +9,7 @@
 """
 from __future__ import annotations
 
+import json
 import logging
 import time
 
@@ -29,12 +30,15 @@ def _truncate(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
-def _meta_suffix(paper: Paper) -> str:
+def _meta_suffix(paper: Paper, topic_label: str = "") -> str:
     parts = []
     if paper.published:
         parts.append(paper.published.strftime("%Y-%m-%d"))
     if paper.scites is not None:
         parts.append(f"scite {paper.scites}")
+    kws = paper.matched_keywords.get(topic_label, [])
+    if kws:
+        parts.append("kw: " + ", ".join(kws))
     return ("  ｜ " + " ・ ".join(parts)) if parts else ""
 
 
@@ -74,7 +78,7 @@ def _send_compact(papers: list[Paper], webhook_url: str, username: str,
     # (id, 1行テキスト) を作る
     rows = []
     for p in papers:
-        line = f"・ [{_truncate(p.title, 220)}]({p.abs_url}){_meta_suffix(p)}"
+        line = f"・ [{_truncate(p.title, 220)}]({p.abs_url}){_meta_suffix(p, topic_label)}"
         rows.append((p.version_less_id, line))
 
     sent_ids: list[str] = []
@@ -179,3 +183,47 @@ def send_papers(papers: list[Paper], webhook_url: str, discord_cfg: dict,
         return _send_full(papers, webhook_url, username, topic_label,
                           int(discord_cfg.get("embeds_per_message", 8)))
     return _send_compact(papers, webhook_url, username, topic_label)
+
+
+def _post_figure(webhook_url: str, payload: dict, png: bytes | None, fname: str) -> bool:
+    for attempt in range(3):
+        try:
+            if png:
+                resp = requests.post(webhook_url, data={"payload_json": json.dumps(payload)},
+                                     files={"file": (fname, png, "image/png")}, timeout=60)
+            else:
+                resp = requests.post(webhook_url, json=payload, timeout=30)
+        except requests.RequestException as e:
+            log.warning("  図解追送 接続失敗(%d回目): %s", attempt + 1, e)
+            time.sleep(2 * (attempt + 1)); continue
+        if resp.status_code == 429:
+            try:
+                wait = float(resp.json().get("retry_after", 2))
+            except Exception:
+                wait = 2.0
+            time.sleep(wait + 0.5); continue
+        if resp.status_code >= 400:
+            log.error("  図解追送エラー %s: %s", resp.status_code, resp.text[:200])
+            return False
+        return True
+    return False
+
+
+def send_figures(papers: list[Paper], webhook_url: str, discord_cfg: dict,
+                 topic_label: str) -> None:
+    """結果解説＋代表図を持つ論文だけ、図を添付した個別メッセージで追送する（best-effort）。
+
+    Discordはスレッド返信が扱いにくいため、compact一覧とは別に、該当論文のみ
+    『図＋解説』を同じチャンネルへ追送する（Slackの返信2に相当）。
+    """
+    username = discord_cfg.get("username", "arXiv Bot")
+    for p in papers:
+        if not (p.result_explanation or p.figure_png):
+            continue
+        header = f"🔬 **[{topic_label}] 結果解説** [{_truncate(p.title, 180)}]({p.abs_url})"
+        content = _truncate(f"{header}\n\n{p.result_explanation.strip()}", 1990)
+        ok = _post_figure(webhook_url, {"username": username, "content": content},
+                          p.figure_png, f"{p.version_less_id}.png")
+        if ok:
+            log.info("  [%s] 図解追送: %s", topic_label, p.arxiv_id)
+        time.sleep(0.7)

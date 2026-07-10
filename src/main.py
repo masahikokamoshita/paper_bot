@@ -1,28 +1,27 @@
-"""複数チャンネル版オーケストレーション。
+"""複数チャンネル＋複数送信先(Discord/Slack)版オーケストレーション。
 
-各 topic ごとに arXiv 検索 → 重複(seen)除外 → scite付与 → 並べ替え/上限 →
-（必要なら）要約 → topic専用 Webhook へ送信 → 送信成功分のみ seen 記録。
+topicごとに: キーワード個別検索(どの語でヒットしたか記録) → seen除外 → scite付与
+→ 並べ替え/上限 → 【上流で1回だけ要約】 → 各送信先(Discord/Slack)へ同じ要約を配信
+→ 全送信先に届いた分だけ seen 記録（部分失敗は次回再送）。
 
 実行: python -m src.main
-環境変数: 各 topic の webhook_env で指定したもの（+ 要約ありなら ANTHROPIC_API_KEY）
 """
 from __future__ import annotations
 
 import logging
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
 
-from . import arxiv_source, scirate_source, summarize, discord_sender, state
+from . import (arxiv_source, scirate_source, summarize, figure,
+               discord_sender, slack_sender, state)
 from .models import Paper
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
-)
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 log = logging.getLogger("main")
 
 CONFIG_PATH = Path(__file__).resolve().parent.parent / "config.yaml"
@@ -40,9 +39,14 @@ def _sort_and_cap(papers: list[Paper], scirate_cfg: dict, cap: int) -> list[Pape
     if scirate_cfg.get("rank_by_scites", False):
         papers.sort(key=lambda p: (p.scites or 0), reverse=True)
     else:
-        papers.sort(key=lambda p: (p.published or datetime.min.replace(tzinfo=None)),
+        papers.sort(key=lambda p: (p.published or datetime.min.replace(tzinfo=timezone.utc)),
                     reverse=True)
     return papers[:cap] if cap and len(papers) > cap else papers
+
+
+def _discord_env(topic: dict) -> str:
+    # 旧 webhook_env / 新 discord_webhook_env の両対応
+    return topic.get("discord_webhook_env") or topic.get("webhook_env") or ""
 
 
 def main() -> int:
@@ -52,84 +56,130 @@ def main() -> int:
     scirate_cfg = cfg.get("scirate", {})
     summary_cfg = cfg.get("summary", {})
     discord_cfg = cfg.get("discord", {})
+    slack_cfg = cfg.get("slack", {})
     topics = cfg.get("topics", [])
 
     default_cats = defaults.get("categories", [])
     default_cap = int(defaults.get("max_papers_per_run", 15))
+    summary_enabled = bool(summary_cfg.get("enabled", True))
+
+    # Slack 設定
+    slack_enabled = bool(slack_cfg.get("enabled", False))
+    slack_token = os.environ.get(slack_cfg.get("bot_token_env", "SLACK_BOT_TOKEN"), "")
+    slack_thread = bool(slack_cfg.get("summary_in_thread", True))
+    if slack_enabled and not slack_token:
+        log.warning("Slack有効だが bot token 未設定のため Slack はスキップ")
+        slack_enabled = False
 
     seen = state.load_seen()
-    registry: dict[str, Paper] = {}        # id -> Paper（要約を共有して1回だけ要約するため）
+    registry: dict[str, Paper] = {}
     topic_papers: dict[str, list[Paper]] = {}
 
-    # --- 1) topicごとに取得し、seen除外 ---
+    # --- 1) topicごとにキーワード個別検索 → seen除外 ---
     for topic in topics:
         name = topic["name"]
-        watch = {
-            "keywords": topic.get("keywords", []),
-            "authors": [],
-            "categories": topic.get("categories", default_cats),
-        }
+        cats = topic.get("categories", default_cats)
         try:
-            fetched = arxiv_source.fetch_papers(watch, arxiv_cfg)
+            fetched = arxiv_source.fetch_topic(name, topic.get("keywords", []), cats, arxiv_cfg)
         except Exception as e:
-            log.error("[%s] 取得失敗（このtopicはスキップ）: %s", name, e)
+            log.error("[%s] 取得失敗（スキップ）: %s", name, e)
             topic_papers[name] = []
             continue
-
         seen_ids = seen.get(name, set())
         new_list: list[Paper] = []
         for p in fetched:
             if p.version_less_id in seen_ids:
                 continue
             canonical = registry.setdefault(p.version_less_id, p)
+            # 共有オブジェクトにこのtopicのヒットキーワードを反映
+            canonical.matched_keywords.setdefault(name, [])
+            for kw in p.matched_keywords.get(name, []):
+                if kw not in canonical.matched_keywords[name]:
+                    canonical.matched_keywords[name].append(kw)
+            canonical.matched_by = name
             new_list.append(canonical)
         topic_papers[name] = new_list
-        log.info("[%s] 新着候補 %d 件", name, len(new_list))
 
-    # --- 2) Scirate で scite 付与（任意・失敗しても続行）---
+    # --- 2) Scirate scite 付与 ---
     if scirate_cfg.get("enabled", False) and registry:
         scite_map = scirate_source.fetch_scite_map(
             scirate_cfg.get("categories", []),
-            interval=float(arxiv_cfg.get("request_interval_sec", 3.0)),
-        )
+            interval=float(arxiv_cfg.get("request_interval_sec", 3.0)))
         scirate_source.annotate(list(registry.values()), scite_map)
 
-    # --- 3) topicごとに並べ替え・上限 ---
+    # --- 3) 並べ替え・上限 ---
     for topic in topics:
         name = topic["name"]
         cap = int(topic.get("max_papers_per_run", default_cap))
         topic_papers[name] = _sort_and_cap(topic_papers[name], scirate_cfg, cap)
 
-    # --- 4) 送る予定の論文だけ要約（重複は共有オブジェクトなので1回だけ）---
-    to_summarize = {p.version_less_id: p for ps in topic_papers.values() for p in ps}
-    if to_summarize:
-        for p in to_summarize.values():
-            # matched_by に該当topicを書いておく（複数該当も表現）
-            hit = [t["name"] for t in topics if p in topic_papers[t["name"]]]
-            p.matched_by = " / ".join(hit)
-        summarize.summarize_papers(list(to_summarize.values()), summary_cfg)
-    else:
-        log.info("新着なし。終了。")
-        return 0
+    # --- 3.5) ヒットキーワードを永続ログに記録（どの語で引っかかったか）---
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    match_entries = []
+    for topic in topics:
+        name = topic["name"]
+        for p in topic_papers[name]:
+            match_entries.append({
+                "date": today, "topic": name, "arxiv_id": p.arxiv_id,
+                "keywords": p.matched_keywords.get(name, []), "title": p.title,
+            })
+            log.info("[%s] %s | kw=%s | %s",
+                     name, p.arxiv_id, p.matched_keywords.get(name, []), p.title[:80])
+    state.append_match_log(match_entries)
 
-    # --- 5) topicごとに送信し、成功分だけ seen 記録 ---
+    # --- 4) 上流で1回だけ要約（重複は共有オブジェクトなので1回）---
+    to_summarize = {p.version_less_id: p for ps in topic_papers.values() for p in ps}
+    if not to_summarize:
+        log.info("新着なし。終了。")
+        state.save_seen(seen)
+        return 0
+    summarize.summarize_papers(list(to_summarize.values()), summary_cfg)
+
+    # --- 4.5) 高scite論文だけ「結果解説＋代表図」を上流で1回生成（Slack/Discord共用）---
+    figure_cfg = cfg.get("figure", {})
+    if figure_cfg.get("enabled", False):
+        try:
+            figure.build_for_papers(list(to_summarize.values()), figure_cfg)
+        except Exception as e:
+            log.error("図解生成でエラー（スキップ）: %s", e)
+
+    # --- 5) 各topicを全送信先へ配信し、全送信先に届いた分だけ seen 記録 ---
     for topic in topics:
         name = topic["name"]
         papers = topic_papers[name]
         if not papers:
             continue
-        env_name = topic.get("webhook_env", "")
-        webhook_url = os.environ.get(env_name, "")
-        if not webhook_url:
-            log.warning("[%s] %s が未設定のためスキップ", name, env_name)
+
+        per_dest_sent: list[set[str]] = []
+
+        # Discord
+        webhook_url = os.environ.get(_discord_env(topic), "")
+        if webhook_url:
+            try:
+                ids = discord_sender.send_papers(papers, webhook_url, discord_cfg, name)
+                discord_sender.send_figures(papers, webhook_url, discord_cfg, name)
+            except Exception as e:
+                log.error("[%s/Discord] 例外: %s", name, e); ids = []
+            per_dest_sent.append(set(ids))
+
+        # Slack
+        slack_channel = topic.get("slack_channel", "")
+        if slack_enabled and slack_channel:
+            try:
+                ids = slack_sender.send_papers(papers, slack_token, slack_channel, None,
+                                               name, summary_enabled, slack_thread)
+            except Exception as e:
+                log.error("[%s/Slack] 例外: %s", name, e); ids = []
+            per_dest_sent.append(set(ids))
+
+        if not per_dest_sent:
+            log.warning("[%s] 送信先が未設定のためスキップ", name)
             continue
-        try:
-            sent_ids = discord_sender.send_papers(papers, webhook_url, discord_cfg, name)
-        except Exception as e:
-            log.error("[%s] 送信中に例外（このtopicはスキップ）: %s", name, e)
-            sent_ids = []
-        if sent_ids:
-            seen.setdefault(name, set()).update(sent_ids)
+
+        # 全送信先に届いた論文だけ seen（部分失敗は次回再送＝取りこぼし防止）
+        fully_sent = set.intersection(*per_dest_sent) if per_dest_sent else set()
+        if fully_sent:
+            seen.setdefault(name, set()).update(fully_sent)
 
     state.save_seen(seen)
     log.info("完了")

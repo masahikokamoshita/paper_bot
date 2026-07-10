@@ -167,3 +167,34 @@ def fetch_papers(watch: dict, arxiv_cfg: dict) -> list[Paper]:
     ]
     log.info("arXiv: 重複除去後 %d 件 / 新着 %d 件", len(collected), len(fresh))
     return fresh
+
+
+def fetch_topic(topic_name: str, keywords: list[str], categories: list[str],
+                arxiv_cfg: dict) -> list[Paper]:
+    """topicのキーワードを『1語ずつ個別に』検索し、どの語でヒットしたかを記録する。
+
+    combined OR 検索だと『どのキーワードで引っかかったか』が分からないため、
+    キーワードごとに検索して paper.matched_keywords[topic_name] に蓄積する。
+    """
+    max_results = int(arxiv_cfg.get("max_results_per_query", 40))
+    interval = float(arxiv_cfg.get("request_interval_sec", 3.0))
+    lookback = int(arxiv_cfg.get("lookback_hours", 30))
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback)
+    cat_clause = _category_clause(categories)
+
+    collected: dict[str, Paper] = {}
+    for kw in keywords:
+        query = f'all:"{kw}"'
+        if cat_clause:
+            query = f"{query} AND {cat_clause}"
+        for p in _query_api(query, max_results, interval):
+            canonical = collected.setdefault(p.version_less_id, p)
+            canonical.matched_by = topic_name
+            hits = canonical.matched_keywords.setdefault(topic_name, [])
+            if kw not in hits:
+                hits.append(kw)
+
+    fresh = [p for p in collected.values()
+             if p.published is None or p.published >= cutoff]
+    log.info("[%s] arXiv: %d 件ヒット / 新着 %d 件", topic_name, len(collected), len(fresh))
+    return fresh
