@@ -23,11 +23,12 @@ scirate:
 
 summary:
   enabled: true
-  provider: "openai"          # "openai"（OPENAI_API_KEY）/ "anthropic"（ANTHROPIC_API_KEY）
+  provider: "openai"
   model: "gpt-4o-mini"
   language: "ja"
   max_tokens: 500
-  abstract_max_chars: null
+  use_fulltext: true
+  fulltext_max_chars: 20000
 
 figure:
   enabled: true
@@ -170,3 +171,12 @@ topics:
       - "quantum simulation of scattering"
       - "wave packet scattering"
       - "scattering cross section"
+  - name: "Berry位相"
+    webhook_env: "DISCORD_WEBHOOK_BERRY_PHASE"
+    slack_channel_env: "SLACK_CHANNEL_BERRY_PHASE"
+    keywords:
+      - "Berry phase"
+      - "geometric phase"
+      - "Berry curvature"
+      - "holonomic quantum computation"
+      - "adiabatic phase"
