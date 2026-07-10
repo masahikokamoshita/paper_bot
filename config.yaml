@@ -31,9 +31,9 @@ scirate:
 summary:
   enabled: true
   provider: "openai"          # "openai"（OPENAI_API_KEY）/ "anthropic"（ANTHROPIC_API_KEY）
-  model: "gpt-4o-mini"        # OpenAI例: gpt-4o-mini / gpt-4.1-mini / gpt-5.4-mini
+  model: "gpt-5.4-mini"        # OpenAI例: gpt-4o-mini / gpt-4.1-mini / gpt-5.4-mini
   language: "ja"
-  max_tokens: 500
+  max_tokens: 2048
   abstract_max_chars: null    # enabled:false 時、アブストを切る文字数（null=切らない）
 
 # --- 図解（高scite論文だけ 結果解説＋代表図）----------------------
