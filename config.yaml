@@ -1,83 +1,56 @@
 # =====================================================================
-#  arXiv -> 要約 -> Discord（複数チャンネル振り分け）bot 設定
-#
-#  各 topic が 1 チャンネルに対応。keywords にマッチした論文を、その
-#  topic の webhook_env（GitHub Secrets 名）が指すチャンネルへ送ります。
-#  1論文が複数topicにマッチすれば、複数チャンネルへ送られます（重複OK）。
+#  arXiv -> 要約 -> Discord / Slack（複数チャンネル振り分け）bot 設定
+#  Slackは SLACK_CHANNEL_* を登録＋Bot招待したチャンネルだけに送信。
+#  未登録トピックは自動スキップ（Discordのみ）。
 # =====================================================================
 
-# --- 全topic共通のデフォルト ---------------------------------------
 defaults:
-  categories:                 # 各topicで上書きしなければこれが使われる
+  categories:
     - quant-ph
-  max_papers_per_run: 15      # 1topic・1実行あたりの送信上限
+  max_papers_per_run: 15
 
-# --- arXiv 取得の挙動 ----------------------------------------------
 arxiv:
   max_results_per_query: 60
-  lookback_hours: 96          # 新着とみなす範囲（広めにして取りこぼし防止。重複はseen記録で防ぐ）
-  request_interval_sec: 3.0   # arXivへの礼儀（連続アクセス間隔）
+  lookback_hours: 96
+  request_interval_sec: 3.0
 
-# --- Scirate（注目度=scite数）-------------------------------------
 scirate:
   enabled: true
   categories:
     - quant-ph
   min_scites: 0
-  rank_by_scites: true        # scite数が多い順に送る（falseなら新着順）
+  rank_by_scites: true
 
-# --- 要約（LLM）----------------------------------------------------
-#  ※1論文が複数topic/送信先にマッチしても要約は1回だけ（コスト節約）
 summary:
   enabled: true
   provider: "openai"          # "openai"（OPENAI_API_KEY）/ "anthropic"（ANTHROPIC_API_KEY）
-  model: "gpt-4o-mini"        # OpenAI例: gpt-4o-mini / gpt-4.1-mini / gpt-5.4-mini
+  model: "gpt-4o-mini"
   language: "ja"
   max_tokens: 500
-  abstract_max_chars: null    # enabled:false 時、アブストを切る文字数（null=切らない）
+  abstract_max_chars: null
 
-# --- 図解（高scite論文だけ 結果解説＋代表図）----------------------
-#  PDFから代表図を1枚抜き、OpenAIのビジョンで結果を日本語解説。上流で1回だけ生成し
-#  Slack(返信2)/Discord(追送)で使い回す。要 OPENAI_API_KEY。best-effort（失敗しても本体は動く）。
 figure:
   enabled: true
-  model: "gpt-4o-mini"        # 画像も読めるモデル
-  min_scites: 20              # この scite 数以上の論文だけ図解する
-  max_papers_per_run: 3       # 1実行で図解する上限（コスト対策）
-  explain_max_chars: 1000     # 結果解説の文字数上限
+  model: "gpt-4o-mini"
+  min_scites: 20
+  max_papers_per_run: 3
+  explain_max_chars: 1000
 
-# --- Slack -----------------------------------------------------------
-#  スレッド返信に日本語要約を入れるため、Incoming Webhookではなく
-#  Bot Token(xoxb-) + Web API を使う。Botを対象チャンネルに招待しておくこと。
-#  各 topic に slack_channel（チャンネルID推奨。例 C0123ABCD）を書くとそのチャンネルへ送る。
 slack:
   enabled: true
-  bot_token_env: "SLACK_BOT_TOKEN"   # xoxb-... を GitHub Secrets に登録
-  summary_in_thread: true            # 親=タイトル+リンク / スレッド返信=日本語要約
+  bot_token_env: "SLACK_BOT_TOKEN"
+  summary_in_thread: true
 
-# --- Discord --------------------------------------------------------
 discord:
   username: "arXiv Bot"
   embeds_per_message: 8
-  # 表示スタイル:
-  #   compact = タイトル(リンク)＋日付/scite だけ。一覧がスッキリ。要約/アブストは出ない
-  #   full    = 本文(要約 or アブスト原文)＋著者・分野・リンクも表示
-  # ※要約あり(summary.enabled: true)の中身を見たいときは full にする
   style: "compact"
-  # 図解をスレッドに入れる（Slackの返信2相当）。true には Discord Bot トークンが必要:
-  #   DISCORD_BOT_TOKEN を Secrets に登録し、Bot を対象サーバに招待して
-  #   「パブリックスレッドの作成」権限を付与すること。false ならチャンネルへ追送。
   use_threads: true
 
-# --- トピック（=チャンネル）定義 -----------------------------------
-#  discord_webhook_env: Discord用。GitHub Secretsの環境変数名（旧 webhook_env でも可）
-#  slack_channel_env:   Slack用。チャンネルIDを入れた Secrets の環境変数名（推奨）
-#  slack_channel:       Slack用。チャンネルIDを直書き（Publicリポジトリでは非推奨）
-#  keywords:            arXiv検索語（1語ずつ個別検索し、どの語で当たったか記録）
-#  categories:          省略すると defaults.categories を使用
 topics:
   - name: "量子位相推定"
     webhook_env: "DISCORD_WEBHOOK_QPE"
+    slack_channel_env: "SLACK_CHANNEL_QPE"
     keywords:
       - "quantum phase estimation"
       - "iterative phase estimation"
@@ -87,7 +60,7 @@ topics:
 
   - name: "量子特異値変換"
     webhook_env: "DISCORD_WEBHOOK_QSVT"
-    # slack_channel_env: "SLACK_CHANNEL_QSVT"   # ← Slackにも送るなら、IDを入れたSecret名を記入
+    slack_channel_env: "SLACK_CHANNEL_QSVT"
     keywords:
       - "quantum singular value transformation"
       - "quantum signal processing"
@@ -95,17 +68,19 @@ topics:
       - "block encoding"
       - "quantum eigenvalue transformation"
 
-  - name: "トロッター分解"
-    webhook_env: "DISCORD_WEBHOOK_TROTTER"
+  - name: "ハミルトニアンシミュレーション"
+    webhook_env: "DISCORD_WEBHOOK_HAMILTONIAN_SIMULATION"
+    slack_channel_env: "SLACK_CHANNEL_HAMILTONIAN_SIMULATION"
     keywords:
+      - "Hamiltonian simulation"
+      - "quantum simulation algorithm"
       - "Trotterization"
-      - "Trotter-Suzuki"
       - "Suzuki-Trotter"
       - "product formula"
-      - "Hamiltonian simulation"
 
   - name: "QSCI(SQD)"
     webhook_env: "DISCORD_WEBHOOK_QSCI"
+    slack_channel_env: "SLACK_CHANNEL_QSCI"
     keywords:
       - "quantum-selected configuration interaction"
       - "QSCI"
@@ -114,7 +89,8 @@ topics:
 
   - name: "量子化学計算全般"
     webhook_env: "DISCORD_WEBHOOK_QCHEM"
-    categories:               # 化学はchem-phも見る
+    slack_channel_env: "SLACK_CHANNEL_QCHEM"
+    categories:
       - quant-ph
       - physics.chem-ph
     keywords:
@@ -126,6 +102,7 @@ topics:
 
   - name: "RSA暗号"
     webhook_env: "DISCORD_WEBHOOK_RSA"
+    slack_channel_env: "SLACK_CHANNEL_RSA"
     keywords:
       - "Shor's algorithm"
       - "quantum factoring"
@@ -135,6 +112,7 @@ topics:
 
   - name: "光量子コンピュータ"
     webhook_env: "DISCORD_WEBHOOK_PHOTONIC"
+    slack_channel_env: "SLACK_CHANNEL_PHOTONIC"
     keywords:
       - "photonic quantum computing"
       - "linear optical quantum"
@@ -144,6 +122,7 @@ topics:
 
   - name: "量子機械学習"
     webhook_env: "DISCORD_WEBHOOK_QML"
+    slack_channel_env: "SLACK_CHANNEL_QML"
     keywords:
       - "quantum machine learning"
       - "quantum neural network"
@@ -153,14 +132,17 @@ topics:
 
   - name: "実機"
     webhook_env: "DISCORD_WEBHOOK_HARDWARE"
+    slack_channel_env: "SLACK_CHANNEL_HARDWARE"
     keywords:
       - "superconducting qubit"
       - "trapped-ion quantum"
       - "neutral atom array"
       - "quantum processor"
       - "logical qubit experiment"
+
   - name: "誤り訂正・magic state"
     webhook_env: "DISCORD_WEBHOOK_QEC"
+    slack_channel_env: "SLACK_CHANNEL_QEC"
     keywords:
       - "quantum error correction"
       - "magic state"
@@ -170,6 +152,7 @@ topics:
 
   - name: "qLDPC符号"
     webhook_env: "DISCORD_WEBHOOK_QLDPC"
+    slack_channel_env: "SLACK_CHANNEL_QLDPC"
     keywords:
       - "quantum LDPC"
       - "qLDPC"
@@ -179,7 +162,8 @@ topics:
 
   - name: "散乱理論"
     webhook_env: "DISCORD_WEBHOOK_SCATTERING"
-    # 物理一般の散乱理論も拾いたい場合は categories に hep-lat, nucl-th, hep-th 等を追加
+    slack_channel_env: "SLACK_CHANNEL_SCATTERING"
+    # 物理一般の散乱理論も拾うなら categories に hep-lat, nucl-th, hep-th 等を追加
     keywords:
       - "scattering amplitude"
       - "S-matrix"
