@@ -49,6 +49,15 @@ def _discord_env(topic: dict) -> str:
     return topic.get("discord_webhook_env") or topic.get("webhook_env") or ""
 
 
+def _slack_channel(topic: dict) -> str:
+    """slack_channel（直書き）優先、無ければ slack_channel_env で環境変数から解決。"""
+    ch = topic.get("slack_channel", "")
+    if ch:
+        return ch
+    env = topic.get("slack_channel_env", "")
+    return os.environ.get(env, "") if env else ""
+
+
 def main() -> int:
     cfg = load_config()
     defaults = cfg.get("defaults", {})
@@ -164,7 +173,7 @@ def main() -> int:
             per_dest_sent.append(set(ids))
 
         # Slack
-        slack_channel = topic.get("slack_channel", "")
+        slack_channel = _slack_channel(topic)
         if slack_enabled and slack_channel:
             try:
                 ids = slack_sender.send_papers(papers, slack_token, slack_channel, None,

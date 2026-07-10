@@ -105,7 +105,8 @@ python -m src.main
 - `slack.enabled` / `bot_token_env` / `summary_in_thread` … Slack設定
 - `topics[].keywords` … 1語ずつ検索されOR的に集約（当たった語を記録）
 - `topics[].webhook_env` … Discord Webhook の Secrets 名
-- `topics[].slack_channel` … Slackに送る場合のチャンネルID
+- `topics[].slack_channel_env` … SlackチャンネルIDを入れた Secrets の環境変数名（推奨。例 `SLACK_CHANNEL_QSVT`）
+- `topics[].slack_channel` … SlackチャンネルIDを直書き（Publicリポジトリでは非推奨）
 - `topics[].categories` … 省略時は `defaults.categories`
 
 ## 出力の形
