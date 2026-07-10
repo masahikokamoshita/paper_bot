@@ -34,6 +34,17 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
+      - name: Probe OpenAI (python)
+        run: |
+          python -c "import openai, httpx; print('openai', openai.__version__, 'httpx', httpx.__version__)"
+          python -c "
+          from openai import OpenAI
+          c = OpenAI()
+          print('models ok:', c.models.list().data[0].id)
+          "
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
       - name: Run bot
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
