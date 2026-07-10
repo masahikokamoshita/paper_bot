@@ -2,12 +2,11 @@ name: arXiv Discord Bot
 
 on:
   schedule:
-    # UTC基準。'0 0 * * *' = 毎日 09:00 JST。
     - cron: '0 0 * * *'
-  workflow_dispatch: {}   # 手動実行も可能
+  workflow_dispatch: {}
 
 permissions:
-  contents: write          # seen.json を push するために必要
+  contents: write
 
 concurrency:
   group: arxiv-bot
@@ -27,33 +26,56 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Check secret presence
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "EMPTY"
+          else
+            echo "set (length: ${#OPENAI_API_KEY})"
+          fi
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
       - name: Run bot
         env:
-          # 要約あり(summary.enabled: true)の場合のみ必要
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # 各チャンネルのWebhook（config.yaml の webhook_env と名前を一致させる）
-          DISCORD_WEBHOOK_QPE:      ${{ secrets.DISCORD_WEBHOOK_QPE }}
-          DISCORD_WEBHOOK_QSVT:     ${{ secrets.DISCORD_WEBHOOK_QSVT }}
-          DISCORD_WEBHOOK_TROTTER:  ${{ secrets.DISCORD_WEBHOOK_TROTTER }}
-          DISCORD_WEBHOOK_QSCI:     ${{ secrets.DISCORD_WEBHOOK_QSCI }}
-          DISCORD_WEBHOOK_QCHEM:    ${{ secrets.DISCORD_WEBHOOK_QCHEM }}
-          DISCORD_WEBHOOK_RSA:      ${{ secrets.DISCORD_WEBHOOK_RSA }}
-          DISCORD_WEBHOOK_PHOTONIC: ${{ secrets.DISCORD_WEBHOOK_PHOTONIC }}
-          DISCORD_WEBHOOK_QML:      ${{ secrets.DISCORD_WEBHOOK_QML }}
-          DISCORD_WEBHOOK_HARDWARE: ${{ secrets.DISCORD_WEBHOOK_HARDWARE }}
-          DISCORD_WEBHOOK_QEC:        ${{ secrets.DISCORD_WEBHOOK_QEC }}
-          DISCORD_WEBHOOK_QLDPC:      ${{ secrets.DISCORD_WEBHOOK_QLDPC }}
-          DISCORD_WEBHOOK_SCATTERING: ${{ secrets.DISCORD_WEBHOOK_SCATTERING }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_WEBHOOK_QPE:                    ${{ secrets.DISCORD_WEBHOOK_QPE }}
+          DISCORD_WEBHOOK_QSVT:                   ${{ secrets.DISCORD_WEBHOOK_QSVT }}
+          DISCORD_WEBHOOK_HAMILTONIAN_SIMULATION: ${{ secrets.DISCORD_WEBHOOK_HAMILTONIAN_SIMULATION }}
+          DISCORD_WEBHOOK_QSCI:                   ${{ secrets.DISCORD_WEBHOOK_QSCI }}
+          DISCORD_WEBHOOK_QCHEM:                  ${{ secrets.DISCORD_WEBHOOK_QCHEM }}
+          DISCORD_WEBHOOK_RSA:                    ${{ secrets.DISCORD_WEBHOOK_RSA }}
+          DISCORD_WEBHOOK_PHOTONIC:               ${{ secrets.DISCORD_WEBHOOK_PHOTONIC }}
+          DISCORD_WEBHOOK_QML:                    ${{ secrets.DISCORD_WEBHOOK_QML }}
+          DISCORD_WEBHOOK_HARDWARE:               ${{ secrets.DISCORD_WEBHOOK_HARDWARE }}
+          DISCORD_WEBHOOK_QEC:                    ${{ secrets.DISCORD_WEBHOOK_QEC }}
+          DISCORD_WEBHOOK_QLDPC:                  ${{ secrets.DISCORD_WEBHOOK_QLDPC }}
+          DISCORD_WEBHOOK_SCATTERING:             ${{ secrets.DISCORD_WEBHOOK_SCATTERING }}
+          SLACK_CHANNEL_QPE:                    ${{ secrets.SLACK_CHANNEL_QPE }}
+          SLACK_CHANNEL_QSVT:                   ${{ secrets.SLACK_CHANNEL_QSVT }}
+          SLACK_CHANNEL_HAMILTONIAN_SIMULATION: ${{ secrets.SLACK_CHANNEL_HAMILTONIAN_SIMULATION }}
+          SLACK_CHANNEL_QSCI:                   ${{ secrets.SLACK_CHANNEL_QSCI }}
+          SLACK_CHANNEL_QCHEM:                  ${{ secrets.SLACK_CHANNEL_QCHEM }}
+          SLACK_CHANNEL_RSA:                    ${{ secrets.SLACK_CHANNEL_RSA }}
+          SLACK_CHANNEL_PHOTONIC:               ${{ secrets.SLACK_CHANNEL_PHOTONIC }}
+          SLACK_CHANNEL_QML:                    ${{ secrets.SLACK_CHANNEL_QML }}
+          SLACK_CHANNEL_HARDWARE:               ${{ secrets.SLACK_CHANNEL_HARDWARE }}
+          SLACK_CHANNEL_QEC:                    ${{ secrets.SLACK_CHANNEL_QEC }}
+          SLACK_CHANNEL_QLDPC:                  ${{ secrets.SLACK_CHANNEL_QLDPC }}
+          SLACK_CHANNEL_SCATTERING:             ${{ secrets.SLACK_CHANNEL_SCATTERING }}
         run: python -m src.main
 
       - name: Commit updated state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/seen.json
+          git add state/
           if git diff --cached --quiet; then
             echo "No state changes."
           else
-            git commit -m "Update seen state [skip ci]"
+            git commit -m "Update state [skip ci]"
             git push
           fi
