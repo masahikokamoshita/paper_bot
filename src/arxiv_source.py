@@ -169,6 +169,24 @@ def fetch_papers(watch: dict, arxiv_cfg: dict) -> list[Paper]:
     return fresh
 
 
+_FIELD_PREFIXES = ("ti:", "abs:", "au:", "co:", "cat:", "jr:", "rn:", "all:")
+
+
+def _build_kw_query(kw: str) -> str:
+    """キーワードを検索クエリ片にする。
+    'ti:qubitization' のようにフィールド指定があればそのフィールドで、
+    無ければ all:"..." （全文一致）でラップする。値は必ずダブルクォートで囲む。
+    """
+    s = kw.strip()
+    low = s.lower()
+    for pref in _FIELD_PREFIXES:
+        if low.startswith(pref):
+            field = pref[:-1]                      # "ti:" -> "ti"
+            value = s[len(pref):].strip().strip('"')
+            return f'{field}:"{value}"'
+    return f'all:"{s}"'
+
+
 def fetch_topic(topic_name: str, keywords: list[str], categories: list[str],
                 arxiv_cfg: dict) -> list[Paper]:
     """topicのキーワードを『1語ずつ個別に』検索し、どの語でヒットしたかを記録する。
@@ -184,7 +202,7 @@ def fetch_topic(topic_name: str, keywords: list[str], categories: list[str],
 
     collected: dict[str, Paper] = {}
     for kw in keywords:
-        query = f'all:"{kw}"'
+        query = _build_kw_query(kw)
         if cat_clause:
             query = f"{query} AND {cat_clause}"
         for p in _query_api(query, max_results, interval):

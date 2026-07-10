@@ -101,14 +101,14 @@ topics:
       - "ground state energy"
       - "molecular simulation"
 
-  - name: "RSA暗号"
+  - name: "素因数分解"
     webhook_env: "DISCORD_WEBHOOK_RSA"
     slack_channel_env: "SLACK_CHANNEL_RSA"
     keywords:
       - "Shor's algorithm"
       - "quantum factoring"
       - "integer factorization"
-      - "RSA"
+      - "integer factorization"
       - "discrete logarithm"
 
   - name: "光量子コンピュータ"
@@ -164,13 +164,22 @@ topics:
   - name: "散乱理論"
     webhook_env: "DISCORD_WEBHOOK_SCATTERING"
     slack_channel_env: "SLACK_CHANNEL_SCATTERING"
-    # 物理一般の散乱理論も拾うなら categories に hep-lat, nucl-th, hep-th 等を追加
+    categories:
+      - quant-ph
+      - hep-lat
+      - hep-th
+      - nucl-th
+      - physics.atom-ph      # 電子–原子/分子散乱
+      - physics.chem-ph      # 分子の反応散乱
+      - cond-mat.mes-hall    # 固体中の電子散乱・輸送
     keywords:
       - "scattering amplitude"
       - "S-matrix"
+      - "electron scattering"
+      - "molecular scattering"
+      - "cross section"
       - "quantum simulation of scattering"
-      - "wave packet scattering"
-      - "scattering cross section"
+
   - name: "Berry位相"
     webhook_env: "DISCORD_WEBHOOK_BERRY_PHASE"
     slack_channel_env: "SLACK_CHANNEL_BERRY_PHASE"
