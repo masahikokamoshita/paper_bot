@@ -10,3 +10,4 @@ __pycache__/
 venv/
 *.log
 EOF
+.DS_Store
