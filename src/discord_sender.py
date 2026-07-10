@@ -185,6 +185,44 @@ def send_papers(papers: list[Paper], webhook_url: str, discord_cfg: dict,
     return _send_compact(papers, webhook_url, username, topic_label)
 
 
+DISCORD_API = "https://discord.com/api/v10"
+
+
+def _sep(url: str) -> str:
+    return "&" if "?" in url else "?"
+
+
+def _webhook_post_wait(webhook_url: str, payload: dict) -> tuple[str, str] | None:
+    """?wait=true でメッセージ投稿し (message_id, channel_id) を返す。"""
+    try:
+        resp = requests.post(f"{webhook_url}{_sep(webhook_url)}wait=true",
+                             json=payload, timeout=30)
+    except requests.RequestException as e:
+        log.warning("  アンカー投稿失敗: %s", e)
+        return None
+    if resp.status_code >= 300:
+        log.error("  アンカー投稿エラー %s: %s", resp.status_code, resp.text[:200])
+        return None
+    d = resp.json()
+    return d.get("id"), d.get("channel_id")
+
+
+def _start_thread(bot_token: str, channel_id: str, message_id: str, name: str) -> str | None:
+    """Bot APIでメッセージからスレッドを作成し thread_id を返す。"""
+    url = f"{DISCORD_API}/channels/{channel_id}/messages/{message_id}/threads"
+    try:
+        resp = requests.post(url, headers={"Authorization": f"Bot {bot_token}"},
+                             json={"name": name[:90] or "結果解説", "auto_archive_duration": 1440},
+                             timeout=30)
+    except requests.RequestException as e:
+        log.warning("  スレッド作成失敗: %s", e)
+        return None
+    if resp.status_code >= 300:
+        log.error("  スレッド作成エラー %s: %s", resp.status_code, resp.text[:200])
+        return None
+    return resp.json().get("id")
+
+
 def _post_figure(webhook_url: str, payload: dict, png: bytes | None, fname: str) -> bool:
     for attempt in range(3):
         try:
@@ -194,7 +232,7 @@ def _post_figure(webhook_url: str, payload: dict, png: bytes | None, fname: str)
             else:
                 resp = requests.post(webhook_url, json=payload, timeout=30)
         except requests.RequestException as e:
-            log.warning("  図解追送 接続失敗(%d回目): %s", attempt + 1, e)
+            log.warning("  図解投稿 接続失敗(%d回目): %s", attempt + 1, e)
             time.sleep(2 * (attempt + 1)); continue
         if resp.status_code == 429:
             try:
@@ -203,27 +241,49 @@ def _post_figure(webhook_url: str, payload: dict, png: bytes | None, fname: str)
                 wait = 2.0
             time.sleep(wait + 0.5); continue
         if resp.status_code >= 400:
-            log.error("  図解追送エラー %s: %s", resp.status_code, resp.text[:200])
+            log.error("  図解投稿エラー %s: %s", resp.status_code, resp.text[:200])
             return False
         return True
     return False
 
 
 def send_figures(papers: list[Paper], webhook_url: str, discord_cfg: dict,
-                 topic_label: str) -> None:
-    """結果解説＋代表図を持つ論文だけ、図を添付した個別メッセージで追送する（best-effort）。
+                 topic_label: str, bot_token: str = "") -> None:
+    """結果解説＋代表図を持つ論文を配信する（best-effort）。
 
-    Discordはスレッド返信が扱いにくいため、compact一覧とは別に、該当論文のみ
-    『図＋解説』を同じチャンネルへ追送する（Slackの返信2に相当）。
+    use_threads=true かつ Bot トークンあり:
+        アンカーメッセージ→そこからスレッド作成→スレッド内に図＋解説（Slackの返信2相当）
+    それ以外:
+        同じチャンネルへ図＋解説を追送（フォールバック）
     """
     username = discord_cfg.get("username", "arXiv Bot")
+    use_threads = bool(discord_cfg.get("use_threads", False)) and bool(bot_token)
+
     for p in papers:
         if not (p.result_explanation or p.figure_png):
             continue
+        fname = f"{p.version_less_id}.png"
+        explanation = _truncate(p.result_explanation.strip() or "（結果図）", 1990)
+
+        if use_threads:
+            anchor = {"username": username,
+                      "content": f"🔬 **[{topic_label}] 結果解説**: [{_truncate(p.title, 180)}]({p.abs_url})"}
+            ids = _webhook_post_wait(webhook_url, anchor)
+            if ids and ids[0] and ids[1]:
+                thread_id = _start_thread(bot_token, ids[1], ids[0], p.title)
+                if thread_id:
+                    thread_url = f"{webhook_url}{_sep(webhook_url)}thread_id={thread_id}"
+                    if _post_figure(thread_url, {"username": username, "content": explanation},
+                                    p.figure_png, fname):
+                        log.info("  [%s] 図解スレッド投稿: %s", topic_label, p.arxiv_id)
+                    time.sleep(0.7)
+                    continue  # 成功したのでフォールバック不要
+            log.warning("  [%s] スレッド化に失敗、追送にフォールバック: %s", topic_label, p.arxiv_id)
+
+        # フォールバック: 同チャンネルへ図＋解説を追送
         header = f"🔬 **[{topic_label}] 結果解説** [{_truncate(p.title, 180)}]({p.abs_url})"
         content = _truncate(f"{header}\n\n{p.result_explanation.strip()}", 1990)
-        ok = _post_figure(webhook_url, {"username": username, "content": content},
-                          p.figure_png, f"{p.version_less_id}.png")
-        if ok:
+        if _post_figure(webhook_url, {"username": username, "content": content},
+                        p.figure_png, fname):
             log.info("  [%s] 図解追送: %s", topic_label, p.arxiv_id)
         time.sleep(0.7)

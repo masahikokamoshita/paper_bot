@@ -31,9 +31,9 @@ scirate:
 summary:
   enabled: true
   provider: "openai"          # "openai"（OPENAI_API_KEY）/ "anthropic"（ANTHROPIC_API_KEY）
-  model: "gpt-5.4-mini"        # OpenAI例: gpt-4o-mini / gpt-4.1-mini / gpt-5.4-mini
+  model: "gpt-4o-mini"        # OpenAI例: gpt-4o-mini / gpt-4.1-mini / gpt-5.4-mini
   language: "ja"
-  max_tokens: 2048
+  max_tokens: 500
   abstract_max_chars: null    # enabled:false 時、アブストを切る文字数（null=切らない）
 
 # --- 図解（高scite論文だけ 結果解説＋代表図）----------------------
@@ -64,6 +64,10 @@ discord:
   #   full    = 本文(要約 or アブスト原文)＋著者・分野・リンクも表示
   # ※要約あり(summary.enabled: true)の中身を見たいときは full にする
   style: "compact"
+  # 図解をスレッドに入れる（Slackの返信2相当）。true には Discord Bot トークンが必要:
+  #   DISCORD_BOT_TOKEN を Secrets に登録し、Bot を対象サーバに招待して
+  #   「パブリックスレッドの作成」権限を付与すること。false ならチャンネルへ追送。
+  use_threads: true
 
 # --- トピック（=チャンネル）定義 -----------------------------------
 #  discord_webhook_env: Discord用。GitHub Secretsの環境変数名（旧 webhook_env でも可）

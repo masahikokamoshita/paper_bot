@@ -157,7 +157,8 @@ def main() -> int:
         if webhook_url:
             try:
                 ids = discord_sender.send_papers(papers, webhook_url, discord_cfg, name)
-                discord_sender.send_figures(papers, webhook_url, discord_cfg, name)
+                discord_sender.send_figures(papers, webhook_url, discord_cfg, name,
+                                            bot_token=os.environ.get("DISCORD_BOT_TOKEN", ""))
             except Exception as e:
                 log.error("[%s/Discord] 例外: %s", name, e); ids = []
             per_dest_sent.append(set(ids))
