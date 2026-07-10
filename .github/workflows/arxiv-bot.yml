@@ -26,24 +26,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Check secret presence
-        run: |
-          if [ -z "$OPENAI_API_KEY" ]; then
-            echo "EMPTY"
-          else
-            echo "set (length: ${#OPENAI_API_KEY})"
-          fi
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
       - name: Probe OpenAI
         run: |
-          code=$(curl -s -o /tmp/resp -w "%{http_code}" --max-time 30 \
-            https://api.openai.com/v1/models \
-            -H "Authorization: Bearer $OPENAI_API_KEY")
+          code=$(curl -s -o /tmp/resp -w "%{http_code}" --max-time 30 https://api.openai.com/v1/models -H "Authorization: Bearer $OPENAI_API_KEY")
           echo "HTTP status: $code"
-          echo "----- response (先頭400字) -----"
-          head -c 400 /tmp/resp; echo
+          head -c 300 /tmp/resp; echo
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
