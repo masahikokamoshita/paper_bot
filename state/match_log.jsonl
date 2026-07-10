@@ -142,3 +142,30 @@
 {"date": "2026-07-10", "topic": "qLDPC符号", "arxiv_id": "2607.05897v1", "keywords": ["qLDPC"], "title": "Strictly Local Tile-Code Architectures on Two-Dimensional Planar Lattices"}
 {"date": "2026-07-10", "topic": "Berry位相", "arxiv_id": "2607.05591v1", "keywords": ["Berry phase", "geometric phase"], "title": "Wilczek-Zee Realization of Uhlmann Parallel Transport"}
 {"date": "2026-07-10", "topic": "Berry位相", "arxiv_id": "2607.07223v1", "keywords": ["holonomic quantum computation"], "title": "Non-Abelian Thouless pumping based on the global adiabatic criterion in Rydberg synthetic lattices"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.07338v1", "keywords": ["qubitization"], "title": "Quantum simulation of real-world nonlinear dynamics via Koopman method"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.07197v1", "keywords": ["qubitization"], "title": "Analytical Landscape of Maximal Magic for Two-Qutrit States and Beyond"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.07031v1", "keywords": ["qubitization"], "title": "Bayesian Gill-Massar Bound: An Attainable Lower Bound for Qubit Parameter Estimation"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06752v1", "keywords": ["qubitization"], "title": "Feynman's clock and hierarchy-informed sampling for quantum error mitigation"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06718v1", "keywords": ["qubitization"], "title": "Quantum error correction of a grid-state qubit with state preparation and measurement errors below $10^{-3}$"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06675v1", "keywords": ["qubitization"], "title": "Spectral Born machines: classically trainable quantum generative models for discrete data"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06670v1", "keywords": ["qubitization"], "title": "Localized Thermometry via Dayem Bridges Integrated on Superconducting Qubit Chips"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06672v1", "keywords": ["qubitization"], "title": "Spin singlets are useful"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06654v1", "keywords": ["qubitization"], "title": "Localized control of large ion crystals in a Penning trap using a spatial light modulator"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06342v1", "keywords": ["qubitization"], "title": "Radio frequency readout and control of Ge/SiGe hole spin qubits with a global accumulation gate"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06177v1", "keywords": ["qubitization"], "title": "Using Tanner Spectral Reduction to Improve Multi-Layer Optical Lattice Routing for Hypergraph-Product and Bivariate Bicycle qLDPC Codes"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.06058v1", "keywords": ["qubitization"], "title": "SQGen: Structured Quantum Image Generation with Latent-Modulated Quantized Tensor Trains"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.05897v1", "keywords": ["qubitization"], "title": "Strictly Local Tile-Code Architectures on Two-Dimensional Planar Lattices"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.05847v1", "keywords": ["qubitization"], "title": "Maximal coherence of quantum measurement and the resource theory of sharpness"}
+{"date": "2026-07-10", "topic": "量子特異値変換", "arxiv_id": "2607.05779v1", "keywords": ["qubitization"], "title": "Separating transient leakage exposure from endpoint cancellation in fast transmon single-qubit gates"}
+{"date": "2026-07-10", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.08212v1", "keywords": ["Hamiltonian simulation"], "title": "Möbius-Guided Diagonal-Gate Compilation with Native Multiqubit Controlled-Phase Gates on Neutral-Atom Processors"}
+{"date": "2026-07-10", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.06472v1", "keywords": ["Hamiltonian simulation"], "title": "Provable learning separation for predicting time-evolution of quantum many-body systems"}
+{"date": "2026-07-10", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.08235v1", "keywords": ["Trotterization"], "title": "Full-Spectrum Quantum Simulation for the Nuclear Shell Model"}
+{"date": "2026-07-10", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.08166v1", "keywords": ["Trotterization"], "title": "Efficient Pauli-decomposition and multistage state-refinement for tensor network based differential equation solver"}
+{"date": "2026-07-10", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.08047v1", "keywords": ["Trotterization"], "title": "Nuclear Many-Body Systems as Benchmarks for Quantum Computing"}
+{"date": "2026-07-10", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.05786v1", "keywords": ["Trotterization"], "title": "A Quantum-HPC Hybrid Workflow for Reaction-Center Electronic Dynamics: Application to a Cytochrome P450-Inspired Iron-Complex Model"}
+{"date": "2026-07-10", "topic": "誤り訂正・magic state", "arxiv_id": "2607.06557v1", "keywords": ["fault-tolerant quantum computation"], "title": "Quantum Channel Polynomial Processing"}
+{"date": "2026-07-10", "topic": "誤り訂正・magic state", "arxiv_id": "2607.07822v1", "keywords": ["surface code"], "title": "Routing Techniques for Error Corrected Silicon Spin Qubit Quantum Architectures"}
+{"date": "2026-07-10", "topic": "誤り訂正・magic state", "arxiv_id": "2607.05897v1", "keywords": ["surface code"], "title": "Strictly Local Tile-Code Architectures on Two-Dimensional Planar Lattices"}
+{"date": "2026-07-10", "topic": "誤り訂正・magic state", "arxiv_id": "2607.05501v1", "keywords": ["surface code"], "title": "Towards Lattice Surgery Compilation for the Color Code Using Pipe Diagrams"}
+{"date": "2026-07-10", "topic": "Berry位相", "arxiv_id": "2607.05591v1", "keywords": ["Berry phase", "geometric phase"], "title": "Wilczek-Zee Realization of Uhlmann Parallel Transport"}
+{"date": "2026-07-10", "topic": "Berry位相", "arxiv_id": "2607.07223v1", "keywords": ["holonomic quantum computation"], "title": "Non-Abelian Thouless pumping based on the global adiabatic criterion in Rydberg synthetic lattices"}
