@@ -26,25 +26,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Probe OpenAI
-        run: |
-          code=$(curl -s -o /tmp/resp -w "%{http_code}" --max-time 30 https://api.openai.com/v1/models -H "Authorization: Bearer $OPENAI_API_KEY")
-          echo "HTTP status: $code"
-          head -c 300 /tmp/resp; echo
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
-      - name: Probe OpenAI (python)
-        run: |
-          python -c "import openai, httpx; print('openai', openai.__version__, 'httpx', httpx.__version__)"
-          python -c "
-          from openai import OpenAI
-          c = OpenAI()
-          print('models ok:', c.models.list().data[0].id)
-          "
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
       - name: Run bot
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -63,6 +44,7 @@ jobs:
           DISCORD_WEBHOOK_QEC:                    ${{ secrets.DISCORD_WEBHOOK_QEC }}
           DISCORD_WEBHOOK_QLDPC:                  ${{ secrets.DISCORD_WEBHOOK_QLDPC }}
           DISCORD_WEBHOOK_SCATTERING:             ${{ secrets.DISCORD_WEBHOOK_SCATTERING }}
+          DISCORD_WEBHOOK_BERRY_PHASE:            ${{ secrets.DISCORD_WEBHOOK_BERRY_PHASE }}
           SLACK_CHANNEL_QPE:                    ${{ secrets.SLACK_CHANNEL_QPE }}
           SLACK_CHANNEL_QSVT:                   ${{ secrets.SLACK_CHANNEL_QSVT }}
           SLACK_CHANNEL_HAMILTONIAN_SIMULATION: ${{ secrets.SLACK_CHANNEL_HAMILTONIAN_SIMULATION }}
@@ -75,6 +57,7 @@ jobs:
           SLACK_CHANNEL_QEC:                    ${{ secrets.SLACK_CHANNEL_QEC }}
           SLACK_CHANNEL_QLDPC:                  ${{ secrets.SLACK_CHANNEL_QLDPC }}
           SLACK_CHANNEL_SCATTERING:             ${{ secrets.SLACK_CHANNEL_SCATTERING }}
+          SLACK_CHANNEL_BERRY_PHASE:            ${{ secrets.SLACK_CHANNEL_BERRY_PHASE }}
         run: python -m src.main
 
       - name: Commit updated state

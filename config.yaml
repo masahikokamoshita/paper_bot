@@ -108,7 +108,7 @@ topics:
       - "Shor's algorithm"
       - "quantum factoring"
       - "integer factorization"
-      - "integer factorization"
+      - "factoring algorithm"
       - "discrete logarithm"
 
   - name: "光量子コンピュータ"
