@@ -2,7 +2,10 @@ name: arXiv Discord Bot
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '36 0 * * *'    # 10:36 JST（本命）
+    - cron: '36 1 * * *'    # 10:36 JST（保険）
+    - cron: '36 7 * * *'    # 16:36 JST（保険）
+    - cron: '36 13 * * *'   # 22:36 JST（保険）
   workflow_dispatch: {}
 
 permissions:
