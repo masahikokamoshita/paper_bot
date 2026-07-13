@@ -87,3 +87,44 @@
 {"date": "2026-07-10", "topic": "Berry位相", "arxiv_id": "2607.05591v1", "keywords": ["Berry phase", "geometric phase"], "title": "Wilczek-Zee Realization of Uhlmann Parallel Transport"}
 {"date": "2026-07-10", "topic": "Berry位相", "arxiv_id": "2607.07223v1", "keywords": ["holonomic quantum computation"], "title": "Non-Abelian Thouless pumping based on the global adiabatic criterion in Rydberg synthetic lattices"}
 {"date": "2026-07-11", "topic": "Berry位相", "arxiv_id": "2607.07223v1", "keywords": ["holonomic quantum computation"], "title": "Non-Abelian Thouless pumping based on the global adiabatic criterion in Rydberg synthetic lattices"}
+{"date": "2026-07-13", "topic": "量子位相推定", "arxiv_id": "2607.09476v1", "keywords": ["quantum phase estimation"], "title": "Orthogonal Quantum Krylov Diagonalisation"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09639v1", "keywords": ["quantum singular value transformation", "block encoding"], "title": "A Quantum Path to Partial Differential Equations"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09476v1", "keywords": ["quantum signal processing", "block encoding"], "title": "Orthogonal Quantum Krylov Diagonalisation"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09652v1", "keywords": ["qubitization"], "title": "Silicon-Germanium Heterostructures with Enhanced Valley Splitting for Spin Qubits"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09638v1", "keywords": ["qubitization"], "title": "Complete measurement of tunnel- and valley-coupling parameters in a silicon double quantum dot"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09605v1", "keywords": ["qubitization"], "title": "Quantum Orchestras: a Concrete Semantics for Recursive Hybrid Programs"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09570v1", "keywords": ["qubitization"], "title": "Confinement drives valley splitting above 4K in buried silicon quantum wells"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09513v1", "keywords": ["qubitization"], "title": "Qubit-Boson Hybrid Beam-Splitter Gate with Kerr Nonlinearity in Circuit QED for Many-Body Dynamics"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09511v1", "keywords": ["qubitization"], "title": "Majorana parity qubit in coupled minimal Kitaev chains"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09508v1", "keywords": ["qubitization"], "title": "Superconducting singlet-triplet qubits"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09469v1", "keywords": ["qubitization"], "title": "A combinatorial framework for clustering graph states: Algorithms and hardness for rank-integrity"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09381v1", "keywords": ["qubitization"], "title": "COSMA: Communication-aware Optimization of Fermionic Simulation Kernels for Modular Quantum Architectures"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09368v1", "keywords": ["qubitization"], "title": "Quantum Approximate Optimization via Noise-Directed Adaptive Warm-Starting"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09198v1", "keywords": ["qubitization"], "title": "Quantum Scattering Model of Dual Parallel Mach Zehnder Electro Optic Modulators: General Formalism, Impairments, and Applications to Frequency-Bin Photonic Quantum States"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09118v1", "keywords": ["qubitization"], "title": "Measurement Speed Limits for Quantum State Purification"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09051v1", "keywords": ["qubitization"], "title": "Simulation of Lindbladian dynamics via adaptive variational quantum trajectory compression"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08998v1", "keywords": ["qubitization"], "title": "Shadow-Based Noise Fingerprinting of Simulated Quantum Noise Models"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08967v1", "keywords": ["qubitization"], "title": "Probing two-spin entanglement at quantum criticality on a quantum processor"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08928v1", "keywords": ["qubitization"], "title": "A Novel Parallel QCNN Architecture with Efficient Classical Simulability"}
+{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08911v1", "keywords": ["qubitization"], "title": "A diagrammatic field theory of quantum error correction"}
+{"date": "2026-07-13", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.09639v1", "keywords": ["Hamiltonian simulation"], "title": "A Quantum Path to Partial Differential Equations"}
+{"date": "2026-07-13", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.09051v1", "keywords": ["Hamiltonian simulation", "Trotterization"], "title": "Simulation of Lindbladian dynamics via adaptive variational quantum trajectory compression"}
+{"date": "2026-07-13", "topic": "QSCI(SQD)", "arxiv_id": "2607.09476v1", "keywords": ["quantum subspace diagonalization"], "title": "Orthogonal Quantum Krylov Diagonalisation"}
+{"date": "2026-07-13", "topic": "量子化学計算全般", "arxiv_id": "2607.09238v1", "keywords": ["electronic structure"], "title": "Serially Improved GTOs for Molecular Applications (SIGMA): basis sets from monovalent ions"}
+{"date": "2026-07-13", "topic": "量子化学計算全般", "arxiv_id": "2607.08927v1", "keywords": ["electronic structure"], "title": "Molecular Tuning of Charge-Transfer Resonance in Plasmonic Nanocavities"}
+{"date": "2026-07-13", "topic": "光量子コンピュータ", "arxiv_id": "2607.08977v1", "keywords": ["continuous variable quantum"], "title": "Distillation-Enhanced Continuous-Variable Quantum Teleportation for Satellite Communication Networks"}
+{"date": "2026-07-13", "topic": "量子機械学習", "arxiv_id": "2607.09445v1", "keywords": ["quantum machine learning"], "title": "Diagnosing quantum reservoirs at scale based on expressivity and coverage"}
+{"date": "2026-07-13", "topic": "量子機械学習", "arxiv_id": "2607.09051v1", "keywords": ["parameterized quantum circuit"], "title": "Simulation of Lindbladian dynamics via adaptive variational quantum trajectory compression"}
+{"date": "2026-07-13", "topic": "実機", "arxiv_id": "2607.09652v1", "keywords": ["quantum processor"], "title": "Silicon-Germanium Heterostructures with Enhanced Valley Splitting for Spin Qubits"}
+{"date": "2026-07-13", "topic": "実機", "arxiv_id": "2607.09508v1", "keywords": ["quantum processor"], "title": "Superconducting singlet-triplet qubits"}
+{"date": "2026-07-13", "topic": "実機", "arxiv_id": "2607.09051v1", "keywords": ["quantum processor"], "title": "Simulation of Lindbladian dynamics via adaptive variational quantum trajectory compression"}
+{"date": "2026-07-13", "topic": "実機", "arxiv_id": "2607.08998v1", "keywords": ["quantum processor"], "title": "Shadow-Based Noise Fingerprinting of Simulated Quantum Noise Models"}
+{"date": "2026-07-13", "topic": "実機", "arxiv_id": "2607.08967v1", "keywords": ["quantum processor"], "title": "Probing two-spin entanglement at quantum criticality on a quantum processor"}
+{"date": "2026-07-13", "topic": "実機", "arxiv_id": "2607.08811v1", "keywords": ["quantum processor"], "title": "Comment on \"Beyond-classical computation in quantum simulation\""}
+{"date": "2026-07-13", "topic": "誤り訂正・magic state", "arxiv_id": "2607.08911v1", "keywords": ["quantum error correction"], "title": "A diagrammatic field theory of quantum error correction"}
+{"date": "2026-07-13", "topic": "散乱理論", "arxiv_id": "2607.08827v1", "keywords": ["S-matrix"], "title": "Exact Lindbladian Dynamics from Conformal Embeddings and Topological Defects in Conformal Field Theory"}
+{"date": "2026-07-13", "topic": "散乱理論", "arxiv_id": "2607.09468v1", "keywords": ["electron scattering"], "title": "Neutron contribution to the force on a proton vortex in superconducting neutron-star matter"}
+{"date": "2026-07-13", "topic": "散乱理論", "arxiv_id": "2607.09273v1", "keywords": ["cross section"], "title": "Neutrino-induced hyperon final-state interactions as constraints on the in-medium hyperon potential"}
+{"date": "2026-07-13", "topic": "散乱理論", "arxiv_id": "2607.09255v1", "keywords": ["cross section"], "title": "Accelerator neutrinos as a probe of in-medium hyperon potentials"}
+{"date": "2026-07-13", "topic": "散乱理論", "arxiv_id": "2607.09208v1", "keywords": ["cross section"], "title": "The impact of nuclear uncertainties on the p-process nucleosynthesis in Supernovae"}
+{"date": "2026-07-13", "topic": "散乱理論", "arxiv_id": "2607.09158v1", "keywords": ["cross section"], "title": "Monte Carlo rate uncertainty of the $^{8}$Li(n,$γ$)$^{9}$Li reaction within $R$-matrix framework"}
