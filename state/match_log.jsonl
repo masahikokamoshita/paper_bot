@@ -272,3 +272,52 @@
 {"date": "2026-07-15", "topic": "散乱理論", "arxiv_id": "2607.12033v1", "keywords": ["scattering amplitude", "cross section"], "title": "Three-Loop QCD Corrections to Scattering Amplitudes of a Higgs Boson and Three Partons"}
 {"date": "2026-07-15", "topic": "散乱理論", "arxiv_id": "2607.12133v1", "keywords": ["S-matrix"], "title": "Superconductive or superfluid condensation in curved spacetime"}
 {"date": "2026-07-15", "topic": "散乱理論", "arxiv_id": "2607.12677v1", "keywords": ["cross section"], "title": "Role of the pre-equilibrium particle emission in the $^{249-251}$No production in the $^{204}$Pb($^{48}$Ca, xn)$^{252-x}$No reaction"}
+{"date": "2026-07-16", "topic": "量子位相推定", "arxiv_id": "2607.13404v1", "keywords": ["quantum phase estimation"], "title": "Deterministic Quantum Phase Estimation with Linear Circuit Complexity in a Photonic System"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.14085v1", "keywords": ["qubitization"], "title": "Benchmarking trigonometric continuous-variable gate primitives with trapped ions"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13975v1", "keywords": ["qubitization"], "title": "Universal Quantum Computation with Multi-Mode Schrödinger Cat States Stabilized by Non-Local Dissipation Engineering"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13887v1", "keywords": ["qubitization"], "title": "A Reservoir Computing Approach to Quantum Gate Synthesis"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13842v1", "keywords": ["qubitization"], "title": "Post-Critical Meson Dynamics of Kibble-Zurek Excitations in a 5,564-Qubit Quantum Annealer"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13834v1", "keywords": ["qubitization"], "title": "Wireless millikelvin interconnects for superconducting quantum hardware"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13816v1", "keywords": ["qubitization"], "title": "Quantum Algorithm for Elliptic Curve Discrete Logarithms with Space-Efficient Point Addition"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13580v1", "keywords": ["qubitization"], "title": "Filon Methods for Highly Oscillatory Controlled Quantum Systems"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13570v1", "keywords": ["qubitization"], "title": "Tensor Network decoding under inter-qubit correlated errors"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13448v1", "keywords": ["qubitization"], "title": "Deterministic single-electron trapping on solid neon using engineered dielectric surface geometry"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13422v1", "keywords": ["qubitization"], "title": "Suppressing Detuning-Induced Bias in Ramsey Magnetometry with Composite Pulses"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13404v1", "keywords": ["qubitization"], "title": "Deterministic Quantum Phase Estimation with Linear Circuit Complexity in a Photonic System"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13374v1", "keywords": ["qubitization"], "title": "A Physics-Grounded QUBO Encoding of Irrigation Scheduling for QAOA"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13301v1", "keywords": ["qubitization"], "title": "Precision quantum simulation of magnon spectra and interactions"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13223v1", "keywords": ["qubitization"], "title": "Comparing the three W-like states with the W state"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13191v1", "keywords": ["qubitization"], "title": "Two-Tower Quantum Matrix Chain Multiplication: Trading Qubits for Depth"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13166v1", "keywords": ["qubitization"], "title": "Robust Nonperturbative Trapped-Ion Quantum Logic"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13134v1", "keywords": ["qubitization"], "title": "Magic without a phase: phase-independent stabilizer Rényi entropy in gluon scattering"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13121v1", "keywords": ["qubitization"], "title": "SiMOS quantum-dot spin qubits enabled by extreme-ultraviolet lithography"}
+{"date": "2026-07-16", "topic": "量子特異値変換", "arxiv_id": "2607.13105v1", "keywords": ["qubitization"], "title": "Clifford-Only Quantum Reed-Solomon Codes and a Tornado Concatenation for Biased-Noise Cat Qubits"}
+{"date": "2026-07-16", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.14085v1", "keywords": ["Hamiltonian simulation", "Trotterization"], "title": "Benchmarking trigonometric continuous-variable gate primitives with trapped ions"}
+{"date": "2026-07-16", "topic": "量子化学計算全般", "arxiv_id": "2607.14083v1", "keywords": ["quantum chemistry"], "title": "Cluster-configurational study of G-center in Silicon"}
+{"date": "2026-07-16", "topic": "量子化学計算全般", "arxiv_id": "2607.13781v1", "keywords": ["electronic structure"], "title": "jQMC: A JAX-based ab initio quantum Monte Carlo package designed for GPU-accelerated computing"}
+{"date": "2026-07-16", "topic": "量子化学計算全般", "arxiv_id": "2607.13777v1", "keywords": ["molecular simulation"], "title": "Accurate Solvation Properties in supercritical CO$_2$ with Molecular Density Functional Theory"}
+{"date": "2026-07-16", "topic": "素因数分解", "arxiv_id": "2607.14082v1", "keywords": ["Shor's algorithm"], "title": "Building Shor's Algorithm in Lean: An Agentic Formalization of Quantum Attacks on RSA-2048 and P-256"}
+{"date": "2026-07-16", "topic": "素因数分解", "arxiv_id": "2607.13816v1", "keywords": ["Shor's algorithm", "discrete logarithm"], "title": "Quantum Algorithm for Elliptic Curve Discrete Logarithms with Space-Efficient Point Addition"}
+{"date": "2026-07-16", "topic": "光量子コンピュータ", "arxiv_id": "2607.13989v1", "keywords": ["continuous variable quantum"], "title": "Nonreciprocal Relaxation Acceleration"}
+{"date": "2026-07-16", "topic": "光量子コンピュータ", "arxiv_id": "2607.13784v1", "keywords": ["measurement-based quantum computing"], "title": "Foliated Quantum Error Correction for Qudits"}
+{"date": "2026-07-16", "topic": "量子機械学習", "arxiv_id": "2607.13847v1", "keywords": ["quantum machine learning"], "title": "Quantum Topological Data Encoding"}
+{"date": "2026-07-16", "topic": "量子機械学習", "arxiv_id": "2607.13827v1", "keywords": ["quantum machine learning"], "title": "Inherent interpretability provides inherent value in quantum machine learning"}
+{"date": "2026-07-16", "topic": "量子機械学習", "arxiv_id": "2607.13722v1", "keywords": ["quantum machine learning"], "title": "Towards quantum machine learning for assessing the resilience of post-quantum cryptography"}
+{"date": "2026-07-16", "topic": "量子機械学習", "arxiv_id": "2607.13191v1", "keywords": ["quantum machine learning"], "title": "Two-Tower Quantum Matrix Chain Multiplication: Trading Qubits for Depth"}
+{"date": "2026-07-16", "topic": "量子機械学習", "arxiv_id": "2607.13090v1", "keywords": ["quantum kernel"], "title": "Loophole-Robust Certification of Quantum Advantage"}
+{"date": "2026-07-16", "topic": "実機", "arxiv_id": "2607.13842v1", "keywords": ["superconducting qubit"], "title": "Post-Critical Meson Dynamics of Kibble-Zurek Excitations in a 5,564-Qubit Quantum Annealer"}
+{"date": "2026-07-16", "topic": "実機", "arxiv_id": "2607.14085v1", "keywords": ["trapped-ion quantum", "quantum processor"], "title": "Benchmarking trigonometric continuous-variable gate primitives with trapped ions"}
+{"date": "2026-07-16", "topic": "実機", "arxiv_id": "2607.13166v1", "keywords": ["trapped-ion quantum"], "title": "Robust Nonperturbative Trapped-Ion Quantum Logic"}
+{"date": "2026-07-16", "topic": "実機", "arxiv_id": "2607.13834v1", "keywords": ["quantum processor"], "title": "Wireless millikelvin interconnects for superconducting quantum hardware"}
+{"date": "2026-07-16", "topic": "実機", "arxiv_id": "2607.13121v1", "keywords": ["quantum processor"], "title": "SiMOS quantum-dot spin qubits enabled by extreme-ultraviolet lithography"}
+{"date": "2026-07-16", "topic": "誤り訂正・magic state", "arxiv_id": "2607.13975v1", "keywords": ["quantum error correction"], "title": "Universal Quantum Computation with Multi-Mode Schrödinger Cat States Stabilized by Non-Local Dissipation Engineering"}
+{"date": "2026-07-16", "topic": "誤り訂正・magic state", "arxiv_id": "2607.13784v1", "keywords": ["quantum error correction"], "title": "Foliated Quantum Error Correction for Qudits"}
+{"date": "2026-07-16", "topic": "誤り訂正・magic state", "arxiv_id": "2607.13351v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "StreamingQEC: Streaming Quantum Error Correction in Tightly Integrated Quantum-Classical Systems via Certified Recurrence"}
+{"date": "2026-07-16", "topic": "誤り訂正・magic state", "arxiv_id": "2607.13105v1", "keywords": ["quantum error correction"], "title": "Clifford-Only Quantum Reed-Solomon Codes and a Tornado Concatenation for Biased-Noise Cat Qubits"}
+{"date": "2026-07-16", "topic": "誤り訂正・magic state", "arxiv_id": "2607.13722v1", "keywords": ["fault-tolerant quantum computation"], "title": "Towards quantum machine learning for assessing the resilience of post-quantum cryptography"}
+{"date": "2026-07-16", "topic": "誤り訂正・magic state", "arxiv_id": "2607.13570v1", "keywords": ["surface code"], "title": "Tensor Network decoding under inter-qubit correlated errors"}
+{"date": "2026-07-16", "topic": "qLDPC符号", "arxiv_id": "2607.14091v1", "keywords": ["quantum LDPC"], "title": "Pair-Partition Constructions for CPM-Based Quantum LDPC Codes"}
+{"date": "2026-07-16", "topic": "散乱理論", "arxiv_id": "2607.13141v1", "keywords": ["scattering amplitude", "S-matrix", "cross section"], "title": "S-matrix bootstrap bounds on self-interacting dark matter"}
+{"date": "2026-07-16", "topic": "散乱理論", "arxiv_id": "2607.13690v1", "keywords": ["electron scattering"], "title": "Nuclear Charge Radius of $^9$Be from Muonic Atom Spectroscopy Using a Microcalorimeter"}
+{"date": "2026-07-16", "topic": "散乱理論", "arxiv_id": "2607.13729v1", "keywords": ["cross section"], "title": "Rate coefficients for dielectronic recombination of N-like Ne"}
+{"date": "2026-07-16", "topic": "散乱理論", "arxiv_id": "2607.13523v1", "keywords": ["cross section"], "title": "Weak charged current induced electron and positron scattering off proton at JLab and MAMI energies"}
