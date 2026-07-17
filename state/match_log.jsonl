@@ -321,3 +321,58 @@
 {"date": "2026-07-16", "topic": "散乱理論", "arxiv_id": "2607.13690v1", "keywords": ["electron scattering"], "title": "Nuclear Charge Radius of $^9$Be from Muonic Atom Spectroscopy Using a Microcalorimeter"}
 {"date": "2026-07-16", "topic": "散乱理論", "arxiv_id": "2607.13729v1", "keywords": ["cross section"], "title": "Rate coefficients for dielectronic recombination of N-like Ne"}
 {"date": "2026-07-16", "topic": "散乱理論", "arxiv_id": "2607.13523v1", "keywords": ["cross section"], "title": "Weak charged current induced electron and positron scattering off proton at JLab and MAMI energies"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14392v1", "keywords": ["quantum singular value transformation", "quantum signal processing", "block encoding"], "title": "Unified Uncertainty Quantification Framework Bridging Noisy Quantum Backends Across Variational Quantum Algorithms and Quantum Signal Processing"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.15201v1", "keywords": ["qubitization"], "title": "Entanglement Detection for Two-Qubit and Three-Qubit Pure States via Unitary Transformations and Ancilla State Measurements"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.15076v1", "keywords": ["qubitization"], "title": "SQD-Enabled Circuit Compression for Resource-Efficient Quantum Chemistry"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.15044v1", "keywords": ["qubitization"], "title": "Towards logical entanglement creation in trivalent planar architectures"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14973v1", "keywords": ["qubitization"], "title": "Pareto-optimal work extraction and the thermodynamic cost of precision in quantum information engines"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14884v1", "keywords": ["qubitization"], "title": "Evolution-Level Quantum Optimal Control of Single-Qubit Gates with Physics-Informed Neural Networks"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14883v1", "keywords": ["qubitization"], "title": "A Geometric Theory of Fermion-to-Qubit Encodings"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14861v1", "keywords": ["qubitization"], "title": "Binary Gauss Stabilizers for Abelian Lattice Gauge Theories"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14819v1", "keywords": ["qubitization"], "title": "Quantum Remote Implementation of Hybrid Operations on Hyperstates Using Hyperentangled States"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14592v1", "keywords": ["qubitization"], "title": "Adaptive Entanglement Management in Quantum Multi-Core Architectures"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14501v1", "keywords": ["qubitization"], "title": "Geometric Mode Steering of the Quantum Mpemba Effect"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14441v1", "keywords": ["qubitization"], "title": "Improving Dynamical Decoupling for Trapped-Ion QCCD Quantum Computers"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14435v1", "keywords": ["qubitization"], "title": "Imaginarity as a Resource within Quantum Coherence: Geometric Decomposition and Operational Conversion"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14384v1", "keywords": ["qubitization"], "title": "Circuit complexity lower bounds for quantum spin glasses"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14376v1", "keywords": ["qubitization"], "title": "State-independent uncertainty relations on multipartite spin $1/2$-systems"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14308v1", "keywords": ["qubitization", "block encoding"], "title": "An end-to-end quantum algorithm for weakly nonlinear plasma physics with superquadratic speedup"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14293v1", "keywords": ["qubitization"], "title": "Real-Time Detection of Charge Jumps in Superconducting Qubits with a Convolutional Neural Network"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14239v1", "keywords": ["qubitization"], "title": "Fock-state preparation based on amplitude amplification in cavity QED"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14229v1", "keywords": ["qubitization"], "title": "Nonplanar qubit with tunable gauge symmetry"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14217v1", "keywords": ["qubitization"], "title": "Analytic gradients for low-rank quantum optimal control"}
+{"date": "2026-07-17", "topic": "量子特異値変換", "arxiv_id": "2607.14175v1", "keywords": ["qubitization"], "title": "Transducer leakage error suppression using invariant-based shortcut"}
+{"date": "2026-07-17", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.14663v1", "keywords": ["Trotterization"], "title": "Tuning the universality class of a quantum process by Trotterization"}
+{"date": "2026-07-17", "topic": "量子化学計算全般", "arxiv_id": "2607.15076v1", "keywords": ["quantum chemistry", "ground state energy"], "title": "SQD-Enabled Circuit Compression for Resource-Efficient Quantum Chemistry"}
+{"date": "2026-07-17", "topic": "量子化学計算全般", "arxiv_id": "2607.15147v1", "keywords": ["electronic structure"], "title": "Intriguing Electronic Structures of C8 and C12 Carbon Rings"}
+{"date": "2026-07-17", "topic": "量子化学計算全般", "arxiv_id": "2607.14486v1", "keywords": ["electronic structure"], "title": "Full-data accuracy with fewer labels for training and fine-tuning machine-learning force fields"}
+{"date": "2026-07-17", "topic": "量子化学計算全般", "arxiv_id": "2607.14401v1", "keywords": ["ground state energy"], "title": "Efficient quantum algorithm for Heisenberg spin systems"}
+{"date": "2026-07-17", "topic": "光量子コンピュータ", "arxiv_id": "2607.15160v1", "keywords": ["boson sampling"], "title": "Parameter-Shift Rules for Gradients in Boson Sampling Experiments"}
+{"date": "2026-07-17", "topic": "光量子コンピュータ", "arxiv_id": "2607.14920v1", "keywords": ["continuous variable quantum"], "title": "A Three-Point Continuous-Variable Quantum MacWilliams Identity"}
+{"date": "2026-07-17", "topic": "光量子コンピュータ", "arxiv_id": "2607.14704v1", "keywords": ["continuous variable quantum"], "title": "High-rate continuous-variable quantum key distribution coexisting with Tb/s coherent classical transmission in hollow-core fiber"}
+{"date": "2026-07-17", "topic": "光量子コンピュータ", "arxiv_id": "2607.14319v1", "keywords": ["measurement-based quantum computing"], "title": "Towards a monolithic platform for coupling superconducting circuits to low-loss microwave phonons in AlScN on 4H-SiC"}
+{"date": "2026-07-17", "topic": "実機", "arxiv_id": "2607.14293v1", "keywords": ["superconducting qubit"], "title": "Real-Time Detection of Charge Jumps in Superconducting Qubits with a Convolutional Neural Network"}
+{"date": "2026-07-17", "topic": "実機", "arxiv_id": "2607.14239v1", "keywords": ["superconducting qubit"], "title": "Fock-state preparation based on amplitude amplification in cavity QED"}
+{"date": "2026-07-17", "topic": "実機", "arxiv_id": "2607.14441v1", "keywords": ["trapped-ion quantum"], "title": "Improving Dynamical Decoupling for Trapped-Ion QCCD Quantum Computers"}
+{"date": "2026-07-17", "topic": "実機", "arxiv_id": "2607.15044v1", "keywords": ["quantum processor"], "title": "Towards logical entanglement creation in trivalent planar architectures"}
+{"date": "2026-07-17", "topic": "実機", "arxiv_id": "2607.14592v1", "keywords": ["quantum processor"], "title": "Adaptive Entanglement Management in Quantum Multi-Core Architectures"}
+{"date": "2026-07-17", "topic": "実機", "arxiv_id": "2607.14567v1", "keywords": ["quantum processor"], "title": "Phase coherence control of a programmable high-Tc superconductor created by light"}
+{"date": "2026-07-17", "topic": "実機", "arxiv_id": "2607.14223v1", "keywords": ["quantum processor"], "title": "Quantum many-body mixed phase space revealed by hybrid feedback control"}
+{"date": "2026-07-17", "topic": "誤り訂正・magic state", "arxiv_id": "2607.15044v1", "keywords": ["quantum error correction", "surface code"], "title": "Towards logical entanglement creation in trivalent planar architectures"}
+{"date": "2026-07-17", "topic": "誤り訂正・magic state", "arxiv_id": "2607.14920v1", "keywords": ["quantum error correction"], "title": "A Three-Point Continuous-Variable Quantum MacWilliams Identity"}
+{"date": "2026-07-17", "topic": "誤り訂正・magic state", "arxiv_id": "2607.14861v1", "keywords": ["quantum error correction"], "title": "Binary Gauss Stabilizers for Abelian Lattice Gauge Theories"}
+{"date": "2026-07-17", "topic": "誤り訂正・magic state", "arxiv_id": "2607.14484v1", "keywords": ["quantum error correction"], "title": "Syndrome-as-Header: A Quantum Label-Switching Architecture via Uncorrectable Error Injection"}
+{"date": "2026-07-17", "topic": "誤り訂正・magic state", "arxiv_id": "2607.15159v1", "keywords": ["fault-tolerant quantum computation"], "title": "LDGM-Based Quantum Codes for Fault-Tolerant Quantum Computation"}
+{"date": "2026-07-17", "topic": "誤り訂正・magic state", "arxiv_id": "2607.14293v1", "keywords": ["fault-tolerant quantum computation"], "title": "Real-Time Detection of Charge Jumps in Superconducting Qubits with a Convolutional Neural Network"}
+{"date": "2026-07-17", "topic": "qLDPC符号", "arxiv_id": "2607.14988v1", "keywords": ["qLDPC"], "title": "Quantum XYZ Stabilizer Codes"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.15126v1", "keywords": ["scattering amplitude"], "title": "Spacelike-Collinear Scattering by the Method of Regions"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.14230v1", "keywords": ["scattering amplitude"], "title": "Gravitational Effective Theories with Maximal Supersymmetry and a Peculiar Parity"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.14929v1", "keywords": ["electron scattering"], "title": "Tomographic flow regime vs even-odd effect for the magnetotransport in the Corbino geometry"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.15199v1", "keywords": ["cross section"], "title": "Diffusioosmosis of electrolyte solutions in axisymmetric channels"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.15050v1", "keywords": ["cross section"], "title": "Radiative corrections in neutral-current (anti)neutrino elastic scattering at $\\text{GeV}$ energies I: Nucleon targets"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.14985v1", "keywords": ["cross section"], "title": "Isomer-specific excitation of formic acid in collisions with helium atoms"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.14958v1", "keywords": ["cross section"], "title": "Model-Independent and Data-Driven Extraction of the Photon Distribution Function at the Electron--Ion Collider"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.14554v1", "keywords": ["cross section"], "title": "Toponium Spectrum in the Complex-Energy Plane"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.14464v1", "keywords": ["cross section"], "title": "Universal Properties of Near-Threshold Single-Neutron Resonances"}
+{"date": "2026-07-17", "topic": "散乱理論", "arxiv_id": "2607.14422v1", "keywords": ["cross section"], "title": "Bayesian Inference for Extracting Barrier Distributions from Fusion Excitation Functions"}
+{"date": "2026-07-17", "topic": "Berry位相", "arxiv_id": "2607.15093v1", "keywords": ["geometric phase"], "title": "A magnetic monopole in a superfluid bubble"}
