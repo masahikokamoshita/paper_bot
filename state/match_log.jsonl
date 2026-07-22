@@ -477,3 +477,31 @@
 {"date": "2026-07-21", "topic": "散乱理論", "arxiv_id": "2607.16944v1", "keywords": ["scattering amplitude"], "title": "Bound, Scattering, and Resonance States of the Symmetric Woods--Saxon Potential in Dunkl Quantum Mechanic"}
 {"date": "2026-07-21", "topic": "散乱理論", "arxiv_id": "2607.17222v1", "keywords": ["cross section"], "title": "Coulomb interaction in the diffraction description of the $^{12}$C(d,p)X reaction"}
 {"date": "2026-07-21", "topic": "散乱理論", "arxiv_id": "2607.17156v1", "keywords": ["cross section"], "title": "Kaon-induced $φΣ$ production off the proton"}
+{"date": "2026-07-22", "topic": "量子位相推定", "arxiv_id": "2607.19212v1", "keywords": ["quantum phase estimation"], "title": "Teleportation Game: Quantum Teleportation in Multi-Agent Systems for Interactive Music"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.19286v1", "keywords": ["qubitization"], "title": "Steady States of a Single Trapped-Ion Spin Coupled to an Engineered Non-Markovian Bath"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.19212v1", "keywords": ["qubitization"], "title": "Teleportation Game: Quantum Teleportation in Multi-Agent Systems for Interactive Music"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.19187v1", "keywords": ["qubitization"], "title": "Simultaneous calibration of rotation and phase errors in a single experiment"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.19151v1", "keywords": ["qubitization"], "title": "Quantum Circuits for Quantum Spatial Search on $d$-Dimensional Lattices"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.19017v1", "keywords": ["qubitization"], "title": "Bound Entanglement Is Insufficient for an Exponential Quantum Learning Advantage"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.18938v1", "keywords": ["qubitization"], "title": "Coherent-disorder-driven complexity transitions in a quantum-advantage architecture"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.18888v1", "keywords": ["qubitization"], "title": "MOSAIQC: Mixed-topology-aware Optimization for Scalable Approximate noise-Informed Quantum circuit Cutting"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.18546v1", "keywords": ["qubitization"], "title": "Simulating the Dicke Model on Qubit-Based and hybrid Qubit-Boson-Based Quantum Computers"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.18513v1", "keywords": ["qubitization"], "title": "Observation of a power transfer controlled by the phase of a quantum superposition"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.18404v1", "keywords": ["qubitization"], "title": "Reducing entanglement with a Hamiltonian derived Clifford transformation"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.18401v1", "keywords": ["qubitization"], "title": "Monolithic printed-circuit board RF-trap for electrons"}
+{"date": "2026-07-22", "topic": "量子特異値変換", "arxiv_id": "2607.18338v1", "keywords": ["qubitization"], "title": "Phase-Selective Amplitude Amplification for Constrained Optimization"}
+{"date": "2026-07-22", "topic": "量子化学計算全般", "arxiv_id": "2607.19318v1", "keywords": ["quantum chemistry", "variational quantum eigensolver", "ground state energy"], "title": "SoK: Adversarial Robustness of the Variational Quantum Eigensolver via Red-Teaming"}
+{"date": "2026-07-22", "topic": "量子化学計算全般", "arxiv_id": "2607.18427v1", "keywords": ["quantum chemistry"], "title": "Aromatic molecular emitters in a hexagonal boron nitride stack"}
+{"date": "2026-07-22", "topic": "量子化学計算全般", "arxiv_id": "2607.18865v1", "keywords": ["ground state energy"], "title": "Enhanced NQS via Annealed Gradient Descent"}
+{"date": "2026-07-22", "topic": "量子化学計算全般", "arxiv_id": "2607.18486v1", "keywords": ["ground state energy"], "title": "Equivariant Continuous Normalizing Flows with Offline Sampling for Fermionic Ground State Estimation"}
+{"date": "2026-07-22", "topic": "光量子コンピュータ", "arxiv_id": "2607.19279v1", "keywords": ["boson sampling"], "title": "Gaussian Boson Sampling for Asset Clustering in Statistical Arbitrage Portfolios"}
+{"date": "2026-07-22", "topic": "実機", "arxiv_id": "2607.19286v1", "keywords": ["trapped-ion quantum"], "title": "Steady States of a Single Trapped-Ion Spin Coupled to an Engineered Non-Markovian Bath"}
+{"date": "2026-07-22", "topic": "実機", "arxiv_id": "2607.18546v1", "keywords": ["trapped-ion quantum"], "title": "Simulating the Dicke Model on Qubit-Based and hybrid Qubit-Boson-Based Quantum Computers"}
+{"date": "2026-07-22", "topic": "実機", "arxiv_id": "2607.18401v1", "keywords": ["trapped-ion quantum", "quantum processor"], "title": "Monolithic printed-circuit board RF-trap for electrons"}
+{"date": "2026-07-22", "topic": "実機", "arxiv_id": "2607.18387v1", "keywords": ["trapped-ion quantum", "quantum processor"], "title": "Remote entanglement need not be the bottleneck for modular trapped-ion quantum computing"}
+{"date": "2026-07-22", "topic": "誤り訂正・magic state", "arxiv_id": "2607.18579v1", "keywords": ["quantum error correction"], "title": "Motional Kerr-Cat States of an Atom in an Optical Tweezer"}
+{"date": "2026-07-22", "topic": "誤り訂正・magic state", "arxiv_id": "2607.18374v1", "keywords": ["quantum error correction", "surface code"], "title": "Nishimori Threshold Estimation for Bayesian Inference and $\\mathbb{Z}_q$ Surface Code Decoding"}
+{"date": "2026-07-22", "topic": "誤り訂正・magic state", "arxiv_id": "2607.18400v1", "keywords": ["magic state"], "title": "Magic-protected entanglement and Clifford-irreducible structure in magic state space"}
+{"date": "2026-07-22", "topic": "散乱理論", "arxiv_id": "2607.19009v1", "keywords": ["scattering amplitude"], "title": "Resolving the $T_{cc}^+$ with $π$ Exchange from Lattice QCD"}
+{"date": "2026-07-22", "topic": "散乱理論", "arxiv_id": "2607.18393v1", "keywords": ["S-matrix"], "title": "The black hole S-matrix in gauge/gravity duality"}
+{"date": "2026-07-22", "topic": "Berry位相", "arxiv_id": "2607.18596v1", "keywords": ["geometric phase"], "title": "Dismantling the Stoquastic Dichotomy"}
