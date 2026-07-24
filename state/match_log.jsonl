@@ -547,3 +547,44 @@
 {"date": "2026-07-23", "topic": "散乱理論", "arxiv_id": "2607.20168v1", "keywords": ["cross section"], "title": "Quantum Kernels and the Cross-Section of Stock Returns: Anatomy of a Vanishing Advantage"}
 {"date": "2026-07-23", "topic": "散乱理論", "arxiv_id": "2607.20096v1", "keywords": ["cross section"], "title": "Power-Law Suppression of Superfluid Stiffness in High-Kinetic-Inductance NbN Films"}
 {"date": "2026-07-23", "topic": "散乱理論", "arxiv_id": "2607.19924v1", "keywords": ["cross section"], "title": "Charge-Exchange Reactions Accompanied by a Single $π^+$ Production in Medium-Energy Heavy-Ion Collisions"}
+{"date": "2026-07-24", "topic": "量子位相推定", "arxiv_id": "2607.20943v1", "keywords": ["quantum phase estimation"], "title": "An Analytically Trained Variational Surrogate for Quantum Phase Estimation on NISQ Hardware"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21563v1", "keywords": ["qubitization"], "title": "Fault-tolerant quantum algorithms for simulating atomic nuclei"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21554v1", "keywords": ["qubitization"], "title": "Strategic Plan for Neutral Atom Quantum Computation"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21360v1", "keywords": ["qubitization"], "title": "Floquet Reservoir Engineering for Remote Logical Entanglement"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21337v1", "keywords": ["qubitization"], "title": "Efficient classical simulation of large-scale unitary cluster Jastrow circuits"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21329v1", "keywords": ["qubitization"], "title": "Quasiparticle-induced transitions in a fluxonium qubit"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21299v1", "keywords": ["qubitization"], "title": "Classifying Topology via Edge-State Pure Thermalization"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21288v1", "keywords": ["qubitization"], "title": "Device-Independent Self-Testing of the Three-Qubit CCZ Hypergraph State"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21216v1", "keywords": ["qubitization"], "title": "ARGON: A GNN-Empowered Compilation Framework for Scalable Neutral Atom Computing"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21121v1", "keywords": ["qubitization"], "title": "Approximate Quantum State Preparation Through Proximal Policy Optimization"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.21100v1", "keywords": ["qubitization"], "title": "Conditional probabilities in quantum-optical settings"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.20998v1", "keywords": ["qubitization"], "title": "A Quantum Interface Between Neutral-Atoms and Trapped-Ions Quantum Registers"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.20943v1", "keywords": ["qubitization"], "title": "An Analytically Trained Variational Surrogate for Quantum Phase Estimation on NISQ Hardware"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.20919v1", "keywords": ["qubitization"], "title": "Random unitary circuits with constant spectral gap"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.20804v1", "keywords": ["qubitization"], "title": "Hardness and Complexity Transition of Noisy Random Circuit Sampling"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.20795v1", "keywords": ["qubitization"], "title": "Component-Level Inverse Design of Transmon Qubits Using Neural Networks"}
+{"date": "2026-07-24", "topic": "量子特異値変換", "arxiv_id": "2607.20616v1", "keywords": ["qubitization"], "title": "Enabling Neutral Atom Integration: Redesigning Device Models for Universal Quantum Ecosystems"}
+{"date": "2026-07-24", "topic": "QSCI(SQD)", "arxiv_id": "2607.20585v1", "keywords": ["quantum-selected configuration interaction", "QSCI", "sample-based quantum diagonalization"], "title": "Machine-Learned Compact Subspace Generation for Quantum Selected Configuration Interaction within Density Matrix Embedding Framework"}
+{"date": "2026-07-24", "topic": "量子化学計算全般", "arxiv_id": "2607.21563v1", "keywords": ["electronic structure"], "title": "Fault-tolerant quantum algorithms for simulating atomic nuclei"}
+{"date": "2026-07-24", "topic": "量子化学計算全般", "arxiv_id": "2607.21465v1", "keywords": ["electronic structure"], "title": "Axel Dieter Becke: Not just the \"B\" in \"B3LYP\""}
+{"date": "2026-07-24", "topic": "量子化学計算全般", "arxiv_id": "2607.21298v1", "keywords": ["electronic structure"], "title": "Lifetime effects and satellites in the photoelectron spectrum of platinum metal"}
+{"date": "2026-07-24", "topic": "量子化学計算全般", "arxiv_id": "2607.21261v1", "keywords": ["electronic structure"], "title": "Determination of fundamental properties of nitrogen from first principles. III. Temperature and frequency dependence of the molecular polarizability and magnetic susceptibility"}
+{"date": "2026-07-24", "topic": "量子化学計算全般", "arxiv_id": "2607.21337v1", "keywords": ["ground state energy"], "title": "Efficient classical simulation of large-scale unitary cluster Jastrow circuits"}
+{"date": "2026-07-24", "topic": "量子化学計算全般", "arxiv_id": "2607.20943v1", "keywords": ["ground state energy"], "title": "An Analytically Trained Variational Surrogate for Quantum Phase Estimation on NISQ Hardware"}
+{"date": "2026-07-24", "topic": "量子化学計算全般", "arxiv_id": "2607.20585v1", "keywords": ["ground state energy"], "title": "Machine-Learned Compact Subspace Generation for Quantum Selected Configuration Interaction within Density Matrix Embedding Framework"}
+{"date": "2026-07-24", "topic": "量子化学計算全般", "arxiv_id": "2607.21369v1", "keywords": ["molecular simulation"], "title": "Graph Neural Network Force Fields (GPTFF-mol) for Organic Molecules from Optimization Trajectories (OpenGEM26)"}
+{"date": "2026-07-24", "topic": "光量子コンピュータ", "arxiv_id": "2607.21544v1", "keywords": ["linear optical quantum"], "title": "The trainability of photonic quantum circuits"}
+{"date": "2026-07-24", "topic": "光量子コンピュータ", "arxiv_id": "2607.21584v1", "keywords": ["continuous variable quantum"], "title": "Flow-based Phase-space Tomography of Continuous-variable Quantum States"}
+{"date": "2026-07-24", "topic": "光量子コンピュータ", "arxiv_id": "2607.20840v1", "keywords": ["continuous variable quantum"], "title": "Discrete-modulated continuous-variable quantum key distribution with uncertainty principle"}
+{"date": "2026-07-24", "topic": "量子機械学習", "arxiv_id": "2607.21409v1", "keywords": ["quantum machine learning", "parameterized quantum circuit"], "title": "Cautious optimism for deep parameterized quantum circuits"}
+{"date": "2026-07-24", "topic": "実機", "arxiv_id": "2607.21329v1", "keywords": ["superconducting qubit"], "title": "Quasiparticle-induced transitions in a fluxonium qubit"}
+{"date": "2026-07-24", "topic": "実機", "arxiv_id": "2607.20795v1", "keywords": ["superconducting qubit"], "title": "Component-Level Inverse Design of Transmon Qubits Using Neural Networks"}
+{"date": "2026-07-24", "topic": "実機", "arxiv_id": "2607.20998v1", "keywords": ["trapped-ion quantum"], "title": "A Quantum Interface Between Neutral-Atoms and Trapped-Ions Quantum Registers"}
+{"date": "2026-07-24", "topic": "実機", "arxiv_id": "2607.21554v1", "keywords": ["quantum processor"], "title": "Strategic Plan for Neutral Atom Quantum Computation"}
+{"date": "2026-07-24", "topic": "誤り訂正・magic state", "arxiv_id": "2607.21554v1", "keywords": ["quantum error correction"], "title": "Strategic Plan for Neutral Atom Quantum Computation"}
+{"date": "2026-07-24", "topic": "誤り訂正・magic state", "arxiv_id": "2607.21160v1", "keywords": ["quantum error correction"], "title": "Duality constrains optimal thresholds in quantum error correction"}
+{"date": "2026-07-24", "topic": "誤り訂正・magic state", "arxiv_id": "2607.21563v1", "keywords": ["fault-tolerant quantum computation"], "title": "Fault-tolerant quantum algorithms for simulating atomic nuclei"}
+{"date": "2026-07-24", "topic": "qLDPC符号", "arxiv_id": "2607.21160v1", "keywords": ["low-density parity-check code"], "title": "Duality constrains optimal thresholds in quantum error correction"}
+{"date": "2026-07-24", "topic": "散乱理論", "arxiv_id": "2607.21238v1", "keywords": ["cross section"], "title": "Plasma screening and configuration interaction effects induced large enhancement on L-shell photoionization cross sections and opacity"}
+{"date": "2026-07-24", "topic": "Berry位相", "arxiv_id": "2607.21569v1", "keywords": ["geometric phase"], "title": "A geometric framework for spin relaxation"}
+{"date": "2026-07-24", "topic": "Berry位相", "arxiv_id": "2607.20702v1", "keywords": ["Berry curvature"], "title": "High Order Geometric Channels for Nonlinear Transport in Bloch Bands"}
