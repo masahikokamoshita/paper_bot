@@ -588,3 +588,35 @@
 {"date": "2026-07-24", "topic": "散乱理論", "arxiv_id": "2607.21238v1", "keywords": ["cross section"], "title": "Plasma screening and configuration interaction effects induced large enhancement on L-shell photoionization cross sections and opacity"}
 {"date": "2026-07-24", "topic": "Berry位相", "arxiv_id": "2607.21569v1", "keywords": ["geometric phase"], "title": "A geometric framework for spin relaxation"}
 {"date": "2026-07-24", "topic": "Berry位相", "arxiv_id": "2607.20702v1", "keywords": ["Berry curvature"], "title": "High Order Geometric Channels for Nonlinear Transport in Bloch Bands"}
+{"date": "2026-07-27", "topic": "量子位相推定", "arxiv_id": "2607.21919v1", "keywords": ["quantum phase estimation"], "title": "Quantum multi-label k-nearest neighbor"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22503v1", "keywords": ["qubitization"], "title": "Correlated Coherent Errors in Stabilizer Codes: A General Cumulant Framework and Interference-Based Error Suppression"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22498v1", "keywords": ["qubitization"], "title": "Automated Flag-based Fault-Tolerant State Preparation using Integer Linear Programming"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22460v1", "keywords": ["qubitization"], "title": "Algebraic structure of Tiger codes"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22439v1", "keywords": ["qubitization"], "title": "Highly indistinguishable photons from a tin-vacancy spin qubit in diamond"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22429v1", "keywords": ["qubitization"], "title": "A route to damage tolerance exceeding $10\\%$ in shuttling-equipped quantum processors"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22372v1", "keywords": ["qubitization"], "title": "Quantum-informed surrogate sampling for combinatorial optimization"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22294v1", "keywords": ["qubitization"], "title": "Substrate-metal interface engineering enhances TaN/Ta thin film superconducting resonator performance"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22265v1", "keywords": ["qubitization"], "title": "Low loss superconducting resonators enabled by aluminum microstructural engineering and dielectric trimming"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22138v1", "keywords": ["qubitization"], "title": "Capacitive Loading in Two-dimensional Fluxonium Quantum Processors"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.21907v1", "keywords": ["qubitization"], "title": "Entanglement purification for arbitrary multipartite high-dimensional Greenberger-Horne-Zeilinger state"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.21811v1", "keywords": ["qubitization"], "title": "Efficient Unclonable Encryption from Pauli Eigenstates"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.21798v1", "keywords": ["qubitization"], "title": "Spectral Gap of the Davies Generator for the Mean-Field Heisenberg Model"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.21718v1", "keywords": ["qubitization"], "title": "Electron shuttling as a probe for charge defects"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.21707v1", "keywords": ["qubitization"], "title": "Resolving topological order crossovers on NISQ hardware"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.21698v1", "keywords": ["qubitization"], "title": "Non-Invertible Symmetries Mixing with Witt Non-Trivial Quantum Cellular Automata"}
+{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22396v1", "keywords": ["block encoding"], "title": "Explicit block-encodings for biharmonic boundary-value problems"}
+{"date": "2026-07-27", "topic": "実機", "arxiv_id": "2607.22294v1", "keywords": ["superconducting qubit"], "title": "Substrate-metal interface engineering enhances TaN/Ta thin film superconducting resonator performance"}
+{"date": "2026-07-27", "topic": "実機", "arxiv_id": "2607.22429v1", "keywords": ["quantum processor"], "title": "A route to damage tolerance exceeding $10\\%$ in shuttling-equipped quantum processors"}
+{"date": "2026-07-27", "topic": "実機", "arxiv_id": "2607.22138v1", "keywords": ["quantum processor"], "title": "Capacitive Loading in Two-dimensional Fluxonium Quantum Processors"}
+{"date": "2026-07-27", "topic": "実機", "arxiv_id": "2607.21707v1", "keywords": ["quantum processor"], "title": "Resolving topological order crossovers on NISQ hardware"}
+{"date": "2026-07-27", "topic": "誤り訂正・magic state", "arxiv_id": "2607.22498v1", "keywords": ["fault-tolerant quantum computation"], "title": "Automated Flag-based Fault-Tolerant State Preparation using Integer Linear Programming"}
+{"date": "2026-07-27", "topic": "誤り訂正・magic state", "arxiv_id": "2607.22429v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "A route to damage tolerance exceeding $10\\%$ in shuttling-equipped quantum processors"}
+{"date": "2026-07-27", "topic": "誤り訂正・magic state", "arxiv_id": "2607.22276v1", "keywords": ["fault-tolerant quantum computation"], "title": "The Threshold Theorem in Watts: Fault Tolerance as a Question About Objective Probability"}
+{"date": "2026-07-27", "topic": "誤り訂正・magic state", "arxiv_id": "2607.21706v1", "keywords": ["surface code"], "title": "Mixed-state topological order and error-correction thresholds in non-Abelian codes: rigorous results"}
+{"date": "2026-07-27", "topic": "qLDPC符号", "arxiv_id": "2607.22429v1", "keywords": ["qLDPC"], "title": "A route to damage tolerance exceeding $10\\%$ in shuttling-equipped quantum processors"}
+{"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.22346v1", "keywords": ["scattering amplitude"], "title": "Resonances at finite temperature from the lattice"}
+{"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.22435v1", "keywords": ["S-matrix"], "title": "Long-range magnetic interaction within quantum electrodynamics formalism"}
+{"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.21875v1", "keywords": ["cross section"], "title": "Single-particle structure of the semi-magic nucleus ${}^{90}$Zr from a nonlocal dispersive optical model"}
+{"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.21730v1", "keywords": ["cross section"], "title": "Deformation, halo, and bubble structure: A paradigm shift of exotic phenomena in light to medium mass nuclei"}
+{"date": "2026-07-27", "topic": "Berry位相", "arxiv_id": "2607.21705v1", "keywords": ["Berry phase", "Berry curvature"], "title": "Counting Edge Modes with the Higher Berry Curvature: A Bulk Topological Order Parameter for Quantum Spin Chains"}
+{"date": "2026-07-27", "topic": "Berry位相", "arxiv_id": "2607.21808v1", "keywords": ["Berry curvature"], "title": "Observation of room temperature intrinsic nonlinear thermoelectric effects in low-dimensional semimetals"}
