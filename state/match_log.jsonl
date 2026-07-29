@@ -695,3 +695,42 @@
 {"date": "2026-07-28", "topic": "散乱理論", "arxiv_id": "2607.24034v1", "keywords": ["cross section"], "title": "Systematic Parameter Optimization of Quantum Molecular Dynamics Models for Hadron Therapy Using Multi-Ion Fragmentation Data"}
 {"date": "2026-07-28", "topic": "散乱理論", "arxiv_id": "2607.23943v1", "keywords": ["cross section"], "title": "Electromagnetic form factors of singly charmed baryons $Σ_c$ and $Λ_c$ in a covariant quark-diquark model"}
 {"date": "2026-07-28", "topic": "散乱理論", "arxiv_id": "2607.23477v1", "keywords": ["cross section"], "title": "Sensitivity of $^{107,109}$Ag($α$,xn) cross sections to statistical-model inputs"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.26019v1", "keywords": ["qubitization"], "title": "Predicting the Slow Drift of Nuclear Spin Noise in Semiconductor Spin Qubits"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25941v1", "keywords": ["qubitization"], "title": "Sampling hard circuits with verifiably high fidelity"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25899v1", "keywords": ["qubitization"], "title": "Consistent Quantum States over Spacetime without a Common Quantum Process"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25865v1", "keywords": ["qubitization"], "title": "OmniQEC: discovering practical quantum error-correcting codes by an AI scientist"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25678v1", "keywords": ["qubitization"], "title": "Engineering a Quantum Thermal Diode with Floquet Driving"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25643v1", "keywords": ["qubitization"], "title": "Nonlocal Magnonic Cat States in Hybrid Magnon-Qubit Architectures"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25358v1", "keywords": ["qubitization"], "title": "QCOEM: Quantum Cloud Orchestration with Evolutionary Multi-Objective Optimization"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25352v1", "keywords": ["qubitization"], "title": "Quantum teleportation over a field-deployed hollow-core fibre network"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25176v1", "keywords": ["qubitization"], "title": "Dissipation Enables Strongly Detuning-Dependent Interference in Pulsed Dynamical Decoupling"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25062v1", "keywords": ["qubitization"], "title": "A broadband, individually addressing two- and three-dimensional photonic integrated circuit for trapped-ion qubit control"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.24988v1", "keywords": ["qubitization"], "title": "Maximal complementarity in the n-qubit Pauli group"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.24987v1", "keywords": ["qubitization"], "title": "An algebraically closed family of informational n-qubit purity invariants"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.24967v1", "keywords": ["qubitization"], "title": "Spin-cQED with bulk germanium spin qubits"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.24947v1", "keywords": ["qubitization"], "title": "Realizing Error Suppression in Partially Fault-Tolerant Quantum Simulations with IBM Quantum Computers"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.24946v1", "keywords": ["qubitization"], "title": "Numerical Modeling of Quasiparticle-Induced Dissipation in Fluxonium Qubits"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.24937v1", "keywords": ["qubitization"], "title": "Resolving Structure in Prethermal Floquet Dynamics with Precision Quantum Computation"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.24907v1", "keywords": ["qubitization"], "title": "Fault-tolerant distributed quantum computing with a single nucleus per node"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.24858v1", "keywords": ["qubitization"], "title": "Topology-dependent relativistic degradation of multipartite entanglement"}
+{"date": "2026-07-29", "topic": "量子特異値変換", "arxiv_id": "2607.25812v1", "keywords": ["quantum eigenvalue transformation"], "title": "Optimal Quantum Eigenvalue Transformation via Linear Combinations of Hermitian Matrices"}
+{"date": "2026-07-29", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.25812v1", "keywords": ["Hamiltonian simulation"], "title": "Optimal Quantum Eigenvalue Transformation via Linear Combinations of Hermitian Matrices"}
+{"date": "2026-07-29", "topic": "量子化学計算全般", "arxiv_id": "2607.24997v1", "keywords": ["electronic structure"], "title": "MANDALA: An E(3)-Equivariant Graph Neural Network Framework for Learning Electronic-Structure Operators with Observable Guidance"}
+{"date": "2026-07-29", "topic": "量子化学計算全般", "arxiv_id": "2607.25345v1", "keywords": ["variational quantum eigensolver"], "title": "Detecting quantum phase transitions via shallow variational quantum circuits"}
+{"date": "2026-07-29", "topic": "光量子コンピュータ", "arxiv_id": "2607.25702v1", "keywords": ["continuous variable quantum"], "title": "Benchmarking Optical Receivers for Quantum Communication and Randomness Certification"}
+{"date": "2026-07-29", "topic": "光量子コンピュータ", "arxiv_id": "2607.24968v1", "keywords": ["continuous variable quantum"], "title": "Universal Optimization and Tighter Fidelity Bounds for Approximate Quantum Error Correction"}
+{"date": "2026-07-29", "topic": "光量子コンピュータ", "arxiv_id": "2607.24855v1", "keywords": ["continuous variable quantum"], "title": "Information-theoretic limits on undetectable parameter-estimation attacks in continuous-variable quantum key distribution"}
+{"date": "2026-07-29", "topic": "実機", "arxiv_id": "2607.25865v1", "keywords": ["quantum processor"], "title": "OmniQEC: discovering practical quantum error-correcting codes by an AI scientist"}
+{"date": "2026-07-29", "topic": "実機", "arxiv_id": "2607.25834v1", "keywords": ["quantum processor"], "title": "Lowering the implementation barrier of neutral-atom quantum computing with agentic workflows"}
+{"date": "2026-07-29", "topic": "実機", "arxiv_id": "2607.24947v1", "keywords": ["quantum processor"], "title": "Realizing Error Suppression in Partially Fault-Tolerant Quantum Simulations with IBM Quantum Computers"}
+{"date": "2026-07-29", "topic": "実機", "arxiv_id": "2607.24946v1", "keywords": ["quantum processor"], "title": "Numerical Modeling of Quasiparticle-Induced Dissipation in Fluxonium Qubits"}
+{"date": "2026-07-29", "topic": "実機", "arxiv_id": "2607.24937v1", "keywords": ["quantum processor"], "title": "Resolving Structure in Prethermal Floquet Dynamics with Precision Quantum Computation"}
+{"date": "2026-07-29", "topic": "誤り訂正・magic state", "arxiv_id": "2607.25865v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "OmniQEC: discovering practical quantum error-correcting codes by an AI scientist"}
+{"date": "2026-07-29", "topic": "誤り訂正・magic state", "arxiv_id": "2607.24968v1", "keywords": ["quantum error correction"], "title": "Universal Optimization and Tighter Fidelity Bounds for Approximate Quantum Error Correction"}
+{"date": "2026-07-29", "topic": "誤り訂正・magic state", "arxiv_id": "2607.24946v1", "keywords": ["quantum error correction"], "title": "Numerical Modeling of Quasiparticle-Induced Dissipation in Fluxonium Qubits"}
+{"date": "2026-07-29", "topic": "誤り訂正・magic state", "arxiv_id": "2607.25941v1", "keywords": ["magic state"], "title": "Sampling hard circuits with verifiably high fidelity"}
+{"date": "2026-07-29", "topic": "qLDPC符号", "arxiv_id": "2607.25865v1", "keywords": ["qLDPC"], "title": "OmniQEC: discovering practical quantum error-correcting codes by an AI scientist"}
+{"date": "2026-07-29", "topic": "散乱理論", "arxiv_id": "2607.24922v1", "keywords": ["S-matrix"], "title": "Unitary Dual-Resonance S-matrices"}
+{"date": "2026-07-29", "topic": "散乱理論", "arxiv_id": "2607.25436v1", "keywords": ["electron scattering"], "title": "Neutrino-electron scattering kernels in isotropic media"}
+{"date": "2026-07-29", "topic": "散乱理論", "arxiv_id": "2607.25205v1", "keywords": ["cross section"], "title": "Monodromy, Hidden Conformal Symmetry and Soft Hair in Kerr-MOG Black Hole"}
+{"date": "2026-07-29", "topic": "散乱理論", "arxiv_id": "2607.25099v1", "keywords": ["cross section"], "title": "Spin resummation of heavy quarkonium photoproduction: from the gluonic gravitational form factors to the holographic pomeron"}
