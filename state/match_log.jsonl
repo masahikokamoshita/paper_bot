@@ -850,3 +850,34 @@
 {"date": "2026-07-31", "topic": "qLDPC符号", "arxiv_id": "2607.27521v1", "keywords": ["low-density parity-check code"], "title": "Floquet Abelian Multicycle Codes"}
 {"date": "2026-07-31", "topic": "散乱理論", "arxiv_id": "2607.27603v1", "keywords": ["cross section"], "title": "Unbiased Data-Driven Determination of the Nuclear Dipole Amplitude in the Color Glass Condensate"}
 {"date": "2026-07-31", "topic": "Berry位相", "arxiv_id": "2607.28620v1", "keywords": ["geometric phase"], "title": "On Optimal Measurement-State Preparation via Geometric Transport of the Squeezing Ellipse"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29666v1", "keywords": ["qubitization"], "title": "Release-free phononic crystal with strong microwave coupling"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29609v1", "keywords": ["qubitization"], "title": "Telecom-compatible polarization-to-time-bin conversion of atom-photon entanglement for heterogeneous quantum networks"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29603v1", "keywords": ["qubitization"], "title": "Qubit Loss Inference with Stabilizer Codes without Leakage Detection Units"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29443v1", "keywords": ["qubitization"], "title": "Erasure surface code circuit without mid-circuit erasure checks"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29313v1", "keywords": ["qubitization"], "title": "Non-Hermitian Quantum Nonlinear Optics with Single Photons"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29219v1", "keywords": ["qubitization"], "title": "Fisher-Orthogonal Memory in Quantum Reservoir Computing"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29206v1", "keywords": ["qubitization"], "title": "Chiral magnons for spin-qubit state transfer"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29145v1", "keywords": ["qubitization"], "title": "Transpiler Autotuning with Predictive Models for Quantum Circuit Optimization"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29123v1", "keywords": ["qubitization"], "title": "Numerical Optimization of Two-Qubit Gates in Silicon Flip-Flop Qubit Arrays under Electrical Control"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.29050v1", "keywords": ["qubitization"], "title": "Finite-size reliability of homothetic quantum Otto engines"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.28943v1", "keywords": ["qubitization"], "title": "Optically Resolved Excited State Hyperfine Structure of a Silicon Colour Centre in the Telecom Bands"}
+{"date": "2026-08-03", "topic": "量子特異値変換", "arxiv_id": "2607.28795v1", "keywords": ["qubitization"], "title": "High-rate qLDPC processors"}
+{"date": "2026-08-03", "topic": "量子化学計算全般", "arxiv_id": "2607.29396v1", "keywords": ["quantum chemistry"], "title": "Revisiting the Equation-of-Motion Method: A Universal Framework for Correlated Quantum Systems"}
+{"date": "2026-08-03", "topic": "量子化学計算全般", "arxiv_id": "2607.29582v1", "keywords": ["variational quantum eigensolver"], "title": "Quantum computing-based solver for interacting power grids"}
+{"date": "2026-08-03", "topic": "実機", "arxiv_id": "2607.29666v1", "keywords": ["superconducting qubit"], "title": "Release-free phononic crystal with strong microwave coupling"}
+{"date": "2026-08-03", "topic": "実機", "arxiv_id": "2607.29186v1", "keywords": ["quantum processor"], "title": "Towards the Characterization of Logical Errors in Distributed Lattice Surgery"}
+{"date": "2026-08-03", "topic": "実機", "arxiv_id": "2607.29123v1", "keywords": ["quantum processor"], "title": "Numerical Optimization of Two-Qubit Gates in Silicon Flip-Flop Qubit Arrays under Electrical Control"}
+{"date": "2026-08-03", "topic": "誤り訂正・magic state", "arxiv_id": "2607.29443v1", "keywords": ["quantum error correction", "surface code"], "title": "Erasure surface code circuit without mid-circuit erasure checks"}
+{"date": "2026-08-03", "topic": "誤り訂正・magic state", "arxiv_id": "2607.28422v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation", "surface code"], "title": "QAdapt: A Noise-Adaptive Neural Pre-Decoding Framework for Quantum Error Correction"}
+{"date": "2026-08-03", "topic": "誤り訂正・magic state", "arxiv_id": "2607.28795v1", "keywords": ["magic state", "fault-tolerant quantum computation"], "title": "High-rate qLDPC processors"}
+{"date": "2026-08-03", "topic": "誤り訂正・magic state", "arxiv_id": "2607.29603v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "Qubit Loss Inference with Stabilizer Codes without Leakage Detection Units"}
+{"date": "2026-08-03", "topic": "誤り訂正・magic state", "arxiv_id": "2607.29123v1", "keywords": ["fault-tolerant quantum computation"], "title": "Numerical Optimization of Two-Qubit Gates in Silicon Flip-Flop Qubit Arrays under Electrical Control"}
+{"date": "2026-08-03", "topic": "誤り訂正・magic state", "arxiv_id": "2607.29186v1", "keywords": ["surface code"], "title": "Towards the Characterization of Logical Errors in Distributed Lattice Surgery"}
+{"date": "2026-08-03", "topic": "qLDPC符号", "arxiv_id": "2607.28795v1", "keywords": ["qLDPC"], "title": "High-rate qLDPC processors"}
+{"date": "2026-08-03", "topic": "散乱理論", "arxiv_id": "2607.29234v1", "keywords": ["S-matrix"], "title": "A Toy Model for Topological Entanglement Features in 1+1D Integrable Quantum Field Theory"}
+{"date": "2026-08-03", "topic": "散乱理論", "arxiv_id": "2607.29028v1", "keywords": ["S-matrix"], "title": "Quantum Scattering in Schwarzschild Spacetime: Hawking Radiation and Black Hole Atmospheres"}
+{"date": "2026-08-03", "topic": "散乱理論", "arxiv_id": "2607.28746v1", "keywords": ["S-matrix", "cross section"], "title": "From Horizon Microstates to the Black Hole Membrane"}
+{"date": "2026-08-03", "topic": "散乱理論", "arxiv_id": "2607.29565v1", "keywords": ["electron scattering"], "title": "Quantum tomography of inelastic electron scattering \\emph{via} orbital angular momentum states"}
+{"date": "2026-08-03", "topic": "散乱理論", "arxiv_id": "2607.29022v1", "keywords": ["cross section"], "title": "One-Step Epitaxial Access to Rhombohedral Graphene Flat-Band States on Step-Bunched SiC"}
+{"date": "2026-08-03", "topic": "散乱理論", "arxiv_id": "2607.28937v1", "keywords": ["cross section"], "title": "Two unitary limits in low-energy $s$-wave neutron scattering on superfluid nuclei"}
+{"date": "2026-08-03", "topic": "散乱理論", "arxiv_id": "2607.28761v1", "keywords": ["cross section"], "title": "Quantum Tomography of Top Quarks as a Probe of Charge-Parity Violation"}
