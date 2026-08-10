@@ -1085,3 +1085,36 @@
 {"date": "2026-08-07", "topic": "散乱理論", "arxiv_id": "2608.05330v1", "keywords": ["scattering amplitude"], "title": "Photon-nucleon entanglement in Compton scattering at low and high energies"}
 {"date": "2026-08-07", "topic": "散乱理論", "arxiv_id": "2608.05273v1", "keywords": ["scattering amplitude"], "title": "Moduli Bounds from Spin-2 Sum Rules"}
 {"date": "2026-08-07", "topic": "量子位相推定", "arxiv_id": "2608.05202v1", "keywords": ["quantum phase estimation"], "title": "Quantum Error Management in Practice: A Cross-Stack Benchmark"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.07439v1", "keywords": ["qubitization"], "title": "An Exploratory Evaluation of LLM-Assisted Rewriting of Moderate-Complexity Financial Sentences for DisCoCat-Based Sentiment Analysis"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.07431v1", "keywords": ["qubitization"], "title": "Designer Codes from GALA: Compact, Self-Dual, and Rate-1/2 QEC on Reconfigurable Atom Arrays"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.07428v1", "keywords": ["qubitization"], "title": "QMIMO: Circuit Based Quantum MIMO Design with Variational Receiver"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.07306v1", "keywords": ["qubitization"], "title": "Flip-chip integrated superconducting qubits using electroplated bump bonds"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.07185v1", "keywords": ["qubitization"], "title": "Ultrafast quantum gate operations in a Kramers-Henneberger atom Qubit"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.07178v1", "keywords": ["qubitization"], "title": "Exploring the Relaxation Landscape of a 2D Quantum Magnet on a 256-Qubit Processor"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.07149v1", "keywords": ["qubitization"], "title": "Many-Body Localization Induced by Correlated Disorder in Interacting Superconducting Qubits"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.07145v1", "keywords": ["qubitization"], "title": "From triangles to prisms: towards a geometric extension of concurrence fill for three-qubit mixed states"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.06988v1", "keywords": ["qubitization"], "title": "An ionic clock qubit inside a circular Rydberg atom"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.06970v1", "keywords": ["qubitization"], "title": "Single-qubit detection by collective phase imprinting"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.06892v1", "keywords": ["qubitization"], "title": "Architecture-Aware Reinforcement Learning for Communication-Efficient Distributed Quantum Circuit Compilation"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.06859v1", "keywords": ["qubitization"], "title": "Spin Qubits in Photon-Coupled Microwave Cavities"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.06846v1", "keywords": ["qubitization"], "title": "Investigating Quantum-Embedded Transformers on Classical Datasets for Cross-Modality Classification"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.06703v1", "keywords": ["qubitization"], "title": "Shor's algorithm requires Fanout"}
+{"date": "2026-08-10", "topic": "量子特異値変換", "arxiv_id": "2608.06636v1", "keywords": ["qubitization"], "title": "Approaching the Fundamental Limit of Single-Shot Qubit Frequency Tracking with an Adiabatic Tangentially-Modulated Pulse"}
+{"date": "2026-08-10", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.06995v1", "keywords": ["product formula"], "title": "Fugacity-Resolved Stabilizer Entropy in Critical Quantum Chains: Discrete Selberg Sums and Exactly Solvable Rényi Indices"}
+{"date": "2026-08-10", "topic": "量子化学計算全般", "arxiv_id": "2608.07354v1", "keywords": ["quantum chemistry"], "title": "Beyond the Four-Decade DIIS Default:Auxiliary-Curvature Acceleration of Self-Consistent-Field Calculations"}
+{"date": "2026-08-10", "topic": "量子化学計算全般", "arxiv_id": "2608.06680v1", "keywords": ["electronic structure"], "title": "Physics-Grounded Materials Artificial Intelligence for Reliable Materials Discovery"}
+{"date": "2026-08-10", "topic": "量子化学計算全般", "arxiv_id": "2608.06468v1", "keywords": ["electronic structure"], "title": "Interference between multiple photoionization pathways in chiral molecules: Converging continuum results in Gaussian bases"}
+{"date": "2026-08-10", "topic": "素因数分解", "arxiv_id": "2608.06703v1", "keywords": ["Shor's algorithm"], "title": "Shor's algorithm requires Fanout"}
+{"date": "2026-08-10", "topic": "光量子コンピュータ", "arxiv_id": "2608.07277v1", "keywords": ["continuous variable quantum"], "title": "Demonstration of an LLO CV-QKD system over 12 km of optical fiber"}
+{"date": "2026-08-10", "topic": "量子機械学習", "arxiv_id": "2608.06846v1", "keywords": ["parameterized quantum circuit"], "title": "Investigating Quantum-Embedded Transformers on Classical Datasets for Cross-Modality Classification"}
+{"date": "2026-08-10", "topic": "実機", "arxiv_id": "2608.07306v1", "keywords": ["superconducting qubit", "quantum processor"], "title": "Flip-chip integrated superconducting qubits using electroplated bump bonds"}
+{"date": "2026-08-10", "topic": "実機", "arxiv_id": "2608.07185v1", "keywords": ["superconducting qubit"], "title": "Ultrafast quantum gate operations in a Kramers-Henneberger atom Qubit"}
+{"date": "2026-08-10", "topic": "実機", "arxiv_id": "2608.07149v1", "keywords": ["superconducting qubit"], "title": "Many-Body Localization Induced by Correlated Disorder in Interacting Superconducting Qubits"}
+{"date": "2026-08-10", "topic": "実機", "arxiv_id": "2608.07431v1", "keywords": ["neutral atom array"], "title": "Designer Codes from GALA: Compact, Self-Dual, and Rate-1/2 QEC on Reconfigurable Atom Arrays"}
+{"date": "2026-08-10", "topic": "実機", "arxiv_id": "2608.06875v1", "keywords": ["quantum processor"], "title": "QCORE: A Quantum-Control-Oriented Real-Time Execution Architecture with Extensible Closed-Loop Services and Shared AI Acceleration"}
+{"date": "2026-08-10", "topic": "誤り訂正・magic state", "arxiv_id": "2608.07431v1", "keywords": ["quantum error correction"], "title": "Designer Codes from GALA: Compact, Self-Dual, and Rate-1/2 QEC on Reconfigurable Atom Arrays"}
+{"date": "2026-08-10", "topic": "qLDPC符号", "arxiv_id": "2608.07431v1", "keywords": ["low-density parity-check code"], "title": "Designer Codes from GALA: Compact, Self-Dual, and Rate-1/2 QEC on Reconfigurable Atom Arrays"}
+{"date": "2026-08-10", "topic": "散乱理論", "arxiv_id": "2608.06731v1", "keywords": ["scattering amplitude"], "title": "Laboratory-frame $T$-matrix and heavy quark drag in the quark-gluon plasma"}
+{"date": "2026-08-10", "topic": "散乱理論", "arxiv_id": "2608.06708v1", "keywords": ["electron scattering"], "title": "Electron Temperature and Electron-Electron Scattering Length in GaAs/AlGaAs Using Mesoscopic Multiparallel Aperture Geometries"}
+{"date": "2026-08-10", "topic": "散乱理論", "arxiv_id": "2608.06524v1", "keywords": ["cross section"], "title": "Momentum Distributions and Spatial Signatures of Proton Halos in the sd Shell"}
+{"date": "2026-08-10", "topic": "Berry位相", "arxiv_id": "2608.06777v1", "keywords": ["geometric phase", "Berry curvature"], "title": "Quantum-State Projectors on Grassmannian: Geometry, Holonomy, and Topology"}
