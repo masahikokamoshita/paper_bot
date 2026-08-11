@@ -1179,3 +1179,8 @@
 {"date": "2026-08-11", "topic": "散乱理論", "arxiv_id": "2608.09429v1", "keywords": ["cross section"], "title": "Neutron radii of Mg isotopes and semiphenomenological treatment for neutron distributions"}
 {"date": "2026-08-11", "topic": "散乱理論", "arxiv_id": "2608.08481v1", "keywords": ["cross section"], "title": "Multiple ionization and charge equilibration in slow, multiply charged $\\mathrm{Ar^{q+} + Ar}$ collision studied via L-MM Auger-Meitner electron spectroscopy"}
 {"date": "2026-08-11", "topic": "散乱理論", "arxiv_id": "2608.07652v1", "keywords": ["cross section"], "title": "Constraints on magnetic monopoles from X-ray observations of neutron stars"}
+{"date": "2026-08-11", "topic": "量子特異値変換", "arxiv_id": "2608.09915v1", "keywords": ["qubitization"], "title": "Decoupling 2D translation-invariant topological CSS codes"}
+{"date": "2026-08-11", "topic": "量子特異値変換", "arxiv_id": "2608.09913v1", "keywords": ["qubitization"], "title": "From Koszul-Complex Stabilizer Models to Superselection Profiles: Topological Rigidity and Nonsplit Extensions"}
+{"date": "2026-08-11", "topic": "量子特異値変換", "arxiv_id": "2608.09912v1", "keywords": ["qubitization"], "title": "Learning Clifford-structured quantum unitaries and Hamiltonians"}
+{"date": "2026-08-11", "topic": "量子特異値変換", "arxiv_id": "2608.09832v1", "keywords": ["qubitization"], "title": "An upper bound for the purity of absolutely positive partial transpose states"}
+{"date": "2026-08-11", "topic": "量子化学計算全般", "arxiv_id": "2608.09810v1", "keywords": ["variational quantum eigensolver"], "title": "From Barren Plateaus to SPSA Optimization in Variational Quantum Eigensolvers"}
