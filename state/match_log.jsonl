@@ -1258,3 +1258,40 @@
 {"date": "2026-08-13", "topic": "散乱理論", "arxiv_id": "2608.11961v1", "keywords": ["cross section"], "title": "Calculation of tetraneutron-induced reaction cross sections with optical and Hauser-Feshbach statistical models"}
 {"date": "2026-08-13", "topic": "Berry位相", "arxiv_id": "2608.11714v1", "keywords": ["geometric phase"], "title": "Quantum Channel-Induced Geometry of the Uhlmann Phase in Qubit Systems"}
 {"date": "2026-08-13", "topic": "Berry位相", "arxiv_id": "2608.11369v1", "keywords": ["holonomic quantum computation"], "title": "Holonomic quantum gates via continuous measurement in bosonic codes: GKP and cat states"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13561v1", "keywords": ["qubitization"], "title": "Experimental Quantum Key Distribution in an Indefinite Causal Order"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13543v1", "keywords": ["qubitization"], "title": "Clifford Circuit Synthesis for Distributed Quantum Architectures with Arbitrary Network Topology"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13530v1", "keywords": ["qubitization"], "title": "Inductively-protected Andreev (IPA) spin qubit"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13528v1", "keywords": ["qubitization"], "title": "Ambient unitaries don't enable shallow group designs"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13521v1", "keywords": ["qubitization"], "title": "Exponential quantum advantage for learning signals with a single qubit"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13491v1", "keywords": ["qubitization"], "title": "Strong unitary designs in optimal depth and space"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13449v1", "keywords": ["qubitization"], "title": "Spectral Localization Principle for Entanglement Harvesting"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13376v1", "keywords": ["qubitization"], "title": "Universal magic state concentration"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13342v1", "keywords": ["qubitization"], "title": "Quantum-Inspired Phase Bicoherence Spectroscopy: A Framework for Detecting Universal Textural Angular Order Across Multi-Modal Complex Datasets"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13181v1", "keywords": ["qubitization"], "title": "Mid-circuit ground-state cooling and ancilla readout in the $\\textit{omg}$ architecture"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13169v1", "keywords": ["qubitization"], "title": "Witnessing the architecture of quantum circuits"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13110v1", "keywords": ["qubitization"], "title": "Classical Simulation and Design Frontiers for IBM's Doped Clifford Sampling Experiment"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13099v1", "keywords": ["qubitization"], "title": "Formal Verification of Quantum Ancilla Safety"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13090v1", "keywords": ["qubitization"], "title": "Robust controlled-Z gate for Rydberg atoms based on level-crossing-free echoing rapid adiabatic passage"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13088v1", "keywords": ["qubitization"], "title": "Quantifying nonclassicality in qubit systems via positive operator-valued measures"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12965v1", "keywords": ["qubitization"], "title": "Geometry versus excitation sector in the decoherence of asymmetric $N$-qubit $W$ states"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12884v1", "keywords": ["qubitization"], "title": "Hybrid HPC-Quantum Simulations: DFT-Quantum Embedding for Molecular Systems"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12803v1", "keywords": ["qubitization"], "title": "A Finite-Window Recovery Hierarchy for Local Quantum Memory"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12711v1", "keywords": ["qubitization"], "title": "SPLIT-Q: A Scalable Sequential Quantum Computing Framework for Coherent Controlled Islanding"}
+{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12504v1", "keywords": ["qubitization"], "title": "Spatially Dense, Continuous-Variable Quantum Computing with Solid State Spin Nonlinearities"}
+{"date": "2026-08-14", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.13533v1", "keywords": ["Hamiltonian simulation"], "title": "Quantum simulation of non-Markovian dynamical systems"}
+{"date": "2026-08-14", "topic": "QSCI(SQD)", "arxiv_id": "2608.12830v1", "keywords": ["quantum subspace diagonalization"], "title": "Improved Measurement Cost Scaling in the Nonorthogonal Quantum Eigensolver"}
+{"date": "2026-08-14", "topic": "量子化学計算全般", "arxiv_id": "2608.12830v1", "keywords": ["quantum chemistry"], "title": "Improved Measurement Cost Scaling in the Nonorthogonal Quantum Eigensolver"}
+{"date": "2026-08-14", "topic": "量子化学計算全般", "arxiv_id": "2608.12884v1", "keywords": ["electronic structure", "variational quantum eigensolver"], "title": "Hybrid HPC-Quantum Simulations: DFT-Quantum Embedding for Molecular Systems"}
+{"date": "2026-08-14", "topic": "光量子コンピュータ", "arxiv_id": "2608.13218v1", "keywords": ["continuous variable quantum"], "title": "Heterogeneously Integrated Squeezed-Light Generation and Detection on a Single Photonic Chip"}
+{"date": "2026-08-14", "topic": "光量子コンピュータ", "arxiv_id": "2608.12504v1", "keywords": ["continuous variable quantum"], "title": "Spatially Dense, Continuous-Variable Quantum Computing with Solid State Spin Nonlinearities"}
+{"date": "2026-08-14", "topic": "光量子コンピュータ", "arxiv_id": "2608.13035v1", "keywords": ["measurement-based quantum computing"], "title": "Completeness for flow-preserving rewrite rules"}
+{"date": "2026-08-14", "topic": "実機", "arxiv_id": "2608.13530v1", "keywords": ["superconducting qubit"], "title": "Inductively-protected Andreev (IPA) spin qubit"}
+{"date": "2026-08-14", "topic": "実機", "arxiv_id": "2608.13090v1", "keywords": ["neutral atom array"], "title": "Robust controlled-Z gate for Rydberg atoms based on level-crossing-free echoing rapid adiabatic passage"}
+{"date": "2026-08-14", "topic": "実機", "arxiv_id": "2608.13543v1", "keywords": ["quantum processor"], "title": "Clifford Circuit Synthesis for Distributed Quantum Architectures with Arbitrary Network Topology"}
+{"date": "2026-08-14", "topic": "実機", "arxiv_id": "2608.13181v1", "keywords": ["quantum processor"], "title": "Mid-circuit ground-state cooling and ancilla readout in the $\\textit{omg}$ architecture"}
+{"date": "2026-08-14", "topic": "実機", "arxiv_id": "2608.13041v1", "keywords": ["quantum processor"], "title": "Time evolution of nonlinear dynamics on a quantum processor"}
+{"date": "2026-08-14", "topic": "誤り訂正・magic state", "arxiv_id": "2608.13543v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "Clifford Circuit Synthesis for Distributed Quantum Architectures with Arbitrary Network Topology"}
+{"date": "2026-08-14", "topic": "誤り訂正・magic state", "arxiv_id": "2608.13181v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "Mid-circuit ground-state cooling and ancilla readout in the $\\textit{omg}$ architecture"}
+{"date": "2026-08-14", "topic": "誤り訂正・magic state", "arxiv_id": "2608.12450v1", "keywords": ["quantum error correction"], "title": "Embedding Stabilizer Codes and Leakage Correction in Multilevel Quantum Systems"}
+{"date": "2026-08-14", "topic": "誤り訂正・magic state", "arxiv_id": "2608.13376v1", "keywords": ["magic state"], "title": "Universal magic state concentration"}
+{"date": "2026-08-14", "topic": "誤り訂正・magic state", "arxiv_id": "2608.12512v1", "keywords": ["fault-tolerant quantum computation"], "title": "Type III von Neumann Algebras are Magical"}
