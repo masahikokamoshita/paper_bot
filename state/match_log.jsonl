@@ -1295,3 +1295,39 @@
 {"date": "2026-08-14", "topic": "誤り訂正・magic state", "arxiv_id": "2608.12450v1", "keywords": ["quantum error correction"], "title": "Embedding Stabilizer Codes and Leakage Correction in Multilevel Quantum Systems"}
 {"date": "2026-08-14", "topic": "誤り訂正・magic state", "arxiv_id": "2608.13376v1", "keywords": ["magic state"], "title": "Universal magic state concentration"}
 {"date": "2026-08-14", "topic": "誤り訂正・magic state", "arxiv_id": "2608.12512v1", "keywords": ["fault-tolerant quantum computation"], "title": "Type III von Neumann Algebras are Magical"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.14387v1", "keywords": ["quantum singular value transformation", "quantum signal processing"], "title": "Linearised quantum signal processing"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.14357v1", "keywords": ["qubitization"], "title": "Native multi-qubit gates on a single-junction unimon circuit"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.14325v1", "keywords": ["qubitization"], "title": "Krylov complexity and Berry phase in quantum adiabatic dynamics"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.14285v1", "keywords": ["qubitization"], "title": "Qu-Trefoil: Large-Scale Quantum Circuit Simulator Working on FPGA With SATA Storages"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.14214v1", "keywords": ["qubitization"], "title": "Exchange-only qubit stabilized by a single-spin qubit"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.14181v1", "keywords": ["qubitization"], "title": "The Organization of Environmental Coupling Shapes What Quantum Reservoirs Remember"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.14083v1", "keywords": ["qubitization"], "title": "Information-Calibrated Quantum Diffusion: Aligning Forward Noise with Reverse Recoverability"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.14002v1", "keywords": ["qubitization"], "title": "Circuit Depth Compression via Spectral Gap Amplification in Quantum Phase Estimation"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13907v1", "keywords": ["qubitization"], "title": "Robust Quantum Extremal Numbers"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13862v1", "keywords": ["qubitization", "quantum eigenvalue transformation"], "title": "Resource-efficient quantum eigenvalue transform with commutator scaling"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13855v1", "keywords": ["qubitization"], "title": "Small-world structure of quantum computer hardware"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13744v1", "keywords": ["qubitization"], "title": "Designing robust molecular spins for quantum technologies with theoretical chemistry"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13725v1", "keywords": ["qubitization"], "title": "Scalable Test of Genuine Multipartite Entanglement via Partially Randomized Measurements"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13664v1", "keywords": ["qubitization"], "title": "Open system probes of renormalization group flow"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13654v1", "keywords": ["qubitization"], "title": "Entanglement Negativity in Noisy Quantum Volume Sampling"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13644v1", "keywords": ["qubitization"], "title": "Heuristic Lookahead Distillation Protocol Search"}
+{"date": "2026-08-17", "topic": "量子特異値変換", "arxiv_id": "2608.13627v1", "keywords": ["qubitization"], "title": "A scalable edge-pass Purcell filter for high-fidelity readout of superconducting qubits"}
+{"date": "2026-08-17", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.13894v1", "keywords": ["product formula"], "title": "de Broglie-Bohm Dynamics with Schrödinger Source Fields: A Framework for Subquantum Theory"}
+{"date": "2026-08-17", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.13862v1", "keywords": ["product formula"], "title": "Resource-efficient quantum eigenvalue transform with commutator scaling"}
+{"date": "2026-08-17", "topic": "量子化学計算全般", "arxiv_id": "2608.14353v1", "keywords": ["electronic structure"], "title": "Orbital Hall Effect in Weyl Semimetals from quantum geometric band interference"}
+{"date": "2026-08-17", "topic": "量子化学計算全般", "arxiv_id": "2608.14050v1", "keywords": ["electronic structure"], "title": "Different Environments in Quantum Statistical Mechanics: To $β$ or not to $(k_{\\mathrm{B}} T)^{-1}$"}
+{"date": "2026-08-17", "topic": "量子化学計算全般", "arxiv_id": "2608.13744v1", "keywords": ["electronic structure"], "title": "Designing robust molecular spins for quantum technologies with theoretical chemistry"}
+{"date": "2026-08-17", "topic": "量子化学計算全般", "arxiv_id": "2608.14502v1", "keywords": ["ground state energy"], "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials"}
+{"date": "2026-08-17", "topic": "光量子コンピュータ", "arxiv_id": "2608.14134v1", "keywords": ["photonic quantum computing"], "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization"}
+{"date": "2026-08-17", "topic": "実機", "arxiv_id": "2608.13627v1", "keywords": ["superconducting qubit", "quantum processor"], "title": "A scalable edge-pass Purcell filter for high-fidelity readout of superconducting qubits"}
+{"date": "2026-08-17", "topic": "実機", "arxiv_id": "2608.13646v1", "keywords": ["neutral atom array"], "title": "Dual-species alkali and alkaline-earth-like optical tweezer arrays via interferometrically aligned high-NA objectives"}
+{"date": "2026-08-17", "topic": "実機", "arxiv_id": "2608.14357v1", "keywords": ["quantum processor"], "title": "Native multi-qubit gates on a single-junction unimon circuit"}
+{"date": "2026-08-17", "topic": "実機", "arxiv_id": "2608.13805v1", "keywords": ["quantum processor"], "title": "Fast classical simulation of `Fast, accurate, high-resolution simulation of large-scale Fermi-Hubbard models on a digital quantum processor'"}
+{"date": "2026-08-17", "topic": "実機", "arxiv_id": "2608.13654v1", "keywords": ["quantum processor"], "title": "Entanglement Negativity in Noisy Quantum Volume Sampling"}
+{"date": "2026-08-17", "topic": "誤り訂正・magic state", "arxiv_id": "2608.14214v1", "keywords": ["quantum error correction"], "title": "Exchange-only qubit stabilized by a single-spin qubit"}
+{"date": "2026-08-17", "topic": "誤り訂正・magic state", "arxiv_id": "2608.13975v1", "keywords": ["quantum error correction"], "title": "Neural decoders for subsystem many-hypercube codes"}
+{"date": "2026-08-17", "topic": "誤り訂正・magic state", "arxiv_id": "2608.13627v1", "keywords": ["fault-tolerant quantum computation"], "title": "A scalable edge-pass Purcell filter for high-fidelity readout of superconducting qubits"}
+{"date": "2026-08-17", "topic": "散乱理論", "arxiv_id": "2608.14451v1", "keywords": ["scattering amplitude"], "title": "Four-point functions, Twistors and Supersymmetry in the Symplectic Bi-Grassmannian for CFT$_4$ and AdS$_5$"}
+{"date": "2026-08-17", "topic": "散乱理論", "arxiv_id": "2608.14341v1", "keywords": ["scattering amplitude"], "title": "Enhanced Three-Particle Contribution to Electroweak Penguin $B$-Meson Decays"}
+{"date": "2026-08-17", "topic": "散乱理論", "arxiv_id": "2608.14538v1", "keywords": ["cross section"], "title": "Vector-Like Fermions at FCC-ee: NLO Higgs-Strahlung Signatures and Constraints"}
+{"date": "2026-08-17", "topic": "Berry位相", "arxiv_id": "2608.14325v1", "keywords": ["Berry phase"], "title": "Krylov complexity and Berry phase in quantum adiabatic dynamics"}
