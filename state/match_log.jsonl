@@ -1331,3 +1331,4 @@
 {"date": "2026-08-17", "topic": "散乱理論", "arxiv_id": "2608.14341v1", "keywords": ["scattering amplitude"], "title": "Enhanced Three-Particle Contribution to Electroweak Penguin $B$-Meson Decays"}
 {"date": "2026-08-17", "topic": "散乱理論", "arxiv_id": "2608.14538v1", "keywords": ["cross section"], "title": "Vector-Like Fermions at FCC-ee: NLO Higgs-Strahlung Signatures and Constraints"}
 {"date": "2026-08-17", "topic": "Berry位相", "arxiv_id": "2608.14325v1", "keywords": ["Berry phase"], "title": "Krylov complexity and Berry phase in quantum adiabatic dynamics"}
+{"date": "2026-08-17", "topic": "量子位相推定", "arxiv_id": "2608.14002v1", "keywords": ["quantum phase estimation"], "title": "Circuit Depth Compression via Spectral Gap Amplification in Quantum Phase Estimation"}
