@@ -1456,3 +1456,22 @@
 {"date": "2026-08-20", "topic": "散乱理論", "arxiv_id": "2608.18205v1", "keywords": ["scattering amplitude", "S-matrix"], "title": "A generating functional for infrared-safe QED amplitudes"}
 {"date": "2026-08-20", "topic": "散乱理論", "arxiv_id": "2608.18589v1", "keywords": ["cross section"], "title": "Fourier Transforms of Color Glass Condensate Multi-Wilson-Line Correlators via Filon Quadrature"}
 {"date": "2026-08-20", "topic": "散乱理論", "arxiv_id": "2608.18538v1", "keywords": ["cross section"], "title": "Reaction Cross Sections and $α$-Cluster Geometry in $^{12}$C and Be Isotopes"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.19103v1", "keywords": ["qubitization"], "title": "Quantum circuit optimization using deep reinforcement learning: Applications across multiple gate sets"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.19094v1", "keywords": ["qubitization"], "title": "Realizing Logical Diagonal Gates via Transversal Physical $Z$-Rotations in CSS Codes"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18985v1", "keywords": ["qubitization"], "title": "RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18946v1", "keywords": ["qubitization"], "title": "AlphaClifford: Efficient Clifford Synthesis and Transpilation with Model-based RL"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18839v1", "keywords": ["qubitization"], "title": "Quantum Mixedness Testing with Pauli Measurements"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18699v1", "keywords": ["qubitization"], "title": "An ultracompact dilution refrigerator for fast quantum device characterization"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18650v1", "keywords": ["qubitization"], "title": "(Almost) quadruply optimal unitary designs in 1D"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18598v1", "keywords": ["qubitization"], "title": "Know Your Qubits, Know Your Users: Personas for Quantum Software"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18548v1", "keywords": ["qubitization"], "title": "Direct fidelity estimation through joint fiducial grouping"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18536v1", "keywords": ["qubitization"], "title": "Good Stabilizer Codes from Shallow Clifford Circuits with Random Matchings"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18511v1", "keywords": ["qubitization"], "title": "Sampling isometric tensor network states with monitored quantum circuits"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18483v1", "keywords": ["qubitization"], "title": "Superfast hole spin qubits enabled by uniaxial strain-boosted spin-orbit coupling"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18421v1", "keywords": ["qubitization"], "title": "Multiqubit orthogonal product bases"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18332v1", "keywords": ["qubitization"], "title": "Generalizing Pauli Checks for Qudit-based Quantum Error Detection and Mitigation"}
+{"date": "2026-08-20", "topic": "量子特異値変換", "arxiv_id": "2608.18223v1", "keywords": ["qubitization"], "title": "Symmetric $N \\to M$ telecloning and remote quantum state inference"}
+{"date": "2026-08-20", "topic": "量子化学計算全般", "arxiv_id": "2608.19033v1", "keywords": ["electronic structure"], "title": "Molecular Implementation of the Machine-Learned Skala Exchange-Correlation Functional in CP2K through GauXC"}
+{"date": "2026-08-20", "topic": "量子化学計算全般", "arxiv_id": "2608.18623v1", "keywords": ["electronic structure"], "title": "UBio-MolFM: Enabling Biomolecular Dynamics at DFT Accuracy and $10^5$ Atoms with One Untuned Potential"}
+{"date": "2026-08-20", "topic": "量子化学計算全般", "arxiv_id": "2608.18346v1", "keywords": ["electronic structure"], "title": "Coupled-cluster molecular properties across the main group that extrapolate beyond training size"}
+{"date": "2026-08-20", "topic": "量子化学計算全般", "arxiv_id": "2608.18633v1", "keywords": ["ground state energy"], "title": "Exact Matching-Polynomial Solution of the Periodic Baxter-Fendley $Z_N$ Clock Chain"}
