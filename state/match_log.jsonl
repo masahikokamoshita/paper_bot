@@ -1442,3 +1442,17 @@
 {"date": "2026-08-19", "topic": "量子特異値変換", "arxiv_id": "2608.17115v1", "keywords": ["block encoding"], "title": "Block Encoding Non-Abelian Lattice Gauge Theory"}
 {"date": "2026-08-19", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.17653v1", "keywords": ["Hamiltonian simulation"], "title": "Quantum simulation of slow analytic time-dependent Hamiltonians"}
 {"date": "2026-08-19", "topic": "量子化学計算全般", "arxiv_id": "2608.17885v1", "keywords": ["electronic structure"], "title": "Benchmarking Least-Squares Tensor Hypercontraction Techniques for Molecular Systems"}
+{"date": "2026-08-20", "topic": "量子機械学習", "arxiv_id": "2608.19043v1", "keywords": ["quantum machine learning"], "title": "Bernstein-Vazirani Networks: Quantum Machine Learning by Interference"}
+{"date": "2026-08-20", "topic": "量子機械学習", "arxiv_id": "2608.18659v1", "keywords": ["quantum machine learning"], "title": "Quantum-Logic Tsetlin Machines: Interpretable Quantum Machine Learning with Commuting Projector Clauses"}
+{"date": "2026-08-20", "topic": "誤り訂正・magic state", "arxiv_id": "2608.18961v1", "keywords": ["quantum error correction"], "title": "Subsystem Symmetries and Fracton Models in Quantum Error Correction"}
+{"date": "2026-08-20", "topic": "誤り訂正・magic state", "arxiv_id": "2608.18946v1", "keywords": ["quantum error correction"], "title": "AlphaClifford: Efficient Clifford Synthesis and Transpilation with Model-based RL"}
+{"date": "2026-08-20", "topic": "誤り訂正・magic state", "arxiv_id": "2608.18512v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "Integer Linear Programming Decoder for Abelian and Non-Abelian Topological Codes"}
+{"date": "2026-08-20", "topic": "誤り訂正・magic state", "arxiv_id": "2608.18985v1", "keywords": ["fault-tolerant quantum computation"], "title": "RushHour: A Dynamically Reconfigurable Lattice-Surgery Architecture"}
+{"date": "2026-08-20", "topic": "誤り訂正・magic state", "arxiv_id": "2608.18548v1", "keywords": ["fault-tolerant quantum computation"], "title": "Direct fidelity estimation through joint fiducial grouping"}
+{"date": "2026-08-20", "topic": "誤り訂正・magic state", "arxiv_id": "2608.18536v1", "keywords": ["fault-tolerant quantum computation"], "title": "Good Stabilizer Codes from Shallow Clifford Circuits with Random Matchings"}
+{"date": "2026-08-20", "topic": "誤り訂正・magic state", "arxiv_id": "2608.18440v1", "keywords": ["fault-tolerant quantum computation"], "title": "Asymptotic Entanglement Hiding under Stabilizer Restrictions"}
+{"date": "2026-08-20", "topic": "誤り訂正・magic state", "arxiv_id": "2608.18420v1", "keywords": ["surface code"], "title": "Entropic Rigidity in Quantum Memories: How Geometry and Algebra Control the Onset of Degeneracy Corrections"}
+{"date": "2026-08-20", "topic": "qLDPC符号", "arxiv_id": "2608.18420v1", "keywords": ["low-density parity-check code"], "title": "Entropic Rigidity in Quantum Memories: How Geometry and Algebra Control the Onset of Degeneracy Corrections"}
+{"date": "2026-08-20", "topic": "散乱理論", "arxiv_id": "2608.18205v1", "keywords": ["scattering amplitude", "S-matrix"], "title": "A generating functional for infrared-safe QED amplitudes"}
+{"date": "2026-08-20", "topic": "散乱理論", "arxiv_id": "2608.18589v1", "keywords": ["cross section"], "title": "Fourier Transforms of Color Glass Condensate Multi-Wilson-Line Correlators via Filon Quadrature"}
+{"date": "2026-08-20", "topic": "散乱理論", "arxiv_id": "2608.18538v1", "keywords": ["cross section"], "title": "Reaction Cross Sections and $α$-Cluster Geometry in $^{12}$C and Be Isotopes"}
