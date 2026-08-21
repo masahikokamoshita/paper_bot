@@ -1510,3 +1510,22 @@
 {"date": "2026-08-21", "topic": "Berry位相", "arxiv_id": "2608.20119v1", "keywords": ["geometric phase"], "title": "Geometric Control of Cat States in High Harmonic Generation"}
 {"date": "2026-08-21", "topic": "Berry位相", "arxiv_id": "2608.19679v1", "keywords": ["geometric phase"], "title": "Geometric phase of open paths and a geodesic-selection rule at a level degeneracy"}
 {"date": "2026-08-21", "topic": "Berry位相", "arxiv_id": "2608.19770v1", "keywords": ["Berry curvature"], "title": "Gradient flow towards quantum states with ideal quantum geometry"}
+{"date": "2026-08-21", "topic": "量子位相推定", "arxiv_id": "2608.20133v1", "keywords": ["quantum phase estimation"], "title": "Preparation of Large Fock States in Resonators with High Probability"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.20250v1", "keywords": ["qubitization"], "title": "Logarithmic depth compression of Heisenberg Hamiltonian simulation by fan-out parallelization, with built-in error detection"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.20227v1", "keywords": ["qubitization"], "title": "Hybrid Qubit-Rotor Quantum Systems: Clifford Structure, Universal Control, and Applications"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.20178v1", "keywords": ["qubitization"], "title": "Characterization of a damping channel as a mixture of amplitude damping and anti-damping channels of different parameters"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.20170v1", "keywords": ["qubitization"], "title": "Large Scale Entanglement Structure Detection in 100-Qubit Systems via Local Joint Measurements"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.20164v1", "keywords": ["qubitization"], "title": "Architecture and Compilation Co-Design for High-Rate Quantum Product Codes on Neutral Atom Arrays"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.20133v1", "keywords": ["qubitization"], "title": "Preparation of Large Fock States in Resonators with High Probability"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.20076v1", "keywords": ["qubitization"], "title": "Shadow models of a quantum model for cloud cover and the influence of finite sampling noise"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.20050v1", "keywords": ["qubitization"], "title": "Radial Convex Geometry of Quantum States and Its Relation to Best Separable Approximation"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19917v1", "keywords": ["qubitization"], "title": "Disassembling qLDPC codes for depth-optimal parity-check circuits"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19679v1", "keywords": ["qubitization"], "title": "Geometric phase of open paths and a geodesic-selection rule at a level degeneracy"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19602v1", "keywords": ["qubitization"], "title": "High fidelity control of superconducting qubits with optical transmitted signal"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19533v1", "keywords": ["qubitization"], "title": "Quantum Energy Storage versus Heat-to-Work Conversion in an Interacting Spin System"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19508v1", "keywords": ["qubitization"], "title": "Quantum algorithm for differential equations via permutation matrix representation with application to the Burgers equation"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19370v1", "keywords": ["qubitization"], "title": "Rethinking Quantum Circuits"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19344v1", "keywords": ["qubitization"], "title": "Hyperon-antihyperon system in electron-positron annihilation as quantum probes for temperature estimation with local and global dephasing"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19315v1", "keywords": ["qubitization"], "title": "Thermal Throttling of Quantum State Transfer"}
+{"date": "2026-08-21", "topic": "量子特異値変換", "arxiv_id": "2608.19306v1", "keywords": ["qubitization"], "title": "Quantum Gaussian processes for prediction of channel observations"}
+{"date": "2026-08-21", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.19508v1", "keywords": ["Hamiltonian simulation"], "title": "Quantum algorithm for differential equations via permutation matrix representation with application to the Burgers equation"}
