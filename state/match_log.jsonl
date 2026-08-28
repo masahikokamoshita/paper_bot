@@ -1713,3 +1713,43 @@
 {"date": "2026-08-27", "topic": "散乱理論", "arxiv_id": "2608.25001v1", "keywords": ["cross section"], "title": "Resonant Induced Orbital Electron Capture: Novel method for low-energy $\\barν_e$ detection"}
 {"date": "2026-08-27", "topic": "Berry位相", "arxiv_id": "2608.25742v1", "keywords": ["geometric phase"], "title": "The Geometric Phase as a Diagnostic for Driven-Dissipative Oscillators"}
 {"date": "2026-08-27", "topic": "Berry位相", "arxiv_id": "2608.26099v1", "keywords": ["Berry curvature"], "title": "Exact analytical spectrum, eigenstates, and quantum geometry of the quarter-flux Harper-Hofstadter model"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.27267v1", "keywords": ["quantum singular value transformation", "qubitization"], "title": "Efficient Quantum Simulations of Yang-Mills theory with Maximal-tree Gauge"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26241v1", "keywords": ["quantum signal processing", "qubitization"], "title": "Fast GHZ encoding with $1-o(1)$ fidelity"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.27457v1", "keywords": ["qubitization"], "title": "Spectral Fingerprints of Gauge Theories on a Quantum Computer"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.27440v1", "keywords": ["qubitization"], "title": "Dynamics of local quantum information in random unitary circuits"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.27430v1", "keywords": ["qubitization"], "title": "Factorized Boolean representations for efficient quantum synthesis"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.27426v1", "keywords": ["qubitization"], "title": "Detuning- and Stark-robust Rydberg gates"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.27363v1", "keywords": ["qubitization"], "title": "On supporting affine functionals for Entanglement of Formation"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.27333v1", "keywords": ["qubitization"], "title": "Evaluating Quantum Kernel Methods for Track-Based Classification in High-Energy Physics"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.27045v1", "keywords": ["qubitization"], "title": "A Superconducting Phase Transition Single-Electron Transistor"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26972v1", "keywords": ["qubitization"], "title": "Quantum-enhanced ghost imaging recognition via joint optimization of speckle patterns and quantum network parameters"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26897v1", "keywords": ["qubitization"], "title": "Geometric optimality of entanglement-induced fast qubit reset"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26894v1", "keywords": ["qubitization"], "title": "Correcting Connectivity in Arc-Based QUBO Models for Fixed-Fleet Vehicle Routing"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26630v1", "keywords": ["qubitization"], "title": "Quantum-enhanced single and multiparameter metrology in qutrit ensembles by generalized twisting dynamics"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26446v1", "keywords": ["qubitization"], "title": "Detuning-robust Rydberg entangling gates from echoed pulses"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26407v1", "keywords": ["qubitization"], "title": "Recovery-Free CHSH Nonlocality with Particle Loss"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26318v1", "keywords": ["qubitization"], "title": "Exploiting overcompleteness of Platonic-solid POVMs for shadow estimation"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26272v1", "keywords": ["qubitization"], "title": "Fault-tolerant quantum computation cannot be achieved with constant spacetime overhead"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26268v1", "keywords": ["qubitization", "block encoding"], "title": "Bosonic Encodings for Hermite-Galerkin Discretizations of High-Dimensional PDEs and Bayesian Inverse Problems"}
+{"date": "2026-08-28", "topic": "量子特異値変換", "arxiv_id": "2608.26240v1", "keywords": ["qubitization"], "title": "Least Variable Quantum Counting Processes"}
+{"date": "2026-08-28", "topic": "量子化学計算全般", "arxiv_id": "2608.27177v1", "keywords": ["quantum chemistry", "electronic structure"], "title": "ElemCo.jl: A Julia package for electron-correlation methods"}
+{"date": "2026-08-28", "topic": "量子化学計算全般", "arxiv_id": "2608.26824v1", "keywords": ["electronic structure"], "title": "The off-diagonal low rank property: new opportunities for low-scaling computational chemistry methods"}
+{"date": "2026-08-28", "topic": "量子化学計算全般", "arxiv_id": "2608.26440v1", "keywords": ["electronic structure"], "title": "Automatic generation of exchange-correlation response kernels"}
+{"date": "2026-08-28", "topic": "素因数分解", "arxiv_id": "2608.26272v1", "keywords": ["Shor's algorithm"], "title": "Fault-tolerant quantum computation cannot be achieved with constant spacetime overhead"}
+{"date": "2026-08-28", "topic": "素因数分解", "arxiv_id": "2608.27430v1", "keywords": ["factoring algorithm"], "title": "Factorized Boolean representations for efficient quantum synthesis"}
+{"date": "2026-08-28", "topic": "光量子コンピュータ", "arxiv_id": "2608.27136v1", "keywords": ["continuous variable quantum"], "title": "Optimal Gaussian networks for private distributed quantum sensing"}
+{"date": "2026-08-28", "topic": "量子機械学習", "arxiv_id": "2608.26972v1", "keywords": ["quantum machine learning"], "title": "Quantum-enhanced ghost imaging recognition via joint optimization of speckle patterns and quantum network parameters"}
+{"date": "2026-08-28", "topic": "量子機械学習", "arxiv_id": "2608.27333v1", "keywords": ["quantum kernel"], "title": "Evaluating Quantum Kernel Methods for Track-Based Classification in High-Energy Physics"}
+{"date": "2026-08-28", "topic": "実機", "arxiv_id": "2608.26446v1", "keywords": ["neutral atom array"], "title": "Detuning-robust Rydberg entangling gates from echoed pulses"}
+{"date": "2026-08-28", "topic": "実機", "arxiv_id": "2608.27099v1", "keywords": ["quantum processor"], "title": "Towards Reproducible Evaluation of Distributed Quantum Circuit Partitioning Algorithms"}
+{"date": "2026-08-28", "topic": "実機", "arxiv_id": "2608.27057v1", "keywords": ["quantum processor"], "title": "Fast On-Chip Thermometry with TiN Kinetic Inductance Resonators in 22 nm Process Technology"}
+{"date": "2026-08-28", "topic": "実機", "arxiv_id": "2608.26897v1", "keywords": ["quantum processor"], "title": "Geometric optimality of entanglement-induced fast qubit reset"}
+{"date": "2026-08-28", "topic": "実機", "arxiv_id": "2608.26600v1", "keywords": ["quantum processor"], "title": "Auditing Structured Randomness for Quantum Error Correction under a Bounded Cloud Fault Model"}
+{"date": "2026-08-28", "topic": "誤り訂正・magic state", "arxiv_id": "2608.26600v1", "keywords": ["quantum error correction"], "title": "Auditing Structured Randomness for Quantum Error Correction under a Bounded Cloud Fault Model"}
+{"date": "2026-08-28", "topic": "誤り訂正・magic state", "arxiv_id": "2608.26446v1", "keywords": ["fault-tolerant quantum computation"], "title": "Detuning-robust Rydberg entangling gates from echoed pulses"}
+{"date": "2026-08-28", "topic": "誤り訂正・magic state", "arxiv_id": "2608.26272v1", "keywords": ["fault-tolerant quantum computation"], "title": "Fault-tolerant quantum computation cannot be achieved with constant spacetime overhead"}
+{"date": "2026-08-28", "topic": "散乱理論", "arxiv_id": "2608.27157v1", "keywords": ["cross section"], "title": "Franson-Interferometric Bounds on Entangled Two-Photon Absorption"}
+{"date": "2026-08-28", "topic": "散乱理論", "arxiv_id": "2608.27013v1", "keywords": ["cross section"], "title": "Atomic-scale composition of the ternary III-V semiconductor (Al,Ga)Sb visualized by cross-sectional scanning tunneling microscopy"}
+{"date": "2026-08-28", "topic": "散乱理論", "arxiv_id": "2608.26396v1", "keywords": ["cross section"], "title": "Magnetic Communication with an Acoustically Actuated Magnetoelectric Resonator and a Quantum Diamond Magnetometer"}
+{"date": "2026-08-28", "topic": "散乱理論", "arxiv_id": "2608.26255v1", "keywords": ["cross section"], "title": "First-Principles Nuclear Modeling for Light Dark Matter Experiments at the Intensity Frontier"}
+{"date": "2026-08-28", "topic": "Berry位相", "arxiv_id": "2608.26269v1", "keywords": ["Berry curvature"], "title": "How quantum is quantum geometry?"}
