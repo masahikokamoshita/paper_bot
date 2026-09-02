@@ -1865,3 +1865,44 @@
 {"date": "2026-09-01", "topic": "散乱理論", "arxiv_id": "2608.29806v1", "keywords": ["cross section"], "title": "Two Languages for the Same Resonance: From Nuclear Decay to Black-Hole Ringdown"}
 {"date": "2026-09-01", "topic": "散乱理論", "arxiv_id": "2608.28959v1", "keywords": ["cross section"], "title": "Surface-mediated frequency aging beyond quality-factor saturation in an AlScN-on-silicon resonator"}
 {"date": "2026-09-01", "topic": "Berry位相", "arxiv_id": "2608.30282v1", "keywords": ["adiabatic phase"], "title": "Best Annealing Path of Quantum Annealing via Efficient Adiabatic Phase Transition"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.01605v1", "keywords": ["qubitization"], "title": "Depth-1 expanders on the unitary group and applications"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.01448v1", "keywords": ["qubitization"], "title": "Verifiable quantum advantage in extremely low depth"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.01334v1", "keywords": ["qubitization"], "title": "Fast Microwave-free State Preparation and Measurement of Superconducting Qubits"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.01303v1", "keywords": ["qubitization"], "title": "Completing or Refusing Low-Dimensional Records of Structured Quantum Circuits: Measurement Loss, Compression Loss, and Hardware Drift"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.01299v1", "keywords": ["qubitization"], "title": "Emerging Personas and Tools for Hybrid Quantum-HPC Systems"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.01297v1", "keywords": ["qubitization"], "title": "A Scalable Multi-Protocol Platform for Quantum Key Distribution Simulation with Rigorous Statistical Evaluation"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.01264v1", "keywords": ["qubitization"], "title": "DF-SQD: Deterministic Fields for Sampling-Based Quantum Diagonalization"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.01049v1", "keywords": ["qubitization"], "title": "QILP-0: Constructing Observational Declarative Twins of Quantum Circuits"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.00869v1", "keywords": ["qubitization"], "title": "Understanding IR singularities in the Loop-Tree Duality"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.00772v1", "keywords": ["qubitization"], "title": "Superconducting Flux Memory for Cryogenic Applications"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.00475v1", "keywords": ["qubitization"], "title": "Fractal dimension predicts quantum kernel collapse in angle-encoded data"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.00349v1", "keywords": ["qubitization"], "title": "Symmetry-Reduced Variational Quantum Simulation of the $U(5)\\rightarrow SU(3)$ Quantum Phase Transition in the Interacting Boson Model"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.00234v1", "keywords": ["qubitization"], "title": "Codes for Quantum Secret Sharing with a Helper"}
+{"date": "2026-09-02", "topic": "量子特異値変換", "arxiv_id": "2609.00168v1", "keywords": ["qubitization"], "title": "Entangling capability of coherently controlled quantum processes"}
+{"date": "2026-09-02", "topic": "QSCI(SQD)", "arxiv_id": "2609.01264v1", "keywords": ["sample-based quantum diagonalization"], "title": "DF-SQD: Deterministic Fields for Sampling-Based Quantum Diagonalization"}
+{"date": "2026-09-02", "topic": "量子化学計算全般", "arxiv_id": "2609.01512v1", "keywords": ["electronic structure"], "title": "First-principles optical response of shock-compressed LiF: Quasiparticle, excitonic, and ionic-temperature effects"}
+{"date": "2026-09-02", "topic": "量子化学計算全般", "arxiv_id": "2609.01459v1", "keywords": ["electronic structure"], "title": "Reference-Density Hartree Screening for Gausslet Hamiltonians"}
+{"date": "2026-09-02", "topic": "量子化学計算全般", "arxiv_id": "2609.00349v1", "keywords": ["variational quantum eigensolver", "ground state energy"], "title": "Symmetry-Reduced Variational Quantum Simulation of the $U(5)\\rightarrow SU(3)$ Quantum Phase Transition in the Interacting Boson Model"}
+{"date": "2026-09-02", "topic": "量子化学計算全般", "arxiv_id": "2609.01204v1", "keywords": ["ground state energy"], "title": "Unbiased sampling from Boltzmann distributions with noisy energies"}
+{"date": "2026-09-02", "topic": "量子化学計算全般", "arxiv_id": "2609.00545v1", "keywords": ["ground state energy"], "title": "Parafermions in plain sight"}
+{"date": "2026-09-02", "topic": "光量子コンピュータ", "arxiv_id": "2609.01008v1", "keywords": ["boson sampling"], "title": "Uniform Hiding of Haar Block Transpose Gram Matrices"}
+{"date": "2026-09-02", "topic": "光量子コンピュータ", "arxiv_id": "2609.01547v1", "keywords": ["continuous variable quantum"], "title": "Irreducibility and regularisation properties of Gaussian quantum Markov semigroups"}
+{"date": "2026-09-02", "topic": "光量子コンピュータ", "arxiv_id": "2609.01037v1", "keywords": ["measurement-based quantum computing"], "title": "A Dynamic Intermediate Representation for Hybrid Quantum-Classical Programs"}
+{"date": "2026-09-02", "topic": "量子機械学習", "arxiv_id": "2609.00489v1", "keywords": ["quantum neural network"], "title": "A hybrid quantum-classical neural network for learning to route"}
+{"date": "2026-09-02", "topic": "量子機械学習", "arxiv_id": "2609.00475v1", "keywords": ["quantum kernel"], "title": "Fractal dimension predicts quantum kernel collapse in angle-encoded data"}
+{"date": "2026-09-02", "topic": "実機", "arxiv_id": "2609.01334v1", "keywords": ["superconducting qubit"], "title": "Fast Microwave-free State Preparation and Measurement of Superconducting Qubits"}
+{"date": "2026-09-02", "topic": "実機", "arxiv_id": "2609.00825v1", "keywords": ["trapped-ion quantum", "quantum processor"], "title": "Quantum-Based Optimization of Gas Throughput in Natural Gas Transmission Networks Under Hydraulic Constraints Using QAOA"}
+{"date": "2026-09-02", "topic": "実機", "arxiv_id": "2609.01248v1", "keywords": ["quantum processor"], "title": "A Backend-Agnostic MWIS Kernel for Stochastic Unit Commitment with Neutral-Atom Hardware Validation"}
+{"date": "2026-09-02", "topic": "実機", "arxiv_id": "2609.00939v1", "keywords": ["quantum processor"], "title": "Robust CZ gate against flux line memory"}
+{"date": "2026-09-02", "topic": "誤り訂正・magic state", "arxiv_id": "2609.00852v1", "keywords": ["quantum error correction", "magic state"], "title": "Structure-Aware Placement and Routing of Multi-Controlled Toffoli on Bivariate Bicycle Code Architectures"}
+{"date": "2026-09-02", "topic": "誤り訂正・magic state", "arxiv_id": "2609.00778v1", "keywords": ["quantum error correction"], "title": "High-Rank Encoding Can Improve Approximate Quantum Error Correction"}
+{"date": "2026-09-02", "topic": "誤り訂正・magic state", "arxiv_id": "2609.00169v1", "keywords": ["quantum error correction"], "title": "Exact learning of quantum noise with tensor networks"}
+{"date": "2026-09-02", "topic": "散乱理論", "arxiv_id": "2609.00985v1", "keywords": ["scattering amplitude"], "title": "Amplitude structure of $3\\to 3$ scattering in a Mandelstam variable representation"}
+{"date": "2026-09-02", "topic": "散乱理論", "arxiv_id": "2609.00869v1", "keywords": ["scattering amplitude"], "title": "Understanding IR singularities in the Loop-Tree Duality"}
+{"date": "2026-09-02", "topic": "散乱理論", "arxiv_id": "2609.00230v1", "keywords": ["scattering amplitude"], "title": "Probing Dense Nuclear Matter at Small-x: A workflow for a global analysis framework"}
+{"date": "2026-09-02", "topic": "散乱理論", "arxiv_id": "2609.01066v1", "keywords": ["S-matrix", "cross section"], "title": "Scattering and Tunneling in Real Quantum Mechanics"}
+{"date": "2026-09-02", "topic": "散乱理論", "arxiv_id": "2609.01583v1", "keywords": ["cross section"], "title": "Higgsino Dark Matter Interpretation of the LUX-ZEPLIN 248 keV Nuclear-Recoil Event"}
+{"date": "2026-09-02", "topic": "散乱理論", "arxiv_id": "2609.01391v1", "keywords": ["cross section"], "title": "Scalar wave scattering by black holes embedded in dark matter halos"}
+{"date": "2026-09-02", "topic": "散乱理論", "arxiv_id": "2609.01179v1", "keywords": ["cross section"], "title": "QED nuclear medium effects at EicC"}
+{"date": "2026-09-02", "topic": "散乱理論", "arxiv_id": "2609.00410v1", "keywords": ["cross section"], "title": "What Are We Talking About When We Talk About Nuclear Reactions"}
+{"date": "2026-09-02", "topic": "Berry位相", "arxiv_id": "2609.00975v1", "keywords": ["Berry phase"], "title": "Topological charges and parity selection at Floquet quasienergy degeneracies"}
