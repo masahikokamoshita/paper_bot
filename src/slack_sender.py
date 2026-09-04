@@ -1,6 +1,6 @@
 """Slack へ論文を送信する（slack_sdk）。
 
-親メッセージ = タイトル(リンク)＋メタ
+親メッセージ = タイトル(リンク)＋メタ ＋ 和訳タイトル ＋ 著者 ＋ 所属
 返信1        = 日本語要約（summary_in_thread）
 返信2        = 結果解説＋代表図（高scite論文で生成されている場合のみ）
 
@@ -21,6 +21,8 @@ from .models import Paper
 
 log = logging.getLogger(__name__)
 
+MAX_AUTHORS = 5  # 親メッセージに表示する著者の最大数（超過分は「他N名」）
+
 
 def _to_mrkdwn(text: str) -> str:
     return text.replace("**", "*")  # Claude/OpenAIの**bold**をSlackの*bold*へ
@@ -36,6 +38,28 @@ def _meta(paper: Paper, topic_label: str) -> str:
     if kws:
         parts.append("kw: " + ", ".join(kws))
     return ("  |  " + "  ・  ".join(parts)) if parts else ""
+
+
+def _authors_line(paper: Paper) -> str:
+    if not paper.authors:
+        return ""
+    names = ", ".join(paper.authors[:MAX_AUTHORS])
+    if len(paper.authors) > MAX_AUTHORS:
+        names += f" 他{len(paper.authors) - MAX_AUTHORS}名"
+    return names
+
+
+def _parent_text(paper: Paper, topic_label: str) -> str:
+    """親メッセージ本文: タイトル(リンク)＋メタ / 和訳タイトル / 著者 / 所属"""
+    lines = [f"<{paper.abs_url}|{paper.title}>{_meta(paper, topic_label)}"]
+    if paper.title_ja:
+        lines.append(f"_{paper.title_ja}_")
+    authors = _authors_line(paper)
+    if authors:
+        lines.append(f"👤 {authors}")
+    if paper.affiliations:
+        lines.append(f"🏛 {paper.affiliations}")
+    return "\n".join(lines)
 
 
 def _client(token: str) -> WebClient:
@@ -60,7 +84,7 @@ def send_papers(papers: list[Paper], token: str, channel: str, _unused,
 
     sent_ids: list[str] = []
     for p in papers:
-        text = f"<{p.abs_url}|{p.title}>{_meta(p, topic_label)}"
+        text = _parent_text(p, topic_label)
         try:
             resp = client.chat_postMessage(channel=channel, text=text,
                                            unfurl_links=False, unfurl_media=False)

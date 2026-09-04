@@ -18,7 +18,9 @@ class Paper:
     pdf_url: str                       # PDF直リンク
     matched_by: str = ""               # 何でヒットしたか（topic名など）
     scites: Optional[int] = None       # Scirate の scite 数（取れた場合）
-    summary: str = field(default="")   # Claude による要約
+    summary: str = field(default="")   # LLM による要約
+    title_ja: str = field(default="")  # LLM によるタイトル和訳（要約と同時生成）
+    affiliations: str = field(default="")  # LLM がPDF1ページ目から抽出した所属（同時生成）
     # topic名 -> そのtopic内でヒットしたキーワード群
     matched_keywords: dict[str, list[str]] = field(default_factory=dict)
     # 高scite論文向け: 結果の日本語解説＋代表図（runtime専用。stateには保存しない）

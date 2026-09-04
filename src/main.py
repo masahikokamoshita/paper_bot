@@ -174,6 +174,9 @@ def main() -> int:
 
         # Slack
         slack_channel = _slack_channel(topic)
+        if slack_enabled and not slack_channel and topic.get("slack_channel_env"):
+            log.warning("[%s] Slackチャンネル未解決（Secret %s が空/未設定）。Slack送信をスキップ",
+                        name, topic.get("slack_channel_env"))
         if slack_enabled and slack_channel:
             try:
                 ids = slack_sender.send_papers(papers, slack_token, slack_channel, None,
