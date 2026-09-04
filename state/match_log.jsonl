@@ -1988,3 +1988,14 @@
 {"date": "2026-09-04", "topic": "誤り訂正・magic state", "arxiv_id": "2609.03048v1", "keywords": ["quantum error correction", "surface code"], "title": "Resource-adaptive distributed fault tolerance with very noisy Bell pairs"}
 {"date": "2026-09-04", "topic": "誤り訂正・magic state", "arxiv_id": "2609.03021v1", "keywords": ["quantum error correction", "surface code"], "title": "Quantum low-density lattice codes"}
 {"date": "2026-09-04", "topic": "qLDPC符号", "arxiv_id": "2609.02999v1", "keywords": ["qLDPC"], "title": "Computing with qLDPC Codes by Climbing the Chain Map Hierarchy"}
+{"date": "2026-09-04", "topic": "量子特異値変換", "arxiv_id": "2609.04182v1", "keywords": ["qubitization"], "title": "Quantum communication and Bell nonlocality require infinite classical communication to simulate"}
+{"date": "2026-09-04", "topic": "量子特異値変換", "arxiv_id": "2609.04160v1", "keywords": ["qubitization"], "title": "Vanilla Exact Synthesis of CNOT Circuits is NP-hard"}
+{"date": "2026-09-04", "topic": "量子特異値変換", "arxiv_id": "2609.04132v1", "keywords": ["qubitization"], "title": "Characterizing Large Scale Quantum Systems with Error Per Circuit Layer"}
+{"date": "2026-09-04", "topic": "量子特異値変換", "arxiv_id": "2609.04081v1", "keywords": ["qubitization"], "title": "Frequency-Multiplexed Parallel Gates for Quantum LDPC Codes in a Two-Dimensional Ion Crystal"}
+{"date": "2026-09-04", "topic": "量子特異値変換", "arxiv_id": "2609.04020v1", "keywords": ["qubitization"], "title": "Robust multi-hypothesis quantum-state discrimination under unknown common unitary perturbations via least favorable priors"}
+{"date": "2026-09-04", "topic": "量子特異値変換", "arxiv_id": "2609.03944v1", "keywords": ["qubitization"], "title": "On the geometry and typicality of quantum magic"}
+{"date": "2026-09-04", "topic": "誤り訂正・magic state", "arxiv_id": "2609.04121v1", "keywords": ["quantum error correction"], "title": "Quantum thermalization achieves optimal approximate quantum error correction"}
+{"date": "2026-09-04", "topic": "誤り訂正・magic state", "arxiv_id": "2609.04076v1", "keywords": ["quantum error correction"], "title": "Algebraic Operator Decomposition: A Partitioned Architecture for Noise-Resilient Quantum Computing"}
+{"date": "2026-09-04", "topic": "qLDPC符号", "arxiv_id": "2609.04081v1", "keywords": ["quantum LDPC", "qLDPC"], "title": "Frequency-Multiplexed Parallel Gates for Quantum LDPC Codes in a Two-Dimensional Ion Crystal"}
+{"date": "2026-09-04", "topic": "散乱理論", "arxiv_id": "2609.04097v1", "keywords": ["electron scattering"], "title": "Hydrodynamics of two-dimensional electrons due to scattering by disorder"}
+{"date": "2026-09-04", "topic": "散乱理論", "arxiv_id": "2609.04106v1", "keywords": ["cross section"], "title": "Sub-barrier peaks in atom-atom-ion three-body recombination"}
