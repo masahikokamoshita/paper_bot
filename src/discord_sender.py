@@ -30,6 +30,52 @@ def _truncate(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
+# ---------------- 著者表示（slack_sender と同一ルール） ----------------
+HEAD_AUTHORS = 5  # 先頭から表示する著者数（筆頭側）
+TAIL_AUTHORS = 5  # 末尾から表示する著者数（責任著者側）
+
+# 姓の一部として扱う小文字の前置詞（省略しない）: van der Waals, de la Cruz など
+_NAME_PARTICLES = {"van", "von", "de", "der", "den", "del", "della", "di", "da",
+                   "la", "le", "los", "las", "ter", "ten", "op", "af", "zu", "dos", "du"}
+
+
+def _abbrev_author(name: str) -> str:
+    """'Jin Yang' -> 'J. Yang' のように名をイニシャル化する（姓は残す）。"""
+    tokens = name.split()
+    if len(tokens) < 2:
+        return name
+    low = name.lower()
+    if "collaboration" in low or "consortium" in low or " team" in low:
+        return name
+    family_start = len(tokens) - 1
+    while family_start > 1 and tokens[family_start - 1].lower() in _NAME_PARTICLES:
+        family_start -= 1
+    given = tokens[:family_start]
+    if not given:
+        return name
+
+    def initial(tok: str) -> str:
+        if tok.lower() in _NAME_PARTICLES:
+            return tok
+        parts = [p for p in tok.split("-") if p]
+        return "-".join(p[0].upper() + "." for p in parts)
+
+    return " ".join(initial(t) for t in given) + " " + " ".join(tokens[family_start:])
+
+
+def _authors_line(paper: Paper) -> str:
+    """著者を「先頭5名 …(中略N名)… 末尾5名」で表示（10名以下は全員）。"""
+    a = [_abbrev_author(n) for n in paper.authors]
+    if not a:
+        return ""
+    if len(a) <= HEAD_AUTHORS + TAIL_AUTHORS:
+        return ", ".join(a)
+    omitted = len(a) - HEAD_AUTHORS - TAIL_AUTHORS
+    return (", ".join(a[:HEAD_AUTHORS])
+            + f" …(中略{omitted}名)… "
+            + ", ".join(a[-TAIL_AUTHORS:]))
+
+
 def _meta_suffix(paper: Paper, topic_label: str = "") -> str:
     parts = []
     if paper.published:
@@ -78,8 +124,15 @@ def _send_compact(papers: list[Paper], webhook_url: str, username: str,
     # (id, 1行テキスト) を作る
     rows = []
     for p in papers:
-        line = f"・ [{_truncate(p.title, 220)}]({p.abs_url}){_meta_suffix(p, topic_label)}"
-        rows.append((p.version_less_id, line))
+        block = [f"・ [{_truncate(p.title, 220)}]({p.abs_url}){_meta_suffix(p, topic_label)}"]
+        if p.title_ja:
+            block.append(f"　*{_truncate(p.title_ja, 200)}*")
+        authors = _authors_line(p)
+        if authors:
+            block.append(f"　👤 {_truncate(authors, 400)}")
+        if p.affiliations:
+            block.append(f"　🏛 {_truncate(p.affiliations, 300)}")
+        rows.append((p.version_less_id, "\n".join(block)))
 
     sent_ids: list[str] = []
     buf_lines = [header]
@@ -111,13 +164,16 @@ def _send_compact(papers: list[Paper], webhook_url: str, username: str,
 
 # ---------------- full: 1論文=1カード(embed) ----------------
 def _build_embed(paper: Paper) -> dict:
-    desc = _truncate(paper.summary.strip(), EMBED_DESC_LIMIT)
+    body = paper.summary.strip()
+    if paper.title_ja:
+        body = f"*{paper.title_ja}*\n\n{body}"
+    desc = _truncate(body, EMBED_DESC_LIMIT)
     fields = []
-    authors = ", ".join(paper.authors[:6])
-    if len(paper.authors) > 6:
-        authors += f" 他{len(paper.authors) - 6}名"
+    authors = _authors_line(paper)
     if authors:
         fields.append({"name": "著者", "value": _truncate(authors, 1024), "inline": False})
+    if paper.affiliations:
+        fields.append({"name": "所属", "value": _truncate(paper.affiliations, 1024), "inline": False})
     if paper.categories:
         fields.append({"name": "分野", "value": ", ".join(paper.categories[:8]), "inline": True})
     if paper.scites is not None:
