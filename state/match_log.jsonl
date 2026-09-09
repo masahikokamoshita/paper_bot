@@ -2144,3 +2144,9 @@
 {"date": "2026-09-09", "topic": "散乱理論", "arxiv_id": "2609.06216v1", "keywords": ["cross section"], "title": "Nucleon Correlations in Unstable Nuclei via Knockout Reactions"}
 {"date": "2026-09-09", "topic": "Berry位相", "arxiv_id": "2609.07616v1", "keywords": ["Berry phase"], "title": "Topological Edge States and Collective Radiation in a One-Dimensional Atomic Chain"}
 {"date": "2026-09-09", "topic": "Berry位相", "arxiv_id": "2609.06857v1", "keywords": ["geometric phase"], "title": "Geometric Phases in Two-Level Mixing: From Neutral Mesons to Holonomic Qubits and Topological Majorana Modes"}
+{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06357v1", "keywords": ["qubitization"], "title": "Quantum Homotopy Perturbation Method to Solve Nonlinear Partial Differential Equations"}
+{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06285v1", "keywords": ["qubitization"], "title": "Efficient Quantum Circuits for Electronic Hamiltonian Simulation without Pauli Expansion"}
+{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06249v1", "keywords": ["qubitization"], "title": "Effects of Trotter Error, Digitization Error, and Initial State Overlap on Tapered Quantum Phase Estimation for Minimum Eigenvalue Computation"}
+{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06177v1", "keywords": ["qubitization"], "title": "Quantifying Nonstabilizerness of Quantum Codes by Removing the Inert Background"}
+{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.05957v1", "keywords": ["qubitization"], "title": "Reducing quantum and classical resources for quantum-centric supercomputing workloads on near-term hardware"}
+{"date": "2026-09-09", "topic": "量子化学計算全般", "arxiv_id": "2609.07284v1", "keywords": ["ground state energy"], "title": "Implementing QESEM's High-Accuracy Error Mitigation on a Quantum Computer: a Water Potential Energy Surface Study"}
