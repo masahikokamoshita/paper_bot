@@ -40,45 +40,13 @@ def _meta(paper: Paper, topic_label: str) -> str:
 HEAD_AUTHORS = 5  # 先頭から表示する著者数（筆頭側）
 TAIL_AUTHORS = 5  # 末尾から表示する著者数（責任著者側）
 
-# 姓の一部として扱う小文字の前置詞（省略しない）: van der Waals, de la Cruz など
-_NAME_PARTICLES = {"van", "von", "de", "der", "den", "del", "della", "di", "da",
-                   "la", "le", "los", "las", "ter", "ten", "op", "af", "zu", "dos", "du"}
-
-
-def _abbrev_author(name: str) -> str:
-    """'Jin Yang' -> 'J. Yang' のように名をイニシャル化する（姓は残す）。
-    - 'Jean-Pierre Dupont' -> 'J.-P. Dupont'
-    - 'Juan de la Cruz'    -> 'J. de la Cruz'（小文字前置詞から後ろは姓扱い）
-    - 単一語名・Collaboration名などはそのまま。"""
-    tokens = name.split()
-    if len(tokens) < 2:
-        return name
-    low = name.lower()
-    if "collaboration" in low or "consortium" in low or " team" in low:
-        return name
-    # 姓の開始位置: 末尾トークン、ただしその前に小文字前置詞が続く場合はそこまで含める
-    family_start = len(tokens) - 1
-    while family_start > 1 and tokens[family_start - 1].lower() in _NAME_PARTICLES:
-        family_start -= 1
-    given = tokens[:family_start]
-    if not given:
-        return name
-
-    def initial(tok: str) -> str:
-        # 'Jean-Pierre' -> 'J.-P.', 'A.' -> 'A.'。小文字前置詞はそのまま残す
-        if tok.lower() in _NAME_PARTICLES:
-            return tok
-        parts = [p for p in tok.split("-") if p]
-        return "-".join(p[0].upper() + "." for p in parts)
-
-    return " ".join(initial(t) for t in given) + " " + " ".join(tokens[family_start:])
 
 
 def _authors_line(paper: Paper) -> str:
-    """著者を「先頭5名 …(中略N名)… 末尾5名」で表示する。
+    """著者をフルネームで「先頭5名 …(中略N名)… 末尾5名」表示する。
     筆頭著者と、末尾に来ることが多い責任著者の両方を必ず残す。
     合計10名以下なら全員表示。"""
-    a = [_abbrev_author(n) for n in paper.authors]
+    a = list(paper.authors)  # フルネーム表記（イニシャル略記はしない）
     if not a:
         return ""
     if len(a) <= HEAD_AUTHORS + TAIL_AUTHORS:

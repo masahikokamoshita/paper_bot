@@ -34,38 +34,11 @@ def _truncate(text: str, limit: int) -> str:
 HEAD_AUTHORS = 5  # 先頭から表示する著者数（筆頭側）
 TAIL_AUTHORS = 5  # 末尾から表示する著者数（責任著者側）
 
-# 姓の一部として扱う小文字の前置詞（省略しない）: van der Waals, de la Cruz など
-_NAME_PARTICLES = {"van", "von", "de", "der", "den", "del", "della", "di", "da",
-                   "la", "le", "los", "las", "ter", "ten", "op", "af", "zu", "dos", "du"}
-
-
-def _abbrev_author(name: str) -> str:
-    """'Jin Yang' -> 'J. Yang' のように名をイニシャル化する（姓は残す）。"""
-    tokens = name.split()
-    if len(tokens) < 2:
-        return name
-    low = name.lower()
-    if "collaboration" in low or "consortium" in low or " team" in low:
-        return name
-    family_start = len(tokens) - 1
-    while family_start > 1 and tokens[family_start - 1].lower() in _NAME_PARTICLES:
-        family_start -= 1
-    given = tokens[:family_start]
-    if not given:
-        return name
-
-    def initial(tok: str) -> str:
-        if tok.lower() in _NAME_PARTICLES:
-            return tok
-        parts = [p for p in tok.split("-") if p]
-        return "-".join(p[0].upper() + "." for p in parts)
-
-    return " ".join(initial(t) for t in given) + " " + " ".join(tokens[family_start:])
 
 
 def _authors_line(paper: Paper) -> str:
-    """著者を「先頭5名 …(中略N名)… 末尾5名」で表示（10名以下は全員）。"""
-    a = [_abbrev_author(n) for n in paper.authors]
+    """著者をフルネームで「先頭5名 …(中略N名)… 末尾5名」表示（10名以下は全員）。"""
+    a = list(paper.authors)  # フルネーム表記（イニシャル略記はしない）
     if not a:
         return ""
     if len(a) <= HEAD_AUTHORS + TAIL_AUTHORS:
