@@ -2201,3 +2201,64 @@
 {"date": "2026-09-10", "topic": "散乱理論", "arxiv_id": "2609.10329v1", "keywords": ["S-matrix"], "title": "An Effective $S$-Matrix Approach to Low-Frequency Waveforms from Black Hole Mergers"}
 {"date": "2026-09-10", "topic": "散乱理論", "arxiv_id": "2609.10511v1", "keywords": ["electron scattering"], "title": "Hydrodynamic magnetotransport in a GaAs Corbino geometry"}
 {"date": "2026-09-10", "topic": "散乱理論", "arxiv_id": "2609.09958v1", "keywords": ["cross section"], "title": "More is not always better: Dissociative photoionization limits the EUV absorbing photacid generator pentafluorophenyl triflate in photolithography"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11153v1", "keywords": ["quantum singular value transformation", "qubitization", "block encoding"], "title": "Optimal T-Count for Block Encodings of Fermionic and Spin Hamiltonians"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10729v1", "keywords": ["quantum singular value transformation", "block encoding"], "title": "A Quantum-Inspired Dequantization Method for Diagonally Weighted Matrix Functions: Application to Learning with Optimized Random Features"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11903v1", "keywords": ["qubitization"], "title": "The generalised semi-Clifford conjecture is false"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11868v1", "keywords": ["qubitization"], "title": "Computational framework for quantum state tomography of spin ensembles"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11771v1", "keywords": ["qubitization"], "title": "Strong Converse for Quantum Capacity via a Fully Quantum Blowing-Up Lemma"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11730v1", "keywords": ["qubitization"], "title": "An exchange-assisted entangling gate between 87Rb and 171Yb Rydberg atoms"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11637v1", "keywords": ["qubitization"], "title": "Certifying Adversarial Robustness of Quantum Classifiers under Known-Readout Query Access"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11513v1", "keywords": ["qubitization"], "title": "One-clean-qubit spectroscopy of simulated Kitaev chains"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11508v1", "keywords": ["qubitization"], "title": "Joint Mitigation of Algorithmic and Physical Errors in Noisy Hamiltonian Simulation"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11470v1", "keywords": ["qubitization"], "title": "Statistical Symmetry Release for Equivariant Quantum Learning"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11402v1", "keywords": ["qubitization"], "title": "The Quantum Composition Paradox"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11387v1", "keywords": ["qubitization"], "title": "Entanglement Meets Reality: A Network Engineering Assessment and Forecast of Rackable Entanglement Sources"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11350v1", "keywords": ["qubitization"], "title": "From Analytic Structure to Quantum Complexity: Walsh-Pauli Representations of Continuum Operators"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11344v1", "keywords": ["qubitization"], "title": "Quantum-RAM Implementation Using Multiple Interacting Rydberg-Blockaded EIT Systems"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11248v1", "keywords": ["qubitization"], "title": "Generative Replay Mitigates Sample Starvation in Quantum Architecture Search"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11214v1", "keywords": ["qubitization"], "title": "Enhancing charge stability of Ge quantum well heterostructures via SiGe layer composition engineering"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11159v1", "keywords": ["qubitization"], "title": "Finite-blockade dynamics of a three-qubit ccz gate in neutral-atom arrays"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11151v1", "keywords": ["qubitization"], "title": "Qubit-Qutrit Quantum Tomography of hadronic $Λφ$ and $ΛK^{\\ast 0}$ systems"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11090v1", "keywords": ["qubitization"], "title": "Bargmann Invariants Are Insufficient for Complete Local-Unitary Orbit Discrimination"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11034v1", "keywords": ["qubitization"], "title": "Engineered two-photon dissipative confinement of a Kerr-cat qubit using SISIS quantum circuit refrigerator"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.11021v1", "keywords": ["qubitization"], "title": "Full-Rank Noise Forbids Long-Range Entanglement Swapping"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10974v1", "keywords": ["qubitization"], "title": "Sample-optimal learning of stabilizer states"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10932v1", "keywords": ["qubitization"], "title": "Distributed variational quantum computing with deterministic entanglement tuning"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10834v1", "keywords": ["qubitization"], "title": "Programmable CMOS DAC Operating in Cryogenic Environments for Controlling Superconducting Qubits"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10808v1", "keywords": ["qubitization"], "title": "Tight Time-Space Lower Bounds for Collision Finding and Element Distinctness under Label Symmetry"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10713v1", "keywords": ["qubitization"], "title": "Perfect $(s,r)$-state transfer"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10698v1", "keywords": ["qubitization"], "title": "Demonstration of a logical Bell-state measurement beyond the linear-optical limit"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10683v1", "keywords": ["qubitization"], "title": "Floquet Majorana XYZ Codes with Tunable Logical Dynamics"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10666v1", "keywords": ["qubitization"], "title": "Walking Floquet code circuits for zero-overhead leakage reduction"}
+{"date": "2026-09-11", "topic": "量子特異値変換", "arxiv_id": "2609.10655v1", "keywords": ["qubitization"], "title": "Conditional-squeezing gate in superconducting circuits"}
+{"date": "2026-09-11", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2609.11508v1", "keywords": ["Hamiltonian simulation", "Trotterization", "product formula"], "title": "Joint Mitigation of Algorithmic and Physical Errors in Noisy Hamiltonian Simulation"}
+{"date": "2026-09-11", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2609.11153v1", "keywords": ["Hamiltonian simulation"], "title": "Optimal T-Count for Block Encodings of Fermionic and Spin Hamiltonians"}
+{"date": "2026-09-11", "topic": "量子化学計算全般", "arxiv_id": "2609.10708v1", "keywords": ["electronic structure"], "title": "A Unified Theory of Collective Magnon and Orbiton Excitations in Altermagnets"}
+{"date": "2026-09-11", "topic": "量子化学計算全般", "arxiv_id": "2609.11327v1", "keywords": ["ground state energy"], "title": "Virtual quantum neural networks"}
+{"date": "2026-09-11", "topic": "量子化学計算全般", "arxiv_id": "2609.10932v1", "keywords": ["ground state energy"], "title": "Distributed variational quantum computing with deterministic entanglement tuning"}
+{"date": "2026-09-11", "topic": "素因数分解", "arxiv_id": "2609.10965v1", "keywords": ["discrete logarithm"], "title": "Low-cost algorithm-to-execution framework for surface-code quantum computing"}
+{"date": "2026-09-11", "topic": "光量子コンピュータ", "arxiv_id": "2609.11922v1", "keywords": ["boson sampling"], "title": "A Chip-scale Space-time Multiplexed Gaussian Boson Sampling Processor Beyond 10,000 Photons"}
+{"date": "2026-09-11", "topic": "光量子コンピュータ", "arxiv_id": "2609.11004v1", "keywords": ["continuous variable quantum"], "title": "On-chip squeezed light in the audio frequency band"}
+{"date": "2026-09-11", "topic": "光量子コンピュータ", "arxiv_id": "2609.10698v1", "keywords": ["measurement-based quantum computing"], "title": "Demonstration of a logical Bell-state measurement beyond the linear-optical limit"}
+{"date": "2026-09-11", "topic": "量子機械学習", "arxiv_id": "2609.11333v1", "keywords": ["quantum machine learning"], "title": "Quantum Random Access Memory Implementation Using Photon-Photon Interaction in Rydberg Atomic Ensemble"}
+{"date": "2026-09-11", "topic": "量子機械学習", "arxiv_id": "2609.11327v1", "keywords": ["quantum machine learning", "quantum neural network"], "title": "Virtual quantum neural networks"}
+{"date": "2026-09-11", "topic": "量子機械学習", "arxiv_id": "2609.10729v1", "keywords": ["quantum machine learning"], "title": "A Quantum-Inspired Dequantization Method for Diagonally Weighted Matrix Functions: Application to Learning with Optimized Random Features"}
+{"date": "2026-09-11", "topic": "量子機械学習", "arxiv_id": "2609.11637v1", "keywords": ["quantum neural network"], "title": "Certifying Adversarial Robustness of Quantum Classifiers under Known-Readout Query Access"}
+{"date": "2026-09-11", "topic": "実機", "arxiv_id": "2609.10834v1", "keywords": ["superconducting qubit"], "title": "Programmable CMOS DAC Operating in Cryogenic Environments for Controlling Superconducting Qubits"}
+{"date": "2026-09-11", "topic": "実機", "arxiv_id": "2609.11159v1", "keywords": ["neutral atom array"], "title": "Finite-blockade dynamics of a three-qubit ccz gate in neutral-atom arrays"}
+{"date": "2026-09-11", "topic": "実機", "arxiv_id": "2609.11730v1", "keywords": ["quantum processor"], "title": "An exchange-assisted entangling gate between 87Rb and 171Yb Rydberg atoms"}
+{"date": "2026-09-11", "topic": "実機", "arxiv_id": "2609.11585v1", "keywords": ["quantum processor"], "title": "Heterogeneously Integrated Efficient and Widely Tunable Lasers at 795 nm for Rubidium-Based Quantum Technologies"}
+{"date": "2026-09-11", "topic": "実機", "arxiv_id": "2609.11508v1", "keywords": ["quantum processor"], "title": "Joint Mitigation of Algorithmic and Physical Errors in Noisy Hamiltonian Simulation"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.11930v1", "keywords": ["quantum error correction"], "title": "Hierarchy of Rényi Coherent Information in Stabilizer Codes"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.11903v1", "keywords": ["quantum error correction"], "title": "The generalised semi-Clifford conjecture is false"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.11796v1", "keywords": ["quantum error correction"], "title": "Absolutely Maximally Entangled States of $2q$ Parties in Every Odd Prime-Power Dimension $q$"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.10876v1", "keywords": ["quantum error correction", "surface code"], "title": "Threshold Behavior of ZX and ZY Surface Codes Under Circuit-Level Biased and Crosstalk Noise"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.10698v1", "keywords": ["quantum error correction"], "title": "Demonstration of a logical Bell-state measurement beyond the linear-optical limit"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.10666v1", "keywords": ["quantum error correction", "surface code"], "title": "Walking Floquet code circuits for zero-overhead leakage reduction"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.11723v1", "keywords": ["fault-tolerant quantum computation"], "title": "Lifted surgery: Fast processing with QLDPC codes"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.11457v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "Local decoders for fault-tolerant quantum computation and translation-invariant stabilizer codes"}
+{"date": "2026-09-11", "topic": "誤り訂正・magic state", "arxiv_id": "2609.10965v1", "keywords": ["surface code"], "title": "Low-cost algorithm-to-execution framework for surface-code quantum computing"}
+{"date": "2026-09-11", "topic": "qLDPC符号", "arxiv_id": "2609.11723v1", "keywords": ["qLDPC"], "title": "Lifted surgery: Fast processing with QLDPC codes"}
+{"date": "2026-09-11", "topic": "散乱理論", "arxiv_id": "2609.10760v1", "keywords": ["scattering amplitude"], "title": "Complete set of tree-level $2\\to 2$ scattering amplitudes of ghost-free bimetric theory"}
+{"date": "2026-09-11", "topic": "散乱理論", "arxiv_id": "2609.11526v1", "keywords": ["cross section"], "title": "Study of the multiplicity dependence of non-flow correlations in pp collisions at $\\sqrt{s}=200$ GeV using PYTHIA"}
+{"date": "2026-09-11", "topic": "Berry位相", "arxiv_id": "2609.11344v1", "keywords": ["geometric phase"], "title": "Quantum-RAM Implementation Using Multiple Interacting Rydberg-Blockaded EIT Systems"}
