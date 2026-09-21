@@ -2509,3 +2509,34 @@
 {"date": "2026-09-18", "topic": "散乱理論", "arxiv_id": "2609.20742v1", "keywords": ["scattering amplitude"], "title": "Environmental Effects in Post-Minkowskian Dynamics: Effective Field Theory, Feynman Rules, and Ward Identities for Compact Objects in Relativistic Fluids"}
 {"date": "2026-09-18", "topic": "散乱理論", "arxiv_id": "2609.19252v1", "keywords": ["scattering amplitude", "S-matrix"], "title": "Cosmological Correlators from Scattering Amplitudes: A Review"}
 {"date": "2026-09-18", "topic": "散乱理論", "arxiv_id": "2609.20381v1", "keywords": ["cross section"], "title": "Small-Angle Differential Cross Sections for Symmetrical Resonant Charge Exchange in Molecular Hydrogen"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21567v1", "keywords": ["quantum signal processing"], "title": "Weighted Quantum Signal Processing: Low-Depth Polynomial Approximation with Applications to Kolmogorov-Arnold Networks"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21961v1", "keywords": ["qubitization"], "title": "Single-atom-based asynchronous photonic interconnect for scalable modular quantum computing"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21916v1", "keywords": ["qubitization"], "title": "Asymptotics for Frequency Redundancies in Quantum Machine Learning Models"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21900v1", "keywords": ["qubitization"], "title": "The Quantum KKL Inequality"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21598v1", "keywords": ["qubitization"], "title": "Experimental Measurement and Theoretical Analysis of Energy Relaxation Rates of an Interacting Two-Qubit System on a D-Wave Quantum Annealer"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21579v1", "keywords": ["qubitization"], "title": "Global Entanglement Quantification via Classical Shadows"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21380v1", "keywords": ["qubitization"], "title": "A memory-information window in finite-duration quantum control"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21376v1", "keywords": ["qubitization"], "title": "Denser Planar Color Codes"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21373v1", "keywords": ["qubitization"], "title": "Passive Pauli Toggling of Polarization Qubits in Optical Fibers: Error Bounds and QKD Performance"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21310v1", "keywords": ["qubitization"], "title": "Commutator Geometry and Information Preservation in the Quantum Switch"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21249v1", "keywords": ["qubitization"], "title": "The Pinnacle Architecture with fixed connectivity of degree eight"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21237v1", "keywords": ["qubitization"], "title": "Unconditional quantum advantage from a two-round CHSH problem in one dimension"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.21153v1", "keywords": ["qubitization"], "title": "Shock-Capturing Quantum Algorithm for the Linear Advection Operator"}
+{"date": "2026-09-21", "topic": "量子特異値変換", "arxiv_id": "2609.20912v1", "keywords": ["qubitization"], "title": "Do Quantum Models Scale Like LLMs?"}
+{"date": "2026-09-21", "topic": "量子化学計算全般", "arxiv_id": "2609.21882v1", "keywords": ["electronic structure"], "title": "Orbital-Free Surrogate Functionals Yield Transferable Interatomic Potentials and Electron Densities"}
+{"date": "2026-09-21", "topic": "量子化学計算全般", "arxiv_id": "2609.21536v1", "keywords": ["electronic structure"], "title": "From sparse quantum-computing data to atomistic simulation with universal machine-learning interatomic potentials"}
+{"date": "2026-09-21", "topic": "光量子コンピュータ", "arxiv_id": "2609.21846v1", "keywords": ["continuous variable quantum"], "title": "Sine-Gordon Model with Bosonic Tensor Networks: Continuum Matching and Soliton Scattering"}
+{"date": "2026-09-21", "topic": "量子機械学習", "arxiv_id": "2609.21916v1", "keywords": ["quantum machine learning"], "title": "Asymptotics for Frequency Redundancies in Quantum Machine Learning Models"}
+{"date": "2026-09-21", "topic": "量子機械学習", "arxiv_id": "2609.21567v1", "keywords": ["quantum machine learning"], "title": "Weighted Quantum Signal Processing: Low-Depth Polynomial Approximation with Applications to Kolmogorov-Arnold Networks"}
+{"date": "2026-09-21", "topic": "実機", "arxiv_id": "2609.21249v1", "keywords": ["superconducting qubit"], "title": "The Pinnacle Architecture with fixed connectivity of degree eight"}
+{"date": "2026-09-21", "topic": "実機", "arxiv_id": "2609.22002v1", "keywords": ["quantum processor"], "title": "Microwave dielectric properties of LiNbO$_{\\mathbf{3}}$ and AlN at millikelvin temperatures and single-photon power"}
+{"date": "2026-09-21", "topic": "実機", "arxiv_id": "2609.21115v1", "keywords": ["quantum processor"], "title": "Hybrid quantum-classical attention for histopathology-based molecular profiling in data-limited cancers"}
+{"date": "2026-09-21", "topic": "誤り訂正・magic state", "arxiv_id": "2609.21886v1", "keywords": ["quantum error correction"], "title": "Ensemble Dependence of the Critical Exponent at a Quantum Error Correction Threshold"}
+{"date": "2026-09-21", "topic": "誤り訂正・magic state", "arxiv_id": "2609.21418v1", "keywords": ["quantum error correction"], "title": "Ultimate Information Rate for Quantum Sensing under Multilevel Relaxation"}
+{"date": "2026-09-21", "topic": "誤り訂正・magic state", "arxiv_id": "2609.21152v1", "keywords": ["quantum error correction"], "title": "ReFINE: Scheduling of Distillation and Coding for Rate-Fidelity Tradeoff in Quantum Networks"}
+{"date": "2026-09-21", "topic": "誤り訂正・magic state", "arxiv_id": "2609.21376v1", "keywords": ["surface code"], "title": "Denser Planar Color Codes"}
+{"date": "2026-09-21", "topic": "散乱理論", "arxiv_id": "2609.20934v1", "keywords": ["scattering amplitude"], "title": "Second-order scattering response of a Schwarzschild black hole"}
+{"date": "2026-09-21", "topic": "散乱理論", "arxiv_id": "2609.22023v1", "keywords": ["cross section"], "title": "Non-Hermitian impurity scattering in graphene: Boltzmann transport and thermoelectric response"}
+{"date": "2026-09-21", "topic": "Berry位相", "arxiv_id": "2609.21741v1", "keywords": ["geometric phase"], "title": "Floquet physics from quantized light-matter interaction: geometric phases, gauge consistency, and entanglement"}
+{"date": "2026-09-21", "topic": "Berry位相", "arxiv_id": "2609.21355v1", "keywords": ["geometric phase", "Berry curvature"], "title": "Weighted Berry curvature and global geometry of mixed quantum states"}
+{"date": "2026-09-21", "topic": "Berry位相", "arxiv_id": "2609.21586v1", "keywords": ["Berry curvature"], "title": "Floquet-spin-orbit compensation and flat- and quadratic-band contact in the $α$-$T_3$ lattice"}
