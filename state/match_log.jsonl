@@ -2640,3 +2640,41 @@
 {"date": "2026-09-23", "topic": "散乱理論", "arxiv_id": "2609.25865v1", "keywords": ["cross section"], "title": "$LS/LSJ$ Hybrid Coupling Framework for Auger Angular Distributions of Experimentally Unresolved Multiplets with Isolated Fine-Structure"}
 {"date": "2026-09-23", "topic": "散乱理論", "arxiv_id": "2609.25818v1", "keywords": ["cross section"], "title": "Effects of in-medium $NN$ inelastic cross sections and the high-momentum tail of nucleon momentum distributions on pion production in heavy-ion collisions"}
 {"date": "2026-09-23", "topic": "Berry位相", "arxiv_id": "2609.25929v1", "keywords": ["Berry phase"], "title": "On the Computational Complexity of Guided Berry Phase Estimation"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.28461v1", "keywords": ["qubitization"], "title": "Purely-logarithmic-time- and constant-space-overhead fault-tolerant quantum computation"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.28367v1", "keywords": ["qubitization"], "title": "The Minimal Dimension of Entangled-Noise Advantage"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.28241v1", "keywords": ["qubitization"], "title": "Beyond Maximal Entanglement: Exact Resources for Multiparty Encrypted Quantum Cloning"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.28233v1", "keywords": ["qubitization"], "title": "Certifying fermionic Gaussian states (and a little more) with optimal precision dependence"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.28058v1", "keywords": ["qubitization"], "title": "Quantum Advantage in Topological Data Analysis via Mayer Homology"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.27983v1", "keywords": ["qubitization"], "title": "Optical Schrödinger cat states generated using cavity Rydberg quantum photonics"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.27724v1", "keywords": ["qubitization"], "title": "Quantum Simulation of Si/SiGe Devices with Experimentally Calibrated Micromagnet Effects"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.27648v1", "keywords": ["qubitization"], "title": "Charge and spin qubits in interacting quantum dots coupled to Rashba-active leads"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.27456v1", "keywords": ["qubitization"], "title": "Precision and resource scaling of real-time flux distortion compensation for superconducting quantum control"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.27239v1", "keywords": ["qubitization"], "title": "Optimising Cryogenic Wiring for Microwave-frequency Millikelvin Quantum Processors"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.27181v1", "keywords": ["qubitization"], "title": "Emergent Prethermal Symmetries for Scalable Hamiltonian Learning"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.27177v1", "keywords": ["qubitization"], "title": "Sample-Efficient Tomography of a Class of Mixed States with Extensive Entanglement and Magic"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.27128v1", "keywords": ["qubitization"], "title": "Efficient Learning of Clifford-Scrambled Product States"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.26973v1", "keywords": ["qubitization"], "title": "Near-optimal high-rate surgery from linear PCPPs"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.26958v1", "keywords": ["qubitization"], "title": "Soft decoding for quantum LDPC codes with experimental validation"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.26912v1", "keywords": ["qubitization"], "title": "Influence of fast and slow laser phase noise on the fidelity of the Mølmer-Sørensen trapped-ion gate"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.26898v1", "keywords": ["qubitization"], "title": "The logical set of Gaussian states under the stabilizer subsystem decomposition"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.26880v1", "keywords": ["qubitization"], "title": "Bosonic Error Correction with Fluxonium"}
+{"date": "2026-09-24", "topic": "量子特異値変換", "arxiv_id": "2609.26825v1", "keywords": ["qubitization"], "title": "Free-fermion spectral structure enables strange nonchaotic attractor classification in Aubry-Andre-Harper quantum reservoirs"}
+{"date": "2026-09-24", "topic": "量子化学計算全般", "arxiv_id": "2609.27750v1", "keywords": ["quantum chemistry"], "title": "Uncertainty prediction in composite quantum chemistry approaches"}
+{"date": "2026-09-24", "topic": "量子化学計算全般", "arxiv_id": "2609.27704v1", "keywords": ["variational quantum eigensolver"], "title": "The winner's curse in hardware VQE: drift-differenced remeasurement of finite-shot selection bias"}
+{"date": "2026-09-24", "topic": "量子機械学習", "arxiv_id": "2609.28229v1", "keywords": ["quantum machine learning"], "title": "Distilling Datasets into Shallow Circuits for Quantum Machine Learning"}
+{"date": "2026-09-24", "topic": "実機", "arxiv_id": "2609.26912v1", "keywords": ["trapped-ion quantum", "quantum processor"], "title": "Influence of fast and slow laser phase noise on the fidelity of the Mølmer-Sørensen trapped-ion gate"}
+{"date": "2026-09-24", "topic": "実機", "arxiv_id": "2609.28441v1", "keywords": ["neutral atom array"], "title": "Analog neutral-atom for in-memory processing in quantum reservoir computing"}
+{"date": "2026-09-24", "topic": "実機", "arxiv_id": "2609.27670v1", "keywords": ["quantum processor"], "title": "CP asymmetry and visible decay in $3+1$ neutrino oscillations on a quantum computer"}
+{"date": "2026-09-24", "topic": "実機", "arxiv_id": "2609.27239v1", "keywords": ["quantum processor"], "title": "Optimising Cryogenic Wiring for Microwave-frequency Millikelvin Quantum Processors"}
+{"date": "2026-09-24", "topic": "誤り訂正・magic state", "arxiv_id": "2609.26946v1", "keywords": ["quantum error correction"], "title": "Monolithic Quantum Error Correction in the Presence of Distinguishability"}
+{"date": "2026-09-24", "topic": "誤り訂正・magic state", "arxiv_id": "2609.26880v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "Bosonic Error Correction with Fluxonium"}
+{"date": "2026-09-24", "topic": "誤り訂正・magic state", "arxiv_id": "2609.28461v1", "keywords": ["magic state", "fault-tolerant quantum computation"], "title": "Purely-logarithmic-time- and constant-space-overhead fault-tolerant quantum computation"}
+{"date": "2026-09-24", "topic": "誤り訂正・magic state", "arxiv_id": "2609.28233v1", "keywords": ["magic state"], "title": "Certifying fermionic Gaussian states (and a little more) with optimal precision dependence"}
+{"date": "2026-09-24", "topic": "誤り訂正・magic state", "arxiv_id": "2609.27128v1", "keywords": ["magic state"], "title": "Efficient Learning of Clifford-Scrambled Product States"}
+{"date": "2026-09-24", "topic": "誤り訂正・magic state", "arxiv_id": "2609.26691v2", "keywords": ["magic state"], "title": "Transversal non-Clifford gates on good quantum locally testable codes"}
+{"date": "2026-09-24", "topic": "誤り訂正・magic state", "arxiv_id": "2609.27640v1", "keywords": ["fault-tolerant quantum computation"], "title": "Near-Optimal Bell Nonlocality with GKP and Entangled Cat States"}
+{"date": "2026-09-24", "topic": "誤り訂正・magic state", "arxiv_id": "2609.26958v1", "keywords": ["fault-tolerant quantum computation"], "title": "Soft decoding for quantum LDPC codes with experimental validation"}
+{"date": "2026-09-24", "topic": "qLDPC符号", "arxiv_id": "2609.26973v1", "keywords": ["quantum LDPC"], "title": "Near-optimal high-rate surgery from linear PCPPs"}
+{"date": "2026-09-24", "topic": "qLDPC符号", "arxiv_id": "2609.26958v1", "keywords": ["quantum LDPC", "low-density parity-check code"], "title": "Soft decoding for quantum LDPC codes with experimental validation"}
+{"date": "2026-09-24", "topic": "散乱理論", "arxiv_id": "2609.27403v1", "keywords": ["cross section"], "title": "Multi-Model Analysis of the Astrophysical $S(E)$ Factor for the $^{9}\\mathrm{Be}(p,α)^{6}\\mathrm{Li}$ Reaction and Its Impact on Astrophysical Reaction Rates"}
+{"date": "2026-09-24", "topic": "散乱理論", "arxiv_id": "2609.26845v1", "keywords": ["cross section"], "title": "Analytical Solution of the Nonlinear Boltzmann Equation For Multicomponent Systems"}
