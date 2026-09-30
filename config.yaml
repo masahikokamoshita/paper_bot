@@ -189,3 +189,16 @@ topics:
       - "Berry curvature"
       - "holonomic quantum computation"
       - "adiabatic phase"
+
+  - name: "リソース推定"
+    slack_channel_env: "SLACK_CHANNEL_RESOURCE_EST"
+    keywords:
+      - "resource estimation"
+      - "resource estimate"
+      - "T-count"
+      - "Toffoli count"
+      - "gate count"
+      - "qubit count"
+      - "ti:logical qubits"
+      - "space-time volume"
+      - "fault-tolerant cost"
