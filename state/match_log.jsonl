@@ -2940,3 +2940,8 @@
 {"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.36480v1", "keywords": ["gate count"], "title": "Improved Quantum Algorithms for Black-Box Abelian Group Decomposition"}
 {"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.34623v1", "keywords": ["gate count"], "title": "Trotterisation Thresholds and Dissipative Quantum Chaos in Open-System Digital Quantum Simulation"}
 {"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.34298v1", "keywords": ["gate count"], "title": "Nuclear scattering phase shifts with factorized geometric-time RODEO on a quantum processor"}
+{"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.37368v1", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
+{"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
+{"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.36480v1", "keywords": ["gate count"], "title": "Improved Quantum Algorithms for Black-Box Abelian Group Decomposition"}
+{"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.34623v1", "keywords": ["gate count"], "title": "Trotterisation Thresholds and Dissipative Quantum Chaos in Open-System Digital Quantum Simulation"}
+{"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.34298v1", "keywords": ["gate count"], "title": "Nuclear scattering phase shifts with factorized geometric-time RODEO on a quantum processor"}
