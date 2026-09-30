@@ -1,0 +1,68 @@
+name: Resource Estimation Backfill
+
+# 手動実行専用: Actions タブ → 「Resource Estimation Backfill」→ Run workflow で期間を入力
+on:
+  workflow_dispatch:
+    inputs:
+      date_from:
+        description: '開始日 (YYYY-MM-DD)'
+        required: true
+        type: string
+      date_to:
+        description: '終了日 (YYYY-MM-DD)'
+        required: true
+        type: string
+      max_process:
+        description: '処理する最大件数（コスト制御。まず dry_run で件数を確認）'
+        required: false
+        default: '20'
+        type: string
+      dry_run:
+        description: '候補一覧の表示のみ（LLM/Slack/PRを実行しない）'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arxiv-bot          # 通常botと同時に走らないようにする（state競合防止）
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run backfill
+        env:
+          OPENAI_API_KEY:             ${{ secrets.OPENAI_API_KEY }}
+          SLACK_BOT_TOKEN:            ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_RESOURCE_EST: ${{ secrets.SLACK_CHANNEL_RESOURCE_EST }}
+          MOONSHOT_PAT:               ${{ secrets.MOONSHOT_PAT }}
+        run: |
+          ARGS="--from ${{ inputs.date_from }} --to ${{ inputs.date_to }} --max ${{ inputs.max_process }}"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python -m src.backfill $ARGS
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/
+          if git diff --cached --quiet; then
+            echo "No state changes."
+          else
+            git commit -m "Update state (backfill) [skip ci]"
+            git push
+          fi
