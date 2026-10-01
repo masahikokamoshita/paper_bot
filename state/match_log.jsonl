@@ -1,25 +1,3 @@
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.07193v1", "keywords": ["cross section"], "title": "Higgs boson mass and thermal wino dark matter from Starobinsky supergravity with the MSSM"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.06938v1", "keywords": ["cross section"], "title": "First constraint on Born-rule violations at high-energy colliders"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.05930v1", "keywords": ["cross section"], "title": "Direct Analytical Evaluation of Electron-Impact Excitation Cross Sections via Multiconfigurational Binary Encounter Approach: Applications to Benzene and Naphthalene"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.05504v1", "keywords": ["cross section"], "title": "A Novel Implementation of Self-Interacting Dark Matter in AREPO"}
-{"date": "2026-07-10", "topic": "Berry位相", "arxiv_id": "2607.05591v1", "keywords": ["Berry phase", "geometric phase"], "title": "Wilczek-Zee Realization of Uhlmann Parallel Transport"}
-{"date": "2026-07-10", "topic": "Berry位相", "arxiv_id": "2607.07223v1", "keywords": ["holonomic quantum computation"], "title": "Non-Abelian Thouless pumping based on the global adiabatic criterion in Rydberg synthetic lattices"}
-{"date": "2026-07-11", "topic": "Berry位相", "arxiv_id": "2607.07223v1", "keywords": ["holonomic quantum computation"], "title": "Non-Abelian Thouless pumping based on the global adiabatic criterion in Rydberg synthetic lattices"}
-{"date": "2026-07-13", "topic": "量子位相推定", "arxiv_id": "2607.09476v1", "keywords": ["quantum phase estimation"], "title": "Orthogonal Quantum Krylov Diagonalisation"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09639v1", "keywords": ["quantum singular value transformation", "block encoding"], "title": "A Quantum Path to Partial Differential Equations"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09476v1", "keywords": ["quantum signal processing", "block encoding"], "title": "Orthogonal Quantum Krylov Diagonalisation"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09652v1", "keywords": ["qubitization"], "title": "Silicon-Germanium Heterostructures with Enhanced Valley Splitting for Spin Qubits"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09638v1", "keywords": ["qubitization"], "title": "Complete measurement of tunnel- and valley-coupling parameters in a silicon double quantum dot"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09605v1", "keywords": ["qubitization"], "title": "Quantum Orchestras: a Concrete Semantics for Recursive Hybrid Programs"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09570v1", "keywords": ["qubitization"], "title": "Confinement drives valley splitting above 4K in buried silicon quantum wells"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09513v1", "keywords": ["qubitization"], "title": "Qubit-Boson Hybrid Beam-Splitter Gate with Kerr Nonlinearity in Circuit QED for Many-Body Dynamics"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09511v1", "keywords": ["qubitization"], "title": "Majorana parity qubit in coupled minimal Kitaev chains"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09508v1", "keywords": ["qubitization"], "title": "Superconducting singlet-triplet qubits"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09469v1", "keywords": ["qubitization"], "title": "A combinatorial framework for clustering graph states: Algorithms and hardness for rank-integrity"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09381v1", "keywords": ["qubitization"], "title": "COSMA: Communication-aware Optimization of Fermionic Simulation Kernels for Modular Quantum Architectures"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09368v1", "keywords": ["qubitization"], "title": "Quantum Approximate Optimization via Noise-Directed Adaptive Warm-Starting"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09198v1", "keywords": ["qubitization"], "title": "Quantum Scattering Model of Dual Parallel Mach Zehnder Electro Optic Modulators: General Formalism, Impairments, and Applications to Frequency-Bin Photonic Quantum States"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09118v1", "keywords": ["qubitization"], "title": "Measurement Speed Limits for Quantum State Purification"}
 {"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09051v1", "keywords": ["qubitization"], "title": "Simulation of Lindbladian dynamics via adaptive variational quantum trajectory compression"}
 {"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08998v1", "keywords": ["qubitization"], "title": "Shadow-Based Noise Fingerprinting of Simulated Quantum Noise Models"}
 {"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08967v1", "keywords": ["qubitization"], "title": "Probing two-spin entanglement at quantum criticality on a quantum processor"}
@@ -2991,6 +2969,28 @@
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34623v1", "keywords": ["gate count"], "title": "Trotterisation Thresholds and Dissipative Quantum Chaos in Open-System Digital Quantum Simulation"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34298v1", "keywords": ["gate count"], "title": "Nuclear scattering phase shifts with factorized geometric-time RODEO on a quantum processor"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39922v1", "keywords": ["fault-tolerant cost"], "title": "Fault-tolerant cost of shallow QAOA on near-symmetric optimization problems"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.37368v2", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36480v1", "keywords": ["gate count"], "title": "Improved Quantum Algorithms for Black-Box Abelian Group Decomposition"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34623v1", "keywords": ["gate count"], "title": "Trotterisation Thresholds and Dissipative Quantum Chaos in Open-System Digital Quantum Simulation"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34298v1", "keywords": ["gate count"], "title": "Nuclear scattering phase shifts with factorized geometric-time RODEO on a quantum processor"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39922v1", "keywords": ["fault-tolerant cost"], "title": "Fault-tolerant cost of shallow QAOA on near-symmetric optimization problems"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39415v1", "keywords": ["qubitization"], "title": "Reservoir- and Measurement-free Microwave Initialization of Semiconductor Spin Qubits"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39411v1", "keywords": ["qubitization"], "title": "Genuine Multipartite Nonlocality Is Fermionic Magic"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39393v1", "keywords": ["qubitization"], "title": "Spectrally Selective Charging of an Interacting Quantum Battery via an Anharmonic Mediator"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39345v1", "keywords": ["qubitization"], "title": "Constant-Overhead Injection into Quantum Codes"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39332v1", "keywords": ["qubitization"], "title": "Complete product-state contact set and optimality of the canonical three-qubit Shifts witness"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39328v1", "keywords": ["qubitization"], "title": "Information Potential: A Variational Approach to Quantum Information Complexity"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39318v1", "keywords": ["qubitization"], "title": "A Dichotomy for MIP* in the Presence of Unital Noise"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39280v1", "keywords": ["qubitization"], "title": "Optimal learning of covariant quantum states and channels"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39226v1", "keywords": ["qubitization"], "title": "Metrological Benchmarking of Random Quantum Circuits"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39172v1", "keywords": ["qubitization"], "title": "A Width-Matched Comparison of Hybrid Quantum-Classical Self-Supervised Learning for Fingerprint Recognition"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39092v1", "keywords": ["qubitization"], "title": "Quantum circuit compilation with constant overhead"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39016v1", "keywords": ["qubitization"], "title": "Entropy threshold: A simple proxy for performance of quantum error correction"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40254v1", "keywords": ["block encoding", "quantum eigenvalue transformation"], "title": "Quantum oblique eigenprojection"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40073v1", "keywords": ["block encoding"], "title": "Transducer-based linear combination of unitaries: theory and applications"}
+{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39992v1", "keywords": ["block encoding"], "title": "Predicting properties of Scrooge ensembles with high accuracy and low sample complexity"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.37368v2", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
