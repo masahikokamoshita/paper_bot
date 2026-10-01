@@ -1,10 +1,3 @@
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.08682v1", "keywords": ["electron scattering"], "title": "Magnetophonon Resistance Oscillations in Structures with a GaAs Quantum Well and Barriers of AlAs/GaAs$\\langleδ$-Si$\\rangle$ Superlattices"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.08629v1", "keywords": ["electron scattering"], "title": "Lectures on lepton-nucleus quasielastic scattering with relativistic models"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.08502v1", "keywords": ["cross section"], "title": "Microscopic description of $^{12}$C+$^{12,13}$C fusion reactions at nuclear astrophysical energies"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.07788v1", "keywords": ["cross section"], "title": "Factorization of elastic, single, and double diffractive $pp$ scattering"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.07664v1", "keywords": ["cross section"], "title": "Single inclusive hadron and jet production in lepton-hadron scattering"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.07551v1", "keywords": ["cross section"], "title": "Extracting Barrier Distributions from Fusion Cross Sections"}
-{"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.07312v1", "keywords": ["cross section"], "title": "Double quarkonium production in hadronic collisions at fixed-target experiments"}
 {"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.07193v1", "keywords": ["cross section"], "title": "Higgs boson mass and thermal wino dark matter from Starobinsky supergravity with the MSSM"}
 {"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.06938v1", "keywords": ["cross section"], "title": "First constraint on Born-rule violations at high-energy colliders"}
 {"date": "2026-07-10", "topic": "散乱理論", "arxiv_id": "2607.05930v1", "keywords": ["cross section"], "title": "Direct Analytical Evaluation of Electron-Impact Excitation Cross Sections via Multiconfigurational Binary Encounter Approach: Applications to Benzene and Naphthalene"}
@@ -2991,6 +2984,13 @@
 {"date": "2026-10-01", "topic": "散乱理論", "arxiv_id": "2609.38940v1", "keywords": ["cross section"], "title": "Universal empirical coupled channel calculations for capture cross sections in synthesis of superheavy nuclei"}
 {"date": "2026-10-01", "topic": "散乱理論", "arxiv_id": "2609.38619v1", "keywords": ["cross section"], "title": "Nuclear Deep Inelastic Scattering around $x=0.3$"}
 {"date": "2026-10-01", "topic": "Berry位相", "arxiv_id": "2609.39500v1", "keywords": ["geometric phase"], "title": "Emergent Quantum Geometric Phases in Holey Graphene"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.37368v2", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36480v1", "keywords": ["gate count"], "title": "Improved Quantum Algorithms for Black-Box Abelian Group Decomposition"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34623v1", "keywords": ["gate count"], "title": "Trotterisation Thresholds and Dissipative Quantum Chaos in Open-System Digital Quantum Simulation"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34298v1", "keywords": ["gate count"], "title": "Nuclear scattering phase shifts with factorized geometric-time RODEO on a quantum processor"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39922v1", "keywords": ["fault-tolerant cost"], "title": "Fault-tolerant cost of shallow QAOA on near-symmetric optimization problems"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.37368v2", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
