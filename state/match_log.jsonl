@@ -1,10 +1,3 @@
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.09051v1", "keywords": ["qubitization"], "title": "Simulation of Lindbladian dynamics via adaptive variational quantum trajectory compression"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08998v1", "keywords": ["qubitization"], "title": "Shadow-Based Noise Fingerprinting of Simulated Quantum Noise Models"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08967v1", "keywords": ["qubitization"], "title": "Probing two-spin entanglement at quantum criticality on a quantum processor"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08928v1", "keywords": ["qubitization"], "title": "A Novel Parallel QCNN Architecture with Efficient Classical Simulability"}
-{"date": "2026-07-13", "topic": "量子特異値変換", "arxiv_id": "2607.08911v1", "keywords": ["qubitization"], "title": "A diagrammatic field theory of quantum error correction"}
-{"date": "2026-07-13", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.09639v1", "keywords": ["Hamiltonian simulation"], "title": "A Quantum Path to Partial Differential Equations"}
-{"date": "2026-07-13", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.09051v1", "keywords": ["Hamiltonian simulation", "Trotterization"], "title": "Simulation of Lindbladian dynamics via adaptive variational quantum trajectory compression"}
 {"date": "2026-07-13", "topic": "QSCI(SQD)", "arxiv_id": "2607.09476v1", "keywords": ["quantum subspace diagonalization"], "title": "Orthogonal Quantum Krylov Diagonalisation"}
 {"date": "2026-07-13", "topic": "量子化学計算全般", "arxiv_id": "2607.09238v1", "keywords": ["electronic structure"], "title": "Serially Improved GTOs for Molecular Applications (SIGMA): basis sets from monovalent ions"}
 {"date": "2026-07-13", "topic": "量子化学計算全般", "arxiv_id": "2607.08927v1", "keywords": ["electronic structure"], "title": "Molecular Tuning of Charge-Transfer Resonance in Plasmonic Nanocavities"}
@@ -2991,6 +2984,13 @@
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40254v1", "keywords": ["block encoding", "quantum eigenvalue transformation"], "title": "Quantum oblique eigenprojection"}
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40073v1", "keywords": ["block encoding"], "title": "Transducer-based linear combination of unitaries: theory and applications"}
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.39992v1", "keywords": ["block encoding"], "title": "Predicting properties of Scrooge ensembles with high accuracy and low sample complexity"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.37368v2", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36480v1", "keywords": ["gate count"], "title": "Improved Quantum Algorithms for Black-Box Abelian Group Decomposition"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34623v1", "keywords": ["gate count"], "title": "Trotterisation Thresholds and Dissipative Quantum Chaos in Open-System Digital Quantum Simulation"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34298v1", "keywords": ["gate count"], "title": "Nuclear scattering phase shifts with factorized geometric-time RODEO on a quantum processor"}
+{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39922v1", "keywords": ["fault-tolerant cost"], "title": "Fault-tolerant cost of shallow QAOA on near-symmetric optimization problems"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.37368v2", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
