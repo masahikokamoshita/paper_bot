@@ -1,14 +1,3 @@
-{"date": "2026-07-15", "topic": "量子機械学習", "arxiv_id": "2607.12828v1", "keywords": ["quantum machine learning", "variational quantum classifier"], "title": "Detecting Phishing in Ethereum Networks using Quantum Machine Learning"}
-{"date": "2026-07-15", "topic": "量子機械学習", "arxiv_id": "2607.12487v1", "keywords": ["quantum machine learning", "quantum kernel"], "title": "Benchmarking loss functions for trainable quantum feature maps"}
-{"date": "2026-07-15", "topic": "量子機械学習", "arxiv_id": "2607.12055v1", "keywords": ["quantum machine learning", "quantum neural network", "parameterized quantum circuit"], "title": "HarmQ: Harmonic Backdoor Attacks Against Quantum Neural Networks"}
-{"date": "2026-07-15", "topic": "量子機械学習", "arxiv_id": "2607.12100v1", "keywords": ["quantum neural network"], "title": "Defeating Barren Plateaus with Task-Aligned Symmetry"}
-{"date": "2026-07-15", "topic": "量子機械学習", "arxiv_id": "2607.12802v1", "keywords": ["parameterized quantum circuit"], "title": "A Variational Surrogate Approach to Finite-Horizon Quantum Control via Hardware-Efficient Ansatz"}
-{"date": "2026-07-15", "topic": "実機", "arxiv_id": "2607.12996v1", "keywords": ["superconducting qubit"], "title": "Expressibility and trainability of a two-dimensional pairwise quantum-circuit ansatz"}
-{"date": "2026-07-15", "topic": "実機", "arxiv_id": "2607.12118v1", "keywords": ["superconducting qubit", "quantum processor"], "title": "Error correction on an array of superconducting qubits with defective components"}
-{"date": "2026-07-15", "topic": "実機", "arxiv_id": "2607.12999v1", "keywords": ["trapped-ion quantum", "quantum processor"], "title": "Spin Chain Quantum Communication on a Trapped-Ion Processor"}
-{"date": "2026-07-15", "topic": "実機", "arxiv_id": "2607.12047v1", "keywords": ["trapped-ion quantum"], "title": "Observation of gravity-like signatures in holographic codes on a quantum computer"}
-{"date": "2026-07-15", "topic": "実機", "arxiv_id": "2607.12948v1", "keywords": ["neutral atom array"], "title": "Logical Entangling with Phantom Codes in Hypergraph Products"}
-{"date": "2026-07-15", "topic": "実機", "arxiv_id": "2607.12988v1", "keywords": ["quantum processor"], "title": "A cryogenic neutral-atom platform with full optical access and 2-hour trap lifetime"}
 {"date": "2026-07-15", "topic": "実機", "arxiv_id": "2607.12828v1", "keywords": ["quantum processor"], "title": "Detecting Phishing in Ethereum Networks using Quantum Machine Learning"}
 {"date": "2026-07-15", "topic": "実機", "arxiv_id": "2607.11973v1", "keywords": ["quantum processor"], "title": "On the Experimental Determination of Nonlocal Characteristics of Two-Qubit Gates"}
 {"date": "2026-07-15", "topic": "誤り訂正・magic state", "arxiv_id": "2607.12913v1", "keywords": ["quantum error correction"], "title": "Heisenberg-limited metrology in the presence of non-Markovian noise with finite control rates"}
@@ -2986,6 +2975,17 @@
 {"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
 {"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.36480v1", "keywords": ["gate count"], "title": "Improved Quantum Algorithms for Black-Box Abelian Group Decomposition"}
 {"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.34623v1", "keywords": ["gate count"], "title": "Trotterisation Thresholds and Dissipative Quantum Chaos in Open-System Digital Quantum Simulation"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.39922v1", "keywords": ["fault-tolerant cost"], "title": "Fault-tolerant cost of shallow QAOA on near-symmetric optimization problems"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2610.01024v1", "keywords": ["T-count"], "title": "Exact $T$-counts of Toffoli layers from an isotropy bound"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.37368v2", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2610.01839v1", "keywords": ["gate count"], "title": "Toward Optimal Circuit Depth for Geometrically Local Hamiltonian Simulation"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2610.01704v1", "keywords": ["gate count"], "title": "Less precise but less noisy: local circuits for momentum-space state preparation and measurement"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2610.00950v1", "keywords": ["gate count"], "title": "Sublinear-depth Quantum Simulation of Electrons with Atomic Orbitals"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2610.00945v1", "keywords": ["gate count"], "title": "TATVA: A Reinforcement Learning Framework for Quantum Circuit Synthesis"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2610.00669v1", "keywords": ["gate count"], "title": "Quantum Circuit Pruning: From NISQ Architectures to Fault-Tolerant Operations"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
+{"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.36480v1", "keywords": ["gate count"], "title": "Improved Quantum Algorithms for Black-Box Abelian Group Decomposition"}
 {"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.39922v1", "keywords": ["fault-tolerant cost"], "title": "Fault-tolerant cost of shallow QAOA on near-symmetric optimization problems"}
 {"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2610.01024v1", "keywords": ["T-count"], "title": "Exact $T$-counts of Toffoli layers from an isotropy bound"}
 {"date": "2026-10-02", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
