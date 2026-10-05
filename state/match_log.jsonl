@@ -1,7 +1,3 @@
-{"date": "2026-07-21", "topic": "量子特異値変換", "arxiv_id": "2607.16800v1", "keywords": ["qubitization"], "title": "Identity-Paired Progressive Depth Training: When Trainability Persists Beyond Expressibility"}
-{"date": "2026-07-21", "topic": "量子特異値変換", "arxiv_id": "2607.16702v1", "keywords": ["qubitization"], "title": "Reliability Is Not Free in Universal Quantum Work Extraction"}
-{"date": "2026-07-21", "topic": "量子特異値変換", "arxiv_id": "2607.16645v1", "keywords": ["qubitization"], "title": "Geometric Power Capacity of Coherent Ergotropy in Quantum Batteries"}
-{"date": "2026-07-21", "topic": "量子特異値変換", "arxiv_id": "2607.16503v1", "keywords": ["qubitization"], "title": "Holographic quantum codes with trapped ions"}
 {"date": "2026-07-21", "topic": "量子特異値変換", "arxiv_id": "2607.16410v1", "keywords": ["qubitization"], "title": "Quantum-Centric Geometry Optimization with Wave-Function-Based Embedding"}
 {"date": "2026-07-21", "topic": "量子特異値変換", "arxiv_id": "2607.16396v1", "keywords": ["qubitization"], "title": "Uncountably many inequivalent maximally entangled measurements for two qutrits"}
 {"date": "2026-07-21", "topic": "量子特異値変換", "arxiv_id": "2607.16389v1", "keywords": ["qubitization"], "title": "Sample-based quantum diagonalization approach for open-shell transition-metal complexes in gas and implicit-solvent"}
@@ -2997,4 +2993,8 @@
 {"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.03686v1", "keywords": ["T-count"], "title": "Efficient Block Encoding of Structured Hamiltonians by Separating Where and What"}
 {"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.03624v1", "keywords": ["T-count"], "title": "Symmetry-preserving quantum compilation"}
 {"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.02321v1", "keywords": ["Toffoli count"], "title": "Halving the cost of QROM again via dense encoding"}
+{"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.03220v1", "keywords": ["gate count"], "title": "Evolving Hybrid Quantum-Classical Architectures for Image Classification"}
+{"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.02916v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count", "qubit count"], "title": "Quasiparticle quantum simulation of materials with the Bethe-Salpeter equation"}
+{"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.03686v1", "keywords": ["T-count"], "title": "Efficient Block Encoding of Structured Hamiltonians by Separating Where and What"}
+{"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.03624v1", "keywords": ["T-count"], "title": "Symmetry-preserving quantum compilation"}
 {"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.03220v1", "keywords": ["gate count"], "title": "Evolving Hybrid Quantum-Classical Architectures for Image Classification"}
