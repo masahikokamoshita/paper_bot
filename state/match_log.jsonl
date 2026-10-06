@@ -1,14 +1,3 @@
-{"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.21730v1", "keywords": ["cross section"], "title": "Deformation, halo, and bubble structure: A paradigm shift of exotic phenomena in light to medium mass nuclei"}
-{"date": "2026-07-27", "topic": "Berry位相", "arxiv_id": "2607.21705v1", "keywords": ["Berry phase", "Berry curvature"], "title": "Counting Edge Modes with the Higher Berry Curvature: A Bulk Topological Order Parameter for Quantum Spin Chains"}
-{"date": "2026-07-27", "topic": "Berry位相", "arxiv_id": "2607.21808v1", "keywords": ["Berry curvature"], "title": "Observation of room temperature intrinsic nonlinear thermoelectric effects in low-dimensional semimetals"}
-{"date": "2026-07-27", "topic": "量子化学計算全般", "arxiv_id": "2607.22468v1", "keywords": ["quantum chemistry", "electronic structure"], "title": "Learning to Prepare Molecular Ground States with Transformer Models"}
-{"date": "2026-07-27", "topic": "量子化学計算全般", "arxiv_id": "2607.22326v1", "keywords": ["electronic structure"], "title": "Hidden excimer formation in the gas-phase photodynamics of a BN-doped phenanthrene"}
-{"date": "2026-07-27", "topic": "量子化学計算全般", "arxiv_id": "2607.22177v1", "keywords": ["electronic structure"], "title": "Reactivity of Ambident Nucleophiles in Magnetic Fields: a Combined Conceptual DFT and Current-DFT Study"}
-{"date": "2026-07-27", "topic": "量子化学計算全般", "arxiv_id": "2607.21779v1", "keywords": ["electronic structure"], "title": "Graph-Theoretic Neural Network Fragmentation with Covariant Direct Molecular Force Learning: Enabling Coupled-Cluster Accuracy AIMD for Fluxional Systems"}
-{"date": "2026-07-27", "topic": "光量子コンピュータ", "arxiv_id": "2607.22088v1", "keywords": ["boson sampling"], "title": "Weak Permanent Anti-Concentration for Random Gaussian Matrices in Boson Sampling"}
-{"date": "2026-07-27", "topic": "量子機械学習", "arxiv_id": "2607.22516v1", "keywords": ["quantum machine learning"], "title": "Quantum Spectral Model: Data Reuploading with Input-Conditioned Frequency Support"}
-{"date": "2026-07-27", "topic": "量子機械学習", "arxiv_id": "2607.21675v1", "keywords": ["parameterized quantum circuit"], "title": "Hash-QNeRF: Multiresolution Hash Encoding for Quantum Neural Radiance Fields"}
-{"date": "2026-07-28", "topic": "量子特異値変換", "arxiv_id": "2607.24728v1", "keywords": ["qubitization"], "title": "Classical simulation and model concentration in passive linear optics"}
 {"date": "2026-07-28", "topic": "量子特異値変換", "arxiv_id": "2607.24725v1", "keywords": ["qubitization"], "title": "Pulse engineering via projection of response functions at infinite nonlinear order"}
 {"date": "2026-07-28", "topic": "量子特異値変換", "arxiv_id": "2607.24722v1", "keywords": ["qubitization"], "title": "Scalable Variational Quantum Optimization via Pauli Correlation Encoding: Application to Large-Scale Power Demand Portfolio Optimization"}
 {"date": "2026-07-28", "topic": "量子特異値変換", "arxiv_id": "2607.24714v1", "keywords": ["qubitization"], "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures"}
@@ -2993,6 +2982,17 @@
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05752v1", "keywords": ["gate count"], "title": "An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05362v1", "keywords": ["gate count"], "title": "Shallow Quantum Circuits for Geometrically Local Lindblad Dynamics"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03885v1", "keywords": ["gate count"], "title": "Robustness of Quantum Signal Processing and Resource-aware Polynomial Design"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06176v1", "keywords": ["qubit count"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04908v1", "keywords": ["qubit count"], "title": "Custom Penalty QAOA via Walsh-Hadamard Transform"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04247v1", "keywords": ["qubit count"], "title": "Q-MERGE: Parallelising Quantum State Preparation for Large-Scale Classical Data"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04190v1", "keywords": ["qubit count"], "title": "Reduced Cost Quantum Kernel Training"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06828v1", "keywords": ["resource estimation", "resource estimate"], "title": "The practical cost of magic state cultivation"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06820v1", "keywords": ["resource estimation", "resource estimate"], "title": "Designing Group-Valued Codes with Full Regular Low-Weight Bases"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04731v1", "keywords": ["T-count", "qubit count"], "title": "Sum-of-squares compilation of matrix-model dynamics for NISQ and fault-tolerant hardware"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06142v1", "keywords": ["gate count"], "title": "When Equivalent Quantum Circuits Lose Synthesis Choices"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05752v1", "keywords": ["gate count"], "title": "An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05362v1", "keywords": ["gate count"], "title": "Shallow Quantum Circuits for Geometrically Local Lindblad Dynamics"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06176v1", "keywords": ["qubit count"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04908v1", "keywords": ["qubit count"], "title": "Custom Penalty QAOA via Walsh-Hadamard Transform"}
