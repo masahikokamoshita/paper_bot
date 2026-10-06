@@ -1,17 +1,3 @@
-{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.21698v1", "keywords": ["qubitization"], "title": "Non-Invertible Symmetries Mixing with Witt Non-Trivial Quantum Cellular Automata"}
-{"date": "2026-07-27", "topic": "量子特異値変換", "arxiv_id": "2607.22396v1", "keywords": ["block encoding"], "title": "Explicit block-encodings for biharmonic boundary-value problems"}
-{"date": "2026-07-27", "topic": "実機", "arxiv_id": "2607.22294v1", "keywords": ["superconducting qubit"], "title": "Substrate-metal interface engineering enhances TaN/Ta thin film superconducting resonator performance"}
-{"date": "2026-07-27", "topic": "実機", "arxiv_id": "2607.22429v1", "keywords": ["quantum processor"], "title": "A route to damage tolerance exceeding $10\\%$ in shuttling-equipped quantum processors"}
-{"date": "2026-07-27", "topic": "実機", "arxiv_id": "2607.22138v1", "keywords": ["quantum processor"], "title": "Capacitive Loading in Two-dimensional Fluxonium Quantum Processors"}
-{"date": "2026-07-27", "topic": "実機", "arxiv_id": "2607.21707v1", "keywords": ["quantum processor"], "title": "Resolving topological order crossovers on NISQ hardware"}
-{"date": "2026-07-27", "topic": "誤り訂正・magic state", "arxiv_id": "2607.22498v1", "keywords": ["fault-tolerant quantum computation"], "title": "Automated Flag-based Fault-Tolerant State Preparation using Integer Linear Programming"}
-{"date": "2026-07-27", "topic": "誤り訂正・magic state", "arxiv_id": "2607.22429v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "A route to damage tolerance exceeding $10\\%$ in shuttling-equipped quantum processors"}
-{"date": "2026-07-27", "topic": "誤り訂正・magic state", "arxiv_id": "2607.22276v1", "keywords": ["fault-tolerant quantum computation"], "title": "The Threshold Theorem in Watts: Fault Tolerance as a Question About Objective Probability"}
-{"date": "2026-07-27", "topic": "誤り訂正・magic state", "arxiv_id": "2607.21706v1", "keywords": ["surface code"], "title": "Mixed-state topological order and error-correction thresholds in non-Abelian codes: rigorous results"}
-{"date": "2026-07-27", "topic": "qLDPC符号", "arxiv_id": "2607.22429v1", "keywords": ["qLDPC"], "title": "A route to damage tolerance exceeding $10\\%$ in shuttling-equipped quantum processors"}
-{"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.22346v1", "keywords": ["scattering amplitude"], "title": "Resonances at finite temperature from the lattice"}
-{"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.22435v1", "keywords": ["S-matrix"], "title": "Long-range magnetic interaction within quantum electrodynamics formalism"}
-{"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.21875v1", "keywords": ["cross section"], "title": "Single-particle structure of the semi-magic nucleus ${}^{90}$Zr from a nonlocal dispersive optical model"}
 {"date": "2026-07-27", "topic": "散乱理論", "arxiv_id": "2607.21730v1", "keywords": ["cross section"], "title": "Deformation, halo, and bubble structure: A paradigm shift of exotic phenomena in light to medium mass nuclei"}
 {"date": "2026-07-27", "topic": "Berry位相", "arxiv_id": "2607.21705v1", "keywords": ["Berry phase", "Berry curvature"], "title": "Counting Edge Modes with the Higher Berry Curvature: A Bulk Topological Order Parameter for Quantum Spin Chains"}
 {"date": "2026-07-27", "topic": "Berry位相", "arxiv_id": "2607.21808v1", "keywords": ["Berry curvature"], "title": "Observation of room temperature intrinsic nonlinear thermoelectric effects in low-dimensional semimetals"}
@@ -2993,6 +2979,20 @@
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05362v1", "keywords": ["gate count"], "title": "Shallow Quantum Circuits for Geometrically Local Lindblad Dynamics"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03885v1", "keywords": ["gate count"], "title": "Robustness of Quantum Signal Processing and Resource-aware Polynomial Design"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03220v1", "keywords": ["gate count"], "title": "Evolving Hybrid Quantum-Classical Architectures for Image Classification"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06176v1", "keywords": ["qubit count"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04908v1", "keywords": ["qubit count"], "title": "Custom Penalty QAOA via Walsh-Hadamard Transform"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04247v1", "keywords": ["qubit count"], "title": "Q-MERGE: Parallelising Quantum State Preparation for Large-Scale Classical Data"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04190v1", "keywords": ["qubit count"], "title": "Reduced Cost Quantum Kernel Training"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06828v1", "keywords": ["resource estimation", "resource estimate"], "title": "The practical cost of magic state cultivation"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06820v1", "keywords": ["resource estimation", "resource estimate"], "title": "Designing Group-Valued Codes with Full Regular Low-Weight Bases"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04731v1", "keywords": ["T-count", "qubit count"], "title": "Sum-of-squares compilation of matrix-model dynamics for NISQ and fault-tolerant hardware"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03686v2", "keywords": ["T-count"], "title": "Efficient Block Encoding of Structured Hamiltonians by Separating Where and What"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03624v1", "keywords": ["T-count"], "title": "Symmetry-preserving quantum compilation"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06142v1", "keywords": ["gate count"], "title": "When Equivalent Quantum Circuits Lose Synthesis Choices"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05752v1", "keywords": ["gate count"], "title": "An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05362v1", "keywords": ["gate count"], "title": "Shallow Quantum Circuits for Geometrically Local Lindblad Dynamics"}
+{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03885v1", "keywords": ["gate count"], "title": "Robustness of Quantum Signal Processing and Resource-aware Polynomial Design"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06176v1", "keywords": ["qubit count"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04908v1", "keywords": ["qubit count"], "title": "Custom Penalty QAOA via Walsh-Hadamard Transform"}
