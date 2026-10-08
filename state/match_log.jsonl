@@ -1,16 +1,3 @@
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27883v1", "keywords": ["qubitization"], "title": "Trainability and Mode Separation of Mixed IQP-QCBMs"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27876v1", "keywords": ["qubitization"], "title": "Bayesian Networks of Density Operators"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27777v1", "keywords": ["qubitization"], "title": "Resource-efficient quantum-selected configuration interaction for molecular properties"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27771v1", "keywords": ["qubitization"], "title": "Quantum Magnonics: Quantum States Generation and Applications"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27757v1", "keywords": ["qubitization"], "title": "Exact Incompatibility-Breaking Criterion for Unital Qubit Channels"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27644v1", "keywords": ["qubitization"], "title": "Quantum LDPC codes with design rate 1/5 and good performance below 1000 physical qubits"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27527v1", "keywords": ["qubitization"], "title": "Noise-resilient and Scalable Quantum Error Correction for Nuclear Spin Qubits in Silicon with Electron Shuttling"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27521v1", "keywords": ["qubitization"], "title": "Floquet Abelian Multicycle Codes"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27473v1", "keywords": ["qubitization"], "title": "Closed Timelike Curve Decoding on Quantum Hardware"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27449v1", "keywords": ["qubitization"], "title": "Bosonic quantum communication beyond the thermal threshold"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27342v1", "keywords": ["qubitization"], "title": "Restrictions on non-Clifford fault tolerance and ruling out beyond-SQL quantum metrology"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.27339v1", "keywords": ["qubitization"], "title": "Quantum State Discrimination With Stabilizer Circuits"}
-{"date": "2026-07-31", "topic": "量子特異値変換", "arxiv_id": "2607.28260v1", "keywords": ["block encoding"], "title": "Optimal T Counts under Sparsity: from QROM to State Preparation and Block Encoding"}
 {"date": "2026-07-31", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.28541v1", "keywords": ["Trotterization"], "title": "A Provable Oracle-Free Quantum Algorithm for Nonlinear Dynamics on Hybrid Oscillator-Qubit Processors"}
 {"date": "2026-07-31", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.27915v1", "keywords": ["Trotterization"], "title": "Iterative quantum algorithms for the minimum vertex cover problem based on continuous-time quantum walks"}
 {"date": "2026-07-31", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2607.28499v1", "keywords": ["product formula"], "title": "Structure-Preserving Quantum Simulation of Wave Equations on a Trapped-Ion Processor"}
@@ -2972,6 +2959,19 @@
 {"date": "2026-10-08", "topic": "誤り訂正・magic state", "arxiv_id": "2610.10490v1", "keywords": ["surface code"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
 {"date": "2026-10-08", "topic": "散乱理論", "arxiv_id": "2610.08860v1", "keywords": ["scattering amplitude"], "title": "Gravitational scattering amplitudes in collinear and high-energy limits"}
 {"date": "2026-10-08", "topic": "Berry位相", "arxiv_id": "2610.10471v1", "keywords": ["geometric phase"], "title": "Optimized discrete Wigner representations and non-stabilizerness in qubit systems"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.08667v1", "keywords": ["resource estimation", "resource estimate"], "title": "Fault-tolerant resource estimation for ground-state preparation via Lindblad simulation"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.06828v1", "keywords": ["resource estimation", "resource estimate"], "title": "The practical cost of magic state cultivation"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.06820v1", "keywords": ["resource estimation", "resource estimate"], "title": "Designing Group-Valued Codes with Full Regular Low-Weight Bases"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.07252v1", "keywords": ["gate count", "qubit count"], "title": "Resource-Aware Grover Search for Minimum Vertex Cover"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.06142v1", "keywords": ["gate count"], "title": "When Equivalent Quantum Circuits Lose Synthesis Choices"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.05752v1", "keywords": ["gate count"], "title": "An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.05362v1", "keywords": ["gate count"], "title": "Shallow Quantum Circuits for Geometrically Local Lindblad Dynamics"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.08580v1", "keywords": ["qubit count"], "title": "Physical Design Automation for Planar Superconducting Quantum Chips"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.07683v1", "keywords": ["qubit count"], "title": "Sparse qubit operation in a 6$\\times$6 quantum dot array"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
+{"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.06176v1", "keywords": ["qubit count"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
 {"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
 {"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.08667v1", "keywords": ["resource estimation", "resource estimate"], "title": "Fault-tolerant resource estimation for ground-state preparation via Lindblad simulation"}
 {"date": "2026-10-08", "topic": "リソース推定", "arxiv_id": "2610.06828v1", "keywords": ["resource estimation", "resource estimate"], "title": "The practical cost of magic state cultivation"}
