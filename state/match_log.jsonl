@@ -1,12 +1,3 @@
-{"date": "2026-08-05", "topic": "誤り訂正・magic state", "arxiv_id": "2608.03102v1", "keywords": ["quantum error correction"], "title": "Typical Output States of Monitored Random Clifford Circuits: A Graph-Theoretic Approach"}
-{"date": "2026-08-05", "topic": "誤り訂正・magic state", "arxiv_id": "2608.03005v1", "keywords": ["quantum error correction"], "title": "Quantifying Pauli Errors in Single-Photon Resource-State Generation"}
-{"date": "2026-08-05", "topic": "誤り訂正・magic state", "arxiv_id": "2608.02773v1", "keywords": ["quantum error correction", "surface code"], "title": "Quantum error correction at ultra-low overhead"}
-{"date": "2026-08-05", "topic": "誤り訂正・magic state", "arxiv_id": "2608.03315v1", "keywords": ["magic state"], "title": "Harvest: Resource-Aware Quantum Compilation for Magic State Protocols"}
-{"date": "2026-08-05", "topic": "誤り訂正・magic state", "arxiv_id": "2608.03402v1", "keywords": ["fault-tolerant quantum computation"], "title": "On-chip Quantum Measurement of Squeezing Generated from a Silicon Nitride Micro-ring Resonator"}
-{"date": "2026-08-05", "topic": "誤り訂正・magic state", "arxiv_id": "2608.03325v1", "keywords": ["fault-tolerant quantum computation"], "title": "Protected measurements for protected superconducting qubits"}
-{"date": "2026-08-05", "topic": "qLDPC符号", "arxiv_id": "2608.02773v1", "keywords": ["low-density parity-check code"], "title": "Quantum error correction at ultra-low overhead"}
-{"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03748v1", "keywords": ["scattering amplitude"], "title": "Constructing Effective Interactions via Projection-Based Inversion"}
-{"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03746v1", "keywords": ["scattering amplitude", "cross section"], "title": "Two-loop QCD amplitudes for $t\\bar{t}W$ production at the LHC in the leading-colour approximation"}
 {"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03747v1", "keywords": ["S-matrix"], "title": "Logarithmic Soft Photon Theorem and Waveform Tails in Higher Dimensions"}
 {"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03019v1", "keywords": ["electron scattering", "cross section"], "title": "Minimal Scale-Invariant Dark Matter"}
 {"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.02998v1", "keywords": ["electron scattering"], "title": "Predominant Nuclear Excitation by Electron Capture Driven by Beam-Induced Return Currents"}
@@ -2980,6 +2971,15 @@
 {"date": "2026-10-09", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
 {"date": "2026-10-09", "topic": "リソース推定", "arxiv_id": "2610.08580v1", "keywords": ["qubit count"], "title": "Physical Design Automation for Planar Superconducting Quantum Chips"}
 {"date": "2026-10-09", "topic": "リソース推定", "arxiv_id": "2610.07683v1", "keywords": ["qubit count"], "title": "Sparse qubit operation in a 6$\\times$6 quantum dot array"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.08667v1", "keywords": ["resource estimation", "resource estimate"], "title": "Fault-tolerant resource estimation for ground-state preparation via Lindblad simulation"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12098v1", "keywords": ["T-count"], "title": "Nearly Optimal T-Count for Symmetry-Based Quantum State Purification"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.08580v1", "keywords": ["qubit count"], "title": "Physical Design Automation for Planar Superconducting Quantum Chips"}
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.08667v1", "keywords": ["resource estimation", "resource estimate"], "title": "Fault-tolerant resource estimation for ground-state preparation via Lindblad simulation"}
