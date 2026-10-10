@@ -1,10 +1,3 @@
-{"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03747v1", "keywords": ["S-matrix"], "title": "Logarithmic Soft Photon Theorem and Waveform Tails in Higher Dimensions"}
-{"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03019v1", "keywords": ["electron scattering", "cross section"], "title": "Minimal Scale-Invariant Dark Matter"}
-{"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.02998v1", "keywords": ["electron scattering"], "title": "Predominant Nuclear Excitation by Electron Capture Driven by Beam-Induced Return Currents"}
-{"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03943v1", "keywords": ["cross section"], "title": "Statistical and non-statistical $γ$-decay properties of $^{64}$Zn"}
-{"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03686v1", "keywords": ["cross section"], "title": "Finite-spectrum Lorentz integral transform calculation of the $^{4}$He photoabsorption cross section in the no-core shell model"}
-{"date": "2026-08-05", "topic": "散乱理論", "arxiv_id": "2608.03374v1", "keywords": ["cross section"], "title": "On the nature of fully-charmed four-quark exotic state $X(6900)$ from its photoproduction off nuclei"}
-{"date": "2026-08-06", "topic": "量子位相推定", "arxiv_id": "2608.04780v1", "keywords": ["quantum phase estimation"], "title": "Demonstrating advantages of dynamic quantum circuits on a hybrid superconducting qubit-cavity processor"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04263v1", "keywords": ["quantum singular value transformation", "block encoding"], "title": "Poisson-Compiled Quantum Singular Value Transformation for Power-Exponential Dissipation"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.05147v1", "keywords": ["qubitization"], "title": "Fast Quantum Interconnects via Neutral Atom Ensembles"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.05140v1", "keywords": ["qubitization"], "title": "A fractional quantum Hall factory on quantum processors: constant-depth preparation of clustered non-Abelian states"}
@@ -2998,3 +2991,10 @@
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.08580v1", "keywords": ["qubit count"], "title": "Physical Design Automation for Planar Superconducting Quantum Chips"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12098v1", "keywords": ["T-count"], "title": "Nearly Optimal T-Count for Symmetry-Based Quantum State Purification"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
