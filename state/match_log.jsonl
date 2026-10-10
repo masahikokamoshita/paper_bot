@@ -1,12 +1,3 @@
-{"date": "2026-08-05", "topic": "量子特異値変換", "arxiv_id": "2608.02773v1", "keywords": ["qubitization"], "title": "Quantum error correction at ultra-low overhead"}
-{"date": "2026-08-05", "topic": "量子特異値変換", "arxiv_id": "2608.02756v1", "keywords": ["qubitization"], "title": "Dynamic Induction of Lattice Gauge Theories on a Quantum Computer"}
-{"date": "2026-08-05", "topic": "量子特異値変換", "arxiv_id": "2608.02733v1", "keywords": ["qubitization"], "title": "High-Frequency Gravitational Wave Detection with Superconducting Qubits"}
-{"date": "2026-08-05", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.02734v1", "keywords": ["Hamiltonian simulation"], "title": "Improved constant factors for qubitized Hamiltonian simulation"}
-{"date": "2026-08-05", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.02756v1", "keywords": ["Trotterization"], "title": "Dynamic Induction of Lattice Gauge Theories on a Quantum Computer"}
-{"date": "2026-08-05", "topic": "量子化学計算全般", "arxiv_id": "2608.03645v1", "keywords": ["electronic structure", "ground state energy"], "title": "TNASS: Tensor Network Active Space Selection with the Entanglement Feature"}
-{"date": "2026-08-05", "topic": "量子化学計算全般", "arxiv_id": "2608.02931v1", "keywords": ["electronic structure"], "title": "Resolving Peak Shifting Effects in Real-Time Time-Dependent Orbital Propagation Methods Through Nonorthogonal Expansions"}
-{"date": "2026-08-05", "topic": "量子化学計算全般", "arxiv_id": "2608.02846v1", "keywords": ["electronic structure"], "title": "A First-principles Computational Framework for Quantum Decoherence in Complex Diamond Spin Environments"}
-{"date": "2026-08-05", "topic": "光量子コンピュータ", "arxiv_id": "2608.03005v1", "keywords": ["photonic quantum computing"], "title": "Quantifying Pauli Errors in Single-Photon Resource-State Generation"}
 {"date": "2026-08-05", "topic": "光量子コンピュータ", "arxiv_id": "2608.03755v1", "keywords": ["continuous variable quantum"], "title": "Uncovering Non-Gaussianity through Multi-Copy Symmetries"}
 {"date": "2026-08-05", "topic": "量子機械学習", "arxiv_id": "2608.03029v1", "keywords": ["quantum machine learning", "parameterized quantum circuit"], "title": "Physics-Informed Quantum Machine Learning with Hard Constraint Embedding for Nonlinear Differential Equations of the First Order"}
 {"date": "2026-08-05", "topic": "実機", "arxiv_id": "2608.03325v1", "keywords": ["superconducting qubit"], "title": "Protected measurements for protected superconducting qubits"}
@@ -2998,3 +2989,12 @@
 {"date": "2026-10-09", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
 {"date": "2026-10-09", "topic": "リソース推定", "arxiv_id": "2610.08580v1", "keywords": ["qubit count"], "title": "Physical Design Automation for Planar Superconducting Quantum Chips"}
 {"date": "2026-10-09", "topic": "リソース推定", "arxiv_id": "2610.07683v1", "keywords": ["qubit count"], "title": "Sparse qubit operation in a 6$\\times$6 quantum dot array"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.08667v1", "keywords": ["resource estimation", "resource estimate"], "title": "Fault-tolerant resource estimation for ground-state preparation via Lindblad simulation"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12098v1", "keywords": ["T-count"], "title": "Nearly Optimal T-Count for Symmetry-Based Quantum State Purification"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
+{"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.08580v1", "keywords": ["qubit count"], "title": "Physical Design Automation for Planar Superconducting Quantum Chips"}
