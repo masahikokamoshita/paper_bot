@@ -1,10 +1,3 @@
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04263v1", "keywords": ["quantum singular value transformation", "block encoding"], "title": "Poisson-Compiled Quantum Singular Value Transformation for Power-Exponential Dissipation"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.05147v1", "keywords": ["qubitization"], "title": "Fast Quantum Interconnects via Neutral Atom Ensembles"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.05140v1", "keywords": ["qubitization"], "title": "A fractional quantum Hall factory on quantum processors: constant-depth preparation of clustered non-Abelian states"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.05092v1", "keywords": ["qubitization"], "title": "Perfect Games in Dimension-Bounded Communication"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.05010v1", "keywords": ["qubitization"], "title": "Neutral Atom Quantum Computing: Principles, Routes, Progress, and Challenges"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04916v1", "keywords": ["qubitization"], "title": "Complementary Quantum Correlations Are Universal for Qubits"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04822v1", "keywords": ["qubitization"], "title": "Quantum States Protection under Environmental Noise"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04780v1", "keywords": ["qubitization"], "title": "Demonstrating advantages of dynamic quantum circuits on a hybrid superconducting qubit-cavity processor"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04672v1", "keywords": ["qubitization"], "title": "Effect of Cross-Spectral Correlations on Qubit Dynamics: Coherence Revival and Relaxation Modulation"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04627v1", "keywords": ["qubitization"], "title": "Efficient Depth--Ancilla Tradeoffs for Hamming Weight Computation and Symmetric Boolean Functions"}
@@ -2998,3 +2991,10 @@
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
 {"date": "2026-10-10", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12098v1", "keywords": ["T-count"], "title": "Nearly Optimal T-Count for Symmetry-Based Quantum State Purification"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
