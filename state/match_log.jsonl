@@ -1,8 +1,3 @@
-{"date": "2026-08-06", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.04290v1", "keywords": ["Trotterization"], "title": "Measurement-based simulation of lattice gauge theory dynamics with adaptive quantum circuits on a trapped-ion processor"}
-{"date": "2026-08-06", "topic": "量子化学計算全般", "arxiv_id": "2608.04751v1", "keywords": ["variational quantum eigensolver"], "title": "Computing Reaction and Activation Energies of Pericyclic Reactions using a Symmetry-Adapted VQE Algorithm"}
-{"date": "2026-08-06", "topic": "量子化学計算全般", "arxiv_id": "2608.04481v1", "keywords": ["ground state energy"], "title": "Impact of molecular orbital localization on quantum computational resources for Hamiltonian simulation: A benchmark study of hydrogen chain systems"}
-{"date": "2026-08-06", "topic": "量子化学計算全般", "arxiv_id": "2608.04834v1", "keywords": ["molecular simulation"], "title": "From populations to absolute binding affinities in molecular simulations: exact volumetric terms and practical estimators"}
-{"date": "2026-08-06", "topic": "素因数分解", "arxiv_id": "2608.04780v1", "keywords": ["Shor's algorithm"], "title": "Demonstrating advantages of dynamic quantum circuits on a hybrid superconducting qubit-cavity processor"}
 {"date": "2026-08-06", "topic": "光量子コンピュータ", "arxiv_id": "2608.05003v1", "keywords": ["boson sampling"], "title": "Universal linear manipulation via routing and projective measurements"}
 {"date": "2026-08-06", "topic": "光量子コンピュータ", "arxiv_id": "2608.04601v1", "keywords": ["continuous variable quantum"], "title": "Solving Differential Equations Using Continuous-Variable Quantum Annealing"}
 {"date": "2026-08-06", "topic": "光量子コンピュータ", "arxiv_id": "2608.04578v1", "keywords": ["continuous variable quantum"], "title": "Measurement-induced generation of Schrödinger cat states in cavity QED"}
@@ -2994,6 +2989,11 @@
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12098v1", "keywords": ["T-count"], "title": "Nearly Optimal T-Count for Symmetry-Based Quantum State Purification"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12098v1", "keywords": ["T-count"], "title": "Nearly Optimal T-Count for Symmetry-Based Quantum State Purification"}
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
