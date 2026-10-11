@@ -1,9 +1,3 @@
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04780v1", "keywords": ["qubitization"], "title": "Demonstrating advantages of dynamic quantum circuits on a hybrid superconducting qubit-cavity processor"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04672v1", "keywords": ["qubitization"], "title": "Effect of Cross-Spectral Correlations on Qubit Dynamics: Coherence Revival and Relaxation Modulation"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04627v1", "keywords": ["qubitization"], "title": "Efficient Depth--Ancilla Tradeoffs for Hamming Weight Computation and Symmetric Boolean Functions"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04601v1", "keywords": ["qubitization"], "title": "Solving Differential Equations Using Continuous-Variable Quantum Annealing"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04486v1", "keywords": ["qubitization"], "title": "Quantum-information fingerprints of partial dynamical symmetry in the interacting boson model"}
-{"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04290v1", "keywords": ["qubitization"], "title": "Measurement-based simulation of lattice gauge theory dynamics with adaptive quantum circuits on a trapped-ion processor"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04103v1", "keywords": ["qubitization"], "title": "Reconstructing non-Abelian braiding and fusion without anyon transport"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04099v1", "keywords": ["qubitization"], "title": "Contextuality in Sequential State Discrimination"}
 {"date": "2026-08-06", "topic": "量子特異値変換", "arxiv_id": "2608.04093v1", "keywords": ["qubitization"], "title": "An optical-fibre-integrated buffer for packet-switched quantum networks"}
@@ -2998,3 +2992,9 @@
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
 {"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.09532v1", "keywords": ["qubit count"], "title": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.10490v1", "keywords": ["resource estimation", "resource estimate", "gate count"], "title": "Standard estimators cannot represent fault-tolerant workloads at measured error rates: evaluated, evidence-based uncertainty for quantum resource estimation"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12098v1", "keywords": ["T-count"], "title": "Nearly Optimal T-Count for Symmetry-Based Quantum State Purification"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.11759v1", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
+{"date": "2026-10-11", "topic": "リソース推定", "arxiv_id": "2610.10948v1", "keywords": ["qubit count"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
