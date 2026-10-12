@@ -1,5 +1,3 @@
-{"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05821v1", "keywords": ["quantum error correction"], "title": "Quantum error correction with global control"}
-{"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05686v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "Provably Efficient Self-Calibrating Quantum Fault Tolerance"}
 {"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05535v1", "keywords": ["quantum error correction"], "title": "Quantum information loss"}
 {"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05518v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation", "surface code"], "title": "X-Z Round Scheduling for the Surface Code with Defects under Biased Noise"}
 {"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05202v1", "keywords": ["quantum error correction"], "title": "Quantum Error Management in Practice: A Cross-Stack Benchmark"}
@@ -2996,5 +2994,7 @@
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.11759v2", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
+{"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13694v1", "keywords": ["gate count"], "title": "QTN-RQNN: Quantum Tensor Network-Based Recurrent Quantum Neural Network"}
+{"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13621v1", "keywords": ["qubit count"], "title": "Encoding Matters: A Qubit-Efficient Reformulation for Quantum Resilient Routing"}
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13694v1", "keywords": ["gate count"], "title": "QTN-RQNN: Quantum Tensor Network-Based Recurrent Quantum Neural Network"}
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13621v1", "keywords": ["qubit count"], "title": "Encoding Matters: A Qubit-Efficient Reformulation for Quantum Resilient Routing"}
