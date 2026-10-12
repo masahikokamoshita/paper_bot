@@ -1,6 +1,3 @@
-{"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.06258v1", "keywords": ["quantum error correction"], "title": "Approximate Quantum Error Correction at Chiral Topological Edges"}
-{"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.06242v1", "keywords": ["quantum error correction", "surface code"], "title": "Exponential logical-error reduction in quantum memories via optimal syndrome-measurement timing"}
-{"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05992v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "Towards fault-tolerance with universal phase-error-transparent gates for high-spin cat codes"}
 {"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05821v1", "keywords": ["quantum error correction"], "title": "Quantum error correction with global control"}
 {"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05686v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "Provably Efficient Self-Calibrating Quantum Fault Tolerance"}
 {"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05535v1", "keywords": ["quantum error correction"], "title": "Quantum information loss"}
@@ -2998,3 +2995,6 @@
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13621v1", "keywords": ["qubit count"], "title": "Encoding Matters: A Qubit-Efficient Reformulation for Quantum Resilient Routing"}
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.12148v1", "keywords": ["qubit count"], "title": "Large-Scale Benchmarking of Quantum Neural Network Configurations for Financial Time Series Forecasting"}
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.11759v2", "keywords": ["qubit count"], "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization"}
+{"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.12334v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Co-Design of Inhomogeneous Many-Body Neutrino Fast Flavor Transformation"}
+{"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13694v1", "keywords": ["gate count"], "title": "QTN-RQNN: Quantum Tensor Network-Based Recurrent Quantum Neural Network"}
+{"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13621v1", "keywords": ["qubit count"], "title": "Encoding Matters: A Qubit-Efficient Reformulation for Quantum Resilient Routing"}
