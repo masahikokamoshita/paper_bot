@@ -1,5 +1,3 @@
-{"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.05202v1", "keywords": ["quantum error correction"], "title": "Quantum Error Management in Practice: A Cross-Stack Benchmark"}
-{"date": "2026-08-07", "topic": "誤り訂正・magic state", "arxiv_id": "2608.02333v2", "keywords": ["quantum error correction"], "title": "Task-Dependent Syndrome Memory in Quantum Sensing and State Recovery"}
 {"date": "2026-08-07", "topic": "散乱理論", "arxiv_id": "2608.05731v1", "keywords": ["scattering amplitude"], "title": "From chiral to conformal anomalies: a double copy perspective for CFT correlators"}
 {"date": "2026-08-07", "topic": "散乱理論", "arxiv_id": "2608.05330v1", "keywords": ["scattering amplitude"], "title": "Photon-nucleon entanglement in Compton scattering at low and high energies"}
 {"date": "2026-08-07", "topic": "散乱理論", "arxiv_id": "2608.05273v1", "keywords": ["scattering amplitude"], "title": "Moduli Bounds from Spin-2 Sum Rules"}
@@ -2996,5 +2994,7 @@
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13621v1", "keywords": ["qubit count"], "title": "Encoding Matters: A Qubit-Efficient Reformulation for Quantum Resilient Routing"}
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13694v1", "keywords": ["gate count"], "title": "QTN-RQNN: Quantum Tensor Network-Based Recurrent Quantum Neural Network"}
 {"date": "2026-10-12", "topic": "リソース推定", "arxiv_id": "2610.13621v1", "keywords": ["qubit count"], "title": "Encoding Matters: A Qubit-Efficient Reformulation for Quantum Resilient Routing"}
+{"date": "2026-10-13", "topic": "リソース推定", "arxiv_id": "2610.13694v1", "keywords": ["gate count"], "title": "QTN-RQNN: Quantum Tensor Network-Based Recurrent Quantum Neural Network"}
+{"date": "2026-10-13", "topic": "リソース推定", "arxiv_id": "2610.13621v1", "keywords": ["qubit count"], "title": "Encoding Matters: A Qubit-Efficient Reformulation for Quantum Resilient Routing"}
 {"date": "2026-10-13", "topic": "リソース推定", "arxiv_id": "2610.13694v1", "keywords": ["gate count"], "title": "QTN-RQNN: Quantum Tensor Network-Based Recurrent Quantum Neural Network"}
 {"date": "2026-10-13", "topic": "リソース推定", "arxiv_id": "2610.13621v1", "keywords": ["qubit count"], "title": "Encoding Matters: A Qubit-Efficient Reformulation for Quantum Resilient Routing"}
