@@ -1,7 +1,3 @@
-{"date": "2026-08-12", "topic": "誤り訂正・magic state", "arxiv_id": "2608.11160v1", "keywords": ["magic state", "surface code"], "title": "Quantum Codes with Arbitrary Z-Rotation logical Gates and Applications to Fault-Tolerant Code Switching"}
-{"date": "2026-08-12", "topic": "誤り訂正・magic state", "arxiv_id": "2608.10576v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "Stream Decoding with Confidence Scores at Room and Cryogenic Temperatures"}
-{"date": "2026-08-12", "topic": "qLDPC符号", "arxiv_id": "2608.10069v1", "keywords": ["low-density parity-check code"], "title": "Coupled-Layer Codes: Beyond Quantum Product Constructions"}
-{"date": "2026-08-12", "topic": "散乱理論", "arxiv_id": "2608.10871v1", "keywords": ["scattering amplitude"], "title": "Gravitational Faraday rotation, gravitational spin Hall effect, and spin-refined causality analysis from Magnusian matrix in effective field theories of gravity"}
 {"date": "2026-08-12", "topic": "散乱理論", "arxiv_id": "2608.10955v1", "keywords": ["S-matrix"], "title": "Gluonic nucleon energy correlators and fracture functions for Color Glass Condensate"}
 {"date": "2026-08-12", "topic": "散乱理論", "arxiv_id": "2608.10667v1", "keywords": ["S-matrix"], "title": "Tachyon couplings from S-matrix elements in bosonic string theory"}
 {"date": "2026-08-12", "topic": "散乱理論", "arxiv_id": "2608.10907v1", "keywords": ["cross section"], "title": "Nucleon electromagnetic form-factors in a minimal Gari-Krümpelmann model including the explicit two-pion continuum"}
@@ -2998,3 +2994,7 @@
 {"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
 {"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.18049v1", "keywords": ["gate count"], "title": "Scalable long-distance quantum fan-out gates with reduced resource overhead"}
 {"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.15083v1", "keywords": ["gate count"], "title": "Generative learning of time series with holographic quantum circuit sampling"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.18049v1", "keywords": ["gate count"], "title": "Scalable long-distance quantum fan-out gates with reduced resource overhead"}
