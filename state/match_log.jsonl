@@ -1,8 +1,3 @@
-{"date": "2026-08-12", "topic": "実機", "arxiv_id": "2608.10087v1", "keywords": ["superconducting qubit"], "title": "Long-lived memory effects in the defect bath of superconducting qubits"}
-{"date": "2026-08-12", "topic": "実機", "arxiv_id": "2608.10013v1", "keywords": ["superconducting qubit"], "title": "RF-Budgeted Frame Compilation for Frequency-Multiplexed Superconducting-Qubit Control Using Qubit-Control Identity Records and a Circuit-Informed RFSoC Model"}
-{"date": "2026-08-12", "topic": "誤り訂正・magic state", "arxiv_id": "2608.10087v1", "keywords": ["quantum error correction"], "title": "Long-lived memory effects in the defect bath of superconducting qubits"}
-{"date": "2026-08-12", "topic": "誤り訂正・magic state", "arxiv_id": "2608.10081v1", "keywords": ["quantum error correction"], "title": "Kinetics of sliding-window quantum error correction"}
-{"date": "2026-08-12", "topic": "誤り訂正・magic state", "arxiv_id": "2608.10069v1", "keywords": ["quantum error correction"], "title": "Coupled-Layer Codes: Beyond Quantum Product Constructions"}
 {"date": "2026-08-12", "topic": "誤り訂正・magic state", "arxiv_id": "2608.11160v1", "keywords": ["magic state", "surface code"], "title": "Quantum Codes with Arbitrary Z-Rotation logical Gates and Applications to Fault-Tolerant Code Switching"}
 {"date": "2026-08-12", "topic": "誤り訂正・magic state", "arxiv_id": "2608.10576v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "Stream Decoding with Confidence Scores at Room and Cryogenic Temperatures"}
 {"date": "2026-08-12", "topic": "qLDPC符号", "arxiv_id": "2608.10069v1", "keywords": ["low-density parity-check code"], "title": "Coupled-Layer Codes: Beyond Quantum Product Constructions"}
@@ -2993,6 +2988,11 @@
 {"date": "2026-10-14", "topic": "量子特異値変換", "arxiv_id": "2610.14785v1", "keywords": ["qubitization"], "title": "Classical Communication Helps Single-Shot Quantum Compression"}
 {"date": "2026-10-14", "topic": "量子特異値変換", "arxiv_id": "2610.14778v1", "keywords": ["qubitization"], "title": "Avoiding Defects within Heavy-Hexagon Architecture"}
 {"date": "2026-10-14", "topic": "量子特異値変換", "arxiv_id": "2610.16827v1", "keywords": ["block encoding"], "title": "The Quantum Character Transform"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.18049v1", "keywords": ["gate count"], "title": "Scalable long-distance quantum fan-out gates with reduced resource overhead"}
+{"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.15083v1", "keywords": ["gate count"], "title": "Generative learning of time series with holographic quantum circuit sampling"}
 {"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
 {"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
 {"date": "2026-10-14", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
