@@ -1,8 +1,3 @@
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13110v1", "keywords": ["qubitization"], "title": "Classical Simulation and Design Frontiers for IBM's Doped Clifford Sampling Experiment"}
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13099v1", "keywords": ["qubitization"], "title": "Formal Verification of Quantum Ancilla Safety"}
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13090v1", "keywords": ["qubitization"], "title": "Robust controlled-Z gate for Rydberg atoms based on level-crossing-free echoing rapid adiabatic passage"}
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.13088v1", "keywords": ["qubitization"], "title": "Quantifying nonclassicality in qubit systems via positive operator-valued measures"}
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12965v1", "keywords": ["qubitization"], "title": "Geometry versus excitation sector in the decoherence of asymmetric $N$-qubit $W$ states"}
 {"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12884v1", "keywords": ["qubitization"], "title": "Hybrid HPC-Quantum Simulations: DFT-Quantum Embedding for Molecular Systems"}
 {"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12803v1", "keywords": ["qubitization"], "title": "A Finite-Window Recovery Hierarchy for Local Quantum Memory"}
 {"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12711v1", "keywords": ["qubitization"], "title": "SPLIT-Q: A Scalable Sequential Quantum Computing Framework for Coherent Controlled Islanding"}
@@ -2988,6 +2983,11 @@
 {"date": "2026-10-15", "topic": "散乱理論", "arxiv_id": "2610.19130v1", "keywords": ["scattering amplitude"], "title": "Kinetic Equations and Turbulence in Large $N$ Vector and SYK-like Models"}
 {"date": "2026-10-15", "topic": "散乱理論", "arxiv_id": "2610.19149v1", "keywords": ["S-matrix"], "title": "Infrared-Finite Positivity Bounds in 4D Gravity"}
 {"date": "2026-10-15", "topic": "散乱理論", "arxiv_id": "2610.19402v1", "keywords": ["cross section"], "title": "Wigner time delay in the $4d$ giant-resonance region of iodoalkanes"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.18049v1", "keywords": ["gate count"], "title": "Scalable long-distance quantum fan-out gates with reduced resource overhead"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.19299v1", "keywords": ["space-time volume"], "title": "Gap-Priced $|T\\rangle$-States: Dynamic $|T\\rangle$ Post-Selection and Budget-Aware Factory Provisioning"}
 {"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
 {"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
 {"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
