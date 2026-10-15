@@ -1,8 +1,3 @@
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12884v1", "keywords": ["qubitization"], "title": "Hybrid HPC-Quantum Simulations: DFT-Quantum Embedding for Molecular Systems"}
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12803v1", "keywords": ["qubitization"], "title": "A Finite-Window Recovery Hierarchy for Local Quantum Memory"}
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12711v1", "keywords": ["qubitization"], "title": "SPLIT-Q: A Scalable Sequential Quantum Computing Framework for Coherent Controlled Islanding"}
-{"date": "2026-08-14", "topic": "量子特異値変換", "arxiv_id": "2608.12504v1", "keywords": ["qubitization"], "title": "Spatially Dense, Continuous-Variable Quantum Computing with Solid State Spin Nonlinearities"}
-{"date": "2026-08-14", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.13533v1", "keywords": ["Hamiltonian simulation"], "title": "Quantum simulation of non-Markovian dynamical systems"}
 {"date": "2026-08-14", "topic": "QSCI(SQD)", "arxiv_id": "2608.12830v1", "keywords": ["quantum subspace diagonalization"], "title": "Improved Measurement Cost Scaling in the Nonorthogonal Quantum Eigensolver"}
 {"date": "2026-08-14", "topic": "量子化学計算全般", "arxiv_id": "2608.12830v1", "keywords": ["quantum chemistry"], "title": "Improved Measurement Cost Scaling in the Nonorthogonal Quantum Eigensolver"}
 {"date": "2026-08-14", "topic": "量子化学計算全般", "arxiv_id": "2608.12884v1", "keywords": ["electronic structure", "variational quantum eigensolver"], "title": "Hybrid HPC-Quantum Simulations: DFT-Quantum Embedding for Molecular Systems"}
@@ -2983,6 +2978,11 @@
 {"date": "2026-10-15", "topic": "散乱理論", "arxiv_id": "2610.19130v1", "keywords": ["scattering amplitude"], "title": "Kinetic Equations and Turbulence in Large $N$ Vector and SYK-like Models"}
 {"date": "2026-10-15", "topic": "散乱理論", "arxiv_id": "2610.19149v1", "keywords": ["S-matrix"], "title": "Infrared-Finite Positivity Bounds in 4D Gravity"}
 {"date": "2026-10-15", "topic": "散乱理論", "arxiv_id": "2610.19402v1", "keywords": ["cross section"], "title": "Wigner time delay in the $4d$ giant-resonance region of iodoalkanes"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.18049v1", "keywords": ["gate count"], "title": "Scalable long-distance quantum fan-out gates with reduced resource overhead"}
+{"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.19299v1", "keywords": ["space-time volume"], "title": "Gap-Priced $|T\\rangle$-States: Dynamic $|T\\rangle$ Post-Selection and Budget-Aware Factory Provisioning"}
 {"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
 {"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
 {"date": "2026-10-15", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
