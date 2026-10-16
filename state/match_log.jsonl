@@ -1,11 +1,3 @@
-{"date": "2026-08-18", "topic": "誤り訂正・magic state", "arxiv_id": "2608.16857v1", "keywords": ["fault-tolerant quantum computation"], "title": "Fault-Tolerant Quantum Computation with Adversarial Errors"}
-{"date": "2026-08-18", "topic": "誤り訂正・magic state", "arxiv_id": "2608.16568v1", "keywords": ["fault-tolerant quantum computation"], "title": "Scientific applications of quantum computing: challenges and opportunities"}
-{"date": "2026-08-18", "topic": "散乱理論", "arxiv_id": "2608.15606v1", "keywords": ["scattering amplitude"], "title": "Positive Singularities and Volumes in Scattering Amplitudes"}
-{"date": "2026-08-18", "topic": "散乱理論", "arxiv_id": "2608.15393v1", "keywords": ["scattering amplitude"], "title": "Higher-order analogues of colour-kinematics duality in first-order Yang-Mills Feynman diagrams"}
-{"date": "2026-08-18", "topic": "散乱理論", "arxiv_id": "2608.16830v1", "keywords": ["cross section"], "title": "Implementation of the Moments Method in TALYS: Sensitivity of $^{56,57}$Fe$(n,γ)$ observables to shell model nuclear level densities"}
-{"date": "2026-08-18", "topic": "散乱理論", "arxiv_id": "2608.16720v1", "keywords": ["cross section"], "title": "Reduced vortex descriptors linking polycrystallinity in magnetic nanoparticles with polarized magnetic small-angle neutron scattering"}
-{"date": "2026-08-18", "topic": "Berry位相", "arxiv_id": "2608.15829v1", "keywords": ["Berry phase"], "title": "Topologically Protected Learning from Exceptional Point Braiding: Toward Braid Programming"}
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15827v1", "keywords": ["quantum singular value transformation", "qubitization", "block encoding"], "title": "Resource Analysis for Quantum Simulation of Spatially Varying Transport-Reaction Equations"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.16840v1", "keywords": ["qubitization"], "title": "Global Minimax Readout of a Qubit Direction"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.16815v1", "keywords": ["qubitization"], "title": "Hundred-hertz quantum circuit iteration rate in a reusable neutral-atom array"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.16783v1", "keywords": ["qubitization"], "title": "Quantum Simulation of QCD in Axial Gauge"}
@@ -2990,6 +2982,14 @@
 {"date": "2026-10-16", "topic": "散乱理論", "arxiv_id": "2610.20882v1", "keywords": ["cross section"], "title": "A tutorial on quantum scattering theory and coupled-channel calculations of bimolecular collisions"}
 {"date": "2026-10-16", "topic": "散乱理論", "arxiv_id": "2610.20870v1", "keywords": ["cross section"], "title": "Machine-learning-based neutrino-event generation constrained by experimental measurements"}
 {"date": "2026-10-16", "topic": "散乱理論", "arxiv_id": "2610.20702v1", "keywords": ["cross section"], "title": "Efficient numerical evolution of self-gravitating systems with dark-matter-baryon scattering"}
+{"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
+{"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
+{"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
+{"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.21782v1", "keywords": ["gate count"], "title": "Quantum-compatible Riemannian conjugate gradient for ground-state preparation"}
+{"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.20791v1", "keywords": ["gate count"], "title": "Sparse-QITE: Discovering Compact Generators for Quantum Imaginary-Time Evolution via Regularization Methods"}
+{"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.18049v1", "keywords": ["gate count"], "title": "Scalable long-distance quantum fan-out gates with reduced resource overhead"}
+{"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.22367v1", "keywords": ["qubit count"], "title": "Discovering state-of-the-art quantum circuits with large language models"}
+{"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.19299v1", "keywords": ["space-time volume"], "title": "Gap-Priced $|T\\rangle$-States: Dynamic $|T\\rangle$ Post-Selection and Budget-Aware Factory Provisioning"}
 {"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.17145v1", "keywords": ["resource estimation", "resource estimate"], "title": "On the Computational Complexity of Blind Quantum Machine Learning"}
 {"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.16379v1", "keywords": ["resource estimation", "resource estimate"], "title": "Benchmarking a randomized quantum algorithm for estimating expectation values of molecular observables"}
 {"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
