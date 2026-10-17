@@ -1,8 +1,3 @@
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.16358v1", "keywords": ["qubitization"], "title": "Negative quasiprobability trajectories for Bell-diagonal states under local decoherence"}
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.16183v1", "keywords": ["qubitization"], "title": "Half a qubit: an algebraic fractionalization"}
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.16077v1", "keywords": ["qubitization"], "title": "Quantum Rabi oscillations of a qubit strongly coupled to a one-dimensional waveguide"}
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.16048v1", "keywords": ["qubitization"], "title": "zenDot: An LLM-integrated quantum TCAD platform for semiconductor quantum-device design and optimization automation"}
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15961v1", "keywords": ["qubitization"], "title": "ChainForge: Characterizing Embedding as the Bottleneck in Quantum Annealer Workloads"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15889v1", "keywords": ["qubitization"], "title": "Resource-Efficient QUBO Formulation for Anchored Currency Arbitrage"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15870v1", "keywords": ["qubitization"], "title": "A certified lower bound on the quantum-capacity threshold of the depolarizing channel"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15718v1", "keywords": ["qubitization"], "title": "Quantum Kernel k-Means for Credit-Card Fraud Detection:A Controlled Benchmark on Real Transaction Data"}
@@ -2998,3 +2993,8 @@
 {"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.18049v1", "keywords": ["gate count"], "title": "Scalable long-distance quantum fan-out gates with reduced resource overhead"}
 {"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.22367v1", "keywords": ["qubit count"], "title": "Discovering state-of-the-art quantum circuits with large language models"}
 {"date": "2026-10-16", "topic": "リソース推定", "arxiv_id": "2610.19299v1", "keywords": ["space-time volume"], "title": "Gap-Priced $|T\\rangle$-States: Dynamic $|T\\rangle$ Post-Selection and Budget-Aware Factory Provisioning"}
+{"date": "2026-10-17", "topic": "リソース推定", "arxiv_id": "2610.18589v1", "keywords": ["T-count", "qubit count"], "title": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation"}
+{"date": "2026-10-17", "topic": "リソース推定", "arxiv_id": "2610.21782v1", "keywords": ["gate count"], "title": "Quantum-compatible Riemannian conjugate gradient for ground-state preparation"}
+{"date": "2026-10-17", "topic": "リソース推定", "arxiv_id": "2610.20791v1", "keywords": ["gate count"], "title": "Sparse-QITE: Discovering Compact Generators for Quantum Imaginary-Time Evolution via Regularization Methods"}
+{"date": "2026-10-17", "topic": "リソース推定", "arxiv_id": "2610.22367v1", "keywords": ["qubit count"], "title": "Discovering state-of-the-art quantum circuits with large language models"}
+{"date": "2026-10-17", "topic": "リソース推定", "arxiv_id": "2610.19299v1", "keywords": ["space-time volume"], "title": "Gap-Priced $|T\\rangle$-States: Dynamic $|T\\rangle$ Post-Selection and Budget-Aware Factory Provisioning"}
