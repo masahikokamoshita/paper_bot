@@ -1,6 +1,3 @@
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15620v1", "keywords": ["qubitization"], "title": "Finite-energy GKP-QPC architectures for photonic quantum memories and repeaters"}
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15608v1", "keywords": ["qubitization"], "title": "Linear optical fan-out gates using fewer ancillary single photons with enhanced success probability"}
-{"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15577v1", "keywords": ["qubitization"], "title": "Qutrit-Native Spatial-Orbital Encoding for Resource-Efficient Quantum Chemistry Simulation"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15545v1", "keywords": ["qubitization"], "title": "Quantum Advantage with Adaptive Shallow Circuits"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15528v1", "keywords": ["qubitization"], "title": "Global precision bounds and success-probability guarantees in quantum parameter learning"}
 {"date": "2026-08-18", "topic": "量子特異値変換", "arxiv_id": "2608.15464v1", "keywords": ["qubitization"], "title": "A minimal qutrit counterexample to Conjecture 4.9 of Lesniewski and Ruskai"}
@@ -2998,3 +2995,6 @@
 {"date": "2026-10-17", "topic": "リソース推定", "arxiv_id": "2610.20791v1", "keywords": ["gate count"], "title": "Sparse-QITE: Discovering Compact Generators for Quantum Imaginary-Time Evolution via Regularization Methods"}
 {"date": "2026-10-17", "topic": "リソース推定", "arxiv_id": "2610.22367v1", "keywords": ["qubit count"], "title": "Discovering state-of-the-art quantum circuits with large language models"}
 {"date": "2026-10-17", "topic": "リソース推定", "arxiv_id": "2610.19299v1", "keywords": ["space-time volume"], "title": "Gap-Priced $|T\\rangle$-States: Dynamic $|T\\rangle$ Post-Selection and Budget-Aware Factory Provisioning"}
+{"date": "2026-10-18", "topic": "リソース推定", "arxiv_id": "2610.21782v1", "keywords": ["gate count"], "title": "Quantum-compatible Riemannian conjugate gradient for ground-state preparation"}
+{"date": "2026-10-18", "topic": "リソース推定", "arxiv_id": "2610.20791v1", "keywords": ["gate count"], "title": "Sparse-QITE: Discovering Compact Generators for Quantum Imaginary-Time Evolution via Regularization Methods"}
+{"date": "2026-10-18", "topic": "リソース推定", "arxiv_id": "2610.22367v1", "keywords": ["qubit count"], "title": "Discovering state-of-the-art quantum circuits with large language models"}
