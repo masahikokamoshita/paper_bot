@@ -1,4 +1,3 @@
-{"date": "2026-08-21", "topic": "誤り訂正・magic state", "arxiv_id": "2608.20164v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "Architecture and Compilation Co-Design for High-Rate Quantum Product Codes on Neutral Atom Arrays"}
 {"date": "2026-08-21", "topic": "誤り訂正・magic state", "arxiv_id": "2608.19370v1", "keywords": ["quantum error correction", "surface code"], "title": "Rethinking Quantum Circuits"}
 {"date": "2026-08-21", "topic": "誤り訂正・magic state", "arxiv_id": "2608.19917v1", "keywords": ["fault-tolerant quantum computation"], "title": "Disassembling qLDPC codes for depth-optimal parity-check circuits"}
 {"date": "2026-08-21", "topic": "誤り訂正・magic state", "arxiv_id": "2608.19602v1", "keywords": ["surface code"], "title": "High fidelity control of superconducting qubits with optical transmitted signal"}
@@ -2996,5 +2995,6 @@
 {"date": "2026-10-20", "topic": "散乱理論", "arxiv_id": "2610.24450v1", "keywords": ["cross section"], "title": "Accurate Atomic Correlation Energies and Virial Trends for Correlation-Consistent Effective Core Potentials III: Quantitative Separation of Fixed-Node Biases and Localization Errors in Cs-Rn"}
 {"date": "2026-10-20", "topic": "散乱理論", "arxiv_id": "2610.24444v1", "keywords": ["cross section"], "title": "ECC3: a global model for evaporation residue cross sections in the synthesis of superheavy nuclei"}
 {"date": "2026-10-20", "topic": "散乱理論", "arxiv_id": "2610.24356v1", "keywords": ["cross section"], "title": "Grey-body factors of black holes"}
+{"date": "2026-10-20", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
 {"date": "2026-10-20", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
 {"date": "2026-10-20", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
