@@ -1,6 +1,3 @@
-{"date": "2026-08-24", "topic": "量子特異値変換", "arxiv_id": "2608.20702v1", "keywords": ["qubitization"], "title": "Quantum Zeno and Anti-Zeno Responses: Universal Spectral Criterion for Measurement-Induced Decay"}
-{"date": "2026-08-24", "topic": "量子特異値変換", "arxiv_id": "2608.20593v1", "keywords": ["qubitization"], "title": "Clifford-efficient sparse state preparation for molecular wavefunctions"}
-{"date": "2026-08-24", "topic": "量子特異値変換", "arxiv_id": "2608.20487v1", "keywords": ["qubitization"], "title": "Energetics in daemonic work extraction protocols via non-ideal QND-energy measurement"}
 {"date": "2026-08-24", "topic": "量子特異値変換", "arxiv_id": "2608.20453v1", "keywords": ["qubitization"], "title": "Practical Error Suppression and Mitigation for Reliable Quantum Computing"}
 {"date": "2026-08-24", "topic": "量子特異値変換", "arxiv_id": "2608.20443v1", "keywords": ["qubitization"], "title": "Granthi: Higher-Order Quantum Programming via Unitary Wiring"}
 {"date": "2026-08-24", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.21258v1", "keywords": ["Hamiltonian simulation", "Trotterization", "product formula"], "title": "Exponential-in-$N_c^2$ cost reduction of product-formula-based quantum simulations of quantum chromodynamics"}
@@ -2995,6 +2992,9 @@
 {"date": "2026-10-21", "topic": "散乱理論", "arxiv_id": "2610.28172v1", "keywords": ["cross section"], "title": "Ab initio-guided optical potentials for semi-magic nuclei from Gorkov self-consistent Green's functions"}
 {"date": "2026-10-21", "topic": "散乱理論", "arxiv_id": "2610.27396v1", "keywords": ["cross section"], "title": "The $b\\bar{b}c\\bar{c}$ Fully Heavy Tetraquark at the LHC and the FCC: Multimodal Fragmentation and Observability"}
 {"date": "2026-10-21", "topic": "Berry位相", "arxiv_id": "2610.28217v1", "keywords": ["geometric phase"], "title": "Structured light for addressable two-qubit gates in medium-sized ion crystals: modeling motional and dephasing errors"}
+{"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
+{"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
+{"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
 {"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
 {"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
 {"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
