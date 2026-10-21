@@ -1,6 +1,3 @@
-{"date": "2026-08-24", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.20660v1", "keywords": ["Trotterization"], "title": "Predicting Resource Efficient Hamiltonian Decomposition for Continuous-Time Quantum Walk Simulations"}
-{"date": "2026-08-24", "topic": "量子化学計算全般", "arxiv_id": "2608.21313v1", "keywords": ["electronic structure"], "title": "Machine-Learned NMR Shieldings in Molecular Solids with Built-In Hybrid-Functional Molecular Corrections"}
-{"date": "2026-08-24", "topic": "量子化学計算全般", "arxiv_id": "2608.21071v1", "keywords": ["electronic structure"], "title": "Intracavity Photon Statistics from Correlated Molecular Electronic Structure"}
 {"date": "2026-08-24", "topic": "量子化学計算全般", "arxiv_id": "2608.20837v1", "keywords": ["electronic structure"], "title": "First-principles design of main-group dimer defects in ZnO as candidate quantum defects"}
 {"date": "2026-08-24", "topic": "量子化学計算全般", "arxiv_id": "2608.21103v1", "keywords": ["variational quantum eigensolver", "ground state energy"], "title": "Symmetry Constrained Quantum Error Mitigation for the Schwinger Model"}
 {"date": "2026-08-24", "topic": "量子機械学習", "arxiv_id": "2608.21321v1", "keywords": ["quantum machine learning"], "title": "Hypothesis testing between quantum ensembles"}
@@ -2989,6 +2986,9 @@
 {"date": "2026-10-21", "topic": "散乱理論", "arxiv_id": "2610.28172v1", "keywords": ["cross section"], "title": "Ab initio-guided optical potentials for semi-magic nuclei from Gorkov self-consistent Green's functions"}
 {"date": "2026-10-21", "topic": "散乱理論", "arxiv_id": "2610.27396v1", "keywords": ["cross section"], "title": "The $b\\bar{b}c\\bar{c}$ Fully Heavy Tetraquark at the LHC and the FCC: Multimodal Fragmentation and Observability"}
 {"date": "2026-10-21", "topic": "Berry位相", "arxiv_id": "2610.28217v1", "keywords": ["geometric phase"], "title": "Structured light for addressable two-qubit gates in medium-sized ion crystals: modeling motional and dephasing errors"}
+{"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
+{"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
+{"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
 {"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
 {"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
 {"date": "2026-10-21", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
