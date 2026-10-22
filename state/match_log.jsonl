@@ -1,7 +1,3 @@
-{"date": "2026-08-25", "topic": "量子特異値変換", "arxiv_id": "2608.21904v1", "keywords": ["qubitization"], "title": "How Far Can You Do Nothing On a Quantum Computer?"}
-{"date": "2026-08-25", "topic": "量子特異値変換", "arxiv_id": "2608.21902v1", "keywords": ["qubitization"], "title": "Belief Propagation-based Disentanglers for Tensor Network State Preparation"}
-{"date": "2026-08-25", "topic": "量子特異値変換", "arxiv_id": "2608.21667v1", "keywords": ["qubitization"], "title": "Scalable Quantum Key Distribution via GHZ Entanglement and Qubit Reuse"}
-{"date": "2026-08-25", "topic": "量子特異値変換", "arxiv_id": "2608.21647v1", "keywords": ["qubitization"], "title": "Measurement and reload costs in direct quantum simulation of nonlinear waves"}
 {"date": "2026-08-25", "topic": "量子特異値変換", "arxiv_id": "2608.21526v1", "keywords": ["qubitization"], "title": "Asymptotic entanglement in circle stabilizer states and states forbidding arbitrary vertex-minors"}
 {"date": "2026-08-25", "topic": "量子特異値変換", "arxiv_id": "2608.21512v1", "keywords": ["qubitization"], "title": "Robust cavity metrology beyond the limits of Pound-Drever-Hall"}
 {"date": "2026-08-25", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2608.23127v1", "keywords": ["Hamiltonian simulation", "Trotterization", "product formula"], "title": "Efficient Quantum Simulation of Linearized Vlasov--Poisson Dynamics Using Trotter and THRIFT Hamiltonian Simulation Methods"}
@@ -2990,6 +2986,10 @@
 {"date": "2026-10-22", "topic": "散乱理論", "arxiv_id": "2610.29717v1", "keywords": ["scattering amplitude"], "title": "Scalar-scalar-graviton vertex from Asymptotic Safety"}
 {"date": "2026-10-22", "topic": "散乱理論", "arxiv_id": "2610.29077v1", "keywords": ["S-matrix"], "title": "Reformulation of the pionless effective field theory for practical few- and many-body applications"}
 {"date": "2026-10-22", "topic": "散乱理論", "arxiv_id": "2610.29711v1", "keywords": ["cross section"], "title": "\\textit{Ab initio} no-core shell model calculations of the electric dipole polarizabilities and photoabsorption cross sections of the $A=3$ mirror nuclei"}
+{"date": "2026-10-22", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
+{"date": "2026-10-22", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
+{"date": "2026-10-22", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
+{"date": "2026-10-22", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
 {"date": "2026-10-22", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
 {"date": "2026-10-22", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
 {"date": "2026-10-22", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
