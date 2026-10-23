@@ -1,10 +1,3 @@
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.26010v1", "keywords": ["qubitization"], "title": "From Round-Trip State Echo to Error Recovery: Snapshot-Resolved Quantum-Hardware Diagnostics"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25959v1", "keywords": ["qubitization"], "title": "Dissipatively Stabilized 0-n Fock Qubits for Noise-Biased Quantum Computing"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25914v1", "keywords": ["qubitization"], "title": "Switchable heavy-hole/light-hole spin qubit"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25852v1", "keywords": ["qubitization"], "title": "Light-Hole Spin Qubits in Strained SiGe Lattice-Matched to Ge"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25797v1", "keywords": ["qubitization"], "title": "Fault-tolerant $|\\sqrt{ \\mathrm{T} }\\rangle$ state preparation and injection for more efficient fine-grained quantum circuit synthesis"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25545v1", "keywords": ["qubitization"], "title": "Certified decoding of quantum LDPC codes"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25503v1", "keywords": ["qubitization"], "title": "High-Fidelity Entangled States in a Connectivity-Four Fluxonium Quantum Processor"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25484v1", "keywords": ["qubitization"], "title": "Low-leakage superconducting-qubit measurement with sub-100-ns total duration"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25415v1", "keywords": ["qubitization"], "title": "Quantum skyrmion parallelism via metasurface-tailored high-dimensional entanglement"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25151v1", "keywords": ["qubitization"], "title": "No Free Compression in Quantum Relaxations for Optimization"}
@@ -2990,6 +2983,13 @@
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.30315v1", "keywords": ["gate count"], "title": "Normal-Form Characterization of Adaptivity and Entanglement in Pauli-Based Computation"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.31591v1", "keywords": ["qubit count"], "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.30315v1", "keywords": ["gate count"], "title": "Normal-Form Characterization of Adaptivity and Entanglement in Pauli-Based Computation"}
