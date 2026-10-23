@@ -1,10 +1,3 @@
-{"date": "2026-08-26", "topic": "散乱理論", "arxiv_id": "2608.24359v1", "keywords": ["cross section"], "title": "Measurement of the O$^{-}$ Photodetachment cross-section in the electrostatic storage ring FLSR"}
-{"date": "2026-08-26", "topic": "散乱理論", "arxiv_id": "2608.24318v1", "keywords": ["cross section"], "title": "Self-Consistent Determination of the Transition Temperature Between the $^{14}\\mathrm{C}(n,γ)^{15}\\mathrm{C}$ and $^{14}\\mathrm{C}(p,γ)^{15}\\mathrm{N}$ Reactions"}
-{"date": "2026-08-26", "topic": "散乱理論", "arxiv_id": "2608.23861v1", "keywords": ["cross section"], "title": "Exploring a phantom Dirac-Born-Infeld regular black hole via particle emission, wave scattering and geodesics"}
-{"date": "2026-08-26", "topic": "Berry位相", "arxiv_id": "2608.24864v1", "keywords": ["Berry phase", "geometric phase", "Berry curvature"], "title": "Dynamical Consequences of Nontrivial Topology of Molecular Conical Intersections"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.26082v1", "keywords": ["qubitization"], "title": "Yang-Lee Criticality as a Dissipative Dynamical Phase Transition: Quantum Simulation of non-Hermitian Physics without Post-selection"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.26028v1", "keywords": ["qubitization"], "title": "A heterogeneously integrated coupled-cavity frequency beam splitter"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.26018v1", "keywords": ["qubitization"], "title": "The Gain-Engineered Transmon"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.26010v1", "keywords": ["qubitization"], "title": "From Round-Trip State Echo to Error Recovery: Snapshot-Resolved Quantum-Hardware Diagnostics"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25959v1", "keywords": ["qubitization"], "title": "Dissipatively Stabilized 0-n Fock Qubits for Noise-Biased Quantum Computing"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25914v1", "keywords": ["qubitization"], "title": "Switchable heavy-hole/light-hole spin qubit"}
@@ -2997,4 +2990,11 @@
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.26240v1", "keywords": ["qubit count"], "title": "Q-MALDetect: Quantum Image-Based Malware Detection and Adversarial Robustness Analysis"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.27260v1", "keywords": ["resource estimation", "resource estimate", "fault-tolerant cost"], "title": "Optimal four-copy detection of the three-tangle and its fault-tolerant cost"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.30315v1", "keywords": ["gate count"], "title": "Normal-Form Characterization of Adaptivity and Entanglement in Pauli-Based Computation"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.31591v1", "keywords": ["qubit count"], "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
+{"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
