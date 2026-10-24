@@ -1,9 +1,3 @@
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25484v1", "keywords": ["qubitization"], "title": "Low-leakage superconducting-qubit measurement with sub-100-ns total duration"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25415v1", "keywords": ["qubitization"], "title": "Quantum skyrmion parallelism via metasurface-tailored high-dimensional entanglement"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25151v1", "keywords": ["qubitization"], "title": "No Free Compression in Quantum Relaxations for Optimization"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25136v1", "keywords": ["qubitization"], "title": "Generalized Efficient Quantum Circuit Implementation of Discrete-Time Quantum Walks on Cayley Graphs"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25042v1", "keywords": ["qubitization"], "title": "A Unified Framework for Operator Backpropagation and Observable Measurement in Quantum Computing"}
-{"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25027v1", "keywords": ["qubitization"], "title": "Real-time decoder for a MegaQuOp quantum computer using a single CPU"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25024v1", "keywords": ["qubitization"], "title": "Hardware-Aware Fermion-to-Qubit Mappings for Simulating the 2D Hubbard Model on Heavy-Hexagon Quantum Processors"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.25010v1", "keywords": ["qubitization"], "title": "The bottleneck dimension of quantum operations"}
 {"date": "2026-08-27", "topic": "量子特異値変換", "arxiv_id": "2608.24993v1", "keywords": ["qubitization"], "title": "Mixed-State Symmetry-Protected Topology and Strong-to-Weak Spontaneous Symmetry Breaking in a Superconducting Qubit Array"}
@@ -2998,3 +2992,9 @@
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
 {"date": "2026-10-23", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
+{"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.30315v1", "keywords": ["gate count"], "title": "Normal-Form Characterization of Adaptivity and Entanglement in Pauli-Based Computation"}
+{"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.28057v1", "keywords": ["gate count", "qubit count"], "title": "Optimal Quantum-Circuit Synthesis and Implementation of General Unitaries with Parallelized Bitstring-Conditioned Rotations"}
+{"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.31591v1", "keywords": ["qubit count"], "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation"}
+{"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
+{"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
+{"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
