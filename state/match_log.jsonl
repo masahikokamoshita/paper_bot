@@ -1,7 +1,3 @@
-{"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25484v1", "keywords": ["quantum error correction"], "title": "Low-leakage superconducting-qubit measurement with sub-100-ns total duration"}
-{"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25414v1", "keywords": ["quantum error correction"], "title": "Affine-Profile Stabilizer Thresholds for Magic in Codeword-Stabilized Quantum Codes"}
-{"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25950v1", "keywords": ["magic state"], "title": "Entirely nonlocal quantum magic without entanglement"}
-{"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25797v1", "keywords": ["magic state", "fault-tolerant quantum computation"], "title": "Fault-tolerant $|\\sqrt{ \\mathrm{T} }\\rangle$ state preparation and injection for more efficient fine-grained quantum circuit synthesis"}
 {"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25027v1", "keywords": ["magic state"], "title": "Real-time decoder for a MegaQuOp quantum computer using a single CPU"}
 {"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.26018v1", "keywords": ["fault-tolerant quantum computation"], "title": "The Gain-Engineered Transmon"}
 {"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25959v1", "keywords": ["fault-tolerant quantum computation"], "title": "Dissipatively Stabilized 0-n Fock Qubits for Noise-Biased Quantum Computing"}
@@ -2994,6 +2990,10 @@
 {"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
 {"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
 {"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
+{"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.30315v1", "keywords": ["gate count"], "title": "Normal-Form Characterization of Adaptivity and Entanglement in Pauli-Based Computation"}
+{"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.31591v1", "keywords": ["qubit count"], "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation"}
+{"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
+{"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
 {"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.30315v1", "keywords": ["gate count"], "title": "Normal-Form Characterization of Adaptivity and Entanglement in Pauli-Based Computation"}
 {"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.31591v1", "keywords": ["qubit count"], "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation"}
 {"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
