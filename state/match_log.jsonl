@@ -1,7 +1,3 @@
-{"date": "2026-08-27", "topic": "実機", "arxiv_id": "2608.25503v1", "keywords": ["quantum processor"], "title": "High-Fidelity Entangled States in a Connectivity-Four Fluxonium Quantum Processor"}
-{"date": "2026-08-27", "topic": "実機", "arxiv_id": "2608.25024v1", "keywords": ["quantum processor"], "title": "Hardware-Aware Fermion-to-Qubit Mappings for Simulating the 2D Hubbard Model on Heavy-Hexagon Quantum Processors"}
-{"date": "2026-08-27", "topic": "実機", "arxiv_id": "2608.25010v1", "keywords": ["quantum processor"], "title": "The bottleneck dimension of quantum operations"}
-{"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25503v1", "keywords": ["quantum error correction"], "title": "High-Fidelity Entangled States in a Connectivity-Four Fluxonium Quantum Processor"}
 {"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25484v1", "keywords": ["quantum error correction"], "title": "Low-leakage superconducting-qubit measurement with sub-100-ns total duration"}
 {"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25414v1", "keywords": ["quantum error correction"], "title": "Affine-Profile Stabilizer Thresholds for Magic in Codeword-Stabilized Quantum Codes"}
 {"date": "2026-08-27", "topic": "誤り訂正・magic state", "arxiv_id": "2608.25950v1", "keywords": ["magic state"], "title": "Entirely nonlocal quantum magic without entanglement"}
@@ -2998,3 +2994,7 @@
 {"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
 {"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.28993v1", "keywords": ["qubit count"], "title": "Digital Quantum Simulation of Dynamics in Interacting Fields"}
 {"date": "2026-10-24", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
+{"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.30315v1", "keywords": ["gate count"], "title": "Normal-Form Characterization of Adaptivity and Entanglement in Pauli-Based Computation"}
+{"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.31591v1", "keywords": ["qubit count"], "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation"}
+{"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
+{"date": "2026-10-25", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
