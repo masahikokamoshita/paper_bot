@@ -1,6 +1,3 @@
-{"date": "2026-08-31", "topic": "量子特異値変換", "arxiv_id": "2608.27789v1", "keywords": ["qubitization"], "title": "Scaling Alternating-Bias-Assisted Annealing for Precision Transmon Frequency Targeting on Superconducting Quantum Processors"}
-{"date": "2026-08-31", "topic": "量子特異値変換", "arxiv_id": "2608.27712v1", "keywords": ["qubitization", "block encoding"], "title": "Efficient Quantum Simulation of Variable-Coefficient Transport with Continuous Source Injection"}
-{"date": "2026-08-31", "topic": "量子特異値変換", "arxiv_id": "2608.27626v1", "keywords": ["qubitization"], "title": "Quantum SEDONet: Spectrally-Embedded Quantum Deep Operator Networks for Partial Differential Equations"}
 {"date": "2026-08-31", "topic": "量子特異値変換", "arxiv_id": "2608.27592v1", "keywords": ["qubitization"], "title": "Plateau-Constrained Selection of Commuting Phase-Term Orderings Under a Fixed Maintained-Parity Compiler Contract"}
 {"date": "2026-08-31", "topic": "量子特異値変換", "arxiv_id": "2608.27581v1", "keywords": ["qubitization"], "title": "Diamond optomechanical crystals for high-frequency strain and comb generation"}
 {"date": "2026-08-31", "topic": "量子特異値変換", "arxiv_id": "2608.27568v1", "keywords": ["qubitization"], "title": "Quantifying the Dual-isotope Advantage for Ytterbium-array Surface Codes using Realistic Noise Models"}
@@ -2998,3 +2995,6 @@
 {"date": "2026-10-26", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
 {"date": "2026-10-26", "topic": "リソース推定", "arxiv_id": "2610.32347v1", "keywords": ["ti:logical qubits"], "title": "Entangled logical qubits on a superconducting quantum processor"}
 {"date": "2026-10-26", "topic": "リソース推定", "arxiv_id": "2610.30747v1", "keywords": ["space-time volume"], "title": "Demand-Driven Routing Space for Lattice-Surgery Compilation"}
+{"date": "2026-10-26", "topic": "リソース推定", "arxiv_id": "2610.31591v1", "keywords": ["qubit count"], "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation"}
+{"date": "2026-10-26", "topic": "リソース推定", "arxiv_id": "2610.31393v1", "keywords": ["qubit count"], "title": "Qubits Are Not Enough: Deflation and Measurement Limits in Variational Quantum Modal Analysis"}
+{"date": "2026-10-26", "topic": "リソース推定", "arxiv_id": "2610.32347v1", "keywords": ["ti:logical qubits"], "title": "Entangled logical qubits on a superconducting quantum processor"}
