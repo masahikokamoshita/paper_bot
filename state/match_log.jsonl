@@ -1,6 +1,3 @@
-{"date": "2026-09-03", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2609.01771v1", "keywords": ["Trotterization"], "title": "GadIR: A Spatial-Topology Preserving Compiler for Quantum Many-Body Systems Simulation"}
-{"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.01871v1", "keywords": ["quantum chemistry"], "title": "Latent unified smooth Hamiltonians for excited state chemistry"}
-{"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02081v1", "keywords": ["electronic structure"], "title": "Biquaternion Algebra with Bilinear Multiplication: A General, Elegant, and Computationally Advantageous Framework for Relativistic Electronic Structure Calculations on CPUs and GPUs"}
 {"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02139v1", "keywords": ["variational quantum eigensolver"], "title": "A variational quantum eigensolver-based cutting plane framework for semidefinite programming problems"}
 {"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02113v1", "keywords": ["variational quantum eigensolver"], "title": "Logarithmic-scale variational quantum eigensolver for off-lattice protein structure prediction in continuous torsional angle space"}
 {"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02488v1", "keywords": ["ground state energy"], "title": "Precise spectral asymptotics, exponential localization, and spectral gap estimates for the three-boson lattice Schrödinger operator"}
@@ -2997,4 +2994,7 @@
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34003v1", "keywords": ["gate count"], "title": "Resource-Optimal Screening for Two-Tier Quantum System Characterization"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.33834v1", "keywords": ["gate count"], "title": "Initial-State Preparation for Strongly Correlated Molecules from Matrix Product States: Benchmarking and Environment-Aware Divide-and-Conquer Compilation"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.33800v1", "keywords": ["gate count"], "title": "Efficient Block Encodings of Vibrational Hamiltonians"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34003v1", "keywords": ["gate count"], "title": "Resource-Optimal Screening for Two-Tier Quantum System Characterization"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
