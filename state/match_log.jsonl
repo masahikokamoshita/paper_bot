@@ -1,9 +1,3 @@
-{"date": "2026-09-03", "topic": "量子特異値変換", "arxiv_id": "2609.01988v1", "keywords": ["qubitization"], "title": "Contrasting Effects of Control on Fidelity and Fidelity Deviation in Controlled Teleportation"}
-{"date": "2026-09-03", "topic": "量子特異値変換", "arxiv_id": "2609.01901v1", "keywords": ["qubitization"], "title": "Need One Bell-pair Only (NOBOL) for Low-Overhead Fault-Tolerant Quantum Computing"}
-{"date": "2026-09-03", "topic": "量子特異値変換", "arxiv_id": "2609.01848v1", "keywords": ["qubitization"], "title": "Error accumulation in dissipative quantum circuits"}
-{"date": "2026-09-03", "topic": "量子特異値変換", "arxiv_id": "2609.01817v1", "keywords": ["qubitization"], "title": "Bosonic quantum control with a weakly coupled fluxonium qubit"}
-{"date": "2026-09-03", "topic": "量子特異値変換", "arxiv_id": "2609.01812v1", "keywords": ["qubitization"], "title": "Tuning Boron-Vacancy Qubit Coherence through Layer Number in hBN"}
-{"date": "2026-09-03", "topic": "量子特異値変換", "arxiv_id": "2609.02394v1", "keywords": ["block encoding"], "title": "A Recursive Module-Coupling Algorithm for Computing Low-Energy Eigenstates"}
 {"date": "2026-09-03", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2609.01771v1", "keywords": ["Trotterization"], "title": "GadIR: A Spatial-Topology Preserving Compiler for Quantum Many-Body Systems Simulation"}
 {"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.01871v1", "keywords": ["quantum chemistry"], "title": "Latent unified smooth Hamiltonians for excited state chemistry"}
 {"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02081v1", "keywords": ["electronic structure"], "title": "Biquaternion Algebra with Bilinear Multiplication: A General, Elegant, and Computationally Advantageous Framework for Relativistic Electronic Structure Calculations on CPUs and GPUs"}
@@ -2992,6 +2986,12 @@
 {"date": "2026-10-28", "topic": "散乱理論", "arxiv_id": "2610.36906v1", "keywords": ["cross section"], "title": "Phenomenology of strangeness-changing two-body currents in antineutrino scattering"}
 {"date": "2026-10-28", "topic": "散乱理論", "arxiv_id": "2610.36338v1", "keywords": ["cross section"], "title": "Nuclear Data Evaluation Utilizing Bayesian Monte Carlo Methods"}
 {"date": "2026-10-28", "topic": "散乱理論", "arxiv_id": "2610.36049v1", "keywords": ["cross section"], "title": "Dark Matter Coherent Freeze-Out Mechanism: A Comprehensive Analysis"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.33532v1", "keywords": ["resource estimation", "resource estimate"], "title": "Designing Quantum Solutions to the Closest String Problem with the Non-Variational QWOA"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34003v1", "keywords": ["gate count"], "title": "Resource-Optimal Screening for Two-Tier Quantum System Characterization"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.33834v1", "keywords": ["gate count"], "title": "Initial-State Preparation for Strongly Correlated Molecules from Matrix Product States: Benchmarking and Environment-Aware Divide-and-Conquer Compilation"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.33800v1", "keywords": ["gate count"], "title": "Efficient Block Encodings of Vibrational Hamiltonians"}
+{"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.33532v1", "keywords": ["resource estimation", "resource estimate"], "title": "Designing Quantum Solutions to the Closest String Problem with the Non-Variational QWOA"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34003v1", "keywords": ["gate count"], "title": "Resource-Optimal Screening for Two-Tier Quantum System Characterization"}
