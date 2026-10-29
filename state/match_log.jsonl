@@ -1,5 +1,3 @@
-{"date": "2026-09-03", "topic": "光量子コンピュータ", "arxiv_id": "2609.02503v1", "keywords": ["photonic quantum computing"], "title": "Single-Shot Fidelity Reveals Hard and Soft Limits: A Universal Yardstick for Photon-Number-Resolving Detectors"}
-{"date": "2026-09-03", "topic": "光量子コンピュータ", "arxiv_id": "2609.02405v1", "keywords": ["continuous variable quantum"], "title": "Programming anharmonic potentials in a superconducting harmonic oscillator"}
 {"date": "2026-09-03", "topic": "光量子コンピュータ", "arxiv_id": "2609.02428v1", "keywords": ["measurement-based quantum computing"], "title": "Circuit-Level Loss Performance of FFCC and RHG Codes in a Compound Photon-Atom Quantum Architecture"}
 {"date": "2026-09-03", "topic": "量子機械学習", "arxiv_id": "2609.02781v1", "keywords": ["quantum machine learning", "quantum kernel"], "title": "Conditional validity of quantum event classifiers under collider systematics and quantum estimation uncertainty"}
 {"date": "2026-09-03", "topic": "量子機械学習", "arxiv_id": "2609.02186v1", "keywords": ["parameterized quantum circuit"], "title": "Quantum MeanFlow: single-shot generative sampling on NISQ hardware"}
@@ -2994,6 +2992,8 @@
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34003v1", "keywords": ["gate count"], "title": "Resource-Optimal Screening for Two-Tier Quantum System Characterization"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
+{"date": "2026-10-29", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
+{"date": "2026-10-29", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
 {"date": "2026-10-29", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
 {"date": "2026-10-29", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
 {"date": "2026-10-29", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
