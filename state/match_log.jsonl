@@ -1,5 +1,3 @@
-{"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02139v1", "keywords": ["variational quantum eigensolver"], "title": "A variational quantum eigensolver-based cutting plane framework for semidefinite programming problems"}
-{"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02113v1", "keywords": ["variational quantum eigensolver"], "title": "Logarithmic-scale variational quantum eigensolver for off-lattice protein structure prediction in continuous torsional angle space"}
 {"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02488v1", "keywords": ["ground state energy"], "title": "Precise spectral asymptotics, exponential localization, and spectral gap estimates for the three-boson lattice Schrödinger operator"}
 {"date": "2026-09-03", "topic": "量子化学計算全般", "arxiv_id": "2609.02746v1", "keywords": ["molecular simulation"], "title": "HiPoly: a hierarchical polymer-native AI framework for property prediction and generative design"}
 {"date": "2026-09-03", "topic": "光量子コンピュータ", "arxiv_id": "2609.02503v1", "keywords": ["photonic quantum computing"], "title": "Single-Shot Fidelity Reveals Hard and Soft Limits: A Universal Yardstick for Photon-Number-Resolving Detectors"}
@@ -2998,3 +2996,5 @@
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.34003v1", "keywords": ["gate count"], "title": "Resource-Optimal Screening for Two-Tier Quantum System Characterization"}
 {"date": "2026-10-28", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
+{"date": "2026-10-29", "topic": "リソース推定", "arxiv_id": "2610.34446v1", "keywords": ["gate count"], "title": "Ancilla-free optimal quantum adder"}
+{"date": "2026-10-29", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
