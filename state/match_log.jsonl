@@ -1,11 +1,3 @@
-{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.07032v1", "keywords": ["qubitization"], "title": "A Single Fixed Shallow Circuit for Classical Shadows of Arbitrary n-Qubit States"}
-{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06857v1", "keywords": ["qubitization"], "title": "Geometric Phases in Two-Level Mixing: From Neutral Mesons to Holonomic Qubits and Topological Majorana Modes"}
-{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06814v1", "keywords": ["qubitization"], "title": "Quantum-Enhanced Learning Framework for Intelligent and AI-Native 6G Wireless Networks"}
-{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06802v1", "keywords": ["qubitization"], "title": "Spectral Twisting in a Common Bosonic Reservoir: Fragility of Two-Qubit Dark-State Protection"}
-{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06675v1", "keywords": ["qubitization"], "title": "Contact order governs the onset of entanglement cascades"}
-{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06605v1", "keywords": ["qubitization"], "title": "Solution-phase fluorination of nanodiamond: near-surface NV$^-$ activation and spin relaxation"}
-{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06572v1", "keywords": ["qubitization"], "title": "Quantum bivariate bicycle codes with weight-8 checks surpassing the BB benchmark"}
-{"date": "2026-09-09", "topic": "量子特異値変換", "arxiv_id": "2609.06528v1", "keywords": ["qubitization"], "title": "Low-Depth Random Unitaries without Ancillae"}
 {"date": "2026-09-09", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2609.08908v1", "keywords": ["Hamiltonian simulation"], "title": "A Platform-aware Compilation Framework for Fault-tolerant Quantum Computation"}
 {"date": "2026-09-09", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2609.06285v1", "keywords": ["Hamiltonian simulation", "Trotterization"], "title": "Efficient Quantum Circuits for Electronic Hamiltonian Simulation without Pauli Expansion"}
 {"date": "2026-09-09", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2609.08170v1", "keywords": ["Trotterization"], "title": "Classical Active-Space Hybrid Quantum Subspace Expansion (CASH-QSE): Quantum Corrections without Remeasuring the Classically Calculable Energy"}
@@ -2990,6 +2982,14 @@
 {"date": "2026-10-30", "topic": "リソース推定", "arxiv_id": "2610.38922v1", "keywords": ["qubit count"], "title": "Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements"}
 {"date": "2026-10-30", "topic": "リソース推定", "arxiv_id": "2610.38344v1", "keywords": ["qubit count"], "title": "Symmetry-Preserving Hierarchical Quantum Approximate Optimization Algorithm with Subproblems Beyond the Qubit Limit"}
 {"date": "2026-10-30", "topic": "リソース推定", "arxiv_id": "2610.36365v1", "keywords": ["qubit count"], "title": "Suppressing microwave crosstalk in superconducting quantum processors by designing parasitic drive capacitances"}
+{"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.37840v1", "keywords": ["resource estimation", "resource estimate"], "title": "Ground-state energy estimation compiled on cat qubits: 7 164 qubits for FeMoco-54 in 23.5 hours"}
+{"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.37839v1", "keywords": ["resource estimation", "resource estimate"], "title": "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days"}
+{"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.38189v1", "keywords": ["T-count"], "title": "Ancilla-free randomized Toffoli gates and the T-count of Boolean oracles"}
+{"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.37847v1", "keywords": ["Toffoli count"], "title": "Exact verification of Givens rotation circuits for efficient quantum phase estimation of iron-sulfur clusters"}
+{"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.39600v1", "keywords": ["gate count"], "title": "Probabilistic imaginary-time evolution via compiled diagonal representations"}
+{"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.39296v1", "keywords": ["qubit count"], "title": "NAKO: A Benchmarking Framework for Evaluating and Diagnosing Neutral-Atom Quantum Compilers"}
+{"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.38922v1", "keywords": ["qubit count"], "title": "Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements"}
+{"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.38344v1", "keywords": ["qubit count"], "title": "Symmetry-Preserving Hierarchical Quantum Approximate Optimization Algorithm with Subproblems Beyond the Qubit Limit"}
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.37840v1", "keywords": ["resource estimation", "resource estimate"], "title": "Ground-state energy estimation compiled on cat qubits: 7 164 qubits for FeMoco-54 in 23.5 hours"}
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.37839v1", "keywords": ["resource estimation", "resource estimate"], "title": "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days"}
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.38189v1", "keywords": ["T-count"], "title": "Ancilla-free randomized Toffoli gates and the T-count of Boolean oracles"}
