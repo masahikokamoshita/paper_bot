@@ -1,6 +1,3 @@
-{"date": "2026-09-09", "topic": "誤り訂正・magic state", "arxiv_id": "2609.07866v1", "keywords": ["quantum error correction"], "title": "Entanglement Wedge Reconstruction Beyond the Large N Limit via the Twirled Petz Map"}
-{"date": "2026-09-09", "topic": "誤り訂正・magic state", "arxiv_id": "2609.07702v1", "keywords": ["quantum error correction", "surface code"], "title": "Subsystem self-correction of the GKP qubit"}
-{"date": "2026-09-09", "topic": "誤り訂正・magic state", "arxiv_id": "2609.07235v1", "keywords": ["quantum error correction"], "title": "Asymmetric quantum error correction efficiently tackles application-specific noise effects"}
 {"date": "2026-09-09", "topic": "誤り訂正・magic state", "arxiv_id": "2609.07210v1", "keywords": ["quantum error correction"], "title": "From NISQ to Fault-Tolerance: Applications and Algorithmic Benchmarks for Spin Qubits"}
 {"date": "2026-09-09", "topic": "誤り訂正・magic state", "arxiv_id": "2609.07076v1", "keywords": ["quantum error correction"], "title": "Single-tone drive-enhanced CROT gate for bosonic quantum error correction"}
 {"date": "2026-09-09", "topic": "誤り訂正・magic state", "arxiv_id": "2609.07035v1", "keywords": ["quantum error correction"], "title": "Capability-Gated Conformance Testing of Quantum Error-Correction Decoder Libraries"}
@@ -2989,6 +2986,9 @@
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.39296v1", "keywords": ["qubit count"], "title": "NAKO: A Benchmarking Framework for Evaluating and Diagnosing Neutral-Atom Quantum Compilers"}
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.38922v1", "keywords": ["qubit count"], "title": "Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements"}
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.38344v1", "keywords": ["qubit count"], "title": "Symmetry-Preserving Hierarchical Quantum Approximate Optimization Algorithm with Subproblems Beyond the Qubit Limit"}
+{"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.39600v1", "keywords": ["gate count"], "title": "Probabilistic imaginary-time evolution via compiled diagonal representations"}
+{"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.39296v1", "keywords": ["qubit count"], "title": "NAKO: A Benchmarking Framework for Evaluating and Diagnosing Neutral-Atom Quantum Compilers"}
+{"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.38922v1", "keywords": ["qubit count"], "title": "Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements"}
 {"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.39600v1", "keywords": ["gate count"], "title": "Probabilistic imaginary-time evolution via compiled diagonal representations"}
 {"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.39296v1", "keywords": ["qubit count"], "title": "NAKO: A Benchmarking Framework for Evaluating and Diagnosing Neutral-Atom Quantum Compilers"}
 {"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.38922v1", "keywords": ["qubit count"], "title": "Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements"}
