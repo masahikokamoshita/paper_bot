@@ -1,6 +1,3 @@
-{"date": "2026-09-09", "topic": "実機", "arxiv_id": "2609.06387v1", "keywords": ["trapped-ion quantum"], "title": "Trapped Ion Quantum Networking and Telecommunications Coexisting on One Fiber"}
-{"date": "2026-09-09", "topic": "実機", "arxiv_id": "2609.08925v1", "keywords": ["quantum processor"], "title": "Resilience Beyond the Light Cone: Error-Detected Primitives for Practical Dynamic Circuits"}
-{"date": "2026-09-09", "topic": "実機", "arxiv_id": "2609.08348v1", "keywords": ["quantum processor"], "title": "Instantaneous-Frame Theory of Strongly Driven Parametric Gates"}
 {"date": "2026-09-09", "topic": "実機", "arxiv_id": "2609.08233v1", "keywords": ["quantum processor"], "title": "Transversal Fanout for Fault Tolerant Distributed Quantum Computing: Analysis and Application"}
 {"date": "2026-09-09", "topic": "実機", "arxiv_id": "2609.07831v1", "keywords": ["quantum processor"], "title": "Realization of decoherence-induced averaged symmetry-protected topological phases on quantum processors"}
 {"date": "2026-09-09", "topic": "実機", "arxiv_id": "2609.07284v1", "keywords": ["quantum processor"], "title": "Implementing QESEM's High-Accuracy Error Mitigation on a Quantum Computer: a Water Potential Energy Surface Study"}
@@ -2998,3 +2995,6 @@
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.39296v1", "keywords": ["qubit count"], "title": "NAKO: A Benchmarking Framework for Evaluating and Diagnosing Neutral-Atom Quantum Compilers"}
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.38922v1", "keywords": ["qubit count"], "title": "Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements"}
 {"date": "2026-10-31", "topic": "リソース推定", "arxiv_id": "2610.38344v1", "keywords": ["qubit count"], "title": "Symmetry-Preserving Hierarchical Quantum Approximate Optimization Algorithm with Subproblems Beyond the Qubit Limit"}
+{"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.39600v1", "keywords": ["gate count"], "title": "Probabilistic imaginary-time evolution via compiled diagonal representations"}
+{"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.39296v1", "keywords": ["qubit count"], "title": "NAKO: A Benchmarking Framework for Evaluating and Diagnosing Neutral-Atom Quantum Compilers"}
+{"date": "2026-11-01", "topic": "リソース推定", "arxiv_id": "2610.38922v1", "keywords": ["qubit count"], "title": "Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements"}
