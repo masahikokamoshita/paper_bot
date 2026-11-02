@@ -1,5 +1,3 @@
-{"date": "2026-09-10", "topic": "量子機械学習", "arxiv_id": "2609.09407v1", "keywords": ["quantum kernel"], "title": "Balancing Expressivity and Overfitting in Quantum Gaussian Process Regression"}
-{"date": "2026-09-10", "topic": "実機", "arxiv_id": "2609.09426v1", "keywords": ["superconducting qubit"], "title": "Josephson energy of superconducting junctions: amorphous versus crystalline tunnel barriers"}
 {"date": "2026-09-10", "topic": "実機", "arxiv_id": "2609.10079v1", "keywords": ["neutral atom array"], "title": "Loss-correcting fault-tolerant quantum computing architecture for neutral atoms"}
 {"date": "2026-09-10", "topic": "実機", "arxiv_id": "2609.10408v1", "keywords": ["quantum processor"], "title": "Constant-depth global shadow estimation"}
 {"date": "2026-09-10", "topic": "実機", "arxiv_id": "2609.10216v1", "keywords": ["quantum processor"], "title": "Information capacity of quantum statistics: Fock-state tests of a discrete binary-sequence model on cloud photonic quantum processors"}
@@ -2996,5 +2994,7 @@
 {"date": "2026-11-02", "topic": "散乱理論", "arxiv_id": "2610.40912v1", "keywords": ["electron scattering", "cross section"], "title": "Incorporating deep neural networks into lepton-nucleus interaction modeling"}
 {"date": "2026-11-02", "topic": "散乱理論", "arxiv_id": "2610.40953v1", "keywords": ["cross section"], "title": "Variational surface matching for multichannel molecular photoionization"}
 {"date": "2026-11-02", "topic": "Berry位相", "arxiv_id": "2610.41138v1", "keywords": ["Berry phase"], "title": "Induced Lorentzian geometry from the fermionic quantum metric"}
+{"date": "2026-11-02", "topic": "リソース推定", "arxiv_id": "2610.40851v1", "keywords": ["gate count"], "title": "Benchmarking One-Dimensional Quantum Lattice Boltzmann Methods on Quantum Hardware"}
+{"date": "2026-11-02", "topic": "リソース推定", "arxiv_id": "2610.39600v1", "keywords": ["gate count"], "title": "Probabilistic imaginary-time evolution via compiled diagonal representations"}
 {"date": "2026-11-02", "topic": "リソース推定", "arxiv_id": "2610.40851v1", "keywords": ["gate count"], "title": "Benchmarking One-Dimensional Quantum Lattice Boltzmann Methods on Quantum Hardware"}
 {"date": "2026-11-02", "topic": "リソース推定", "arxiv_id": "2610.39600v1", "keywords": ["gate count"], "title": "Probabilistic imaginary-time evolution via compiled diagonal representations"}
