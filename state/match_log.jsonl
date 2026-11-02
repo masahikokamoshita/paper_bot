@@ -1,4 +1,3 @@
-{"date": "2026-09-10", "topic": "実機", "arxiv_id": "2609.10079v1", "keywords": ["neutral atom array"], "title": "Loss-correcting fault-tolerant quantum computing architecture for neutral atoms"}
 {"date": "2026-09-10", "topic": "実機", "arxiv_id": "2609.10408v1", "keywords": ["quantum processor"], "title": "Constant-depth global shadow estimation"}
 {"date": "2026-09-10", "topic": "実機", "arxiv_id": "2609.10216v1", "keywords": ["quantum processor"], "title": "Information capacity of quantum statistics: Fock-state tests of a discrete binary-sequence model on cloud photonic quantum processors"}
 {"date": "2026-09-10", "topic": "実機", "arxiv_id": "2609.09779v1", "keywords": ["quantum processor"], "title": "Split-Step Dirac Cellular Automata for Continuous-Time Dirac Dynamics on Finite Spatial Lattices"}
@@ -2998,3 +2997,4 @@
 {"date": "2026-11-02", "topic": "リソース推定", "arxiv_id": "2610.39600v1", "keywords": ["gate count"], "title": "Probabilistic imaginary-time evolution via compiled diagonal representations"}
 {"date": "2026-11-02", "topic": "リソース推定", "arxiv_id": "2610.40851v1", "keywords": ["gate count"], "title": "Benchmarking One-Dimensional Quantum Lattice Boltzmann Methods on Quantum Hardware"}
 {"date": "2026-11-02", "topic": "リソース推定", "arxiv_id": "2610.39600v1", "keywords": ["gate count"], "title": "Probabilistic imaginary-time evolution via compiled diagonal representations"}
+{"date": "2026-11-02", "topic": "リソース推定", "arxiv_id": "2610.40851v1", "keywords": ["gate count"], "title": "Benchmarking One-Dimensional Quantum Lattice Boltzmann Methods on Quantum Hardware"}
