@@ -1,7 +1,3 @@
-{"date": "2026-09-15", "topic": "量子特異値変換", "arxiv_id": "2609.15697v1", "keywords": ["qubitization"], "title": "OpenQARP: a modular framework for quantum application research"}
-{"date": "2026-09-15", "topic": "量子特異値変換", "arxiv_id": "2609.15674v1", "keywords": ["qubitization"], "title": "Opto-Electrical Detection of Donor Bound Excitons in Silicon-on-Insulator Substrate"}
-{"date": "2026-09-15", "topic": "量子特異値変換", "arxiv_id": "2609.15662v1", "keywords": ["qubitization"], "title": "Efficient quantum state tomography with two complementary projective measurements"}
-{"date": "2026-09-15", "topic": "量子特異値変換", "arxiv_id": "2609.15604v1", "keywords": ["qubitization"], "title": "Parametric two-qubit gates via Landau-Zener interference"}
 {"date": "2026-09-15", "topic": "量子特異値変換", "arxiv_id": "2609.15477v1", "keywords": ["qubitization"], "title": "Engineering dissipation and control pulses for high-fidelity fault-tolerance quantum computing"}
 {"date": "2026-09-15", "topic": "量子特異値変換", "arxiv_id": "2609.15456v1", "keywords": ["qubitization"], "title": "Electromagnetic Selection Rules and Coherent Manipulation of Quantum Skyrmion via Surface Acoustic Wave Phonons"}
 {"date": "2026-09-15", "topic": "量子特異値変換", "arxiv_id": "2609.15411v1", "keywords": ["qubitization"], "title": "Exact quantum circuits for a Heisenberg triangle with Dzyaloshinskii-Moriya interaction"}
@@ -2994,6 +2990,10 @@
 {"date": "2026-11-03", "topic": "散乱理論", "arxiv_id": "2611.01309v1", "keywords": ["cross section"], "title": "Heavy quark thermalization using phonon-heavy quark EFT"}
 {"date": "2026-11-03", "topic": "散乱理論", "arxiv_id": "2611.01214v1", "keywords": ["cross section"], "title": "Cooling-path-selected self-assembly of telecom InAsP quantum dots"}
 {"date": "2026-11-03", "topic": "散乱理論", "arxiv_id": "2611.00335v1", "keywords": ["cross section"], "title": "The Valence and Inner Shell Ionization Properties of Sr I - III by Non-Thermal Electrons in Kilonovae"}
+{"date": "2026-11-03", "topic": "リソース推定", "arxiv_id": "2611.03207v1", "keywords": ["resource estimation", "resource estimate"], "title": "Spin SYK-dot chains: entanglement bound and resource estimates towards a quantum advantage"}
+{"date": "2026-11-03", "topic": "リソース推定", "arxiv_id": "2611.00751v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum algorithm for weakly correlated molecular electronic ground states with sub-quintic scaling in the system size"}
+{"date": "2026-11-03", "topic": "リソース推定", "arxiv_id": "2611.00874v1", "keywords": ["gate count"], "title": "Multicopy teleportation and quantum program retrieval on superconducting quantum hardware"}
+{"date": "2026-11-03", "topic": "リソース推定", "arxiv_id": "2611.01176v1", "keywords": ["qubit count"], "title": "Benchmark Study for Quantum Statevector Simulators for Scientific Computing"}
 {"date": "2026-11-03", "topic": "リソース推定", "arxiv_id": "2611.03207v1", "keywords": ["resource estimation", "resource estimate"], "title": "Spin SYK-dot chains: entanglement bound and resource estimates towards a quantum advantage"}
 {"date": "2026-11-03", "topic": "リソース推定", "arxiv_id": "2611.00751v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum algorithm for weakly correlated molecular electronic ground states with sub-quintic scaling in the system size"}
 {"date": "2026-11-03", "topic": "リソース推定", "arxiv_id": "2611.00874v1", "keywords": ["gate count"], "title": "Multicopy teleportation and quantum program retrieval on superconducting quantum hardware"}
