@@ -1,8 +1,3 @@
-{"date": "2026-09-16", "topic": "量子特異値変換", "arxiv_id": "2609.17307v1", "keywords": ["qubitization"], "title": "Forbidden Subspaces in Quantum State Smoothing"}
-{"date": "2026-09-16", "topic": "量子特異値変換", "arxiv_id": "2609.17256v1", "keywords": ["qubitization"], "title": "Geometric quantifier of the incompatibility of single-particle property attribution in indistinguishable boson systems"}
-{"date": "2026-09-16", "topic": "量子特異値変換", "arxiv_id": "2609.17176v1", "keywords": ["qubitization"], "title": "Preparation-protocol-dependent quantum Mpemba dynamics in a magnetically tunable graphene nanotorus qubit"}
-{"date": "2026-09-16", "topic": "量子特異値変換", "arxiv_id": "2609.17095v1", "keywords": ["qubitization"], "title": "Probabilistic Error Cancellation for Single-Mode Gottesman-Kitaev-Preskill Codes"}
-{"date": "2026-09-16", "topic": "量子特異値変換", "arxiv_id": "2609.17044v1", "keywords": ["qubitization"], "title": "Constant sized support state distillation with qubit recycling"}
 {"date": "2026-09-16", "topic": "量子特異値変換", "arxiv_id": "2609.16938v1", "keywords": ["qubitization"], "title": "Classical Communication Protocol based on Joint Classical-Quantum Coding"}
 {"date": "2026-09-16", "topic": "量子特異値変換", "arxiv_id": "2609.16743v1", "keywords": ["qubitization"], "title": "Experimental Private Quantum Networked Sensing"}
 {"date": "2026-09-16", "topic": "量子特異値変換", "arxiv_id": "2609.16659v1", "keywords": ["qubitization"], "title": "Approximate synthesis of general single-qubit unitaries over the Clifford+$\\sqrt{T}$ gate set"}
@@ -2996,5 +2991,10 @@
 {"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.04075v1", "keywords": ["T-count"], "title": "Runtime Compilation for Quantum Circuits with PQF-Enabled $R_z$ Synthesis"}
 {"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.04431v1", "keywords": ["Toffoli count"], "title": "Reducing the arithmetic cost of quantum derivative pricing with language-model circuit design"}
 {"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.00874v1", "keywords": ["gate count"], "title": "Multicopy teleportation and quantum program retrieval on superconducting quantum hardware"}
+{"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.04975v1", "keywords": ["qubit count"], "title": "Band structure of two-dimensional graphene and of one-dimensional nanoribbons via variational quantum algorithms: from energies to wavefunction quality"}
+{"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.01176v1", "keywords": ["qubit count"], "title": "Benchmark Study for Quantum Statevector Simulators for Scientific Computing"}
+{"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.03207v2", "keywords": ["resource estimation", "resource estimate"], "title": "Spin SYK-dot chains: entanglement bound and resource estimates towards a quantum advantage"}
+{"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.04075v1", "keywords": ["T-count"], "title": "Runtime Compilation for Quantum Circuits with PQF-Enabled $R_z$ Synthesis"}
+{"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.04431v1", "keywords": ["Toffoli count"], "title": "Reducing the arithmetic cost of quantum derivative pricing with language-model circuit design"}
 {"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.04975v1", "keywords": ["qubit count"], "title": "Band structure of two-dimensional graphene and of one-dimensional nanoribbons via variational quantum algorithms: from energies to wavefunction quality"}
 {"date": "2026-11-04", "topic": "リソース推定", "arxiv_id": "2611.01176v1", "keywords": ["qubit count"], "title": "Benchmark Study for Quantum Statevector Simulators for Scientific Computing"}
