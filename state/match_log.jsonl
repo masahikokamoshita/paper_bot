@@ -1,13 +1,3 @@
-{"date": "2026-09-21", "topic": "散乱理論", "arxiv_id": "2609.22023v1", "keywords": ["cross section"], "title": "Non-Hermitian impurity scattering in graphene: Boltzmann transport and thermoelectric response"}
-{"date": "2026-09-21", "topic": "Berry位相", "arxiv_id": "2609.21741v1", "keywords": ["geometric phase"], "title": "Floquet physics from quantized light-matter interaction: geometric phases, gauge consistency, and entanglement"}
-{"date": "2026-09-21", "topic": "Berry位相", "arxiv_id": "2609.21355v1", "keywords": ["geometric phase", "Berry curvature"], "title": "Weighted Berry curvature and global geometry of mixed quantum states"}
-{"date": "2026-09-21", "topic": "Berry位相", "arxiv_id": "2609.21586v1", "keywords": ["Berry curvature"], "title": "Floquet-spin-orbit compensation and flat- and quadratic-band contact in the $α$-$T_3$ lattice"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24266v1", "keywords": ["quantum singular value transformation", "block encoding"], "title": "A QSVT-Based Quantum Jacobi Algorithm for Linear Systems with Application to the Poisson Equation"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24933v1", "keywords": ["qubitization"], "title": "A thermal microwave bus for neutral atom quantum computing"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24794v1", "keywords": ["qubitization"], "title": "Observable-targeted variational quantum simulation of Hamiltonian dynamics"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24759v1", "keywords": ["qubitization"], "title": "Superconducting qubit based on altermagnets"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24666v1", "keywords": ["qubitization"], "title": "Experimental evidence of generalization in quantum machine learning in small-data regime"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24657v1", "keywords": ["qubitization"], "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models"}
 {"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24508v1", "keywords": ["qubitization"], "title": "Statistical mechanics of multipartite entanglement in hypergraph states"}
 {"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24295v1", "keywords": ["qubitization"], "title": "Vacancy aggregation enhances NV- spin coherence in diamond: a cluster-correlation-expansion study of multi-vacancy spin baths in semiconductors"}
 {"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24282v1", "keywords": ["qubitization"], "title": "Quantum Computing Solution of the Bethe-Salpeter Equation for Relativistic Scalar Bound States via Tensor-Network VQE"}
@@ -2980,6 +2970,16 @@
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.08247v1", "keywords": ["resource estimation", "resource estimate"], "title": "Certifying quantum code and circuit distances at scale"}
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.05603v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count"], "title": "Quantum resource trade-offs of mixed sparse single and double factorization for qubitization-based phase estimation"}
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.03207v2", "keywords": ["resource estimation", "resource estimate"], "title": "Spin SYK-dot chains: entanglement bound and resource estimates towards a quantum advantage"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.06119v1", "keywords": ["T-count"], "title": "Classical Clifford+T Sampling without Computing Marginals"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.04075v1", "keywords": ["T-count"], "title": "Runtime Compilation for Quantum Circuits with PQF-Enabled $R_z$ Synthesis"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.04431v1", "keywords": ["Toffoli count"], "title": "Reducing the arithmetic cost of quantum derivative pricing with language-model circuit design"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.08310v1", "keywords": ["gate count"], "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.06651v1", "keywords": ["gate count"], "title": "Efficient quantum ultraspherical transform and a well-conditioned quantum spectral method"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.06341v1", "keywords": ["gate count"], "title": "Improved Exact and Approximate Quantum Fourier Transforms from Multiplication"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.04975v1", "keywords": ["qubit count"], "title": "Band structure of two-dimensional graphene and of one-dimensional nanoribbons via variational quantum algorithms: from energies to wavefunction quality"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.08161v1", "keywords": ["fault-tolerant cost"], "title": "Primitive Quantum Gates for an $SU(3)$ Discrete Subgroup: $Σ(216\\times3)$"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.08247v1", "keywords": ["resource estimation", "resource estimate"], "title": "Certifying quantum code and circuit distances at scale"}
+{"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.05603v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count"], "title": "Quantum resource trade-offs of mixed sparse single and double factorization for qubitization-based phase estimation"}
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.06119v1", "keywords": ["T-count"], "title": "Classical Clifford+T Sampling without Computing Marginals"}
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.04075v1", "keywords": ["T-count"], "title": "Runtime Compilation for Quantum Circuits with PQF-Enabled $R_z$ Synthesis"}
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.04431v1", "keywords": ["Toffoli count"], "title": "Reducing the arithmetic cost of quantum derivative pricing with language-model circuit design"}
