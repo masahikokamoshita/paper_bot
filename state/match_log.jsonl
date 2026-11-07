@@ -1,12 +1,3 @@
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24508v1", "keywords": ["qubitization"], "title": "Statistical mechanics of multipartite entanglement in hypergraph states"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24295v1", "keywords": ["qubitization"], "title": "Vacancy aggregation enhances NV- spin coherence in diamond: a cluster-correlation-expansion study of multi-vacancy spin baths in semiconductors"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24282v1", "keywords": ["qubitization"], "title": "Quantum Computing Solution of the Bethe-Salpeter Equation for Relativistic Scalar Bound States via Tensor-Network VQE"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.24166v1", "keywords": ["qubitization"], "title": "Nondemolition filtering of an embedded cluster-state scar under continuous local monitoring"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.23960v1", "keywords": ["qubitization"], "title": "Global zero-excitation state preparation through subsystem cooling"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.23914v1", "keywords": ["qubitization"], "title": "Bell-certified retardance polarimetry from CHSH correlators"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.23651v1", "keywords": ["qubitization"], "title": "Nonequilibrium energy transport and fluctuations in two-photon-driven nonlinear quantum optical systems"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.23459v1", "keywords": ["qubitization"], "title": "Quantum Teleportation Over a Noisy Relay Channel"}
-{"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.23441v1", "keywords": ["qubitization"], "title": "Entanglement Cost of Optimal Distributed Quantum State Purification"}
 {"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.23298v1", "keywords": ["qubitization"], "title": "Static classical-quantum-entanglement trade-offs: an entropic converse and single-letter characterizations"}
 {"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.23243v1", "keywords": ["qubitization"], "title": "Resource and entanglement study of a hybrid qudit-qubit quantum algorithm for solving the integer programming problem"}
 {"date": "2026-09-22", "topic": "量子特異値変換", "arxiv_id": "2609.23221v1", "keywords": ["qubitization"], "title": "A remark on the Brown-Susskind conjecture"}
@@ -2998,3 +2989,12 @@
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.06341v1", "keywords": ["gate count"], "title": "Improved Exact and Approximate Quantum Fourier Transforms from Multiplication"}
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.04975v1", "keywords": ["qubit count"], "title": "Band structure of two-dimensional graphene and of one-dimensional nanoribbons via variational quantum algorithms: from energies to wavefunction quality"}
 {"date": "2026-11-06", "topic": "リソース推定", "arxiv_id": "2611.08161v1", "keywords": ["fault-tolerant cost"], "title": "Primitive Quantum Gates for an $SU(3)$ Discrete Subgroup: $Σ(216\\times3)$"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.08247v1", "keywords": ["resource estimation", "resource estimate"], "title": "Certifying quantum code and circuit distances at scale"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.05603v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count"], "title": "Quantum resource trade-offs of mixed sparse single and double factorization for qubitization-based phase estimation"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.06119v1", "keywords": ["T-count"], "title": "Classical Clifford+T Sampling without Computing Marginals"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.04431v1", "keywords": ["Toffoli count"], "title": "Reducing the arithmetic cost of quantum derivative pricing with language-model circuit design"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.08310v1", "keywords": ["gate count"], "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.06651v1", "keywords": ["gate count"], "title": "Efficient quantum ultraspherical transform and a well-conditioned quantum spectral method"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.06341v1", "keywords": ["gate count"], "title": "Improved Exact and Approximate Quantum Fourier Transforms from Multiplication"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.04975v1", "keywords": ["qubit count"], "title": "Band structure of two-dimensional graphene and of one-dimensional nanoribbons via variational quantum algorithms: from energies to wavefunction quality"}
+{"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.08161v1", "keywords": ["fault-tolerant cost"], "title": "Primitive Quantum Gates for an $SU(3)$ Discrete Subgroup: $Σ(216\\times3)$"}
