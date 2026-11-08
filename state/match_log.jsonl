@@ -1,7 +1,3 @@
-{"date": "2026-09-22", "topic": "誤り訂正・magic state", "arxiv_id": "2609.23316v1", "keywords": ["quantum error correction"], "title": "Simultaneous Reduction of Observables and Measured Qudits in Entanglement-Assisted Quantum Local Recovery"}
-{"date": "2026-09-22", "topic": "誤り訂正・magic state", "arxiv_id": "2609.22572v1", "keywords": ["quantum error correction", "magic state", "fault-tolerant quantum computation"], "title": "Modular fault-tolerant quantum computing on a non-CSS code"}
-{"date": "2026-09-22", "topic": "誤り訂正・magic state", "arxiv_id": "2609.23756v1", "keywords": ["magic state", "magic state cultivation", "fault-tolerant quantum computation", "surface code"], "title": "Flow-Based Lattice Surgery Optimization with Runtime T Gate Scheduling"}
-{"date": "2026-09-22", "topic": "散乱理論", "arxiv_id": "2609.23300v1", "keywords": ["scattering amplitude"], "title": "Exploring interference between $P_{c \\bar c}$ resonances and background in the pion-induced reaction"}
 {"date": "2026-09-22", "topic": "散乱理論", "arxiv_id": "2609.22899v1", "keywords": ["scattering amplitude"], "title": "Exact Amplitude Reconstruction in the Real Common-Phase Sector of Small-x Diffractive Energy Flow"}
 {"date": "2026-09-22", "topic": "散乱理論", "arxiv_id": "2609.24988v1", "keywords": ["cross section"], "title": "Interpreting the LZ 248 keV Event using Dark QCD"}
 {"date": "2026-09-22", "topic": "散乱理論", "arxiv_id": "2609.24783v1", "keywords": ["cross section"], "title": "Comparative Study of Color Glass Condensate and Collinear Frameworks for Large-Transverse-Momentum Semi-Inclusive Deep Inelastic Scattering"}
@@ -2997,4 +2993,8 @@
 {"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08310v1", "keywords": ["gate count"], "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits"}
 {"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.06651v1", "keywords": ["gate count"], "title": "Efficient quantum ultraspherical transform and a well-conditioned quantum spectral method"}
 {"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.06341v1", "keywords": ["gate count"], "title": "Improved Exact and Approximate Quantum Fourier Transforms from Multiplication"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08161v1", "keywords": ["fault-tolerant cost"], "title": "Primitive Quantum Gates for an $SU(3)$ Discrete Subgroup: $Σ(216\\times3)$"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08247v1", "keywords": ["resource estimation", "resource estimate"], "title": "Certifying quantum code and circuit distances at scale"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08310v1", "keywords": ["gate count"], "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.06651v1", "keywords": ["gate count"], "title": "Efficient quantum ultraspherical transform and a well-conditioned quantum spectral method"}
 {"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08161v1", "keywords": ["fault-tolerant cost"], "title": "Primitive Quantum Gates for an $SU(3)$ Discrete Subgroup: $Σ(216\\times3)$"}
