@@ -1,9 +1,3 @@
-{"date": "2026-09-22", "topic": "実機", "arxiv_id": "2609.24759v1", "keywords": ["superconducting qubit"], "title": "Superconducting qubit based on altermagnets"}
-{"date": "2026-09-22", "topic": "実機", "arxiv_id": "2609.22572v1", "keywords": ["trapped-ion quantum", "quantum processor"], "title": "Modular fault-tolerant quantum computing on a non-CSS code"}
-{"date": "2026-09-22", "topic": "実機", "arxiv_id": "2609.24933v1", "keywords": ["neutral atom array"], "title": "A thermal microwave bus for neutral atom quantum computing"}
-{"date": "2026-09-22", "topic": "実機", "arxiv_id": "2609.24381v1", "keywords": ["quantum processor"], "title": "Versatile Quantum Machine Learning with an Ultra-low Power Photonic Quantum Reservoir Computer"}
-{"date": "2026-09-22", "topic": "実機", "arxiv_id": "2609.22442v1", "keywords": ["quantum processor"], "title": "Extracting Electromagnetic Bare Mode Couplings in Large Superconducting Quantum Processors"}
-{"date": "2026-09-22", "topic": "誤り訂正・magic state", "arxiv_id": "2609.23664v1", "keywords": ["quantum error correction"], "title": "QuWARP: A Workload-Aware Reuse Planner for simulating Quantum Circuits"}
 {"date": "2026-09-22", "topic": "誤り訂正・magic state", "arxiv_id": "2609.23316v1", "keywords": ["quantum error correction"], "title": "Simultaneous Reduction of Observables and Measured Qudits in Entanglement-Assisted Quantum Local Recovery"}
 {"date": "2026-09-22", "topic": "誤り訂正・magic state", "arxiv_id": "2609.22572v1", "keywords": ["quantum error correction", "magic state", "fault-tolerant quantum computation"], "title": "Modular fault-tolerant quantum computing on a non-CSS code"}
 {"date": "2026-09-22", "topic": "誤り訂正・magic state", "arxiv_id": "2609.23756v1", "keywords": ["magic state", "magic state cultivation", "fault-tolerant quantum computation", "surface code"], "title": "Flow-Based Lattice Surgery Optimization with Runtime T Gate Scheduling"}
@@ -2992,6 +2986,12 @@
 {"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.06651v1", "keywords": ["gate count"], "title": "Efficient quantum ultraspherical transform and a well-conditioned quantum spectral method"}
 {"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.06341v1", "keywords": ["gate count"], "title": "Improved Exact and Approximate Quantum Fourier Transforms from Multiplication"}
 {"date": "2026-11-07", "topic": "リソース推定", "arxiv_id": "2611.08161v1", "keywords": ["fault-tolerant cost"], "title": "Primitive Quantum Gates for an $SU(3)$ Discrete Subgroup: $Σ(216\\times3)$"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08247v1", "keywords": ["resource estimation", "resource estimate"], "title": "Certifying quantum code and circuit distances at scale"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.06119v1", "keywords": ["T-count"], "title": "Classical Clifford+T Sampling without Computing Marginals"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08310v1", "keywords": ["gate count"], "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.06651v1", "keywords": ["gate count"], "title": "Efficient quantum ultraspherical transform and a well-conditioned quantum spectral method"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.06341v1", "keywords": ["gate count"], "title": "Improved Exact and Approximate Quantum Fourier Transforms from Multiplication"}
+{"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08161v1", "keywords": ["fault-tolerant cost"], "title": "Primitive Quantum Gates for an $SU(3)$ Discrete Subgroup: $Σ(216\\times3)$"}
 {"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08247v1", "keywords": ["resource estimation", "resource estimate"], "title": "Certifying quantum code and circuit distances at scale"}
 {"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.06119v1", "keywords": ["T-count"], "title": "Classical Clifford+T Sampling without Computing Marginals"}
 {"date": "2026-11-08", "topic": "リソース推定", "arxiv_id": "2611.08310v1", "keywords": ["gate count"], "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits"}
