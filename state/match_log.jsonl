@@ -1,7 +1,3 @@
-{"date": "2026-09-23", "topic": "誤り訂正・magic state", "arxiv_id": "2609.26516v1", "keywords": ["quantum error correction"], "title": "Tensor Network Simulation of Dynamic Circuits"}
-{"date": "2026-09-23", "topic": "誤り訂正・magic state", "arxiv_id": "2609.25251v1", "keywords": ["quantum error correction"], "title": "Exploring Asymmetric QEC Code Concatenation"}
-{"date": "2026-09-23", "topic": "誤り訂正・magic state", "arxiv_id": "2609.26736v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "A Syndrome-Extraction Framework for Distributed Lattice Surgery on Arbitrary Rotated Surface-Code Layouts"}
-{"date": "2026-09-23", "topic": "誤り訂正・magic state", "arxiv_id": "2609.26784v1", "keywords": ["surface code"], "title": "Error Suppression in Distributed Quantum Computing with Heterogeneous-Distance Lattice Surgery"}
 {"date": "2026-09-23", "topic": "誤り訂正・magic state", "arxiv_id": "2609.25641v1", "keywords": ["surface code"], "title": "When Quantum Meets AI: Quantum Methods for Machine Learning and Machine Learning Methods for Quantum Systems"}
 {"date": "2026-09-23", "topic": "qLDPC符号", "arxiv_id": "2609.26691v1", "keywords": ["low-density parity-check code"], "title": "Transversal non-Clifford gates on good quantum locally testable codes"}
 {"date": "2026-09-23", "topic": "散乱理論", "arxiv_id": "2609.25253v1", "keywords": ["scattering amplitude"], "title": "Primary Decompositions in Lorentz-Covariant Rings"}
@@ -2994,6 +2990,10 @@
 {"date": "2026-11-09", "topic": "散乱理論", "arxiv_id": "2611.09398v1", "keywords": ["scattering amplitude"], "title": "Towards a recursive construction of string scattering amplitudes"}
 {"date": "2026-11-09", "topic": "散乱理論", "arxiv_id": "2611.09788v1", "keywords": ["cross section"], "title": "Possible Solution to the Gallium Anomaly? Nuclear Transition Densities"}
 {"date": "2026-11-09", "topic": "散乱理論", "arxiv_id": "2611.08724v1", "keywords": ["cross section"], "title": "Analytical mean-field model for electrochemical metallization memristors with a nanoporous matrix: application to Ag/anodic alumina/Al"}
+{"date": "2026-11-09", "topic": "リソース推定", "arxiv_id": "2611.08247v1", "keywords": ["resource estimation", "resource estimate"], "title": "Certifying quantum code and circuit distances at scale"}
+{"date": "2026-11-09", "topic": "リソース推定", "arxiv_id": "2611.08310v1", "keywords": ["gate count"], "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits"}
+{"date": "2026-11-09", "topic": "リソース推定", "arxiv_id": "2611.08646v1", "keywords": ["qubit count"], "title": "Sign-hedged Beam QAOA:Scaling Quantum Optimization Algorithms"}
+{"date": "2026-11-09", "topic": "リソース推定", "arxiv_id": "2611.08161v1", "keywords": ["fault-tolerant cost"], "title": "Primitive Quantum Gates for an $SU(3)$ Discrete Subgroup: $Σ(216\\times3)$"}
 {"date": "2026-11-09", "topic": "リソース推定", "arxiv_id": "2611.08247v1", "keywords": ["resource estimation", "resource estimate"], "title": "Certifying quantum code and circuit distances at scale"}
 {"date": "2026-11-09", "topic": "リソース推定", "arxiv_id": "2611.08310v1", "keywords": ["gate count"], "title": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits"}
 {"date": "2026-11-09", "topic": "リソース推定", "arxiv_id": "2611.08646v1", "keywords": ["qubit count"], "title": "Sign-hedged Beam QAOA:Scaling Quantum Optimization Algorithms"}
