@@ -1,5 +1,3 @@
-{"date": "2026-09-25", "topic": "誤り訂正・magic state", "arxiv_id": "2609.29337v1", "keywords": ["fault-tolerant quantum computation"], "title": "Nonorthogonal variational quantum simulation for quantum chemistry"}
-{"date": "2026-09-25", "topic": "誤り訂正・magic state", "arxiv_id": "2609.29300v1", "keywords": ["fault-tolerant quantum computation"], "title": "A low-temperature entropy source for on-chip true random number generation: universal robustness beyond device quality"}
 {"date": "2026-09-25", "topic": "誤り訂正・magic state", "arxiv_id": "2609.29210v1", "keywords": ["surface code"], "title": "Representation-Dependent Recoverability in Quantum Compilation"}
 {"date": "2026-09-25", "topic": "qLDPC符号", "arxiv_id": "2609.30159v1", "keywords": ["quantum LDPC", "qLDPC"], "title": "Non-Abelian sheaf quantum LDPC codes: good and magical"}
 {"date": "2026-09-25", "topic": "qLDPC符号", "arxiv_id": "2609.30069v1", "keywords": ["high-rate quantum code"], "title": "Design Principles for Ultra-High-Rate Quantum Codes"}
@@ -2994,6 +2992,8 @@
 {"date": "2026-11-10", "topic": "Berry位相", "arxiv_id": "2611.12514v1", "keywords": ["Berry phase"], "title": "Holonomy, Spectral Topology, and Detailed Balance in Classical and Open Quantum Systems"}
 {"date": "2026-11-10", "topic": "Berry位相", "arxiv_id": "2611.11420v1", "keywords": ["geometric phase"], "title": "Universal robust nonadiabatic geometric quantum computation with shortened composite pulses on superconducting circuits"}
 {"date": "2026-11-10", "topic": "Berry位相", "arxiv_id": "2611.10687v1", "keywords": ["geometric phase"], "title": "Hidden Coherence and Controlled Quasihole Motion in a Fermionic Laughlin State on a Superconducting Quantum Processor"}
+{"date": "2026-11-10", "topic": "リソース推定", "arxiv_id": "2611.11858v1", "keywords": ["gate count", "qubit count"], "title": "Rotational Encoding of Objective Functions for Quantum Optimization"}
+{"date": "2026-11-10", "topic": "リソース推定", "arxiv_id": "2611.10351v1", "keywords": ["qubit count"], "title": "Realizing Unstructured PDE Forecasting on Superconducting Quantum Processors"}
 {"date": "2026-11-10", "topic": "リソース推定", "arxiv_id": "2611.11858v1", "keywords": ["gate count", "qubit count"], "title": "Rotational Encoding of Objective Functions for Quantum Optimization"}
 {"date": "2026-11-10", "topic": "リソース推定", "arxiv_id": "2611.10351v1", "keywords": ["qubit count"], "title": "Realizing Unstructured PDE Forecasting on Superconducting Quantum Processors"}
 {"date": "2026-11-10", "topic": "リソース推定", "arxiv_id": "2611.11858v1", "keywords": ["gate count", "qubit count"], "title": "Rotational Encoding of Objective Functions for Quantum Optimization"}
