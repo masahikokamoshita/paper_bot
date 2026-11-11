@@ -1,6 +1,3 @@
-{"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.34659v1", "keywords": ["qubitization"], "title": "Depth-Optimal Quantum Compilation"}
-{"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.34617v1", "keywords": ["qubitization"], "title": "Quantum Entanglement in Variational Quantum Classification for Breast Cancer Diagnosis"}
-{"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.34411v1", "keywords": ["qubitization"], "title": "Coherence Rather Than Error Rate Governs Privacy in Multi-Tenant Quantum Computing"}
 {"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.34298v1", "keywords": ["qubitization"], "title": "Nuclear scattering phase shifts with factorized geometric-time RODEO on a quantum processor"}
 {"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.34201v1", "keywords": ["qubitization"], "title": "Quantum memory in an effective $Λ$-type system using dynamic detuning control of a superconducting qubit pair"}
 {"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.33997v1", "keywords": ["qubitization"], "title": "QBX: A Compiler for 2-local Qubit Hamiltonian Simulation on Quantum Chiplets"}
@@ -2995,6 +2992,9 @@
 {"date": "2026-11-11", "topic": "散乱理論", "arxiv_id": "2611.13184v1", "keywords": ["cross section"], "title": "The KLN theorem meets collinear factorisation: Local Unitarity for hadronic cross-sections"}
 {"date": "2026-11-11", "topic": "散乱理論", "arxiv_id": "2611.13087v1", "keywords": ["cross section"], "title": "Comment to: \"Rewording Theoretical Predictions at Colliders with Vacuum Amplitudes\""}
 {"date": "2026-11-11", "topic": "Berry位相", "arxiv_id": "2611.13089v1", "keywords": ["Berry curvature"], "title": "Kinematic Quantum Geometry"}
+{"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.13658v1", "keywords": ["gate count"], "title": "An Efficient Quantum Algorithm for Preparing Uniform Superpositions over Arbitrary Integer Intervals"}
+{"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.13475v1", "keywords": ["gate count"], "title": "Quantum-walk transport oracles and amplitude estimation of a scalar range statistic in proton therapy"}
+{"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.11858v1", "keywords": ["gate count", "qubit count"], "title": "Rotational Encoding of Objective Functions for Quantum Optimization"}
 {"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.13658v1", "keywords": ["gate count"], "title": "An Efficient Quantum Algorithm for Preparing Uniform Superpositions over Arbitrary Integer Intervals"}
 {"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.13475v1", "keywords": ["gate count"], "title": "Quantum-walk transport oracles and amplitude estimation of a scalar range statistic in proton therapy"}
 {"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.11858v1", "keywords": ["gate count", "qubit count"], "title": "Rotational Encoding of Objective Functions for Quantum Optimization"}
