@@ -1,6 +1,3 @@
-{"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.33251v1", "keywords": ["qubitization"], "title": "High-fidelity geometric quantum gates exceeding 99.9% in germanium quantum dots"}
-{"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.33229v1", "keywords": ["qubitization"], "title": "In-plane optimal qubit operation with control fidelities exceeding 99 %"}
-{"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.33188v1", "keywords": ["qubitization"], "title": "Nash Equilibrium from Quantum-Field Entanglement"}
 {"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.32943v1", "keywords": ["qubitization"], "title": "The wiring sets a phase-blind quantum memory's gap, the weight caps its coherence"}
 {"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.32911v1", "keywords": ["qubitization"], "title": "Quantum Machine Learning for Cybersecurity Applications: Simulation and Hardware Validation"}
 {"date": "2026-09-29", "topic": "量子特異値変換", "arxiv_id": "2609.32627v1", "keywords": ["qubitization"], "title": "Fewer Qubits, Better Choices: Coupling-Aware Sub-QUBO Selection for Quantum-Assisted Traffic Zone Partitioning"}
@@ -2989,6 +2986,9 @@
 {"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.13658v1", "keywords": ["gate count"], "title": "An Efficient Quantum Algorithm for Preparing Uniform Superpositions over Arbitrary Integer Intervals"}
 {"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.13475v1", "keywords": ["gate count"], "title": "Quantum-walk transport oracles and amplitude estimation of a scalar range statistic in proton therapy"}
 {"date": "2026-11-11", "topic": "リソース推定", "arxiv_id": "2611.11858v1", "keywords": ["gate count", "qubit count"], "title": "Rotational Encoding of Objective Functions for Quantum Optimization"}
+{"date": "2026-11-12", "topic": "リソース推定", "arxiv_id": "2611.13658v1", "keywords": ["gate count"], "title": "An Efficient Quantum Algorithm for Preparing Uniform Superpositions over Arbitrary Integer Intervals"}
+{"date": "2026-11-12", "topic": "リソース推定", "arxiv_id": "2611.13475v1", "keywords": ["gate count"], "title": "Quantum-walk transport oracles and amplitude estimation of a scalar range statistic in proton therapy"}
+{"date": "2026-11-12", "topic": "リソース推定", "arxiv_id": "2611.11858v1", "keywords": ["gate count", "qubit count"], "title": "Rotational Encoding of Objective Functions for Quantum Optimization"}
 {"date": "2026-11-12", "topic": "リソース推定", "arxiv_id": "2611.13658v1", "keywords": ["gate count"], "title": "An Efficient Quantum Algorithm for Preparing Uniform Superpositions over Arbitrary Integer Intervals"}
 {"date": "2026-11-12", "topic": "リソース推定", "arxiv_id": "2611.13475v1", "keywords": ["gate count"], "title": "Quantum-walk transport oracles and amplitude estimation of a scalar range statistic in proton therapy"}
 {"date": "2026-11-12", "topic": "リソース推定", "arxiv_id": "2611.11858v1", "keywords": ["gate count", "qubit count"], "title": "Rotational Encoding of Objective Functions for Quantum Optimization"}
