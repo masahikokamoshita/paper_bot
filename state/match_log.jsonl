@@ -1,11 +1,3 @@
-{"date": "2026-09-30", "topic": "誤り訂正・magic state", "arxiv_id": "2609.37231v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "Ultra-high-distance quantum memories from amplified qLDPC codes"}
-{"date": "2026-09-30", "topic": "qLDPC符号", "arxiv_id": "2609.38139v1", "keywords": ["quantum LDPC"], "title": "Local autonomous inference machines for quantum LDPC codes"}
-{"date": "2026-09-30", "topic": "qLDPC符号", "arxiv_id": "2609.37629v1", "keywords": ["quantum LDPC", "qLDPC"], "title": "Adaptive decoding of quantum LDPC codes through decoder disagreement"}
-{"date": "2026-09-30", "topic": "qLDPC符号", "arxiv_id": "2609.37231v1", "keywords": ["qLDPC", "low-density parity-check code"], "title": "Ultra-high-distance quantum memories from amplified qLDPC codes"}
-{"date": "2026-09-30", "topic": "散乱理論", "arxiv_id": "2609.36274v1", "keywords": ["scattering amplitude"], "title": "Twisted Cohomology of D-Brane Disk Integrals"}
-{"date": "2026-09-30", "topic": "散乱理論", "arxiv_id": "2609.37548v1", "keywords": ["cross section"], "title": "$π$-QCD; Proposal for Experiments at the GSI Pion Beam Facility"}
-{"date": "2026-09-30", "topic": "散乱理論", "arxiv_id": "2609.36431v1", "keywords": ["cross section"], "title": "Transverse momentum as the counter-diabatic generator in bent waveguide couplers"}
-{"date": "2026-09-30", "topic": "Berry位相", "arxiv_id": "2609.37199v1", "keywords": ["Berry phase"], "title": "Encoding universal quantum computation into quantized Berry phases: Hardness results and classical algorithms"}
 {"date": "2026-09-30", "topic": "Berry位相", "arxiv_id": "2609.35978v1", "keywords": ["geometric phase"], "title": "Chern-number estimation: nearly optimal quantum algorithm and provable quantum speedup"}
 {"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.37368v1", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
 {"date": "2026-09-30", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
@@ -2974,6 +2966,14 @@
 {"date": "2026-11-13", "topic": "Berry位相", "arxiv_id": "2611.16962v1", "keywords": ["Berry phase"], "title": "Higher-Group Statistics on Lattices"}
 {"date": "2026-11-13", "topic": "Berry位相", "arxiv_id": "2611.16967v1", "keywords": ["Berry curvature"], "title": "Lorentz Boosts and Governing Equations of the Quantum Geometric Tensor in 4D Energy-Momentum Space"}
 {"date": "2026-11-13", "topic": "Berry位相", "arxiv_id": "2611.15977v1", "keywords": ["Berry curvature"], "title": "Quantum geometric bounds and uncertainty relations for velocity variance and spread of Wannier function"}
+{"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.15000v1", "keywords": ["resource estimation", "resource estimate"], "title": "QSim-Arena: an evolving developer for quantum simulation advantage"}
+{"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.14588v1", "keywords": ["resource estimation", "resource estimate"], "title": "Controlled preparation and unconditional transport on a fluctuating quantum graph"}
+{"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.16115v1", "keywords": ["gate count"], "title": "Phase Interference and Transverse Catalysts Govern the Noise Fragility of Long-Range Variational Quantum Circuits"}
+{"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.15794v1", "keywords": ["gate count"], "title": "On Multi-Constrained Path Finding utilizing Grover Search and Decoded Quantum Interferometry"}
+{"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.13658v1", "keywords": ["gate count"], "title": "An Efficient Quantum Algorithm for Preparing Uniform Superpositions over Arbitrary Integer Intervals"}
+{"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.13475v1", "keywords": ["gate count"], "title": "Quantum-walk transport oracles and amplitude estimation of a scalar range statistic in proton therapy"}
+{"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.16607v1", "keywords": ["qubit count"], "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor"}
+{"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.15250v1", "keywords": ["qubit count"], "title": "Multi-head Quantum Neural Networks: Replacing Transformer Blocks with NISQ Modules inside a 30-Billion-Parameter LLM"}
 {"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.15000v1", "keywords": ["resource estimation", "resource estimate"], "title": "QSim-Arena: an evolving developer for quantum simulation advantage"}
 {"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.14588v1", "keywords": ["resource estimation", "resource estimate"], "title": "Controlled preparation and unconditional transport on a fluctuating quantum graph"}
 {"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.16115v1", "keywords": ["gate count"], "title": "Phase Interference and Transverse Catalysts Govern the Noise Fragility of Long-Range Variational Quantum Circuits"}
