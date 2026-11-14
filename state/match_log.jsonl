@@ -1,8 +1,3 @@
-{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40351v1", "keywords": ["qubitization"], "title": "All Unitaries Have Constant Depth Quantum Circuits"}
-{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40349v1", "keywords": ["qubitization"], "title": "Efficient Calculation of Equilibrium Correlation Functions"}
-{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40334v1", "keywords": ["qubitization"], "title": "A Noise Operator Approach to Quantum Query Complexity and Time-Space Tradeoff Lower Bounds"}
-{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40323v1", "keywords": ["qubitization"], "title": "Computational Work Extraction: The Complexity of Catalysts"}
-{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40319v1", "keywords": ["qubitization"], "title": "Local Automorphism-Aware Syndrome Compilation for General Quantum LDPC Codes"}
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40294v1", "keywords": ["qubitization"], "title": "The power of constant-depth quantum circuits of unbounded size"}
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40283v1", "keywords": ["qubitization"], "title": "Distinguishing Coherent Crosstalk from Calibration Drift via Pauli-Transfer Signatures and Quantum Edge Detection"}
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40279v1", "keywords": ["qubitization"], "title": "Classical simulation of coherent crosstalk in surface codes"}
@@ -2984,6 +2979,11 @@
 {"date": "2026-11-13", "topic": "リソース推定", "arxiv_id": "2611.15250v1", "keywords": ["qubit count"], "title": "Multi-head Quantum Neural Networks: Replacing Transformer Blocks with NISQ Modules inside a 30-Billion-Parameter LLM"}
 {"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.15000v1", "keywords": ["resource estimation", "resource estimate"], "title": "QSim-Arena: an evolving developer for quantum simulation advantage"}
 {"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.14588v1", "keywords": ["resource estimation", "resource estimate"], "title": "Controlled preparation and unconditional transport on a fluctuating quantum graph"}
+{"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.16115v1", "keywords": ["gate count"], "title": "Phase Interference and Transverse Catalysts Govern the Noise Fragility of Long-Range Variational Quantum Circuits"}
+{"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.15794v1", "keywords": ["gate count"], "title": "On Multi-Constrained Path Finding utilizing Grover Search and Decoded Quantum Interferometry"}
+{"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.16607v1", "keywords": ["qubit count"], "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor"}
+{"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.15250v1", "keywords": ["qubit count"], "title": "Multi-head Quantum Neural Networks: Replacing Transformer Blocks with NISQ Modules inside a 30-Billion-Parameter LLM"}
+{"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.15000v1", "keywords": ["resource estimation", "resource estimate"], "title": "QSim-Arena: an evolving developer for quantum simulation advantage"}
 {"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.16115v1", "keywords": ["gate count"], "title": "Phase Interference and Transverse Catalysts Govern the Noise Fragility of Long-Range Variational Quantum Circuits"}
 {"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.15794v1", "keywords": ["gate count"], "title": "On Multi-Constrained Path Finding utilizing Grover Search and Decoded Quantum Interferometry"}
 {"date": "2026-11-14", "topic": "リソース推定", "arxiv_id": "2611.16607v1", "keywords": ["qubit count"], "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor"}
