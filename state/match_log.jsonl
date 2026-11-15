@@ -1,6 +1,3 @@
-{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40223v1", "keywords": ["qubitization"], "title": "Causal inequalities witness non-stabilizerness"}
-{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40218v1", "keywords": ["qubitization"], "title": "Purification brings advantages in sequential quantum channel discrimination"}
-{"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40214v1", "keywords": ["qubitization"], "title": "Quantum Markov State Models for Metastable Dynamics"}
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40184v1", "keywords": ["qubitization"], "title": "More is Less:Optimal Security for Haar Quantum Money and More"}
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40173v1", "keywords": ["qubitization"], "title": "Practical fermionic shadows enabled by improved sample-complexity bounds"}
 {"date": "2026-10-01", "topic": "量子特異値変換", "arxiv_id": "2609.40164v1", "keywords": ["qubitization"], "title": "Exact spectral gaps for random Pauli rotations"}
@@ -2998,3 +2995,6 @@
 {"date": "2026-11-15", "topic": "リソース推定", "arxiv_id": "2611.15794v1", "keywords": ["gate count"], "title": "On Multi-Constrained Path Finding utilizing Grover Search and Decoded Quantum Interferometry"}
 {"date": "2026-11-15", "topic": "リソース推定", "arxiv_id": "2611.16607v1", "keywords": ["qubit count"], "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor"}
 {"date": "2026-11-15", "topic": "リソース推定", "arxiv_id": "2611.15250v1", "keywords": ["qubit count"], "title": "Multi-head Quantum Neural Networks: Replacing Transformer Blocks with NISQ Modules inside a 30-Billion-Parameter LLM"}
+{"date": "2026-11-15", "topic": "リソース推定", "arxiv_id": "2611.16115v1", "keywords": ["gate count"], "title": "Phase Interference and Transverse Catalysts Govern the Noise Fragility of Long-Range Variational Quantum Circuits"}
+{"date": "2026-11-15", "topic": "リソース推定", "arxiv_id": "2611.15794v1", "keywords": ["gate count"], "title": "On Multi-Constrained Path Finding utilizing Grover Search and Decoded Quantum Interferometry"}
+{"date": "2026-11-15", "topic": "リソース推定", "arxiv_id": "2611.16607v1", "keywords": ["qubit count"], "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor"}
