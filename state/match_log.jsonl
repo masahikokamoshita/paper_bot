@@ -1,4 +1,3 @@
-{"date": "2026-10-01", "topic": "量子化学計算全般", "arxiv_id": "2609.39302v1", "keywords": ["quantum chemistry"], "title": "SQD-Agent: LLM-driven agentic framework for Quantum Chemistry workflows"}
 {"date": "2026-10-01", "topic": "量子化学計算全般", "arxiv_id": "2609.40135v1", "keywords": ["electronic structure"], "title": "Smite: A quasiclassical trajectory (QCT) program for bimolecular collisions and unimolecular dynamics on ab-initio, and machine-learned potential energy surfaces"}
 {"date": "2026-10-01", "topic": "量子化学計算全般", "arxiv_id": "2609.40130v1", "keywords": ["electronic structure"], "title": "Nuclear moments, charge radii, and magnetization distribution parameters of Ag isotopes from laser spectroscopy and \\textit{ab initio} electronic-structure calculations"}
 {"date": "2026-10-01", "topic": "量子化学計算全般", "arxiv_id": "2609.40112v1", "keywords": ["electronic structure"], "title": "Smart Machine Learning for Solving the Full Electron-Nuclear Schrödinger Equation with a Quantum-Chemically Inspired Wavefunction Ansatz"}
@@ -2997,4 +2996,5 @@
 {"date": "2026-11-16", "topic": "qLDPC符号", "arxiv_id": "2611.17652v1", "keywords": ["qLDPC"], "title": "Quantum Data Processing Unit for Neutral-Atom Quantum Computers"}
 {"date": "2026-11-16", "topic": "散乱理論", "arxiv_id": "2611.17721v1", "keywords": ["cross section"], "title": "Self-Consistent Subtracted Second Quasiparticle Random-Phase Approximation for Dipole Responses in Neutron-Rich Oxygen Isotopes"}
 {"date": "2026-11-16", "topic": "散乱理論", "arxiv_id": "2611.18552v1", "keywords": ["quantum simulation of scattering"], "title": "Real-time simulation of scattering in $φ^4$ theory: localized excitation, scalable wave packet preparation, and peak-generating artifacts"}
+{"date": "2026-11-16", "topic": "リソース推定", "arxiv_id": "2611.16607v1", "keywords": ["qubit count"], "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor"}
 {"date": "2026-11-16", "topic": "リソース推定", "arxiv_id": "2611.16607v1", "keywords": ["qubit count"], "title": "Beauty and charm jet identification with end-to-end training on a superconducting quantum processor"}
