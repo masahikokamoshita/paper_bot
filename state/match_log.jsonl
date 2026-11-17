@@ -1,6 +1,3 @@
-{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.39865v1", "keywords": ["T-count"], "title": "Reducing the Entanglement Cost of Distributed Bipartite Quantum Computation with Constant Qubit Overhead"}
-{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.37368v2", "keywords": ["T-count"], "title": "A Memory-Magic Exchange Law in Streaming Clifford+T Compilation"}
-{"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36574v1", "keywords": ["gate count"], "title": "Shared Phase Arithmetic for Parallel Quantum Rotations"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.36480v1", "keywords": ["gate count"], "title": "Improved Quantum Algorithms for Black-Box Abelian Group Decomposition"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34623v1", "keywords": ["gate count"], "title": "Trotterisation Thresholds and Dissipative Quantum Chaos in Open-System Digital Quantum Simulation"}
 {"date": "2026-10-01", "topic": "リソース推定", "arxiv_id": "2609.34298v1", "keywords": ["gate count"], "title": "Nuclear scattering phase shifts with factorized geometric-time RODEO on a quantum processor"}
@@ -2995,6 +2992,9 @@
 {"date": "2026-11-17", "topic": "散乱理論", "arxiv_id": "2611.20762v1", "keywords": ["cross section"], "title": "Muon and Tau Anomalies and $Δα_{had}^{(5)} (M_Z^2)$ in the Standard Model"}
 {"date": "2026-11-17", "topic": "散乱理論", "arxiv_id": "2611.19307v1", "keywords": ["cross section"], "title": "Holographic Entanglement after a Global Quench in Noncommutative Yang-Mills Theory"}
 {"date": "2026-11-17", "topic": "Berry位相", "arxiv_id": "2611.20434v1", "keywords": ["Berry curvature"], "title": "Quantum geometric spectroscopy with Schrödinger cat states"}
+{"date": "2026-11-17", "topic": "リソース推定", "arxiv_id": "2611.21080v1", "keywords": ["resource estimation", "resource estimate"], "title": "Success Probability of Block-Encoding Methods"}
+{"date": "2026-11-17", "topic": "リソース推定", "arxiv_id": "2611.19017v1", "keywords": ["resource estimation", "resource estimate"], "title": "Witnessing Magic (and other Quantum Resources)"}
+{"date": "2026-11-17", "topic": "リソース推定", "arxiv_id": "2611.21270v1", "keywords": ["gate count"], "title": "SCOPE: A Physical Execution Latency-Guided Quantum Circuit Compilation Framework"}
 {"date": "2026-11-17", "topic": "リソース推定", "arxiv_id": "2611.21080v1", "keywords": ["resource estimation", "resource estimate"], "title": "Success Probability of Block-Encoding Methods"}
 {"date": "2026-11-17", "topic": "リソース推定", "arxiv_id": "2611.19017v1", "keywords": ["resource estimation", "resource estimate"], "title": "Witnessing Magic (and other Quantum Resources)"}
 {"date": "2026-11-17", "topic": "リソース推定", "arxiv_id": "2611.21270v1", "keywords": ["gate count"], "title": "SCOPE: A Physical Execution Latency-Guided Quantum Circuit Compilation Framework"}
