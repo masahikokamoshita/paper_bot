@@ -1,7 +1,3 @@
-{"date": "2026-10-02", "topic": "誤り訂正・magic state", "arxiv_id": "2610.02137v1", "keywords": ["quantum error correction"], "title": "One-Shot any Code"}
-{"date": "2026-10-02", "topic": "誤り訂正・magic state", "arxiv_id": "2610.02031v1", "keywords": ["quantum error correction"], "title": "Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements"}
-{"date": "2026-10-02", "topic": "誤り訂正・magic state", "arxiv_id": "2610.01683v1", "keywords": ["quantum error correction", "surface code"], "title": "A Code-Agnostic Graph Neural Network Decoder from the Detection Error Model"}
-{"date": "2026-10-02", "topic": "誤り訂正・magic state", "arxiv_id": "2610.00504v1", "keywords": ["quantum error correction", "surface code"], "title": "Graph Neural Post-selection for Quantum Error Correction"}
 {"date": "2026-10-02", "topic": "誤り訂正・magic state", "arxiv_id": "2610.00441v1", "keywords": ["quantum error correction"], "title": "Quantum Secret Sharing and Error Correction vs No-Cloning"}
 {"date": "2026-10-02", "topic": "誤り訂正・magic state", "arxiv_id": "2610.00464v1", "keywords": ["magic state"], "title": "Clifford-hierarchy stabilizer formalism with applications to twisted quantum doubles"}
 {"date": "2026-10-02", "topic": "誤り訂正・magic state", "arxiv_id": "2610.01923v1", "keywords": ["fault-tolerant quantum computation", "surface code"], "title": "Loss-tolerant distributed lattice surgery using fusion networks"}
@@ -2986,6 +2982,10 @@
 {"date": "2026-11-18", "topic": "散乱理論", "arxiv_id": "2611.22731v1", "keywords": ["cross section"], "title": "The additive ambiguity of gravitational entropy fixed by the topology of the horizon"}
 {"date": "2026-11-18", "topic": "散乱理論", "arxiv_id": "2611.22618v1", "keywords": ["cross section"], "title": "Beyond the point lens: radial structure and the horizon in wave-optics gravitational lensing"}
 {"date": "2026-11-18", "topic": "散乱理論", "arxiv_id": "2611.21763v1", "keywords": ["cross section"], "title": "A new angle on coherence-violating logarithms in color-singlet processes"}
+{"date": "2026-11-18", "topic": "リソース推定", "arxiv_id": "2611.23196v1", "keywords": ["resource estimation", "resource estimate"], "title": "Nonlinearity-preserving quantum simulation of flows in the early fault-tolerant regime"}
+{"date": "2026-11-18", "topic": "リソース推定", "arxiv_id": "2611.21080v1", "keywords": ["resource estimation", "resource estimate"], "title": "Success Probability of Block-Encoding Methods"}
+{"date": "2026-11-18", "topic": "リソース推定", "arxiv_id": "2611.23165v1", "keywords": ["gate count", "ti:logical qubits"], "title": "Teleportation of Logical Qubits using Lattice Surgery with Superconducting Circuits"}
+{"date": "2026-11-18", "topic": "リソース推定", "arxiv_id": "2611.21270v1", "keywords": ["gate count"], "title": "SCOPE: A Physical Execution Latency-Guided Quantum Circuit Compilation Framework"}
 {"date": "2026-11-18", "topic": "リソース推定", "arxiv_id": "2611.23196v1", "keywords": ["resource estimation", "resource estimate"], "title": "Nonlinearity-preserving quantum simulation of flows in the early fault-tolerant regime"}
 {"date": "2026-11-18", "topic": "リソース推定", "arxiv_id": "2611.21080v1", "keywords": ["resource estimation", "resource estimate"], "title": "Success Probability of Block-Encoding Methods"}
 {"date": "2026-11-18", "topic": "リソース推定", "arxiv_id": "2611.23165v1", "keywords": ["gate count", "ti:logical qubits"], "title": "Teleportation of Logical Qubits using Lattice Surgery with Superconducting Circuits"}
