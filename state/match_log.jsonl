@@ -1,17 +1,3 @@
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06203v1", "keywords": ["qubitization"], "title": "Interferometric braiding of non-Abelian anyons"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06183v1", "keywords": ["qubitization"], "title": "The superb supersinglet"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06176v1", "keywords": ["qubitization"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06142v1", "keywords": ["qubitization"], "title": "When Equivalent Quantum Circuits Lose Synthesis Choices"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06113v1", "keywords": ["qubitization"], "title": "Collective Quantum State Preparation Is Nonadditive"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05928v1", "keywords": ["qubitization"], "title": "Evaluating the performance of QEC primitives on quantum processors at large width and depth"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05752v1", "keywords": ["qubitization"], "title": "An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05585v1", "keywords": ["qubitization"], "title": "Optimal and Verifiable Quantum Advantages in Communication Complexity"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05454v1", "keywords": ["qubitization"], "title": "Game of Nons: Non-Gaussian Nonunitary Environments with Nonlinear Coupling"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05307v1", "keywords": ["qubitization"], "title": "Lifted surgery for non-Abelian two-block group-algebra codes"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05297v1", "keywords": ["qubitization"], "title": "Do Neural Networks Learn Structure-Preserving Maps? A Case Study in Latent-to-Hilbert Embeddings"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05222v1", "keywords": ["qubitization"], "title": "Efficient Fidelity Estimation of General Quantum Resource States via Clifford Circuits"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05214v1", "keywords": ["qubitization"], "title": "Cups and Gates II: Operads, twists, and addressable intra-code gates"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05189v1", "keywords": ["qubitization"], "title": "Error-Transparent Code Switching Between Permutation-Invariant Codes with Transversal Clifford and Icosahedral Gates"}
 {"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05152v1", "keywords": ["qubitization"], "title": "The diffusive spectral gap of the qubit eSWAP chain"}
 {"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05086v1", "keywords": ["qubitization"], "title": "JAQSI: Just Another Quantum Simulator"}
 {"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.05079v1", "keywords": ["qubitization"], "title": "Phase-controlled recoverable entanglement in accelerated detector registers"}
@@ -2970,6 +2956,20 @@
 {"date": "2026-11-20", "topic": "リソース推定", "arxiv_id": "2611.23786v1", "keywords": ["qubit count"], "title": "QWeaver: Quantum Circuit Cut Workflow with MLIR-based Compiler, Runtime, and Weaver Hybrid Tasks"}
 {"date": "2026-11-20", "topic": "リソース推定", "arxiv_id": "2611.23528v1", "keywords": ["qubit count"], "title": "Singlet flags: using native entanglement to restore the circuit distance of shuttled qLDPC codes in silicon"}
 {"date": "2026-11-20", "topic": "リソース推定", "arxiv_id": "2611.23448v1", "keywords": ["qubit count"], "title": "Compute Before You Digitize: ADC-less Mixed-Signal Processing for Scalable Cryogenic Qubit Readout"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.25117v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Quantum Continuous Wavelet Transform"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23505v1", "keywords": ["resource estimation", "resource estimate"], "title": "Degree and normalization frontiers for bounded QSVT inversion"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23196v1", "keywords": ["resource estimation", "resource estimate"], "title": "Nonlinearity-preserving quantum simulation of flows in the early fault-tolerant regime"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24852v1", "keywords": ["T-count"], "title": "The limits of magic-state cultivation"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.26605v1", "keywords": ["gate count"], "title": "Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.26371v1", "keywords": ["gate count"], "title": "Quantum Zeno Effect with a Superposed Measurement Schedule in Relational Time"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.26219v1", "keywords": ["gate count"], "title": "CAVQS: Context-Aware Variational Quantum Circuit Synthesis via Unitary Redistribution and Dynamic Reconstruction"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23165v1", "keywords": ["gate count", "ti:logical qubits"], "title": "Teleportation of Logical Qubits using Lattice Surgery with Superconducting Circuits"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24885v1", "keywords": ["qubit count"], "title": "Quantum Simulation of First-Quantised Chemistry with a Sum-of-Squares Representation"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24147v1", "keywords": ["qubit count"], "title": "Quantum Parallel Algorithm for Multivariate Trace Estimation with Applications"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24044v1", "keywords": ["qubit count"], "title": "Accelerating Quantum Error Correction Simulations under Coherent Noise with Compiled Clifford-Augmented Matrix Product States"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23786v1", "keywords": ["qubit count"], "title": "QWeaver: Quantum Circuit Cut Workflow with MLIR-based Compiler, Runtime, and Weaver Hybrid Tasks"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23528v1", "keywords": ["qubit count"], "title": "Singlet flags: using native entanglement to restore the circuit distance of shuttled qLDPC codes in silicon"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23448v1", "keywords": ["qubit count"], "title": "Compute Before You Digitize: ADC-less Mixed-Signal Processing for Scalable Cryogenic Qubit Readout"}
 {"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.25117v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Quantum Continuous Wavelet Transform"}
 {"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23505v1", "keywords": ["resource estimation", "resource estimate"], "title": "Degree and normalization frontiers for bounded QSVT inversion"}
 {"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23196v1", "keywords": ["resource estimation", "resource estimate"], "title": "Nonlinearity-preserving quantum simulation of flows in the early fault-tolerant regime"}
