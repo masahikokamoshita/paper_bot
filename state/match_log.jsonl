@@ -1,17 +1,3 @@
-{"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.03624v1", "keywords": ["T-count"], "title": "Symmetry-preserving quantum compilation"}
-{"date": "2026-10-05", "topic": "リソース推定", "arxiv_id": "2610.03220v1", "keywords": ["gate count"], "title": "Evolving Hybrid Quantum-Classical Architectures for Image Classification"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06197v1", "keywords": ["quantum singular value transformation", "qubitization", "block encoding"], "title": "Improved Adaptive Estimation of Quantum Partition Functions with Heisenberg Scaling"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.03885v1", "keywords": ["quantum signal processing"], "title": "Robustness of Quantum Signal Processing and Resource-aware Polynomial Design"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06820v1", "keywords": ["qubitization"], "title": "Designing Group-Valued Codes with Full Regular Low-Weight Bases"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06819v1", "keywords": ["qubitization"], "title": "Improved bounds on stabilizer extent and Clifford rank"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06812v1", "keywords": ["qubitization"], "title": "Protecting Quantum Computers against Untrusted Users"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06808v1", "keywords": ["qubitization"], "title": "Quantum 1-PCA with Pauli Measurements in Nearly Linear Time"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06803v1", "keywords": ["qubitization"], "title": "Tight bounds for hybrid quantum-classical query algorithms"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06768v1", "keywords": ["qubitization"], "title": "Complexity separations for optimal matchgate-Clifford synthesis"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06758v1", "keywords": ["qubitization"], "title": "Nonadditivity in fermionic quantum Shannon theory"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06749v1", "keywords": ["qubitization"], "title": "Efficient Logic with Ultra-High-Rate Quantum Codes"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06737v1", "keywords": ["qubitization"], "title": "Anti-symmetrization is cheap and useful"}
-{"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06733v1", "keywords": ["qubitization"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
 {"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06730v1", "keywords": ["qubitization"], "title": "Qubit CSS codes with Universal Transversal Gates"}
 {"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06727v1", "keywords": ["qubitization"], "title": "Random Order in Quantum Streaming: Replenishment and Robust Lower Bounds"}
 {"date": "2026-10-06", "topic": "量子特異値変換", "arxiv_id": "2610.06709v1", "keywords": ["qubitization"], "title": "Out-of-control Hamiltonian Learning"}
@@ -2998,3 +2984,17 @@
 {"date": "2026-11-20", "topic": "リソース推定", "arxiv_id": "2611.23786v1", "keywords": ["qubit count"], "title": "QWeaver: Quantum Circuit Cut Workflow with MLIR-based Compiler, Runtime, and Weaver Hybrid Tasks"}
 {"date": "2026-11-20", "topic": "リソース推定", "arxiv_id": "2611.23528v1", "keywords": ["qubit count"], "title": "Singlet flags: using native entanglement to restore the circuit distance of shuttled qLDPC codes in silicon"}
 {"date": "2026-11-20", "topic": "リソース推定", "arxiv_id": "2611.23448v1", "keywords": ["qubit count"], "title": "Compute Before You Digitize: ADC-less Mixed-Signal Processing for Scalable Cryogenic Qubit Readout"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.25117v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Quantum Continuous Wavelet Transform"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23505v1", "keywords": ["resource estimation", "resource estimate"], "title": "Degree and normalization frontiers for bounded QSVT inversion"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23196v1", "keywords": ["resource estimation", "resource estimate"], "title": "Nonlinearity-preserving quantum simulation of flows in the early fault-tolerant regime"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24852v1", "keywords": ["T-count"], "title": "The limits of magic-state cultivation"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.26605v1", "keywords": ["gate count"], "title": "Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.26371v1", "keywords": ["gate count"], "title": "Quantum Zeno Effect with a Superposed Measurement Schedule in Relational Time"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.26219v1", "keywords": ["gate count"], "title": "CAVQS: Context-Aware Variational Quantum Circuit Synthesis via Unitary Redistribution and Dynamic Reconstruction"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23165v1", "keywords": ["gate count", "ti:logical qubits"], "title": "Teleportation of Logical Qubits using Lattice Surgery with Superconducting Circuits"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24885v1", "keywords": ["qubit count"], "title": "Quantum Simulation of First-Quantised Chemistry with a Sum-of-Squares Representation"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24147v1", "keywords": ["qubit count"], "title": "Quantum Parallel Algorithm for Multivariate Trace Estimation with Applications"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24044v1", "keywords": ["qubit count"], "title": "Accelerating Quantum Error Correction Simulations under Coherent Noise with Compiled Clifford-Augmented Matrix Product States"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23786v1", "keywords": ["qubit count"], "title": "QWeaver: Quantum Circuit Cut Workflow with MLIR-based Compiler, Runtime, and Weaver Hybrid Tasks"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23528v1", "keywords": ["qubit count"], "title": "Singlet flags: using native entanglement to restore the circuit distance of shuttled qLDPC codes in silicon"}
+{"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23448v1", "keywords": ["qubit count"], "title": "Compute Before You Digitize: ADC-less Mixed-Signal Processing for Scalable Cryogenic Qubit Readout"}
