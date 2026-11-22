@@ -1,9 +1,3 @@
-{"date": "2026-10-06", "topic": "素因数分解", "arxiv_id": "2610.06812v1", "keywords": ["factoring algorithm"], "title": "Protecting Quantum Computers against Untrusted Users"}
-{"date": "2026-10-06", "topic": "素因数分解", "arxiv_id": "2610.06753v1", "keywords": ["discrete logarithm"], "title": "Discovering New Problems for Decoded Quantum Interferometry"}
-{"date": "2026-10-06", "topic": "光量子コンピュータ", "arxiv_id": "2610.04581v1", "keywords": ["linear optical quantum"], "title": "Decoy-state optical quantum information processing with coherent states"}
-{"date": "2026-10-06", "topic": "光量子コンピュータ", "arxiv_id": "2610.06736v1", "keywords": ["boson sampling"], "title": "Characterizing Photonic Partial Distinguishability Through Gram Matrix Tomography"}
-{"date": "2026-10-06", "topic": "光量子コンピュータ", "arxiv_id": "2610.06526v1", "keywords": ["boson sampling"], "title": "Classical Simulation of Lossy Gaussian Boson Sampling beyond Square-Root Regime"}
-{"date": "2026-10-06", "topic": "光量子コンピュータ", "arxiv_id": "2610.06815v1", "keywords": ["continuous variable quantum"], "title": "CV-QAOA: Efficient Low-Depth Quantum Optimization of Continuous Variables"}
 {"date": "2026-10-06", "topic": "光量子コンピュータ", "arxiv_id": "2610.06247v1", "keywords": ["measurement-based quantum computing"], "title": "High-Fidelity Remote Graph State Preparation for Blind Quantum Computation"}
 {"date": "2026-10-06", "topic": "量子機械学習", "arxiv_id": "2610.04190v1", "keywords": ["quantum machine learning", "quantum kernel"], "title": "Reduced Cost Quantum Kernel Training"}
 {"date": "2026-10-06", "topic": "量子機械学習", "arxiv_id": "2610.06176v1", "keywords": ["variational quantum classifier"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
@@ -2998,3 +2992,9 @@
 {"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.26219v1", "keywords": ["gate count"], "title": "CAVQS: Context-Aware Variational Quantum Circuit Synthesis via Unitary Redistribution and Dynamic Reconstruction"}
 {"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.24885v1", "keywords": ["qubit count"], "title": "Quantum Simulation of First-Quantised Chemistry with a Sum-of-Squares Representation"}
 {"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.24147v1", "keywords": ["qubit count"], "title": "Quantum Parallel Algorithm for Multivariate Trace Estimation with Applications"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.25117v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Quantum Continuous Wavelet Transform"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.24852v1", "keywords": ["T-count"], "title": "The limits of magic-state cultivation"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.26605v1", "keywords": ["gate count"], "title": "Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.26371v1", "keywords": ["gate count"], "title": "Quantum Zeno Effect with a Superposed Measurement Schedule in Relational Time"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.26219v1", "keywords": ["gate count"], "title": "CAVQS: Context-Aware Variational Quantum Circuit Synthesis via Unitary Redistribution and Dynamic Reconstruction"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.24885v1", "keywords": ["qubit count"], "title": "Quantum Simulation of First-Quantised Chemistry with a Sum-of-Squares Representation"}
