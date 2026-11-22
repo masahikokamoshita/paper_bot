@@ -1,11 +1,3 @@
-{"date": "2026-10-06", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2610.05288v1", "keywords": ["Hamiltonian simulation", "product formula"], "title": "Fast Random Compilers for Time-Dependent and Time-Independent Lindbladian Simulation"}
-{"date": "2026-10-06", "topic": "ハミルトニアンシミュレーション", "arxiv_id": "2610.04731v1", "keywords": ["Trotterization", "product formula"], "title": "Sum-of-squares compilation of matrix-model dynamics for NISQ and fault-tolerant hardware"}
-{"date": "2026-10-06", "topic": "QSCI(SQD)", "arxiv_id": "2610.05304v1", "keywords": ["sample-based quantum diagonalization"], "title": "Demonstration of a Structured Agentic Workflow for Applied Quantum Computing Research"}
-{"date": "2026-10-06", "topic": "量子化学計算全般", "arxiv_id": "2610.06448v1", "keywords": ["quantum chemistry", "electronic structure", "variational quantum eigensolver"], "title": "A Practical Introduction to VQE: Methods, Challenges, and Applications in Physics and Chemistry"}
-{"date": "2026-10-06", "topic": "量子化学計算全般", "arxiv_id": "2610.06392v1", "keywords": ["quantum chemistry"], "title": "Spinorial Weyl Operator Reduction of Dirac (SWORD): Exact Relativistic Quantum Chemistry with Half the Spinor"}
-{"date": "2026-10-06", "topic": "量子化学計算全般", "arxiv_id": "2610.05304v1", "keywords": ["quantum chemistry"], "title": "Demonstration of a Structured Agentic Workflow for Applied Quantum Computing Research"}
-{"date": "2026-10-06", "topic": "量子化学計算全般", "arxiv_id": "2610.04107v1", "keywords": ["quantum chemistry"], "title": "PyCC: A Reference Quantum Chemistry Python Package for Education, Validation, and Rapid Prototyping"}
-{"date": "2026-10-06", "topic": "量子化学計算全般", "arxiv_id": "2610.04863v1", "keywords": ["electronic structure"], "title": "Long-lived Coherent Phonons Reveal Competing Thermal and Many-Body Dynamics in $α$-In$_{2}$Se$_{3}$"}
 {"date": "2026-10-06", "topic": "量子化学計算全般", "arxiv_id": "2610.03989v1", "keywords": ["variational quantum eigensolver", "ground state energy"], "title": "Certification failure in variational-principle observables"}
 {"date": "2026-10-06", "topic": "量子化学計算全般", "arxiv_id": "2610.06272v1", "keywords": ["ground state energy"], "title": "Two-Sided Bounds on Ground State Properties in Lattice Gauge Theories"}
 {"date": "2026-10-06", "topic": "量子化学計算全般", "arxiv_id": "2610.05627v1", "keywords": ["ground state energy"], "title": "Ground state energy estimation and preparation by the truncated power method"}
@@ -2998,3 +2990,11 @@
 {"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.24044v1", "keywords": ["qubit count"], "title": "Accelerating Quantum Error Correction Simulations under Coherent Noise with Compiled Clifford-Augmented Matrix Product States"}
 {"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23786v1", "keywords": ["qubit count"], "title": "QWeaver: Quantum Circuit Cut Workflow with MLIR-based Compiler, Runtime, and Weaver Hybrid Tasks"}
 {"date": "2026-11-21", "topic": "リソース推定", "arxiv_id": "2611.23528v1", "keywords": ["qubit count"], "title": "Singlet flags: using native entanglement to restore the circuit distance of shuttled qLDPC codes in silicon"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.25117v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Quantum Continuous Wavelet Transform"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.24852v1", "keywords": ["T-count"], "title": "The limits of magic-state cultivation"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.26605v1", "keywords": ["gate count"], "title": "Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.26371v1", "keywords": ["gate count"], "title": "Quantum Zeno Effect with a Superposed Measurement Schedule in Relational Time"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.26219v1", "keywords": ["gate count"], "title": "CAVQS: Context-Aware Variational Quantum Circuit Synthesis via Unitary Redistribution and Dynamic Reconstruction"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.24885v1", "keywords": ["qubit count"], "title": "Quantum Simulation of First-Quantised Chemistry with a Sum-of-Squares Representation"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.24147v1", "keywords": ["qubit count"], "title": "Quantum Parallel Algorithm for Multivariate Trace Estimation with Applications"}
+{"date": "2026-11-22", "topic": "リソース推定", "arxiv_id": "2611.24044v1", "keywords": ["qubit count"], "title": "Accelerating Quantum Error Correction Simulations under Coherent Noise with Compiled Clifford-Augmented Matrix Product States"}
