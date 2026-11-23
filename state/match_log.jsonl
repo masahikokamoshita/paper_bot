@@ -1,8 +1,3 @@
-{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03686v2", "keywords": ["T-count"], "title": "Efficient Block Encoding of Structured Hamiltonians by Separating Where and What"}
-{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03624v1", "keywords": ["T-count"], "title": "Symmetry-preserving quantum compilation"}
-{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06142v1", "keywords": ["gate count"], "title": "When Equivalent Quantum Circuits Lose Synthesis Choices"}
-{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05752v1", "keywords": ["gate count"], "title": "An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group"}
-{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.05362v1", "keywords": ["gate count"], "title": "Shallow Quantum Circuits for Geometrically Local Lindblad Dynamics"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03885v1", "keywords": ["gate count"], "title": "Robustness of Quantum Signal Processing and Resource-aware Polynomial Design"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03220v1", "keywords": ["gate count"], "title": "Evolving Hybrid Quantum-Classical Architectures for Image Classification"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
@@ -2993,6 +2988,11 @@
 {"date": "2026-11-23", "topic": "散乱理論", "arxiv_id": "2611.27883v1", "keywords": ["cross section"], "title": "Soft-photon resummation for low-energy $e^+e^-$ colliders"}
 {"date": "2026-11-23", "topic": "散乱理論", "arxiv_id": "2611.27608v1", "keywords": ["cross section"], "title": "Effective theory of quantum black holes with Kretschmann scalar"}
 {"date": "2026-11-23", "topic": "散乱理論", "arxiv_id": "2611.27602v1", "keywords": ["cross section"], "title": "Probing grand unification in the dark dimension: proton decay and collider signatures"}
+{"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.27851v1", "keywords": ["gate count"], "title": "Tackling Many-Body Coulomb Singularity by Randomization"}
+{"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.27640v1", "keywords": ["gate count"], "title": "Ancilla-Free Exact Dicke-State Synthesis with Optimal Size and Depth"}
+{"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.26605v1", "keywords": ["gate count"], "title": "Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion"}
+{"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.26371v1", "keywords": ["gate count"], "title": "Quantum Zeno Effect with a Superposed Measurement Schedule in Relational Time"}
+{"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.26219v1", "keywords": ["gate count"], "title": "CAVQS: Context-Aware Variational Quantum Circuit Synthesis via Unitary Redistribution and Dynamic Reconstruction"}
 {"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.27851v1", "keywords": ["gate count"], "title": "Tackling Many-Body Coulomb Singularity by Randomization"}
 {"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.27640v1", "keywords": ["gate count"], "title": "Ancilla-Free Exact Dicke-State Synthesis with Optimal Size and Depth"}
 {"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.26605v1", "keywords": ["gate count"], "title": "Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion"}
