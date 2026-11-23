@@ -1,5 +1,3 @@
-{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03885v1", "keywords": ["gate count"], "title": "Robustness of Quantum Signal Processing and Resource-aware Polynomial Design"}
-{"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.03220v1", "keywords": ["gate count"], "title": "Evolving Hybrid Quantum-Classical Architectures for Image Classification"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.06176v1", "keywords": ["qubit count"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
 {"date": "2026-10-06", "topic": "リソース推定", "arxiv_id": "2610.04908v1", "keywords": ["qubit count"], "title": "Custom Penalty QAOA via Walsh-Hadamard Transform"}
@@ -2998,3 +2996,5 @@
 {"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.26605v1", "keywords": ["gate count"], "title": "Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion"}
 {"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.26371v1", "keywords": ["gate count"], "title": "Quantum Zeno Effect with a Superposed Measurement Schedule in Relational Time"}
 {"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.26219v1", "keywords": ["gate count"], "title": "CAVQS: Context-Aware Variational Quantum Circuit Synthesis via Unitary Redistribution and Dynamic Reconstruction"}
+{"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.27851v1", "keywords": ["gate count"], "title": "Tackling Many-Body Coulomb Singularity by Randomization"}
+{"date": "2026-11-23", "topic": "リソース推定", "arxiv_id": "2611.27640v1", "keywords": ["gate count"], "title": "Ancilla-Free Exact Dicke-State Synthesis with Optimal Size and Depth"}
