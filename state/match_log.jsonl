@@ -1,6 +1,3 @@
-{"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.07683v1", "keywords": ["qubit count"], "title": "Sparse qubit operation in a 6$\\times$6 quantum dot array"}
-{"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
-{"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.06176v1", "keywords": ["qubit count"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
 {"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.04908v1", "keywords": ["qubit count"], "title": "Custom Penalty QAOA via Walsh-Hadamard Transform"}
 {"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.08667v1", "keywords": ["resource estimation", "resource estimate"], "title": "Fault-tolerant resource estimation for ground-state preparation via Lindblad simulation"}
 {"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.06828v1", "keywords": ["resource estimation", "resource estimate"], "title": "The practical cost of magic state cultivation"}
@@ -2998,3 +2995,6 @@
 {"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.29631v1", "keywords": ["gate count"], "title": "Direct quantum simulation of compressible Navier-Stokes flow via finite homotopy linearisation"}
 {"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.27851v1", "keywords": ["gate count"], "title": "Tackling Many-Body Coulomb Singularity by Randomization"}
 {"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.27640v1", "keywords": ["gate count"], "title": "Ancilla-Free Exact Dicke-State Synthesis with Optimal Size and Depth"}
+{"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.30014v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count", "fault-tolerant cost"], "title": "Spin-adapted state preparation for quantum chemistry"}
+{"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.28388v1", "keywords": ["resource estimation", "resource estimate"], "title": "Verification and Evaluation of A Comprehensive Quantum Simulation Compiler"}
+{"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.29631v1", "keywords": ["gate count"], "title": "Direct quantum simulation of compressible Navier-Stokes flow via finite homotopy linearisation"}
