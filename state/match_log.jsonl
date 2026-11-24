@@ -1,8 +1,3 @@
-{"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.07252v1", "keywords": ["gate count", "qubit count"], "title": "Resource-Aware Grover Search for Minimum Vertex Cover"}
-{"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.06142v1", "keywords": ["gate count"], "title": "When Equivalent Quantum Circuits Lose Synthesis Choices"}
-{"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.05752v1", "keywords": ["gate count"], "title": "An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group"}
-{"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.05362v1", "keywords": ["gate count"], "title": "Shallow Quantum Circuits for Geometrically Local Lindblad Dynamics"}
-{"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.08580v1", "keywords": ["qubit count"], "title": "Physical Design Automation for Planar Superconducting Quantum Chips"}
 {"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.07683v1", "keywords": ["qubit count"], "title": "Sparse qubit operation in a 6$\\times$6 quantum dot array"}
 {"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.06733v1", "keywords": ["qubit count"], "title": "Streaming Regev's Quantum Factoring Algorithm"}
 {"date": "2026-10-07", "topic": "リソース推定", "arxiv_id": "2610.06176v1", "keywords": ["qubit count"], "title": "What Does It Cost to Simulate a Quantum Sentence Classifier? An Energy and Compute Perspective on Near-Term QNLP"}
@@ -2993,6 +2988,11 @@
 {"date": "2026-11-24", "topic": "散乱理論", "arxiv_id": "2611.30755v1", "keywords": ["cross section"], "title": "A general formalism for electromagnetic production of two mesons on the nucleon"}
 {"date": "2026-11-24", "topic": "散乱理論", "arxiv_id": "2611.30380v1", "keywords": ["cross section"], "title": "Neutron-alpha scattering on a quantum processor: Spin-orbit-split resonances and weak nonresonant channels"}
 {"date": "2026-11-24", "topic": "Berry位相", "arxiv_id": "2611.30744v1", "keywords": ["holonomic quantum computation"], "title": "Geometric properties of concatenated geometric and holonomic quantum gates"}
+{"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.30014v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count", "fault-tolerant cost"], "title": "Spin-adapted state preparation for quantum chemistry"}
+{"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.28388v1", "keywords": ["resource estimation", "resource estimate"], "title": "Verification and Evaluation of A Comprehensive Quantum Simulation Compiler"}
+{"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.29631v1", "keywords": ["gate count"], "title": "Direct quantum simulation of compressible Navier-Stokes flow via finite homotopy linearisation"}
+{"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.27851v1", "keywords": ["gate count"], "title": "Tackling Many-Body Coulomb Singularity by Randomization"}
+{"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.27640v1", "keywords": ["gate count"], "title": "Ancilla-Free Exact Dicke-State Synthesis with Optimal Size and Depth"}
 {"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.30014v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count", "fault-tolerant cost"], "title": "Spin-adapted state preparation for quantum chemistry"}
 {"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.28388v1", "keywords": ["resource estimation", "resource estimate"], "title": "Verification and Evaluation of A Comprehensive Quantum Simulation Compiler"}
 {"date": "2026-11-24", "topic": "リソース推定", "arxiv_id": "2611.29631v1", "keywords": ["gate count"], "title": "Direct quantum simulation of compressible Navier-Stokes flow via finite homotopy linearisation"}
