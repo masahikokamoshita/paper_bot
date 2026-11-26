@@ -1,15 +1,3 @@
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11477v1", "keywords": ["qubitization"], "title": "Quantitative Rules for Parallel Calibration and Drift-Resilient Maintenance of Large-Scale Superconducting Quantum Processors"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11466v1", "keywords": ["qubitization"], "title": "An iterative Bayesian variational quantum eigensolver with the von Mises-Fisher distribution"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11261v1", "keywords": ["qubitization"], "title": "Q-Capsule: A Localized Capsule-Based Quantum Neural Architecture for Barren Plateau Mitigation"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11225v1", "keywords": ["qubitization"], "title": "High-Rate Concatenated Quantum Error-Correcting Codes for Qudits"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11125v1", "keywords": ["qubitization"], "title": "Sub-MHz SWAP spectroscopy of two-level systems in superconducting qubits"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11097v1", "keywords": ["qubitization"], "title": "A lower bound on the overhead of surgery on sparse stabiliser codes"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11081v1", "keywords": ["qubitization"], "title": "Quantum Simulation of a Hyperbolically Driven Quantum System with Superconducting Circuits"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11079v1", "keywords": ["qubitization"], "title": "2 Fast 2 Surgery: Fast surgery on QLDPC codes with $\\tilde{O}(n(k + d))$ space overhead"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.11001v1", "keywords": ["qubitization"], "title": "Structured leakage in OAM-encoded qubits revealed by distributed quantum feature extraction"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.10948v1", "keywords": ["qubitization"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.10794v1", "keywords": ["qubitization"], "title": "Coherence-assisted quantum state preparation and thermal control through repeated interactions"}
-{"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.10772v1", "keywords": ["qubitization"], "title": "Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling"}
 {"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.10731v1", "keywords": ["qubitization"], "title": "Single-shot magic state factories for quantum LDPC codes"}
 {"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.10714v1", "keywords": ["qubitization"], "title": "Quantum jumps of sound"}
 {"date": "2026-10-09", "topic": "量子特異値変換", "arxiv_id": "2610.10705v1", "keywords": ["qubitization"], "title": "Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System"}
@@ -2986,6 +2974,18 @@
 {"date": "2026-11-26", "topic": "散乱理論", "arxiv_id": "2611.34482v1", "keywords": ["electron scattering"], "title": "Seebeck and Hall effects in charge-neutral ballistic graphene as probes of electron-electron interactions"}
 {"date": "2026-11-26", "topic": "散乱理論", "arxiv_id": "2611.33662v1", "keywords": ["cross section"], "title": "Introducing Parton-Level Fluctuations in the TRENTo-Sea Model"}
 {"date": "2026-11-26", "topic": "Berry位相", "arxiv_id": "2611.33942v1", "keywords": ["Berry phase"], "title": "Empirical De-Quantization and Norm-Controlled Spectral Audit of Quantum Cognition Machine Learning in an Emerging Equity Market"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34889v1", "keywords": ["resource estimation", "resource estimate"], "title": "The Price of Quantum Advantage in Computational Chemistry"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34266v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Algorithm for Direct Estimation of Energy-Level Differences via Quantum Dynamics Simulation"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.33454v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Realistic End-to-End Runtime Crossover Estimation for Quantum-Enhanced Training of Large-Scale Machine Learning Models"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.33413v1", "keywords": ["resource estimation", "resource estimate"], "title": "How Many Keys Must a Quantum Computer Break to Take Over a Blockchain? A Quantum Nakamoto Coefficient for Fifteen Proof-of-Stake Networks"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.32805v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count"], "title": "Exploiting SU(2) Symmetry for Efficient Quantum State Preparation of Matrix Product States"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.31585v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count"], "title": "How Small Can a Single Shor Run Be? Limits and Constructions for secp256k1"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.30014v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count", "fault-tolerant cost"], "title": "Spin-adapted state preparation for quantum chemistry"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34740v1", "keywords": ["T-count"], "title": "Unitary Synthesis with a Unary Tracker"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.29631v1", "keywords": ["gate count"], "title": "Direct quantum simulation of compressible Navier-Stokes flow via finite homotopy linearisation"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34755v1", "keywords": ["qubit count"], "title": "Fewer Parameters, Longer Runtimes: The Wall-Clock Cost of Hybrid Quantum Physics-Informed Neural Networks"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34634v1", "keywords": ["qubit count"], "title": "LatentRL-QAS: Transfer via Latent Reinforcement Learning for Quantum Architecture Search"}
+{"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.32560v1", "keywords": ["qubit count"], "title": "Quantum optimization beyond qubit count by low-energy subspace sampling"}
 {"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34889v1", "keywords": ["resource estimation", "resource estimate"], "title": "The Price of Quantum Advantage in Computational Chemistry"}
 {"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34266v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Algorithm for Direct Estimation of Energy-Level Differences via Quantum Dynamics Simulation"}
 {"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.33454v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Realistic End-to-End Runtime Crossover Estimation for Quantum-Enhanced Training of Large-Scale Machine Learning Models"}
