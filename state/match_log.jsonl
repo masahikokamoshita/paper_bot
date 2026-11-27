@@ -1,13 +1,3 @@
-{"date": "2026-10-09", "topic": "誤り訂正・magic state", "arxiv_id": "2610.11225v1", "keywords": ["quantum error correction", "fault-tolerant quantum computation"], "title": "High-Rate Concatenated Quantum Error-Correcting Codes for Qudits"}
-{"date": "2026-10-09", "topic": "誤り訂正・magic state", "arxiv_id": "2610.10948v1", "keywords": ["quantum error correction", "surface code"], "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures"}
-{"date": "2026-10-09", "topic": "誤り訂正・magic state", "arxiv_id": "2610.10731v1", "keywords": ["magic state", "fault-tolerant quantum computation"], "title": "Single-shot magic state factories for quantum LDPC codes"}
-{"date": "2026-10-09", "topic": "誤り訂正・magic state", "arxiv_id": "2610.12400v1", "keywords": ["surface code"], "title": "Measure Now, Mitigate Later: Virtual Error Cancellation for Logical Quantum Circuits"}
-{"date": "2026-10-09", "topic": "qLDPC符号", "arxiv_id": "2610.10731v1", "keywords": ["quantum LDPC", "qLDPC"], "title": "Single-shot magic state factories for quantum LDPC codes"}
-{"date": "2026-10-09", "topic": "qLDPC符号", "arxiv_id": "2610.11079v1", "keywords": ["qLDPC"], "title": "2 Fast 2 Surgery: Fast surgery on QLDPC codes with $\\tilde{O}(n(k + d))$ space overhead"}
-{"date": "2026-10-09", "topic": "散乱理論", "arxiv_id": "2610.10734v1", "keywords": ["scattering amplitude", "cross section"], "title": "The hidden sunrise in the energy-energy correlator"}
-{"date": "2026-10-09", "topic": "散乱理論", "arxiv_id": "2610.10678v1", "keywords": ["scattering amplitude"], "title": "Hawking Amplitudes: Subtle Points About Saddle Points"}
-{"date": "2026-10-09", "topic": "散乱理論", "arxiv_id": "2610.10673v1", "keywords": ["scattering amplitude"], "title": "Gluons and Knots"}
-{"date": "2026-10-09", "topic": "散乱理論", "arxiv_id": "2610.11493v1", "keywords": ["S-matrix"], "title": "Quantum Gravity in Asymptotically Flat Spacetimes from Unstable D-Branes"}
 {"date": "2026-10-09", "topic": "散乱理論", "arxiv_id": "2610.10733v1", "keywords": ["electron scattering"], "title": "Hydrodynamic Anomalous Hall Effect in a Two-Dimensional Dirac Fluid"}
 {"date": "2026-10-09", "topic": "散乱理論", "arxiv_id": "2610.11311v1", "keywords": ["cross section"], "title": "The effect of the coupling between the neutron multiplicity and the fission competition on the evaporation residue cross sections of the $^{48}$Ca$+^{244}$Pu reaction"}
 {"date": "2026-10-09", "topic": "散乱理論", "arxiv_id": "2610.11166v1", "keywords": ["cross section"], "title": "Analysis of p-Wave Sommerfeld Resonance Behavior in Finite-Size Dark Matter"}
@@ -2988,6 +2978,16 @@
 {"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34755v1", "keywords": ["qubit count"], "title": "Fewer Parameters, Longer Runtimes: The Wall-Clock Cost of Hybrid Quantum Physics-Informed Neural Networks"}
 {"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.34634v1", "keywords": ["qubit count"], "title": "LatentRL-QAS: Transfer via Latent Reinforcement Learning for Quantum Architecture Search"}
 {"date": "2026-11-26", "topic": "リソース推定", "arxiv_id": "2611.32560v1", "keywords": ["qubit count"], "title": "Quantum optimization beyond qubit count by low-energy subspace sampling"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.34889v1", "keywords": ["resource estimation", "resource estimate"], "title": "The Price of Quantum Advantage in Computational Chemistry"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.34266v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Algorithm for Direct Estimation of Energy-Level Differences via Quantum Dynamics Simulation"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.33454v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Realistic End-to-End Runtime Crossover Estimation for Quantum-Enhanced Training of Large-Scale Machine Learning Models"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.33413v1", "keywords": ["resource estimation", "resource estimate"], "title": "How Many Keys Must a Quantum Computer Break to Take Over a Blockchain? A Quantum Nakamoto Coefficient for Fifteen Proof-of-Stake Networks"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.32805v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count"], "title": "Exploiting SU(2) Symmetry for Efficient Quantum State Preparation of Matrix Product States"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.31585v1", "keywords": ["resource estimation", "resource estimate", "Toffoli count"], "title": "How Small Can a Single Shor Run Be? Limits and Constructions for secp256k1"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.34740v1", "keywords": ["T-count"], "title": "Unitary Synthesis with a Unary Tracker"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.34755v1", "keywords": ["qubit count"], "title": "Fewer Parameters, Longer Runtimes: The Wall-Clock Cost of Hybrid Quantum Physics-Informed Neural Networks"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.34634v1", "keywords": ["qubit count"], "title": "LatentRL-QAS: Transfer via Latent Reinforcement Learning for Quantum Architecture Search"}
+{"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.32560v1", "keywords": ["qubit count"], "title": "Quantum optimization beyond qubit count by low-energy subspace sampling"}
 {"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.34889v1", "keywords": ["resource estimation", "resource estimate"], "title": "The Price of Quantum Advantage in Computational Chemistry"}
 {"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.34266v1", "keywords": ["resource estimation", "resource estimate"], "title": "Quantum Algorithm for Direct Estimation of Energy-Level Differences via Quantum Dynamics Simulation"}
 {"date": "2026-11-27", "topic": "リソース推定", "arxiv_id": "2611.33454v1", "keywords": ["resource estimation", "resource estimate"], "title": "A Realistic End-to-End Runtime Crossover Estimation for Quantum-Enhanced Training of Large-Scale Machine Learning Models"}
